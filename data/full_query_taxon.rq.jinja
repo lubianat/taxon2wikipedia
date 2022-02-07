@@ -1,11 +1,12 @@
-
 SELECT
 
 ?taxon_rankLabel
 ?parent_taxon
 ?parent_taxonLabel
 ?taxon_name
-    
+?taxon_author
+?taxon_authorLabel
+(YEAR(?description_date) as ?description_year)
 WHERE {
     VALUES ?taxon { wd:{{taxon}} } .
 
@@ -29,7 +30,13 @@ WHERE {
         ?sex_or_gender rdfs:label ?sex_or_genderLabel .
     FILTER(LANG(?sex_or_genderLabel) = "en")} . 
     
-    OPTIONAL { ?taxon wdt:P225 ?taxon_name .} . 
+    OPTIONAL { ?taxon p:P225 ?statement .
+                ?statement ps:P225 ?taxon_name .
+                ?statement pq:P405 ?taxon_author . 
+                ?statement pq:P574 ?description_date . 
+                      ?taxon_author rdfs:label ?taxon_authorLabel .
+    FILTER(LANG(?taxon_authorLabel) = "en")   
+    } . 
     
     OPTIONAL { ?taxon wdt:P10176 ?type_host .
         ?type_host rdfs:label ?type_hostLabel .
@@ -79,10 +86,6 @@ WHERE {
         ?basic_reproduction_number rdfs:label ?basic_reproduction_numberLabel .
     FILTER(LANG(?basic_reproduction_numberLabel) = "en")} . 
     
-    OPTIONAL { ?taxon wdt:P405 ?taxon_author .
-        ?taxon_author rdfs:label ?taxon_authorLabel .
-    FILTER(LANG(?taxon_authorLabel) = "en")} . 
-
     OPTIONAL { ?taxon wdt:P427 ?taxonomic_type .
         ?taxonomic_type rdfs:label ?taxonomic_typeLabel .
     FILTER(LANG(?taxonomic_typeLabel) = "en")} . 
