@@ -32,10 +32,10 @@ WHERE {
     
     OPTIONAL { ?taxon p:P225 ?statement .
                 ?statement ps:P225 ?taxon_name .
-                ?statement pq:P405 ?taxon_author . 
+                OPTIONAL {?statement pq:P405 ?taxon_author . 
                 ?statement pq:P574 ?description_date . 
                       ?taxon_author rdfs:label ?taxon_authorLabel .
-    FILTER(LANG(?taxon_authorLabel) = "en")   
+    FILTER(LANG(?taxon_authorLabel) = "en")   }
     } . 
     
     OPTIONAL { ?taxon wdt:P10176 ?type_host .

@@ -3,7 +3,7 @@ import pandas as pd
 from jinja2 import Template
 import sys
 import requests
-
+from qid2taxobox import *
 
 template_path = "data/full_query_taxon.rq.jinja"
 taxon_qid = sys.argv[1]
@@ -30,16 +30,22 @@ taxon_rank_label = results_df["taxon_rankLabel.value"][0]
 parent_taxon_label = results_df["parent_taxonLabel.value"][0]
 parent_taxon = results_df["parent_taxon.value"][0]
 taxon_name = results_df["taxon_name.value"][0]
+try:
+    taxon_author_label = results_df["taxon_authorLabel.value"][0]
+    description_year = results_df["description_year.value"][0]
+except:
+    taxon_author_label = "TEMPORARY REPLACEMENT"
+    description_year = "TEMPORARY REPLACEMENT"
 
-taxon_author_label = results_df["taxon_authorLabel.value"][0]
-description_year = results_df["description_year.value"][0]
 
+taxobox =  get_taxobox(taxon_qid)
 
 
 print(f"""
-
+{taxobox}
 '''''{taxon_name}''''' é uma espécie do grupo [[{parent_taxon_label}]] decrita em [[{description_year}]] por [[{taxon_author_label}]].
 
+{{{{Controle de autoridade|colapsar}}}}
 {{{{Referencias}}}}
 
 {{{{esboço}}}}
