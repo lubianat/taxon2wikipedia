@@ -7,6 +7,7 @@ SELECT
 ?taxon_author
 ?taxon_authorLabel
 (YEAR(?description_date) as ?description_year)
+?taxon_range_map_image
 WHERE {
     VALUES ?taxon { wd:{{taxon}} } .
 
@@ -18,9 +19,7 @@ WHERE {
         ?parent_taxon rdfs:label ?parent_taxonLabel .
     FILTER(LANG(?parent_taxonLabel) = "en")} . 
     
-    OPTIONAL { ?taxon wdt:P181 ?taxon_range_map_image .
-        ?taxon_range_map_image rdfs:label ?taxon_range_map_imageLabel .
-    FILTER(LANG(?taxon_range_map_imageLabel) = "en")} . 
+    OPTIONAL { ?taxon wdt:P181 ?taxon_range_map_image } . 
     
     OPTIONAL { ?taxon wdt:P183 ?endemic_to .
         ?endemic_to rdfs:label ?endemic_toLabel .

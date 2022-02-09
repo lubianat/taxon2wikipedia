@@ -11,12 +11,16 @@ def get_parent_taxon_df(qid):
     SELECT 
     ?taxonRankLabel
     ?taxonName
+    ?taxon_range_map_image
     WHERE 
     {
-    wd:""" + qid +""" wdt:P171* ?parentTaxon.
+    VALUES ?taxon {   wd:""" + qid +"""} .
+    ?taxon wdt:P171* ?parentTaxon.
     ?parentTaxon wdt:P105 ?taxonRank.
     ?parentTaxon wdt:P225 ?taxonName.
     SERVICE wikibase:label { bd:serviceParam wikibase:language "pt". }
+    OPTIONAL { ?taxon wdt:P181 ?taxon_range_map_image } . 
+
     }"""
     sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 
@@ -49,7 +53,11 @@ def get_taxobox_from_df(parent_taxon_df):
     to_append = f"| {rank} {multiple_spaces}= [[{name}]]    \n"
     
     result  = result + to_append
-  
+
+  map = parent_taxon_df["taxon_range_map_image.value"][0].split("/")[-1].replace("%20", " ")
+  to_append = f"| mapa = { map}\n"
+  result  = result + to_append
+
   to_append = "}}"
   result  = result + to_append
 
@@ -61,8 +69,3 @@ def get_taxobox(qid):
   df = get_parent_taxon_df(qid)
   a = get_taxobox_from_df(df)
   return(a)
-
-
-a = get_taxobox(sys.argv[1])
-
-print(a)
