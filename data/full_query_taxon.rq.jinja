@@ -8,6 +8,7 @@ SELECT
 ?taxon_authorLabel
 (YEAR(?description_date) as ?description_year)
 ?taxon_range_map_image
+?taxon_common_name_pt
 WHERE {
     VALUES ?taxon { wd:{{taxon}} } .
 
@@ -49,14 +50,6 @@ WHERE {
         ?population rdfs:label ?populationLabel .
     FILTER(LANG(?populationLabel) = "en")} . 
     
-    OPTIONAL { ?taxon wdt:P1135 ?nomenclatural_status .
-        ?nomenclatural_status rdfs:label ?nomenclatural_statusLabel .
-    FILTER(LANG(?nomenclatural_statusLabel) = "en")} . 
-    
-    OPTIONAL { ?taxon wdt:P1605 ?has_natural_reservoir .
-        ?has_natural_reservoir rdfs:label ?has_natural_reservoirLabel .
-    FILTER(LANG(?has_natural_reservoirLabel) = "en")} . 
-    
     OPTIONAL { ?taxon wdt:P1606 ?natural_reservoir_of .
         ?natural_reservoir_of rdfs:label ?natural_reservoir_ofLabel .
     FILTER(LANG(?natural_reservoir_ofLabel) = "en")} . 
@@ -65,9 +58,8 @@ WHERE {
         ?this_taxon_is_source_of rdfs:label ?this_taxon_is_source_ofLabel .
     FILTER(LANG(?this_taxon_is_source_ofLabel) = "en")} . 
     
-    OPTIONAL { ?taxon wdt:P1843 ?taxon_common_name .
-        ?taxon_common_name rdfs:label ?taxon_common_nameLabel .
-    FILTER(LANG(?taxon_common_nameLabel) = "en")} . 
+    OPTIONAL { ?taxon wdt:P1843 ?taxon_common_name_pt .
+    FILTER(LANG(?taxon_common_name_pt) = "pt")} . 
     
     OPTIONAL { ?taxon wdt:P2974 ?habitat .
         ?habitat rdfs:label ?habitatLabel .

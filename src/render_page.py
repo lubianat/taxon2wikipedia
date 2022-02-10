@@ -37,19 +37,24 @@ except:
     taxon_author_label = "TEMPORARY REPLACEMENT"
     description_year = "TEMPORARY REPLACEMENT"
 
+try:
+    common_name = results_df["taxon_common_name_pt.value"][0]
+except:
+    common_name = "TEMPORARY REPLACEMENT"
 
 taxobox =  get_taxobox(taxon_qid)
 
 
 print(f"""
 {taxobox}
-'''''{taxon_name}''''' é uma espécie do grupo [[{parent_taxon_label}]] decrita em [[{description_year}]] por [[{taxon_author_label}]].
+'''''{taxon_name}''''', também conhecido como '''{common_name}''', é uma espécie do grupo [[{parent_taxon_label}]] decrita em [[{description_year}]] por [[{taxon_author_label}]].
 
-{{{{Controle de autoridade|colapsar}}}}
+
 {{{{Referencias}}}}
-
+{{{{Controle de autoridade|colapsar}}}}
 {{{{esboço}}}}
 
 """)
 
-print(f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?veaction=edit""")
+print(f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?action=edit&veswitched=1""")
+print(f"""https://www.google.com/search?q={taxon_name.replace(" ", "_")}""")

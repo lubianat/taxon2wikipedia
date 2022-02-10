@@ -54,9 +54,12 @@ def get_taxobox_from_df(parent_taxon_df):
     
     result  = result + to_append
 
-  map = parent_taxon_df["taxon_range_map_image.value"][0].split("/")[-1].replace("%20", " ")
-  to_append = f"| mapa = { map}\n"
-  result  = result + to_append
+  try:
+    map = parent_taxon_df["taxon_range_map_image.value"][0].split("/")[-1].replace("%20", " ")
+    to_append = f"| mapa = { map}\n"
+    result  = result + to_append
+  except:
+    pass
 
   to_append = "}}"
   result  = result + to_append
