@@ -6,6 +6,7 @@ from jinja2 import Template
 import sys
 import requests
 from src.qid2taxobox import *
+import pywikibot
 
 template_path = "data/full_query_taxon.rq.jinja"
 taxon_qid = sys.argv[1]
@@ -15,8 +16,10 @@ with open(template_path) as f:
 
 query = t.render(taxon=taxon_qid)
 
-print(query)
-sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
+sparql = SPARQLWrapper(
+    "https://query.wikidata.org/sparql",
+    agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11",
+)
 
 sparql.setQuery(query)
 sparql.setReturnFormat(JSON)
@@ -24,8 +27,6 @@ results = sparql.query().convert()
 
 
 results_df = pd.io.json.json_normalize(results["results"]["bindings"])
-print(results_df.columns)
-
 
 taxon_rank_label = results_df["taxon_rankLabel.value"][0]
 parent_taxon_label = results_df["parent_taxonLabel.value"][0]
@@ -46,8 +47,7 @@ except:
 taxobox = get_taxobox(taxon_qid)
 
 
-print(
-    f"""
+wiki_page = f"""
 {taxobox}
 '''''{taxon_name}''''', também conhecido como '''{common_name}''', é uma espécie do grupo [[{parent_taxon_label}]] decrita em [[{description_year}]] por [[{taxon_author_label}]].
 
@@ -57,9 +57,24 @@ print(
 {{{{esboço}}}}
 
 """
-)
+
+print("===== Saving wikipage =====")
+filepath = "wikipage.txt"
+with open(filepath, "w+") as f:
+    f.write(wiki_page)
+
 
 print(
     f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?action=edit&veswitched=1"""
 )
 print(f"""https://www.google.com/search?q={taxon_name.replace(" ", "_")}""")
+
+
+qid = input("If page is created, enter anything to add sitelink. ")
+
+site = pywikibot.Site("wikidata", "wikidata")
+repo = site.data_repository()
+item = pywikibot.ItemPage(repo, taxon_qid)
+
+data = [{"site": "ptwiki", "title": taxon_name.replace(" ", "_")}]
+item.setSitelinks(data)

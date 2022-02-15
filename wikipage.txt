@@ -1,0 +1,38 @@
+
+{{Info/Taxonomia
+| imagem                = 
+| Superordem             = [[Dinosauria]]    
+| reino                  = [[Animalia]]    
+| classe                 = [[Aves]]    
+| subreino               = [[Bilateria]]    
+| família                = [[Anatidae]]    
+| classe                 = [[Reptilia]]    
+| filo                   = [[Chordata]]    
+| superclasse            = [[Tetrapoda]]    
+| subclasse              = [[Neognathae]]    
+| subfamília             = [[Tadorninae]]    
+| ordem                  = [[Anseriformes]]    
+| subfilo                = [[Vertebrata]]    
+| infrafilo              = [[Gnathostomata]]    
+| superclasse            = [[Gnathostomata]]    
+| Q60922428              = [[Osteichthyes]]    
+| infrarreino            = [[Deuterostomia]]    
+| superclasse            = [[Sarcopterygii]]    
+| ordem                  = [[Saurischia]]    
+| Subordem               = [[Theropoda]]    
+| Superordem             = [[Galloanserae]]    
+| Superordem             = [[Galloanseres]]    
+| superdomínio           = [[Biota]]    
+| género                 = [[Sarkidiornis]]    
+| espécie                = [[Sarkidiornis sylvicola]]    
+| superfamília           = [[Anatoidea]]    
+| Superordem             = [[Anserimorphae]]    
+| mapa = Sarkidiornis sylvicola map.svg
+}}
+'''''Sarkidiornis sylvicola''''', também conhecido como '''pato-de-crista''', é uma espécie do grupo [[Sarkidiornis]] decrita em [[1907]] por [[Rodolpho von Ihering]].
+
+
+{{Referencias}}
+{{Controle de autoridade|colapsar}}
+{{esboço}}
+
