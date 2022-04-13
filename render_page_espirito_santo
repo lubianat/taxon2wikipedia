@@ -51,6 +51,7 @@ wiki_page = f"""
 {taxobox}
 '''''{taxon_name}''''', também conhecido como '''{common_name}''', é uma espécie do grupo [[{parent_taxon_label}]] decrita em [[{description_year}]] por [[{taxon_author_label}]].
 
+A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
 
 {{{{Referencias}}}}
 {{{{Controle de autoridade|colapsar}}}}

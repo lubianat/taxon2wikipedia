@@ -5,32 +5,31 @@
 | reino                  = [[Animalia]]    
 | classe                 = [[Aves]]    
 | subreino               = [[Bilateria]]    
-| família                = [[Anatidae]]    
 | classe                 = [[Reptilia]]    
 | filo                   = [[Chordata]]    
 | superclasse            = [[Tetrapoda]]    
 | subclasse              = [[Neognathae]]    
-| subfamília             = [[Tadorninae]]    
-| ordem                  = [[Anseriformes]]    
+| ordem                  = [[Ciconiiformes]]    
 | subfilo                = [[Vertebrata]]    
 | infrafilo              = [[Gnathostomata]]    
 | superclasse            = [[Gnathostomata]]    
 | Q60922428              = [[Osteichthyes]]    
+| família                = [[Ciconiidae]]    
+| Superordem             = [[Aequornithes]]    
 | infrarreino            = [[Deuterostomia]]    
 | superclasse            = [[Sarcopterygii]]    
 | ordem                  = [[Saurischia]]    
 | Subordem               = [[Theropoda]]    
-| Superordem             = [[Galloanserae]]    
-| Superordem             = [[Galloanseres]]    
+| espécie                = [[Ciconia maguari]]    
+| Superordem             = [[Neoaves]]    
 | superdomínio           = [[Biota]]    
-| género                 = [[Sarkidiornis]]    
-| espécie                = [[Sarkidiornis sylvicola]]    
-| superfamília           = [[Anatoidea]]    
-| Superordem             = [[Anserimorphae]]    
-| mapa = Sarkidiornis sylvicola map.svg
+| género                 = [[Ciconia]]    
+| tribo                  = [[Ciconiini]]    
+| mapa = Ciconia maguari map.svg
 }}
-'''''Sarkidiornis sylvicola''''', também conhecido como '''pato-de-crista''', é uma espécie do grupo [[Sarkidiornis]] decrita em [[1907]] por [[Rodolpho von Ihering]].
+'''''Ciconia maguari''''', também conhecido como '''maguari''', é uma espécie do grupo [[Ciconia]] decrita em [[1789]] por [[Johann Friedrich Gmelin]].
 
+A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 {{Referencias}}
 {{Controle de autoridade|colapsar}}
