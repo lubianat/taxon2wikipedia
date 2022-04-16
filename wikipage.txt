@@ -1,33 +1,38 @@
 
 {{Info/Taxonomia
 | imagem                = 
-| Superordem             = [[Dinosauria]]    
 | reino                  = [[Animalia]]    
-| classe                 = [[Aves]]    
 | subreino               = [[Bilateria]]    
-| classe                 = [[Reptilia]]    
 | filo                   = [[Chordata]]    
-| superclasse            = [[Tetrapoda]]    
-| subclasse              = [[Neognathae]]    
-| ordem                  = [[Ciconiiformes]]    
 | subfilo                = [[Vertebrata]]    
 | infrafilo              = [[Gnathostomata]]    
 | superclasse            = [[Gnathostomata]]    
 | Q60922428              = [[Osteichthyes]]    
-| família                = [[Ciconiidae]]    
-| Superordem             = [[Aequornithes]]    
+| género                 = [[Hippocampus]]    
+| superclasse            = [[Actinopterygii]]    
 | infrarreino            = [[Deuterostomia]]    
-| superclasse            = [[Sarcopterygii]]    
-| ordem                  = [[Saurischia]]    
-| Subordem               = [[Theropoda]]    
-| espécie                = [[Ciconia maguari]]    
-| Superordem             = [[Neoaves]]    
+| infraclasse            = [[Teleostei]]    
+| ordem                  = [[Gasterosteiformes]]    
+| família                = [[Syngnathidae]]    
+| classe                 = [[Actinopteri]]    
+| ordem                  = [[Syngnathiformes]]    
+| Q30093070              = [[Acanthopterygii]]    
+| subclasse              = [[Neopterygii]]    
+| Q6054425               = [[Clupeocephala]]    
+| Q10861426              = [[Ctenosquamata]]    
+| Subordem               = [[Syngnathoidei]]    
+| Q2981883               = [[Euteleosteomorpha]]    
+| Q6541077               = [[Neoteleostei]]    
 | superdomínio           = [[Biota]]    
-| género                 = [[Ciconia]]    
-| tribo                  = [[Ciconiini]]    
-| mapa = Ciconia maguari map.svg
+| espécie                = [[Hippocampus erectus]]    
+| subfamília             = [[Hippocampinae]]    
+| Q60445775              = [[Osteoglossocephalai]]    
+| Q30093105              = [[Percomorphaceae]]    
+| Q21061732              = [[Syngnatharia]]    
+| Q10861375              = [[Acanthomorphata]]    
+| Q4226087               = [[Eurypterygia]]    
 }}
-'''''Ciconia maguari''''', também conhecido como '''maguari''', é uma espécie do grupo [[Ciconia]] decrita em [[1789]] por [[Johann Friedrich Gmelin]].
+'''''Hippocampus erectus''''', também conhecido como '''TEMPORARY REPLACEMENT''', é uma espécie do grupo [[Hippocampus]] decrita em [[1810]] por [[George Perry]].
 
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
