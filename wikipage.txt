@@ -1,39 +1,25 @@
 
 {{Info/Taxonomia
 | imagem                = 
-| reino                  = [[Animalia]]    
-| subreino               = [[Bilateria]]    
-| filo                   = [[Chordata]]    
-| subfilo                = [[Vertebrata]]    
-| infrafilo              = [[Gnathostomata]]    
-| superclasse            = [[Gnathostomata]]    
-| Q60922428              = [[Osteichthyes]]    
-| género                 = [[Hippocampus]]    
-| superclasse            = [[Actinopterygii]]    
-| infrarreino            = [[Deuterostomia]]    
-| infraclasse            = [[Teleostei]]    
-| ordem                  = [[Gasterosteiformes]]    
-| família                = [[Syngnathidae]]    
-| classe                 = [[Actinopteri]]    
-| ordem                  = [[Syngnathiformes]]    
-| Q30093070              = [[Acanthopterygii]]    
-| subclasse              = [[Neopterygii]]    
-| Q6054425               = [[Clupeocephala]]    
-| Q10861426              = [[Ctenosquamata]]    
-| Subordem               = [[Syngnathoidei]]    
-| Q2981883               = [[Euteleosteomorpha]]    
-| Q6541077               = [[Neoteleostei]]    
+| reino                  = [[Plantae]]    
+| família                = [[Cactaceae]]    
+| ordem                  = [[Caryophyllales]]    
+| Q3491997               = [[Spermatophytina]]    
+| divisão                = [[Tracheophyta]]    
+| género                 = [[Rhipsalis]]    
+| infrarreino            = [[Streptophyta]]    
+| espécie                = [[Rhipsalis russellii]]    
+| tribo                  = [[Rhipsalideae]]    
+| Q23760204              = [[Embryophyta]]    
+| subfilo                = [[Euphyllophyta]]    
+| subfamília             = [[Cactoideae]]    
 | superdomínio           = [[Biota]]    
-| espécie                = [[Hippocampus erectus]]    
-| subfamília             = [[Hippocampinae]]    
-| Q60445775              = [[Osteoglossocephalai]]    
-| Q30093105              = [[Percomorphaceae]]    
-| Q21061732              = [[Syngnatharia]]    
-| Q10861375              = [[Acanthomorphata]]    
-| Q4226087               = [[Eurypterygia]]    
+| subdomínio             = [[Diaphoretickes]]    
+| subreino               = [[Viridiplantae]]    
 }}
-'''''Hippocampus erectus''''', também conhecido como '''TEMPORARY REPLACEMENT''', é uma espécie do grupo [[Hippocampus]] decrita em [[1810]] por [[George Perry]].
+'''''Rhipsalis russellii''''', também conhecido como '''TEMPORARY REPLACEMENT''', é uma espécie do grupo [[Rhipsalis]] decrita em [[1923]] por [[Joseph Nelson Rose]].
 
+== Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 {{Referencias}}

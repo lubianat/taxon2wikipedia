@@ -7,77 +7,83 @@ import sys
 import requests
 from src.qid2taxobox import *
 import pywikibot
+from pathlib import Path
 
-template_path = "data/full_query_taxon.rq.jinja"
-taxon_qid = sys.argv[1]
-
-with open(template_path) as f:
-    t = Template(f.read())
-
-query = t.render(taxon=taxon_qid)
-
-sparql = SPARQLWrapper(
-    "https://query.wikidata.org/sparql",
-    agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11",
-)
-
-sparql.setQuery(query)
-sparql.setReturnFormat(JSON)
-results = sparql.query().convert()
+HERE = Path(__file__).parent.resolve()
 
 
-results_df = pd.io.json.json_normalize(results["results"]["bindings"])
+def main():
+    template_path = "{HERE}/data/full_query_taxon.rq.jinja"
+    taxon_qid = sys.argv[1]
 
-taxon_rank_label = results_df["taxon_rankLabel.value"][0]
-parent_taxon_label = results_df["parent_taxonLabel.value"][0]
-parent_taxon = results_df["parent_taxon.value"][0]
-taxon_name = results_df["taxon_name.value"][0]
-try:
-    taxon_author_label = results_df["taxon_authorLabel.value"][0]
-    description_year = results_df["description_year.value"][0]
-except:
-    taxon_author_label = "TEMPORARY REPLACEMENT"
-    description_year = "TEMPORARY REPLACEMENT"
+    with open(template_path) as f:
+        t = Template(f.read())
 
-try:
-    common_name = results_df["taxon_common_name_pt.value"][0]
-except:
-    common_name = "TEMPORARY REPLACEMENT"
+    query = t.render(taxon=taxon_qid)
 
-taxobox = get_taxobox(taxon_qid)
+    sparql = SPARQLWrapper(
+        "https://query.wikidata.org/sparql",
+        agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11",
+    )
+
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+
+    results_df = pd.io.json.json_normalize(results["results"]["bindings"])
+
+    taxon_rank_label = results_df["taxon_rankLabel.value"][0]
+    parent_taxon_label = results_df["parent_taxonLabel.value"][0]
+    parent_taxon = results_df["parent_taxon.value"][0]
+    taxon_name = results_df["taxon_name.value"][0]
+    try:
+        taxon_author_label = results_df["taxon_authorLabel.value"][0]
+        description_year = results_df["description_year.value"][0]
+    except:
+        taxon_author_label = "TEMPORARY REPLACEMENT"
+        description_year = "TEMPORARY REPLACEMENT"
+
+    try:
+        common_name = results_df["taxon_common_name_pt.value"][0]
+    except:
+        common_name = "TEMPORARY REPLACEMENT"
+
+    taxobox = get_taxobox(taxon_qid)
+
+    wiki_page = f"""
+    {taxobox}
+    '''''{taxon_name}''''', também conhecido como '''{common_name}''', é uma espécie do grupo [[{parent_taxon_label}]] decrita em [[{description_year}]] por [[{taxon_author_label}]].
+
+    == Conservação ==
+    A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
+
+    {{{{Referencias}}}}
+    {{{{Controle de autoridade|colapsar}}}}
+    {{{{esboço}}}}
+
+    """
+
+    print("===== Saving wikipage =====")
+    filepath = "wikipage.txt"
+    with open(filepath, "w+") as f:
+        f.write(wiki_page)
+
+    print(
+        f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?action=edit&veswitched=1"""
+    )
+    print(f"""https://www.google.com/search?q={taxon_name.replace(" ", "_")}""")
+
+    quit()
+
+    qid = input("If page is created, enter anything to add sitelink. ")
+
+    site = pywikibot.Site("wikidata", "wikidata")
+    repo = site.data_repository()
+    item = pywikibot.ItemPage(repo, taxon_qid)
+
+    data = [{"site": "ptwiki", "title": taxon_name.replace(" ", "_")}]
+    item.setSitelinks(data)
 
 
-wiki_page = f"""
-{taxobox}
-'''''{taxon_name}''''', também conhecido como '''{common_name}''', é uma espécie do grupo [[{parent_taxon_label}]] decrita em [[{description_year}]] por [[{taxon_author_label}]].
-
-== Conservação ==
-A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
-
-{{{{Referencias}}}}
-{{{{Controle de autoridade|colapsar}}}}
-{{{{esboço}}}}
-
-"""
-
-print("===== Saving wikipage =====")
-filepath = "wikipage.txt"
-with open(filepath, "w+") as f:
-    f.write(wiki_page)
-
-
-print(
-    f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?action=edit&veswitched=1"""
-)
-print(f"""https://www.google.com/search?q={taxon_name.replace(" ", "_")}""")
-
-quit()
-
-qid = input("If page is created, enter anything to add sitelink. ")
-
-site = pywikibot.Site("wikidata", "wikidata")
-repo = site.data_repository()
-item = pywikibot.ItemPage(repo, taxon_qid)
-
-data = [{"site": "ptwiki", "title": taxon_name.replace(" ", "_")}]
-item.setSitelinks(data)
+if __name__ == "__main__":
+    main()
