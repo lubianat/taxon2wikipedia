@@ -2,22 +2,20 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| família                = [[Cactaceae]]    
-| ordem                  = [[Caryophyllales]]    
+| ordem                  = [[Cucurbitales]]    
 | Q3491997               = [[Spermatophytina]]    
 | divisão                = [[Tracheophyta]]    
-| género                 = [[Rhipsalis]]    
 | infrarreino            = [[Streptophyta]]    
-| espécie                = [[Rhipsalis russellii]]    
-| tribo                  = [[Rhipsalideae]]    
+| género                 = [[Begonia]]    
+| família                = [[Begoniaceae]]    
 | Q23760204              = [[Embryophyta]]    
 | subfilo                = [[Euphyllophyta]]    
-| subfamília             = [[Cactoideae]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
+| espécie                = [[Begonia coccinea]]    
 | subreino               = [[Viridiplantae]]    
 }}
-'''''Rhipsalis russellii''''', também conhecido como '''TEMPORARY REPLACEMENT''', é uma espécie do grupo [[Rhipsalis]] decrita em [[1923]] por [[Joseph Nelson Rose]].
+'''''Begonia coccinea''''', também conhecido como '''TEMPORARY REPLACEMENT''', é uma espécie de [[planta]] do grupo [[Begonia]] decrita em [[1843]] por [[William Jackson Hooker]].
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
@@ -26,3 +24,9 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 {{Controle de autoridade|colapsar}}
 {{esboço}}
 
+    
+[[Categoria:Plantas]]
+[[Categoria:Flora do Brasil]]
+[[Categoria:Flora do Espírito Santo]]
+[[Categoria:Plantas descritas em 1843]]
+[[Categoria:Wikiconcurso Wiki Loves Espírito Santo (artigos)]]

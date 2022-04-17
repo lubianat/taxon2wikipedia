@@ -13,7 +13,7 @@ HERE = Path(__file__).parent.resolve()
 
 
 def main():
-    template_path = "{HERE}/data/full_query_taxon.rq.jinja"
+    template_path = "data/full_query_taxon.rq.jinja"
     taxon_qid = sys.argv[1]
 
     with open(template_path) as f:
@@ -50,18 +50,34 @@ def main():
 
     taxobox = get_taxobox(taxon_qid)
 
+    scope_name = "planta"
     wiki_page = f"""
-    {taxobox}
-    '''''{taxon_name}''''', também conhecido como '''{common_name}''', é uma espécie do grupo [[{parent_taxon_label}]] decrita em [[{description_year}]] por [[{taxon_author_label}]].
+{taxobox}
+'''''{taxon_name}''''', também conhecido como '''{common_name}''', é uma espécie de [[{scope_name}]] do grupo [[{parent_taxon_label}]] decrita em [[{description_year}]] por [[{taxon_author_label}]].
 
-    == Conservação ==
-    A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
+== Conservação ==
+A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
 
-    {{{{Referencias}}}}
-    {{{{Controle de autoridade|colapsar}}}}
-    {{{{esboço}}}}
+{{{{Referencias}}}}
+{{{{Controle de autoridade|colapsar}}}}
+{{{{esboço}}}}
 
     """
+
+    categories = [
+        "Plantas",
+        "Flora do Brasil",
+        "Flora do Espírito Santo",
+        f"Plantas descritas em {description_year}",
+        "Categoria:Wikiconcurso Wiki Loves Espírito Santo (artigos)",
+    ]
+
+    for cat in categories:
+        wiki_page = (
+            wiki_page
+            + f"""
+[[Categoria:{cat}]]"""
+        )
 
     print("===== Saving wikipage =====")
     filepath = "wikipage.txt"
@@ -72,6 +88,9 @@ def main():
         f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?action=edit&veswitched=1"""
     )
     print(f"""https://www.google.com/search?q={taxon_name.replace(" ", "_")}""")
+    print(
+        f"""http://servicos.jbrj.gov.br/flora/search/{taxon_name.replace(" ", "_")}"""
+    )
 
     quit()
 
