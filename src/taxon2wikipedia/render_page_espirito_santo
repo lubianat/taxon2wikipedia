@@ -4,33 +4,38 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 import pandas as pd
 from jinja2 import Template
 import sys
-import requests
-from src.qid2taxobox import *
+from qid2taxobox import *
 import pywikibot
 from pathlib import Path
+import click
 
 HERE = Path(__file__).parent.resolve()
 
 
-def main():
-    template_path = "data/full_query_taxon.rq.jinja"
-    taxon_qid = sys.argv[1]
+def get_gbif_ref(qid):
+    query = f"""
+    SELECT * WHERE {{ 
+        wd:{qid} wdt:P846 ?gbif_id .
+        wd:{qid} wdt:P225 ?taxon_name . }}
+    """
+    df = get_rough_df_from_wikidata(query)
+    gbif_id = list(df["gbif_id.value"])[0]
+    taxon_name = list(df["taxon_name.value"])[0]
+    ref = f"""<ref>{{{{Citar web|url=https://www.gbif.org/species/{gbif_id}|titulo={taxon_name}|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}}}</ref>"""
+    return ref
 
+
+@click.command()
+@click.argument("taxon-qid")
+@click.option("--scope-name", default="planta", help="O escopo do táxon alvo.")
+def main(scope_name: str, taxon_qid: str):
+    template_path = f"{HERE}/../data/full_query_taxon.rq.jinja"
     with open(template_path) as f:
         t = Template(f.read())
 
     query = t.render(taxon=taxon_qid)
 
-    sparql = SPARQLWrapper(
-        "https://query.wikidata.org/sparql",
-        agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11",
-    )
-
-    sparql.setQuery(query)
-    sparql.setReturnFormat(JSON)
-    results = sparql.query().convert()
-
-    results_df = pd.io.json.json_normalize(results["results"]["bindings"])
+    results_df = get_rough_df_from_wikidata(query)
 
     taxon_rank_label = results_df["taxon_rankLabel.value"][0]
     parent_taxon_label = results_df["parent_taxonLabel.value"][0]
@@ -50,26 +55,29 @@ def main():
 
     taxobox = get_taxobox(taxon_qid)
 
-    scope_name = "planta"
-    wiki_page = f"""
+    wiki_page = (
+        f"""
 {taxobox}
-'''''{taxon_name}''''', também conhecido como '''{common_name}''', é uma espécie de [[{scope_name}]] do grupo [[{parent_taxon_label}]] decrita em [[{description_year}]] por [[{taxon_author_label}]].
+'''''{taxon_name}''''', também conhecido como '''{common_name}''', é uma espécie de  """
+        f"[[{scope_name}]] do grupo [[{parent_taxon_label}]] decrita em [[{description_year}]] por"
+        f"""[[{taxon_author_label}]]. {get_gbif_ref(taxon_qid)}
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
 
 {{{{Referencias}}}}
 {{{{Controle de autoridade|colapsar}}}}
-{{{{esboço}}}}
+{{{{esboço-{scope_name}}}}}
 
     """
+    )
 
     categories = [
         "Plantas",
         "Flora do Brasil",
         "Flora do Espírito Santo",
         f"Plantas descritas em {description_year}",
-        "Categoria:Wikiconcurso Wiki Loves Espírito Santo (artigos)",
+        "Wikiconcurso Wiki Loves Espírito Santo (artigos)",
     ]
 
     for cat in categories:

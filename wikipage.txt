@@ -2,31 +2,32 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Cucurbitales]]    
 | Q3491997               = [[Spermatophytina]]    
 | divisão                = [[Tracheophyta]]    
+| ordem                  = [[Poales]]    
 | infrarreino            = [[Streptophyta]]    
-| género                 = [[Begonia]]    
-| família                = [[Begoniaceae]]    
+| género                 = [[Acanthostachys]]    
+| subfamília             = [[Bromelioideae]]    
+| família                = [[Bromeliaceae]]    
 | Q23760204              = [[Embryophyta]]    
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
-| espécie                = [[Begonia coccinea]]    
+| espécie                = [[Acanthostachys pitcairnioides]]    
 | subreino               = [[Viridiplantae]]    
 }}
-'''''Begonia coccinea''''', também conhecido como '''TEMPORARY REPLACEMENT''', é uma espécie de [[planta]] do grupo [[Begonia]] decrita em [[1843]] por [[William Jackson Hooker]].
+'''''Acanthostachys pitcairnioides''''', também conhecido como '''TEMPORARY REPLACEMENT''', é uma espécie de  [[planta]] do grupo [[Acanthostachys]] decrita em [[1983]] por[[Werner Rauh]]. <ref>{{Citar web|url=https://www.gbif.org/species/2693696|titulo=Acanthostachys pitcairnioides|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 {{Referencias}}
 {{Controle de autoridade|colapsar}}
-{{esboço}}
+{{esboço-planta}}
 
     
 [[Categoria:Plantas]]
 [[Categoria:Flora do Brasil]]
 [[Categoria:Flora do Espírito Santo]]
-[[Categoria:Plantas descritas em 1843]]
+[[Categoria:Plantas descritas em 1983]]
 [[Categoria:Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
