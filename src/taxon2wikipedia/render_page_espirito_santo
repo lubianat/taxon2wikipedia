@@ -7,6 +7,7 @@ import sys
 from qid2taxobox import *
 import pywikibot
 from pathlib import Path
+from process_reflora import *
 import click
 
 HERE = Path(__file__).parent.resolve()
@@ -29,6 +30,7 @@ def get_gbif_ref(qid):
 @click.argument("taxon-qid")
 @click.option("--scope-name", default="planta", help="O escopo do táxon alvo.")
 def main(scope_name: str, taxon_qid: str):
+
     template_path = f"{HERE}/../data/full_query_taxon.rq.jinja"
     with open(template_path) as f:
         t = Template(f.read())
@@ -41,6 +43,17 @@ def main(scope_name: str, taxon_qid: str):
     parent_taxon_label = results_df["parent_taxonLabel.value"][0]
     parent_taxon = results_df["parent_taxon.value"][0]
     taxon_name = results_df["taxon_name.value"][0]
+
+    print(
+        f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?action=edit&veswitched=1"""
+    )
+    print(f"""https://www.google.com/search?q={taxon_name.replace(" ", "_")}""")
+    print(
+        f"""http://servicos.jbrj.gov.br/flora/search/{taxon_name.replace(" ", "_")}"""
+    )
+
+    reflora_id = input("What is the Reflora ID (just numbers)?")
+
     try:
         taxon_author_label = results_df["taxon_authorLabel.value"][0]
         description_year = results_df["description_year.value"][0]
@@ -59,12 +72,15 @@ def main(scope_name: str, taxon_qid: str):
         f"""
 {taxobox}
 '''''{taxon_name}''''', também conhecido como '''{common_name}''', é uma espécie de  """
-        f"[[{scope_name}]] do grupo [[{parent_taxon_label}]] decrita em [[{description_year}]] por"
-        f"""[[{taxon_author_label}]]. {get_gbif_ref(taxon_qid)}
+        f"[[{scope_name}]] do grupo [[{parent_taxon_label}]]."
+        f"""
+== Taxonomia ==
+A espécie foi decrita em [[{description_year}]] por [[{taxon_author_label}]]. {get_gbif_ref(taxon_qid)}
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
 
+{render_distribution_from_reflora(reflora_id)}
 {{{{Referencias}}}}
 {{{{Controle de autoridade|colapsar}}}}
 {{{{esboço-{scope_name}}}}}
@@ -91,14 +107,6 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
     filepath = "wikipage.txt"
     with open(filepath, "w+") as f:
         f.write(wiki_page)
-
-    print(
-        f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?action=edit&veswitched=1"""
-    )
-    print(f"""https://www.google.com/search?q={taxon_name.replace(" ", "_")}""")
-    print(
-        f"""http://servicos.jbrj.gov.br/flora/search/{taxon_name.replace(" ", "_")}"""
-    )
 
     quit()
 

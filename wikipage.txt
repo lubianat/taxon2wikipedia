@@ -5,22 +5,26 @@
 | Q3491997               = [[Spermatophytina]]    
 | divisão                = [[Tracheophyta]]    
 | ordem                  = [[Poales]]    
+| género                 = [[Aechmea]]    
 | infrarreino            = [[Streptophyta]]    
-| género                 = [[Acanthostachys]]    
 | subfamília             = [[Bromelioideae]]    
 | família                = [[Bromeliaceae]]    
 | Q23760204              = [[Embryophyta]]    
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
-| espécie                = [[Acanthostachys pitcairnioides]]    
+| espécie                = [[Aechmea pedicellata]]    
 | subreino               = [[Viridiplantae]]    
 }}
-'''''Acanthostachys pitcairnioides''''', também conhecido como '''TEMPORARY REPLACEMENT''', é uma espécie de  [[planta]] do grupo [[Acanthostachys]] decrita em [[1983]] por[[Werner Rauh]]. <ref>{{Citar web|url=https://www.gbif.org/species/2693696|titulo=Acanthostachys pitcairnioides|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+'''''Aechmea pedicellata''''', também conhecido como '''TEMPORARY REPLACEMENT''', é uma espécie de  [[planta]] do grupo [[Aechmea]] decrita em [[1988]] por[[Elton Martinez Carvalho Leme]]. <ref>{{Citar web|url=https://www.gbif.org/species/2697920|titulo=Aechmea pedicellata|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
+
+== Distribuição ==
+
+A espécie é encontrada nos estados brasileiros de [[Espírito Santo (estado)|Espírito Santo]]<ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB5854|titulo=Detalha Taxon Publico|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 {{Referencias}}
 {{Controle de autoridade|colapsar}}
 {{esboço-planta}}
@@ -29,5 +33,5 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 [[Categoria:Plantas]]
 [[Categoria:Flora do Brasil]]
 [[Categoria:Flora do Espírito Santo]]
-[[Categoria:Plantas descritas em 1983]]
+[[Categoria:Plantas descritas em 1988]]
 [[Categoria:Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
