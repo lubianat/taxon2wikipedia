@@ -28,7 +28,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 
 == Distribuição ==
 
-A espécie é encontrada nos estados brasileiros de <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB65501|titulo=Detalha Taxon Publico|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+A espécie é encontrada nos estados brasileiros de [[Amazonas]], [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Mato Grosso]], [[Pará]], [[Paraíba]] , [[Pernambuco]], [[Rio de Janeiro]], [[Rio Grande do Norte]] e [[Roraima]]. <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB11402|titulo=Detalha Taxon Publico|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 {{Referencias}}
 {{Controle de autoridade|colapsar}}
 {{esboço-planta}}

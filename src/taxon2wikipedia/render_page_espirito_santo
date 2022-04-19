@@ -51,6 +51,7 @@ def main(scope_name: str, taxon_qid: str):
     )
 
     reflora_id = input("What is the Reflora ID (just numbers)?")
+    get_subspecies_from_reflora(reflora_id)
 
     try:
         taxon_author_label = results_df["taxon_authorLabel.value"][0]
