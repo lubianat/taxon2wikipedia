@@ -40,7 +40,19 @@ def get_states_from_reflora(fb_id):
     return states
 
 
-STATES_WIKI = {"BA": "[[Bahia]]", "ES": "[[Espírito Santo (estado)|Espírito Santo]]"}
+STATES_WIKI = {
+    "BA": "[[Bahia]]",
+    "ES": "[[Espírito Santo (estado)|Espírito Santo]]",
+    "AM": "[[Amazonas]]",
+    "MT": "[[Mato Grosso]]",
+    "PA": "[[Pará]]",
+    "PB": "[[Paraíba]] ",
+    "PE": "[[Pernambuco]]",
+    "SE": "[[Sergipe]]",
+    "AL": "[[Alagoas]]",
+    "RJ": "[[Rio de Janeiro]]",
+    "RR": "[[Roraima]]",
+}
 
 
 if __name__ == "__main__":

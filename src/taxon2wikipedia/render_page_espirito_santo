@@ -31,17 +31,15 @@ def get_gbif_ref(qid):
 @click.option("--scope-name", default="planta", help="O escopo do táxon alvo.")
 def main(scope_name: str, taxon_qid: str):
 
-    template_path = f"{HERE}/../data/full_query_taxon.rq.jinja"
-    with open(template_path) as f:
-        t = Template(f.read())
+    template_path = Path(f"{HERE}/../data/full_query_taxon.rq.jinja")
+
+    t = Template(template_path.read_text())
 
     query = t.render(taxon=taxon_qid)
 
     results_df = get_rough_df_from_wikidata(query)
 
-    taxon_rank_label = results_df["taxon_rankLabel.value"][0]
     parent_taxon_label = results_df["parent_taxonLabel.value"][0]
-    parent_taxon = results_df["parent_taxon.value"][0]
     taxon_name = results_df["taxon_name.value"][0]
 
     print(

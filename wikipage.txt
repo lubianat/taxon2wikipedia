@@ -2,21 +2,25 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
+| família                = [[Orchidaceae]]    
 | Q3491997               = [[Spermatophytina]]    
+| ordem                  = [[Asparagales]]    
 | divisão                = [[Tracheophyta]]    
-| ordem                  = [[Poales]]    
-| género                 = [[Aechmea]]    
+| subfamília             = [[Epidendroideae]]    
 | infrarreino            = [[Streptophyta]]    
-| subfamília             = [[Bromelioideae]]    
-| família                = [[Bromeliaceae]]    
 | Q23760204              = [[Embryophyta]]    
 | subfilo                = [[Euphyllophyta]]    
+| tribo                  = [[Cymbidieae]]    
 | superdomínio           = [[Biota]]    
+| género                 = [[Coryanthes]]    
+| Q3965313               = [[Stanhopeinae]]    
 | subdomínio             = [[Diaphoretickes]]    
-| espécie                = [[Aechmea pedicellata]]    
+| espécie                = [[Coryanthes speciosa]]    
 | subreino               = [[Viridiplantae]]    
 }}
-'''''Aechmea pedicellata''''', também conhecido como '''TEMPORARY REPLACEMENT''', é uma espécie de  [[planta]] do grupo [[Aechmea]] decrita em [[1988]] por[[Elton Martinez Carvalho Leme]]. <ref>{{Citar web|url=https://www.gbif.org/species/2697920|titulo=Aechmea pedicellata|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+'''''Coryanthes speciosa''''', também conhecido como '''TEMPORARY REPLACEMENT''', é uma espécie de  [[planta]] do grupo [[Coryanthes]].
+== Taxonomia ==
+A espécie foi decrita em [[TEMPORARY REPLACEMENT]] por [[TEMPORARY REPLACEMENT]]. <ref>{{Citar web|url=https://www.gbif.org/species/2795716|titulo=Coryanthes speciosa|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
@@ -24,7 +28,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 
 == Distribuição ==
 
-A espécie é encontrada nos estados brasileiros de [[Espírito Santo (estado)|Espírito Santo]]<ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB5854|titulo=Detalha Taxon Publico|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+A espécie é encontrada nos estados brasileiros de <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB65501|titulo=Detalha Taxon Publico|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 {{Referencias}}
 {{Controle de autoridade|colapsar}}
 {{esboço-planta}}
@@ -33,5 +37,5 @@ A espécie é encontrada nos estados brasileiros de [[Espírito Santo (estado)|E
 [[Categoria:Plantas]]
 [[Categoria:Flora do Brasil]]
 [[Categoria:Flora do Espírito Santo]]
-[[Categoria:Plantas descritas em 1988]]
+[[Categoria:Plantas descritas em TEMPORARY REPLACEMENT]]
 [[Categoria:Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
