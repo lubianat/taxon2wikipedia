@@ -4,9 +4,18 @@ import sys
 from pathlib import Path
 import json
 from bs4 import BeautifulSoup
-
+import re
 
 HERE = Path(__file__).parent.resolve()
+
+
+def get_ref_reflora(fb_id):
+    ref = (
+        "<ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/"
+        f"FB{fb_id}|"
+        "titulo=Detalha Taxon Publico|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> "
+    )
+    return ref
 
 
 def render_distribution_from_reflora(fb_id):
@@ -27,11 +36,7 @@ A espécie é encontrada nos estados brasileiros de """
         else:
             text = text + ", " + STATES_WIKI[state]
 
-    ref = (
-        "<ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/"
-        f"FB{fb_id}|"
-        "titulo=Detalha Taxon Publico|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> "
-    )
+    ref = get_ref_reflora(fb_id)
     return text + ref
 
 
@@ -42,13 +47,29 @@ def get_subspecies_from_reflora(fb_id):
     )
     r = requests.get(url)
     data = r.json()
+    name = data["nomeStr"]
     subspecies_html = data["filhosSubspVar"]
     soup = BeautifulSoup(subspecies_html)
     links = soup.find_all("a")
     species = []
+    regex = '"nomeRank"> var\..*?"taxon".*?<i>(.*?)<\/i>'
     for link in links:
-        species.append(link)
-    print(species)
+        print(str(link))
+        results = re.search(regex, str(link))
+        species.append(results.group(1))
+
+    ref = get_ref_reflora(fb_id)
+
+    text = f"The following subspecies of {name} are known: {ref}"
+
+    for i in species:
+
+        text = (
+            text
+            + f"""
+* '''{name} {i}''' """
+        )
+    print(text)
 
 
 def get_states_from_reflora(fb_id):
