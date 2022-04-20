@@ -51,8 +51,7 @@ def main(scope_name: str, taxon_qid: str):
     )
 
     reflora_id = input("What is the Reflora ID (just numbers)?")
-    get_subspecies_from_reflora(reflora_id)
-
+    reflora_data = get_reflora_data(reflora_id)
     try:
         taxon_author_label = results_df["taxon_authorLabel.value"][0]
         description_year = results_df["description_year.value"][0]
@@ -76,10 +75,13 @@ def main(scope_name: str, taxon_qid: str):
 == Taxonomia ==
 A espécie foi decrita em [[{description_year}]] por [[{taxon_author_label}]]. {get_gbif_ref(taxon_qid)}
 
+{get_subspecies_from_reflora(reflora_data)}
+{get_synonyms_from_reflora(reflora_data)}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
 
-{render_distribution_from_reflora(reflora_id)}
+{render_distribution_from_reflora(reflora_data)}
+
 {{{{Referencias}}}}
 {{{{Controle de autoridade|colapsar}}}}
 {{{{esboço-{scope_name}}}}}
