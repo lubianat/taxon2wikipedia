@@ -6,41 +6,42 @@
 | Q3491997               = [[Spermatophytina]]    
 | ordem                  = [[Asparagales]]    
 | divisão                = [[Tracheophyta]]    
-| subfamília             = [[Epidendroideae]]    
+| subfamília             = [[Orchidoideae]]    
 | infrarreino            = [[Streptophyta]]    
+| tribo                  = [[Cranichideae]]    
+| género                 = [[Eltroplectris]]    
 | Q23760204              = [[Embryophyta]]    
-| espécie                = [[Miltonia spectabilis]]    
+| Q3965313               = [[Spiranthinae]]    
 | subfilo                = [[Euphyllophyta]]    
-| Q3965313               = [[Oncidiinae]]    
-| tribo                  = [[Cymbidieae]]    
-| género                 = [[Miltonia]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
 | subreino               = [[Viridiplantae]]    
+| espécie                = [[Eltroplectris calcarata]]    
 }}
-'''''Miltonia spectabilis''''', também conhecido como '''bailarina''', é uma espécie de  [[planta]] do grupo [[Miltonia]].
+'''''Eltroplectris calcarata''''', também conhecido como '''TEMPORARY REPLACEMENT''', é uma espécie de  [[planta]] do grupo [[Eltroplectris]].
 == Taxonomia ==
-A espécie foi decrita em [[1837]] por [[John Lindley]]. <ref>{{Citar web|url=https://www.gbif.org/species/2803646|titulo=Miltonia spectabilis|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi decrita em [[1972]] por [[Herman Royden Sweet]]. <ref>{{Citar web|url=https://www.gbif.org/species/2790468|titulo=Eltroplectris calcarata|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
-São conhecidas as seguintes subspécies de Miltonia spectabilis Lindl.:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB11859|titulo=Miltonia spectabilis Lindl.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-Os seguintes sinônimos já foram catalogados:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB11859|titulo=Miltonia spectabilis Lindl.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-* ''Macrochilus fryanus''  Knowles &amp; Westc. 
-* ''Miltonia bicolor''  B.S.Williams 
-* ''Miltonia spectabilis aspersa''  Rchb.f. 
-* ''Miltonia spectabilis bicolor''  G.Nicholson 
-* ''Miltonia spectabilis lineata''  L.Linden &amp; Rodigas 
-* ''Miltonia spectabilis porphyroglossa''  Rchb.f. 
-* ''Miltonia spectabilis radians''  Rchb.f. 
-* ''Miltonia spectabilis rosea''  auct. 
-* ''Miltonia spectabilis virginalis''  Lem. 
-* ''Oncidium spectabile''  (Lindl.) Beer 
+São conhecidas as seguintes subspécies de Eltroplectris calcarata (Sw.) Garay & Sweet:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB11492|titulo=Eltroplectris calcarata (Sw.) Garay & Sweet|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+Os seguintes sinônimos já foram catalogados:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB11492|titulo=Eltroplectris calcarata (Sw.) Garay & Sweet|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+* ''Neottia calcarata''  Sw. 
+* ''Centrogenium rademarkeri''  Ruschi &amp; la Gasa 
+* ''Centrogenium setaceum''  (Lindl.) Schltr. 
+* ''Eltroplectris acuminata''  Raf. 
+* ''Pelexia domingensis''  Lindl. 
+* ''Pelexia setacea''  Lindl. 
+* ''Pelexia setacea glabra''  Cogn. 
+* ''Centrogenium calcaratum''  (Sw.) Schltr. 
+* ''Collea calcarata''  (Sw.) Lindl. 
+* ''Pelexia calcarata''  (Sw.) Cogn. 
+* ''Spiranthes calcarata''  (Sw.) Jiménez 
+* ''Stenorrhynchos calcaratum''  (Sw.) Rich. 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
-
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]], [[Rio de Janeiro]] e [[São Paulo (estado)|São Paulo]]. <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB11859|titulo=Miltonia spectabilis Lindl.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-
+A espécie é encontrada nos estados brasileiros de [[Alagoas]], [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Paraíba]] , [[Pernambuco]], [[Paraná]], [[Rio de Janeiro]], [[Rio Grande do Norte]], [[Santa Catarina]], [[Sergipe]] e [[São Paulo (estado)|São Paulo]]. <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB11492|titulo=Eltroplectris calcarata (Sw.) Garay & Sweet|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+A espécie é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de [[Cerrado]], [[Mata Atlântica]], em regiões com vegetação de [[campos rupestres]], [[Vegetação ripária|mata ciliar]], [[Floresta húmida|floresta ombrófila pluvial]], [[restinga]].<ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB11492|titulo=Eltroplectris calcarata (Sw.) Garay & Sweet|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 {{Referencias}}
 {{Controle de autoridade|colapsar}}
 {{esboço-planta}}
@@ -49,5 +50,5 @@ A espécie é encontrada nos estados brasileiros de [[Espírito Santo (estado)|E
 [[Categoria:Plantas]]
 [[Categoria:Flora do Brasil]]
 [[Categoria:Flora do Espírito Santo]]
-[[Categoria:Plantas descritas em 1837]]
+[[Categoria:Plantas descritas em 1972]]
 [[Categoria:Wikiconcurso Wiki Loves Espírito Santo (artigos)]]

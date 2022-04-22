@@ -31,7 +31,10 @@ def get_parent_taxon_df(qid):
 
 
 def get_rough_df_from_wikidata(query):
-    sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
+    sparql = SPARQLWrapper(
+        "https://query.wikidata.org/sparql",
+        agent="taxon2wikipedia (https://github.com/lubianat/taxon2wikipedia)",
+    )
 
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
