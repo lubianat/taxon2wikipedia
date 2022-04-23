@@ -52,6 +52,18 @@ VEGETATION_WIKI = {
     "Coastal Forest (Restinga)": "[[restinga]]",
 }
 
+SUBSTRATE_WIKI  = {
+    "Epiphytic": "[[epífita]]"
+}
+
+def render_ecology(data):
+    substrate =  data["substrato]"
+    #TODO
+
+def render_list(base_text, list_of_ids, dict_of_wikitexts):
+    #TODO
+
+
 
 def render_domains(data):
     domains = data["dominioFitogeografico"]
@@ -105,7 +117,10 @@ def get_ref_reflora(data):
 
 def render_distribution_from_reflora(data):
 
-    if data["endemismo"] == "endemicaBrasil.e.endemica.do.Brasil":
+    if data["endemismo"] in [
+        "endemicaBrasil.e.endemica.do.Brasil",
+        "Is endemic from Brazil",
+    ]:
         endemic_text = "[[endêmica]] do [[Brasil]] e "
     else:
         endemic_text = ""

@@ -2,46 +2,38 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| família                = [[Orchidaceae]]    
+| ordem                  = [[Lamiales]]    
 | Q3491997               = [[Spermatophytina]]    
-| ordem                  = [[Asparagales]]    
 | divisão                = [[Tracheophyta]]    
-| subfamília             = [[Orchidoideae]]    
 | infrarreino            = [[Streptophyta]]    
-| tribo                  = [[Cranichideae]]    
-| género                 = [[Eltroplectris]]    
+| família                = [[Gesneriaceae]]    
 | Q23760204              = [[Embryophyta]]    
-| Q3965313               = [[Spiranthinae]]    
 | subfilo                = [[Euphyllophyta]]    
+| género                 = [[Codonanthe]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
+| tribo                  = [[Episceae]]    
+| subfamília             = [[Gesnerioideae]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Eltroplectris calcarata]]    
+| espécie                = [[Codonanthe gracilis]]    
+| Q3965313               = [[Episcieae]]    
 }}
-'''''Eltroplectris calcarata''''', também conhecido como '''TEMPORARY REPLACEMENT''', é uma espécie de  [[planta]] do grupo [[Eltroplectris]].
+'''''Codonanthe gracilis''''', também conhecido como '''TEMPORARY REPLACEMENT''', é uma espécie de  [[planta]] do grupo [[Codonanthe]].
 == Taxonomia ==
-A espécie foi decrita em [[1972]] por [[Herman Royden Sweet]]. <ref>{{Citar web|url=https://www.gbif.org/species/2790468|titulo=Eltroplectris calcarata|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi decrita em [[1854]] por [[Johannes von Hanstein]]. <ref>{{Citar web|url=https://www.gbif.org/species/3824117|titulo=Codonanthe gracilis|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
-São conhecidas as seguintes subspécies de Eltroplectris calcarata (Sw.) Garay & Sweet:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB11492|titulo=Eltroplectris calcarata (Sw.) Garay & Sweet|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-Os seguintes sinônimos já foram catalogados:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB11492|titulo=Eltroplectris calcarata (Sw.) Garay & Sweet|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-* ''Neottia calcarata''  Sw. 
-* ''Centrogenium rademarkeri''  Ruschi &amp; la Gasa 
-* ''Centrogenium setaceum''  (Lindl.) Schltr. 
-* ''Eltroplectris acuminata''  Raf. 
-* ''Pelexia domingensis''  Lindl. 
-* ''Pelexia setacea''  Lindl. 
-* ''Pelexia setacea glabra''  Cogn. 
-* ''Centrogenium calcaratum''  (Sw.) Schltr. 
-* ''Collea calcarata''  (Sw.) Lindl. 
-* ''Pelexia calcarata''  (Sw.) Cogn. 
-* ''Spiranthes calcarata''  (Sw.) Jiménez 
-* ''Stenorrhynchos calcaratum''  (Sw.) Rich. 
+São conhecidas as seguintes subspécies de Codonanthe gracilis (Mart.) Hanst.:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB7827|titulo=Codonanthe gracilis (Mart.) Hanst.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+Os seguintes sinônimos já foram catalogados:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB7827|titulo=Codonanthe gracilis (Mart.) Hanst.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+* ''Hypocyrta gracilis''  Mart. 
+* ''Codonanthe picta''  Lem. 
+* ''Orobanche crenata''  Vell. 
+* ''Orobanche ventricosa''  Vell. 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Alagoas]], [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Paraíba]] , [[Pernambuco]], [[Paraná]], [[Rio de Janeiro]], [[Rio Grande do Norte]], [[Santa Catarina]], [[Sergipe]] e [[São Paulo (estado)|São Paulo]]. <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB11492|titulo=Eltroplectris calcarata (Sw.) Garay & Sweet|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-A espécie é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de [[Cerrado]], [[Mata Atlântica]], em regiões com vegetação de [[campos rupestres]], [[Vegetação ripária|mata ciliar]], [[Floresta húmida|floresta ombrófila pluvial]], [[restinga]].<ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB11492|titulo=Eltroplectris calcarata (Sw.) Garay & Sweet|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Paraná]], [[Rio de Janeiro]], [[Rio Grande do Sul]], [[Santa Catarina]] e [[São Paulo (estado)|São Paulo]]. <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB7827|titulo=Codonanthe gracilis (Mart.) Hanst.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB7827|titulo=Codonanthe gracilis (Mart.) Hanst.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 {{Referencias}}
 {{Controle de autoridade|colapsar}}
 {{esboço-planta}}
@@ -50,5 +42,5 @@ A espécie é encontrada nos [[Domínio morfoclimático e fitogeográfico | dom�
 [[Categoria:Plantas]]
 [[Categoria:Flora do Brasil]]
 [[Categoria:Flora do Espírito Santo]]
-[[Categoria:Plantas descritas em 1972]]
+[[Categoria:Plantas descritas em 1854]]
 [[Categoria:Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
