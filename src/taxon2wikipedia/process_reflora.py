@@ -50,20 +50,27 @@ VEGETATION_WIKI = {
     "Riverine Forest and/or Gallery Forest": "[[Vegetação ripária|mata ciliar]]",
     "Ombrophyllous Forest (Tropical Rain Forest)": "[[Floresta húmida|floresta ombrófila pluvial]]",
     "Coastal Forest (Restinga)": "[[restinga]]",
+    "Vegetação Sobre Afloramentos Rochosos": "vegetação sobre afloramentos rochosos",
 }
 
-SUBSTRATE_WIKI  = {
-    "Epiphytic": "[[epífita]]"
-}
+SUBSTRATE_WIKI = {"Epiphytic": "[[epífita]]", "Rupicolous": "[[rupícola]]"}
+
 
 def render_ecology(data):
-    substrate =  data["substrato]"
-    #TODO
-
-def render_list(base_text, list_of_ids, dict_of_wikitexts):
-    #TODO
+    substrate = data["substrato"]
+    return 0
+    # TODO
 
 
+def render_list(text, list_of_ids, dict_of_wikitexts):
+    for i, domain in enumerate(list_of_ids):
+        if i == 0:
+            text = text + dict_of_wikitexts[domain]
+        elif i == len(domain) - 1:
+            text = text + " e " + dict_of_wikitexts[domain]
+        else:
+            text = text + ", " + dict_of_wikitexts[domain]
+    return text
 
 def render_domains(data):
     domains = data["dominioFitogeografico"]
@@ -75,15 +82,7 @@ def render_domains(data):
     else:
         text = "A espécie é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de "
 
-    for i, domain in enumerate(domains):
-        print(i)
-        if i == 0:
-            text = text + DOMAINS_WIKI[domain]
-        elif i == len(domain) - 1:
-            text = text + " e " + DOMAINS_WIKI[domain]
-        else:
-            text = text + ", " + DOMAINS_WIKI[domain]
-
+    text = render_list(text, domains, DOMAINS_WIKI):
     text = text + ","
 
     vegetations = data["tipoVegetacao"]
@@ -91,13 +90,8 @@ def render_domains(data):
     text = text + " em regiões com vegetação de "
 
     for i, vegetation in enumerate(vegetations):
-        print(i)
-        if i == 0:
-            text = text + VEGETATION_WIKI[vegetation]
-        elif i == len(vegetation) - 1:
-            text = text + " e " + VEGETATION_WIKI[vegetation]
-        else:
-            text = text + ", " + VEGETATION_WIKI[vegetation]
+        text = render_list(text, vegetation, VEGETATION_WIKI):
+
     text = text + "."
     text = text + get_ref_reflora(data)
 
@@ -139,7 +133,6 @@ A espécie é {endemic_text}encontrada nos estados brasileiros de """
             text = text + ", " + STATES_WIKI[state]
     ref = get_ref_reflora(data)
     return text + ref
-
 
 def get_reflora_data(fb_id):
     url = (

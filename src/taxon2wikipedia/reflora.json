@@ -2,13 +2,7 @@
     "mostrarHierarquia": true,
     "distribuicaoGeograficaDuvidaNorte": "",
     "estadosCerteza": [
-        "BA",
-        "ES",
-        "PR",
-        "RJ",
-        "RS",
-        "SC",
-        "SP"
+        "ES"
     ],
     "mostrarGeracaoDescricaoTaxon": false,
     "filhosSubspVar": "",
@@ -17,35 +11,36 @@
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
     "exibirMensagemCamposControladosIgual": false,
-    "idTaxon": 7827,
+    "idTaxon": 13847,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
-    "distribuicaoGeograficaCertezaSul": "<b>South</b> (Paran\u00e1, Rio Grande do Sul, Santa Catarina)<br/>",
+    "distribuicaoGeograficaCertezaSul": "",
     "substrato": [
-        "Epiphytic"
+        "Rupicolous"
     ],
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
     "mostrarDescricaoCamposControlados": true,
-    "id": "FB7827",
+    "id": "FB13847",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(119)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Gesneriaceae</div><div class=\"nomeAutorSupraGenerico\"> Rich. & Juss. ex DC.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(7822)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Codonanthe</i></div><div class=\"nomeAutorInfraGenerico\"> (Mart.) Hanst.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(7827)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Has field images \" src=\"/reflora/layout/default/imagens/listaBrasil/org_img.png\" style=\" vertical-align:middle; padding-bottom: 5px; height: 14px; \" /><img title=\" Has images in the herbarium \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Codonanthe gracilis</i></div><div class=\"nomeAutorInfraGenerico\"> (Mart.) Hanst.</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(210)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Rubiaceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(13842)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Bradea</i></div><div class=\"nomeAutorInfraGenerico\"> Standl.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(13847)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Has images in the herbarium \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Bradea montana</i></div><div class=\"nomeAutorInfraGenerico\"> Brade</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
-    "possuiImagemVoucherINCT": true,
+    "possuiImagemVoucherINCT": false,
     "statusQualificador": [
-        "Accepted Name"
+        "Accepted Name",
+        "Correct name"
     ],
-    "mostrarImagensCampos": true,
+    "mostrarImagensCampos": false,
     "distribuicaoGeograficaDuvidaCentroOeste": "",
     "mostrarTipoVegetacao": true,
-    "distribuicaoGeograficaCertezaSudeste": "<b>Southeast</b> (Esp\u00edrito Santo, Rio de Janeiro, S\u00e3o Paulo)<br/>",
+    "distribuicaoGeograficaCertezaSudeste": "<b>Southeast</b> (Esp\u00edrito Santo)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "<p>Araujo, A.O.,Chautems, A. 2015. Codonanthe in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB7827\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB7827</a>&gt;.<BR>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (DOI: 10.1590/2175-7860201566411)</p>",
-    "nome": "<span><div class=\"taxon\"> <i>Codonanthe gracilis</i></div><div class=\"nomeAutorInfraGenerico\"> (Mart.) Hanst.</div></span>",
-    "distribuicaoGeograficaCertezaNordeste": "<b>Northeast</b> (Bahia)<br/>",
+    "bibliografiaFixa": "<p>Oliveira, J.A. 2015. Bradea in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB13847\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB13847</a>&gt;.<BR>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (DOI: 10.1590/2175-7860201566411)</p>",
+    "nome": "<span><div class=\"taxon\"> <i>Bradea montana</i></div><div class=\"nomeAutorInfraGenerico\"> Brade</div></span>",
+    "distribuicaoGeograficaCertezaNordeste": "",
     "distribuicaoHidrograficaCerteza": "",
     "distribuicaoIlhasPossiveis": "",
     "mostrarCitacao": true,
@@ -55,16 +50,17 @@
     "distribuicaoGeograficaCertezaNorte": "",
     "estadosDuvida": [],
     "formaVida": [
-        "Subshrub"
+        "Shrub"
     ],
     "tipoVegetacao": [
-        "Ombrophyllous Forest (Tropical Rain Forest)"
+        "Rock outcrop vegetation"
     ],
     "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB7827&action=print",
+    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB13847&action=print",
     "mostrarSinopsesBrasil": false,
     "origem": "Native",
-    "titulo": "Brazilian Flora Checklist - Codonanthe gracilis (Mart.) Hanst.",
+    "titulo": "Brazilian Flora Checklist - Bradea montana Brade",
+    "referencias": "<td>Brade, A.C., Arch. Jard. Bot. Rio de Janeiro, 9: 16, 1949.<font color='red'><b> Original work</font color></b><br></td>",
     "verificarCitesStatus": true,
     "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
@@ -76,9 +72,9 @@
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "Chautems, A.; Rossini, J. 2020. <i>Codonanthe</i>  <i>in</i> <b>Flora do Brasil 2020.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Available at: <<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB7827 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB7827</a>>. Accessed on: 23 Apr. 2022",
+    "citacao": "<i>Rubiaceae</i>  <i>in</i> <b>Flora do Brasil 2020.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Available at: <<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB13847 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB13847</a>>. Accessed on: 24 Apr. 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Codonanthe_gracilis' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Codonanthe_gracilis</a>",
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Bradea_montana' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Bradea_montana</a>",
     "sinopsesBrasil": [
         {
             "rank": "Subspecies",
@@ -93,10 +89,9 @@
             "sinonimo": 0
         }
     ],
-    "temComoSinonimo": "<span><a onclick=\"carregaTaxonGrupo(130682)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> basionym</div><div class=\"sinonimo\"> <i>Hypocyrta gracilis</i></div><div class=\"nomeAutorSinonimo\"> Mart.</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(131382)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterotypic</div><div class=\"sinonimo\"> <i>Codonanthe picta</i></div><div class=\"nomeAutorSinonimo\"> Lem.</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(131381)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterotypic</div><div class=\"sinonimo\"> <i>Orobanche crenata</i></div><div class=\"nomeAutorSinonimo\"> Vell.</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(131339)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterotypic</div><div class=\"sinonimo\"> <i>Orobanche ventricosa</i></div><div class=\"nomeAutorSinonimo\"> Vell.</div></a></span><br>",
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Codonanthe gracilis (Mart.) Hanst.",
+    "nomeStr": "Bradea montana Brade",
     "mostrarDominioFitogeografico": true,
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
@@ -108,10 +103,10 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>W.W. Thomas, 14163, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124237\" target=\"_blank\">CEPEC</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226529995' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (BA)<br>R. Goldenberg, 29843, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126325\" target=\"_blank\">SPF</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124893\" target=\"_blank\">SP</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126335\" target=\"_blank\">UEC</a><br>Ferneda Rocha, L.C., 282, UNOP, (PR)<br>C.F.P. Martius, s.n., <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124105\" target=\"_blank\">M</a> M-0185779, <font color='red'><b>Typus</b></font><br>T.J. Cadorin, 1181, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=148203\" target=\"_blank\">FURB</a></td>",
+    "vouchers": "<td>A.C. Brade, 19271A, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 64230 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284405160' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <font color='red'><b>Typus</b></font><br>A.C. Brade, 19271A, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 64230 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284436490' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <font color='red'><b>Typus</b></font></td>",
     "mostrarTemComoSinonimo": true,
-    "descricaoCamposControlados": "<strong>Leaf: </strong><strong>anisophilia blade</strong> slight or absent; <strong>form blade</strong> ovate; <strong>indumentum</strong> glabrous; <strong>blade side abaxial</strong> green to wine-coloured; <strong>margin</strong> entire. <strong>Inflorescence: </strong><strong>number flower axile</strong> 1 to 3. <strong>Flower: </strong><strong>lacinia calyx</strong> ovate to lanceolate; <strong>form corolla</strong> tubulose ventricose; <strong>colour corolla</strong> white or pink/white to slightly blotched brown; <strong>indumentum corolla</strong> glabrous/glabrescent. <strong>Fruit: </strong><strong>indumentum</strong> glabrous. ",
-    "bibliografiaReferencia": "&lt;p&gt;Linnaea 26: (1853-55) 209. 26: (1853-55) 209.&lt;/p&gt;",
+    "descricaoCamposControlados": "<strong>Stem: </strong><strong>branch</strong> erect. <strong>Leaf: </strong><strong>leaf</strong> petiolate; <strong>leaf indumentum</strong> glabrous; <strong>leaf margin</strong> revolute. <strong>Inflorescence: </strong><strong>type of the synflorescence</strong> bracteate(s); <strong>disposition of the paraclade</strong> dichasium branch pattern. <strong>Flower: </strong><strong>number of the calyx lobe(s)</strong> 2/3; <strong>corolla colour</strong> completely lilac. ",
+    "bibliografiaReferencia": "",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
     "mostrarChaveIdentificacao": false,
