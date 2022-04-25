@@ -55,17 +55,14 @@ def main(scope_name: str, taxon_qid: str):
         taxon_author_label = "TEMPORARY REPLACEMENT"
         description_year = "TEMPORARY REPLACEMENT"
 
-    try:
-        common_name = results_df["taxon_common_name_pt.value"][0]
-    except:
-        common_name = "TEMPORARY REPLACEMENT"
+    common_name_text = render_common_name(results_df)
 
     taxobox = get_taxobox(taxon_qid)
 
     wiki_page = (
         f"""
 {taxobox}
-'''''{taxon_name}''''', também conhecido como '''{common_name}''', é uma espécie de  """
+'''''{taxon_name}'''''{common_name_text} é uma espécie de  """
         f"[[{scope_name}]] do grupo [[{parent_taxon_label}]]."
         f"""
 == Taxonomia ==
@@ -73,6 +70,7 @@ A espécie foi decrita em [[{description_year}]] por [[{taxon_author_label}]]. {
 
 {get_subspecies_from_reflora(reflora_data)}
 {get_synonyms_from_reflora(reflora_data)}
+{render_ecology(reflora_data)}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
 {render_distribution_from_reflora(reflora_data)}
@@ -108,7 +106,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
         f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?action=edit&veswitched=1"""
     )
     print(
-        f"""https://scholar.google.com/scholar?q=%22{taxon_name.replace(" ", "+")}%22"""
+        f"""https://scholar.google.com/scholar?q=%22{taxon_name.replace(" ", "+")}%22+scielo"""
     )
 
     quit()
@@ -121,6 +119,14 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 
     data = [{"site": "ptwiki", "title": taxon_name.replace(" ", "_")}]
     item.setSitelinks(data)
+
+
+def render_common_name(results_df):
+    try:
+        common_name = results_df["taxon_common_name_pt.value"][0]
+        return f""", também conhecido como '''{common_name}''',"""
+    except:
+        return ""
 
 
 if __name__ == "__main__":

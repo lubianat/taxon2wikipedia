@@ -2,38 +2,36 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Lamiales]]    
 | Q3491997               = [[Spermatophytina]]    
 | divisão                = [[Tracheophyta]]    
+| ordem                  = [[Poales]]    
 | infrarreino            = [[Streptophyta]]    
-| família                = [[Gesneriaceae]]    
+| género                 = [[Cryptanthus]]    
+| subfamília             = [[Bromelioideae]]    
+| família                = [[Bromeliaceae]]    
 | Q23760204              = [[Embryophyta]]    
 | subfilo                = [[Euphyllophyta]]    
-| género                 = [[Codonanthe]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
-| tribo                  = [[Episceae]]    
-| subfamília             = [[Gesnerioideae]]    
+| espécie                = [[Cryptanthus beuckeri]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Codonanthe gracilis]]    
-| Q3965313               = [[Episcieae]]    
 }}
-'''''Codonanthe gracilis''''', também conhecido como '''TEMPORARY REPLACEMENT''', é uma espécie de  [[planta]] do grupo [[Codonanthe]].
+'''''Cryptanthus beuckeri''''' é uma espécie de  [[planta]] do grupo [[Cryptanthus]].
 == Taxonomia ==
-A espécie foi decrita em [[1854]] por [[Johannes von Hanstein]]. <ref>{{Citar web|url=https://www.gbif.org/species/3824117|titulo=Codonanthe gracilis|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi decrita em [[1880]] por [[Charles Jacques Édouard Morren]]. <ref>{{Citar web|url=https://www.gbif.org/species/5287753|titulo=Cryptanthus beuckeri|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
-São conhecidas as seguintes subspécies de Codonanthe gracilis (Mart.) Hanst.:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB7827|titulo=Codonanthe gracilis (Mart.) Hanst.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-Os seguintes sinônimos já foram catalogados:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB7827|titulo=Codonanthe gracilis (Mart.) Hanst.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-* ''Hypocyrta gracilis''  Mart. 
-* ''Codonanthe picta''  Lem. 
-* ''Orobanche crenata''  Vell. 
-* ''Orobanche ventricosa''  Vell. 
+São conhecidas as seguintes subspécies de Cryptanthus beuckeri E.Morren:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB5994|titulo=Cryptanthus beuckeri E.Morren|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+Os seguintes sinônimos já foram catalogados:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB5994|titulo=Cryptanthus beuckeri E.Morren|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+* ''Nidularium beuckeri''  Hort. 
+== Forma de vida ==
+É uma espécie [[terrícola]] e [[herbácea]]. <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB5994|titulo=Cryptanthus beuckeri E.Morren|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref>  
+    
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Paraná]], [[Rio de Janeiro]], [[Rio Grande do Sul]], [[Santa Catarina]] e [[São Paulo (estado)|São Paulo]]. <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB7827|titulo=Codonanthe gracilis (Mart.) Hanst.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB7827|titulo=Codonanthe gracilis (Mart.) Hanst.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de [[Bahia]] e [[Espírito Santo (estado)|Espírito Santo]]. <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB5994|titulo=Cryptanthus beuckeri E.Morren|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB5994|titulo=Cryptanthus beuckeri E.Morren|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 {{Referencias}}
 {{Controle de autoridade|colapsar}}
 {{esboço-planta}}
@@ -42,5 +40,5 @@ A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domíni
 [[Categoria:Plantas]]
 [[Categoria:Flora do Brasil]]
 [[Categoria:Flora do Espírito Santo]]
-[[Categoria:Plantas descritas em 1854]]
+[[Categoria:Plantas descritas em 1880]]
 [[Categoria:Wikiconcurso Wiki Loves Espírito Santo (artigos)]]

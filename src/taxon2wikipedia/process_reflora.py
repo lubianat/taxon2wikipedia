@@ -29,6 +29,11 @@ STATES_WIKI = {
     "PR": "[[Paraná]]",
     "RS": "[[Rio Grande do Sul]]",
     "SC": "[[Santa Catarina]]",
+    "AP": "[[Amapá]]",
+    "RO": "[[Rondônia]]",
+    "RR": "[[Roraima]]",
+    "MS": "[[Mato Grosso do Sul]]",
+    "AC": "[[Acre]]",
 }
 
 DOMAINS_WIKI = {
@@ -37,61 +42,73 @@ DOMAINS_WIKI = {
     "enum.label.DominiosFitogeograficosEnum.PAMPA": "[[Pampa]]",
     "Central Brazilian Savanna": "[[Cerrado]]",
     "Atlantic Rainforest": "[[Mata Atlântica]]",
+    "Amazon Rainforest": "[[Floresta Amazônica]]",
+    "Caatinga": "[[Caatinga]]",
 }
 
 VEGETATION_WIKI = {
     "enum.label.DistribuicaoTipoVegetacaoEnum.FLORESTA_OMBROFILA": "[[Floresta húmida|floresta ombrófila pluvial]]",
     "enum.label.DistribuicaoTipoVegetacaoEnum.RESTINGA": "[[restinga]]",
     "enum.label.DistribuicaoTipoVegetacaoEnum.FLORESTA_CILIAR_GALERIA": "[[Vegetação ripária|mata ciliar]]",
-    "enum.label.DistribuicaoTipoVegetacaoEnum.FLORESTA_ESTACIONAL_SEMIDECIDUAL": "[[floresta estacional decidual]]",
+    "enum.label.DistribuicaoTipoVegetacaoEnum.FLORESTA_ESTACIONAL_SEMIDECIDUAL": "[[floresta estacional semidecidual]]",
     "enum.label.DistribuicaoTipoVegetacaoEnum.FLORESTA_OMBROFILA_MISTA": "[[floresta ombrófila mista|mata de araucária]]",
     "enum.label.DistribuicaoTipoVegetacaoEnum.CAMPO_RUPESTRE": "[[campos rupestres]]",
     "Highland Rocky Field": "[[campos rupestres]]",
     "Riverine Forest and/or Gallery Forest": "[[Vegetação ripária|mata ciliar]]",
     "Ombrophyllous Forest (Tropical Rain Forest)": "[[Floresta húmida|floresta ombrófila pluvial]]",
     "Coastal Forest (Restinga)": "[[restinga]]",
-    "Vegetação Sobre Afloramentos Rochosos": "vegetação sobre afloramentos rochosos",
+    "Rock outcrop vegetation": "vegetação sobre afloramentos rochosos",
+    "Terra Firme Forest": "[[floresta de terra firme]]",
+    "Inundated Forest (V\u00e1rzea)": "floresta de [[Planície de inundação|inundação]]",
+    "Seasonally Semideciduous Forest": "[[floresta estacional semidecidual]]",
+    "Inundated Forest (Igapó)": "[[mata de igapó]]",
 }
 
-SUBSTRATE_WIKI = {"Epiphytic": "[[epífita]]", "Rupicolous": "[[rupícola]]"}
+ECOLOGY_WIKI = {
+    "Epiphytic": "[[epífita]]",
+    "Rupicolous": "[[rupícola]]",
+    "Shrub": "[[arbustiva]]",
+    "Herb": "[[herbácea]]",
+    "Terrestrial": "[[terrícola]]",
+}
 
 
 def render_ecology(data):
     substrate = data["substrato"]
-    return 0
-    # TODO
-
-
-def render_list(text, list_of_ids, dict_of_wikitexts):
-    for i, domain in enumerate(list_of_ids):
-        if i == 0:
-            text = text + dict_of_wikitexts[domain]
-        elif i == len(domain) - 1:
-            text = text + " e " + dict_of_wikitexts[domain]
-        else:
-            text = text + ", " + dict_of_wikitexts[domain]
+    life_form = data["formaVida"]
+    substrate.extend(life_form)
+    text = f"""== Forma de vida ==
+É uma espécie {render_list(substrate, ECOLOGY_WIKI)}. {get_ref_reflora(data)} 
+    """
     return text
+
+
+def render_list(list_of_ids, dict_of_wikitexts):
+    text = ""
+    for i, entry in enumerate(list_of_ids):
+        if i == 0:
+            text = text + dict_of_wikitexts[entry]
+        elif i == len(list_of_ids) - 1:
+            text = text + " e " + dict_of_wikitexts[entry]
+        else:
+            text = text + ", " + dict_of_wikitexts[entry]
+    return text
+
 
 def render_domains(data):
     domains = data["dominioFitogeografico"]
-
     if len(domains) == 0:
         return ""
     elif len(domains) == 1:
         text = "A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de "
     else:
         text = "A espécie é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de "
-
-    text = render_list(text, domains, DOMAINS_WIKI):
+    text = text + render_list(domains, DOMAINS_WIKI)
+    print("?????????")
     text = text + ","
-
     vegetations = data["tipoVegetacao"]
-
     text = text + " em regiões com vegetação de "
-
-    for i, vegetation in enumerate(vegetations):
-        text = render_list(text, vegetation, VEGETATION_WIKI):
-
+    text = text + render_list(vegetations, VEGETATION_WIKI)
     text = text + "."
     text = text + get_ref_reflora(data)
 
@@ -133,6 +150,7 @@ A espécie é {endemic_text}encontrada nos estados brasileiros de """
             text = text + ", " + STATES_WIKI[state]
     ref = get_ref_reflora(data)
     return text + ref
+
 
 def get_reflora_data(fb_id):
     url = (
