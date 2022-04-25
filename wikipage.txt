@@ -13,26 +13,27 @@
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
-| espécie                = [[Cryptanthus beuckeri]]    
+| espécie                = [[Cryptanthus exaltatus]]    
 | subreino               = [[Viridiplantae]]    
 }}
-'''''Cryptanthus beuckeri''''' é uma espécie de  [[planta]] do grupo [[Cryptanthus]].
+'''''Cryptanthus exaltatus''''' é uma espécie de  [[planta]] do grupo [[Cryptanthus]].
 == Taxonomia ==
-A espécie foi decrita em [[1880]] por [[Charles Jacques Édouard Morren]]. <ref>{{Citar web|url=https://www.gbif.org/species/5287753|titulo=Cryptanthus beuckeri|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi decrita em [[1990]] por [[Harry E. Luther]]. <ref>{{Citar web|url=https://www.gbif.org/species/5287767|titulo=Cryptanthus exaltatus|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
-São conhecidas as seguintes subspécies de Cryptanthus beuckeri E.Morren:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB5994|titulo=Cryptanthus beuckeri E.Morren|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-Os seguintes sinônimos já foram catalogados:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB5994|titulo=Cryptanthus beuckeri E.Morren|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-* ''Nidularium beuckeri''  Hort. 
+São conhecidas as seguintes subspécies de Cryptanthus exaltatus H.Luther:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB6008|titulo=Cryptanthus exaltatus H.Luther|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[herbácea]]. <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB5994|titulo=Cryptanthus beuckeri E.Morren|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref>  
+É uma espécie . <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB6008|titulo=Cryptanthus exaltatus H.Luther|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref>  
     
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de [[Bahia]] e [[Espírito Santo (estado)|Espírito Santo]]. <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB5994|titulo=Cryptanthus beuckeri E.Morren|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB5994|titulo=Cryptanthus beuckeri E.Morren|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB6008|titulo=Cryptanthus exaltatus H.Luther|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+
 {{Referencias}}
+== Ligações externas ==
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6007 '''Cryptanthus exaltatus''' no projeto Flora e Funga do Brasil]
 {{Controle de autoridade|colapsar}}
 {{esboço-planta}}
 
@@ -40,5 +41,5 @@ A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domíni
 [[Categoria:Plantas]]
 [[Categoria:Flora do Brasil]]
 [[Categoria:Flora do Espírito Santo]]
-[[Categoria:Plantas descritas em 1880]]
+[[Categoria:Plantas descritas em 1990]]
 [[Categoria:Wikiconcurso Wiki Loves Espírito Santo (artigos)]]

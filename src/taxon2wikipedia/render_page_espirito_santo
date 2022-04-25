@@ -9,6 +9,7 @@ import pywikibot
 from pathlib import Path
 from process_reflora import *
 import click
+import webbrowser
 
 HERE = Path(__file__).parent.resolve()
 
@@ -29,7 +30,10 @@ def get_gbif_ref(qid):
 @click.command()
 @click.argument("taxon-qid")
 @click.option("--scope-name", default="planta", help="O escopo do táxon alvo.")
-def main(scope_name: str, taxon_qid: str):
+@click.option(
+    "--reflora-id", default="search", help="O número do taxon na base Reflora."
+)
+def main(scope_name: str, taxon_qid: str, reflora_id: str):
 
     template_path = Path(f"{HERE}/../data/full_query_taxon.rq.jinja")
 
@@ -42,11 +46,14 @@ def main(scope_name: str, taxon_qid: str):
     parent_taxon_label = results_df["parent_taxonLabel.value"][0]
     taxon_name = results_df["taxon_name.value"][0]
 
-    print(
+    reflora_url = (
         f"""http://servicos.jbrj.gov.br/flora/search/{taxon_name.replace(" ", "_")}"""
     )
 
-    reflora_id = input("What is the Reflora ID (just numbers)?")
+    if reflora_id == "search":
+        r = requests.get(reflora_url)
+        webbrowser.open(reflora_url)
+        reflora_id = r.url.split("FB")[-1]
     reflora_data = get_reflora_data(reflora_id)
     try:
         taxon_author_label = results_df["taxon_authorLabel.value"][0]
@@ -76,6 +83,8 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 {render_distribution_from_reflora(reflora_data)}
 {render_domains(reflora_data)}
 {{{{Referencias}}}}
+== Ligações externas ==
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6007 '''{taxon_name}''' no projeto Flora e Funga do Brasil]
 {{{{Controle de autoridade|colapsar}}}}
 {{{{esboço-{scope_name}}}}}
 
