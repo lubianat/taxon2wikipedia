@@ -36,14 +36,19 @@ def get_gbif_ref(qid):
 def main(scope_name: str, taxon_qid: str, reflora_id: str):
 
     template_path = Path(f"{HERE}/../data/full_query_taxon.rq.jinja")
-
     t = Template(template_path.read_text())
-
     query = t.render(taxon=taxon_qid)
 
     results_df = get_rough_df_from_wikidata(query)
 
-    parent_taxon_label = results_df["parent_taxonLabel.value"][0]
+    parent_taxon_df = get_parent_taxon_df(taxon_qid)
+    print(parent_taxon_df)
+    family = parent_taxon_df["taxonName.value"][
+        parent_taxon_df["taxonRankLabel.value"] == "família"
+    ].item()
+    genus = parent_taxon_df["taxonName.value"][
+        parent_taxon_df["taxonRankLabel.value"] == "género"
+    ].item()
     taxon_name = results_df["taxon_name.value"][0]
 
     reflora_url = (
@@ -70,7 +75,7 @@ def main(scope_name: str, taxon_qid: str, reflora_id: str):
         f"""
 {taxobox}
 '''''{taxon_name}'''''{common_name_text} é uma espécie de  """
-        f"[[{scope_name}]] do grupo [[{parent_taxon_label}]]."
+        f"[[{scope_name}]] do gênero ''[[{genus}]]'' e da família [[{family}]]."
         f"""
 == Taxonomia ==
 A espécie foi decrita em [[{description_year}]] por [[{taxon_author_label}]]. {get_gbif_ref(taxon_qid)}
@@ -84,10 +89,11 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 {render_domains(reflora_data)}
 {{{{Referencias}}}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6007 '''{taxon_name}''' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6007 ''{taxon_name}'' no projeto Flora e Funga do Brasil]
 {{{{Controle de autoridade|colapsar}}}}
 {{{{esboço-{scope_name}}}}}
 
+[[Categoria:{genus}]]
     """
     )
 
@@ -112,7 +118,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
         f.write(wiki_page)
 
     print(
-        f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?action=edit&veswitched=1"""
+        f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?&veaction=edit"""
     )
     print(
         f"""https://scholar.google.com/scholar?q=%22{taxon_name.replace(" ", "+")}%22+scielo"""

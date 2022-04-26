@@ -70,6 +70,7 @@ ECOLOGY_WIKI = {
     "Shrub": "[[arbustiva]]",
     "Herb": "[[herbácea]]",
     "Terrestrial": "[[terrícola]]",
+    "Tree": "[[arbórea]]",
 }
 
 
