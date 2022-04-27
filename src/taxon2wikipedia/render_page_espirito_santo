@@ -5,6 +5,7 @@ import pandas as pd
 from jinja2 import Template
 import sys
 from qid2taxobox import *
+from cleanup import merge_equal_refs
 import pywikibot
 from pathlib import Path
 from process_reflora import *
@@ -21,6 +22,8 @@ def get_gbif_ref(qid):
         wd:{qid} wdt:P225 ?taxon_name . }}
     """
     df = get_rough_df_from_wikidata(query)
+    if "gbif_id.value" not in df:
+        return ""
     gbif_id = list(df["gbif_id.value"])[0]
     taxon_name = list(df["taxon_name.value"])[0]
     ref = f"""<ref>{{{{Citar web|url=https://www.gbif.org/species/{gbif_id}|titulo={taxon_name}|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}}}</ref>"""
@@ -72,7 +75,7 @@ def main(scope_name: str, taxon_qid: str, reflora_id: str):
         year_cat = ""
     else:
         description_year = results_df["description_year.value"][0]
-        year_cat = f"[[Categoria:Plantas descritas em {description_year}"
+        year_cat = f"[[Categoria:Plantas descritas em {description_year}]]"
 
     reflora_url = (
         f"""http://servicos.jbrj.gov.br/flora/search/{taxon_name.replace(" ", "_")}"""
@@ -125,16 +128,17 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 
     print("===== Saving wikipage =====")
     filepath = "wikipage.txt"
+    # wiki_page = merge_equal_refs(wiki_page)
     with open(filepath, "w+") as f:
         f.write(wiki_page)
 
     webbrowser.open(
-        f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?action=edit&veswitched=1"""
-    )
-    webbrowser.open(
         f"""https://scholar.google.com/scholar?q=%22{taxon_name.replace(" ", "+")}%22+scielo"""
     )
     webbrowser.open(f"""https://wikidata.org/wiki/{taxon_qid}""")
+    webbrowser.open(
+        f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?action=edit&veswitched=1"""
+    )
     quit()
 
     qid = input("If page is created, enter anything to add sitelink. ")

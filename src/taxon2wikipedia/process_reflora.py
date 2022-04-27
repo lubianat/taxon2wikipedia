@@ -68,6 +68,7 @@ VEGETATION_WIKI = {
     "Inundated Forest (Igapó)": "[[mata de igapó]]",
     "Cerrado (lato sensu)": "[[cerrado]]",
     "Grassland": "[[pradaria]]",
+    "High Altitude Grassland": "[[campos de altitude]]",
 }
 
 ECOLOGY_WIKI = {
@@ -78,6 +79,7 @@ ECOLOGY_WIKI = {
     "Terrestrial": "[[terrícola]]",
     "Tree": "[[arbórea]]",
     "Saprophyte": "[[saprófita]]",
+    "Liana/scandent/vine": "[[trepadeira]]",
 }
 
 
@@ -147,7 +149,8 @@ def get_ref_reflora(data):
 
 
 def render_category_by_state(data):
-    #TODO
+    # TODO
+    pass
 
 
 def render_distribution_from_reflora(data):
@@ -162,8 +165,15 @@ def render_distribution_from_reflora(data):
 
     text = f"""
 == Distribuição ==
-A espécie é {endemic_text}encontrada nos estados brasileiros de """
+A espécie é {endemic_text}"""
+
     states = get_states_from_reflora(data)
+    if len(states) == 0:
+        text + (".")
+    elif len(states) == 1:
+        text += "encontrada no estado brasileiro de "
+    else:
+        text += "encontrada nos estados brasileiros de "
     for i, state in enumerate(states):
         print(i)
         if i == 0:
@@ -210,7 +220,12 @@ def get_synonyms_from_reflora(data):
 
     ref = get_ref_reflora(data)
 
-    text = f"Os seguintes sinônimos já foram catalogados:  {ref}"
+    print(species)
+    if len(species) == 1:
+        text = f"O seguinte sinônimo já foi catalogado:  {ref}"
+
+    else:
+        text = f"Os seguintes sinônimos já foram catalogados:  {ref}"
 
     for i in species:
 

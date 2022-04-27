@@ -2,41 +2,43 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Malpighiales]]    
+| ordem                  = [[Gentianales]]    
 | divisão                = [[Tracheophyta]]    
 | infrarreino            = [[Streptophyta]]    
+| família                = [[Apocynaceae]]    
 | superdivisão           = [[Embryophyta]]    
-| família                = [[Malpighiaceae]]    
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
-| género                 = [[Mezia]]    
+| tribo                  = [[Asclepiadeae]]    
+| género                 = [[Ditassa]]    
+| Q3965313               = [[Metastelmatinae]]    
+| subfamília             = [[Asclepiadoideae]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Mezia araujoi]]    
+| espécie                = [[Ditassa oberdanii]]    
 }}
-'''''Mezia araujoi''''' é uma espécie de  [[planta]] do gênero ''[[Mezia]]'' e da família [[Malpighiaceae]].
+'''''Ditassa oberdanii''''' é uma espécie de  [[planta]] do gênero ''[[Ditassa]]'' e da família [[Apocynaceae]].
 == Taxonomia ==
+A espécie foi decrita em [[1998]] por Miriam Cristina Alvarez e Jorge Fontella. <ref>{{Citar web|url=https://www.gbif.org/species/3579796|titulo=Ditassa oberdanii|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
 
-Os seguintes sinônimos já foram catalogados:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8924|titulo=Mezia araujoi Nied.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-* ''Banisteria macrophylla''  A.Juss. 
 == Forma de vida ==
-É uma espécie [[rupícola]], [[terrícola]] e [[arbustiva]]. <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8924|titulo=Mezia araujoi Nied.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref>  
+É uma espécie [[terrícola]] e [[trepadeira]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB4581|titulo=Ditassa oberdanii Fontella & M.C.Alvarez|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref>  
     
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]] e [[Rio de Janeiro]]. <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8924|titulo=Mezia araujoi Nied.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[floresta estacional semidecidual]] e vegetação sobre afloramentos rochosos.<ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8924|titulo=Mezia araujoi Nied.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+A espécie é [[endêmica]] do [[Brasil]] e encontrada no estado brasileiro de [[Espírito Santo (estado)|Espírito Santo]]<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6007 ''Mezia araujoi'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6007 ''Ditassa oberdanii'' no projeto Flora e Funga do Brasil]
 {{Controle de autoridade|colapsar}}
 {{esboço-planta}}
 
-[[Categoria:Mezia]]
-
+[[Categoria:Ditassa]]
+[[Categoria:Plantas descritas em 1998]]
 [[Categoria:Plantas]]
 [[Categoria:Flora do Brasil]]
 [[Categoria:Flora do Espírito Santo]]

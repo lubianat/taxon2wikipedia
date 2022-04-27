@@ -2,9 +2,7 @@
     "mostrarHierarquia": true,
     "distribuicaoGeograficaDuvidaNorte": "",
     "estadosCerteza": [
-        "ES",
-        "MG",
-        "RJ"
+        "ES"
     ],
     "mostrarGeracaoDescricaoTaxon": false,
     "filhosSubspVar": "",
@@ -12,38 +10,37 @@
     "mostrarDistribuicaoHidrografica": true,
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
-    "exibirMensagemCamposControladosIgual": false,
-    "idTaxon": 8924,
+    "exibirMensagemCamposControladosIgual": true,
+    "idTaxon": 4581,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
     "distribuicaoGeograficaCertezaSul": "",
     "substrato": [
-        "Rupicolous",
         "Terrestrial",
-        "Shrub"
+        "Liana/scandent/vine"
     ],
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
-    "mostrarDescricaoCamposControlados": true,
-    "id": "FB8924",
+    "mostrarDescricaoCamposControlados": false,
+    "id": "FB4581",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(155)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Malpighiaceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(8923)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Mezia</i></div><div class=\"nomeAutorInfraGenerico\"> Schwacke ex Nied.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(8924)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Has field images \" src=\"/reflora/layout/default/imagens/listaBrasil/org_img.png\" style=\" vertical-align:middle; padding-bottom: 5px; height: 14px; \" /><img title=\" Has images in the herbarium \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Mezia araujoi</i></div><div class=\"nomeAutorInfraGenerico\"> Nied.</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(48)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Apocynaceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(4556)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Ditassa</i></div><div class=\"nomeAutorInfraGenerico\"> R.Br.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(4581)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Ditassa oberdanii</i></div><div class=\"nomeAutorInfraGenerico\"> Fontella & M.C.Alvarez</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
-    "possuiImagemVoucherINCT": true,
+    "possuiImagemVoucherINCT": false,
     "statusQualificador": [
         "Accepted Name",
         "Correct name"
     ],
-    "mostrarImagensCampos": true,
+    "mostrarImagensCampos": false,
     "distribuicaoGeograficaDuvidaCentroOeste": "",
     "mostrarTipoVegetacao": true,
-    "distribuicaoGeograficaCertezaSudeste": "<b>Southeast</b> (Esp\u00edrito Santo, Minas Gerais, Rio de Janeiro)<br/>",
+    "distribuicaoGeograficaCertezaSudeste": "<b>Southeast</b> (Esp\u00edrito Santo)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "<p>Mamede, M.C.H. 2015. Mezia in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB8924\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB8924</a>&gt;.<BR>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (DOI: 10.1590/2175-7860201566411)</p>",
-    "nome": "<span><div class=\"taxon\"> <i>Mezia araujoi</i></div><div class=\"nomeAutorInfraGenerico\"> Nied.</div></span>",
+    "bibliografiaFixa": "<p>Koch, I.,Rapini, A.,Sim\u00f5es, A.O.,Kinoshita, L.S.,Spina, A.P.,Castello, A.C.D. 2015. Apocynaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB4581\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB4581</a>&gt;.<BR>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (DOI: 10.1590/2175-7860201566411)</p>",
+    "nome": "<span><div class=\"taxon\"> <i>Ditassa oberdanii</i></div><div class=\"nomeAutorInfraGenerico\"> Fontella & M.C.Alvarez</div></span>",
     "distribuicaoGeograficaCertezaNordeste": "",
     "distribuicaoHidrograficaCerteza": "",
     "distribuicaoIlhasPossiveis": "",
@@ -54,17 +51,17 @@
     "distribuicaoGeograficaCertezaNorte": "",
     "estadosDuvida": [],
     "formaVida": [
-        "Shrub"
+        "Liana/scandent/vine"
     ],
     "tipoVegetacao": [
-        "Seasonally Semideciduous Forest",
-        "Rock outcrop vegetation"
+        "Ombrophyllous Forest (Tropical Rain Forest)"
     ],
     "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB8924&action=print",
+    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB4581&action=print",
     "mostrarSinopsesBrasil": false,
     "origem": "Native",
-    "titulo": "Brazilian Flora Checklist - Mezia araujoi Nied.",
+    "titulo": "Brazilian Flora Checklist - Ditassa oberdanii Fontella & M.C.Alvarez",
+    "referencias": "<td>Fontella, J. & Alvarez, Novon, 8/239, 1998.<font color='red'><b> Original work</font color></b><br></td>",
     "verificarCitesStatus": true,
     "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
@@ -76,9 +73,9 @@
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "Almeida, R.F. 2020. <i>Mezia</i>  <i>in</i> <b>Flora do Brasil 2020.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Available at: <<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB8924 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB8924</a>>. Accessed on: 27 Apr. 2022",
+    "citacao": "<i>Apocynaceae</i>  <i>in</i> <b>Flora do Brasil 2020.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Available at: <<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB4581 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB4581</a>>. Accessed on: 27 Apr. 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Mezia_araujoi' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Mezia_araujoi</a>",
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Ditassa_oberdanii' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Ditassa_oberdanii</a>",
     "sinopsesBrasil": [
         {
             "rank": "Subspecies",
@@ -93,10 +90,9 @@
             "sinonimo": 0
         }
     ],
-    "temComoSinonimo": "<span><a onclick=\"carregaTaxonGrupo(621639)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterotypic</div><div class=\"sinonimo\"> <i>Banisteria macrophylla</i></div><div class=\"nomeAutorSinonimo\"> A.Juss.</div></a></span><br>",
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Mezia araujoi Nied.",
+    "nomeStr": "Ditassa oberdanii Fontella & M.C.Alvarez",
     "mostrarDominioFitogeografico": true,
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
@@ -108,9 +104,8 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>A.M. Amorim, 3226, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a> 476068, (BA)<br>A.M. Amorim, 3226, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124893\" target=\"_blank\">SP</a> 344920, (BA)</td>",
+    "vouchers": "<td>T. Konno, 811, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126336\" target=\"_blank\">HUEFS</a>, (ES)<br>L. Kollmann, 5665, MBML, SP, (ES)<br>R. M. Pizziolo, 22, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125354\" target=\"_blank\">MBML</a>, (ES), <font color='red'><b>Typus</b></font></td>",
     "mostrarTemComoSinonimo": true,
-    "descricaoCamposControlados": "<strong>Leaf: </strong><strong>blade indumentum</strong> glabrate; <strong>petiole gland(s)</strong> 2 glandulose. <strong>Inflorescence: </strong><strong>bracteole(s) gland(s)</strong> eglandulate; <strong>bracteole(s) indumentum side adaxial</strong> glabrate. <strong>Flower: </strong><strong>petal indumentum side abaxial</strong> sericeous. ",
     "bibliografiaReferencia": "",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
@@ -118,5 +113,5 @@
     "mostrarHospedeiroIndeterminado": false,
     "mostrarLinkParaTaxon": true,
     "nomesVernaculos": [],
-    "possuiImagemVoucher": true
+    "possuiImagemVoucher": false
 }
