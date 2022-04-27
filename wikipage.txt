@@ -2,46 +2,42 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Laurales]]    
-| subdivisão             = [[Spermatophytina]]    
+| ordem                  = [[Malpighiales]]    
 | divisão                = [[Tracheophyta]]    
 | infrarreino            = [[Streptophyta]]    
 | superdivisão           = [[Embryophyta]]    
+| família                = [[Malpighiaceae]]    
 | subfilo                = [[Euphyllophyta]]    
-| família                = [[Monimiaceae]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
-| género                 = [[Mollinedia]]    
+| género                 = [[Mezia]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Mollinedia salicifolia]]    
+| espécie                = [[Mezia araujoi]]    
 }}
-'''''Mollinedia salicifolia''''' é uma espécie de  [[planta]] do gênero [''[Mollinedia]]'' e da família [[Monimiaceae]].
+'''''Mezia araujoi''''' é uma espécie de  [[planta]] do gênero ''[[Mezia]]'' e da família [[Malpighiaceae]].
 == Taxonomia ==
-A espécie foi decrita em [[1900]] por [[Janet Russell Perkins]]. <ref>{{Citar web|url=https://www.gbif.org/species/7264515|titulo=Mollinedia salicifolia|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
-São conhecidas as seguintes subspécies de Mollinedia salicifolia Perkins:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB10100|titulo=Mollinedia salicifolia Perkins|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-Os seguintes sinônimos já foram catalogados:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB10100|titulo=Mollinedia salicifolia Perkins|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-* ''Mollinedia salicifolia campanulacea''  Perkins 
-* ''Mollinedia salicifolia denticulata''  Perkins 
+
+Os seguintes sinônimos já foram catalogados:  <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8924|titulo=Mezia araujoi Nied.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+* ''Banisteria macrophylla''  A.Juss. 
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[arbórea]]. <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB10100|titulo=Mollinedia salicifolia Perkins|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref>  
+É uma espécie [[rupícola]], [[terrícola]] e [[arbustiva]]. <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8924|titulo=Mezia araujoi Nied.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref>  
     
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de [[Espírito Santo (estado)|Espírito Santo]] e [[Rio de Janeiro]]. <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB10100|titulo=Mollinedia salicifolia Perkins|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB10100|titulo=Mollinedia salicifolia Perkins|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]] e [[Rio de Janeiro]]. <ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8924|titulo=Mezia araujoi Nied.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[floresta estacional semidecidual]] e vegetação sobre afloramentos rochosos.<ref>{{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8924|titulo=Mezia araujoi Nied.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6007 ''Mollinedia salicifolia'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6007 ''Mezia araujoi'' no projeto Flora e Funga do Brasil]
 {{Controle de autoridade|colapsar}}
 {{esboço-planta}}
 
-[[Categoria:Mollinedia]]
-    
+[[Categoria:Mezia]]
+
 [[Categoria:Plantas]]
 [[Categoria:Flora do Brasil]]
 [[Categoria:Flora do Espírito Santo]]
-[[Categoria:Plantas descritas em 1900]]
 [[Categoria:Wikiconcurso Wiki Loves Espírito Santo (artigos)]]

@@ -27,6 +27,23 @@ def get_gbif_ref(qid):
     return ref
 
 
+def render_taxonomy(reflora_data, results_df, taxon_qid):
+
+    if "taxon_authorLabel.value" not in results_df:
+        description = ""
+    else:
+        taxon_author_labels = results_df["taxon_authorLabel.value"].values
+        description_year = results_df["description_year.value"][0]
+        description = f"A espécie foi decrita em [[{description_year}]] por {render_list_without_dict(taxon_author_labels)}. {get_gbif_ref(taxon_qid)}"
+
+    text = f"""== Taxonomia ==
+{description}
+{get_subspecies_from_reflora(reflora_data)}
+{get_synonyms_from_reflora(reflora_data)}"""
+
+    return text
+
+
 @click.command()
 @click.argument("taxon-qid")
 @click.option("--scope-name", default="planta", help="O escopo do táxon alvo.")
@@ -51,6 +68,12 @@ def main(scope_name: str, taxon_qid: str, reflora_id: str):
     ].item()
     taxon_name = results_df["taxon_name.value"][0]
 
+    if "description_year.value" not in results_df:
+        year_cat = ""
+    else:
+        description_year = results_df["description_year.value"][0]
+        year_cat = f"[[Categoria:Plantas descritas em {description_year}"
+
     reflora_url = (
         f"""http://servicos.jbrj.gov.br/flora/search/{taxon_name.replace(" ", "_")}"""
     )
@@ -60,15 +83,8 @@ def main(scope_name: str, taxon_qid: str, reflora_id: str):
         webbrowser.open(reflora_url)
         reflora_id = r.url.split("FB")[-1]
     reflora_data = get_reflora_data(reflora_id)
-    try:
-        taxon_author_label = results_df["taxon_authorLabel.value"][0]
-        description_year = results_df["description_year.value"][0]
-    except:
-        taxon_author_label = "TEMPORARY REPLACEMENT"
-        description_year = "TEMPORARY REPLACEMENT"
 
     common_name_text = render_common_name(results_df)
-
     taxobox = get_taxobox(taxon_qid)
 
     wiki_page = (
@@ -77,11 +93,7 @@ def main(scope_name: str, taxon_qid: str, reflora_id: str):
 '''''{taxon_name}'''''{common_name_text} é uma espécie de  """
         f"[[{scope_name}]] do gênero ''[[{genus}]]'' e da família [[{family}]]."
         f"""
-== Taxonomia ==
-A espécie foi decrita em [[{description_year}]] por [[{taxon_author_label}]]. {get_gbif_ref(taxon_qid)}
-
-{get_subspecies_from_reflora(reflora_data)}
-{get_synonyms_from_reflora(reflora_data)}
+{render_taxonomy(reflora_data, results_df, taxon_qid)}
 {render_ecology(reflora_data)}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
@@ -94,14 +106,13 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 {{{{esboço-{scope_name}}}}}
 
 [[Categoria:{genus}]]
-    """
+{year_cat}"""
     )
 
     categories = [
         "Plantas",
         "Flora do Brasil",
         "Flora do Espírito Santo",
-        f"Plantas descritas em {description_year}",
         "Wikiconcurso Wiki Loves Espírito Santo (artigos)",
     ]
 
@@ -117,13 +128,13 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
     with open(filepath, "w+") as f:
         f.write(wiki_page)
 
-    print(
-        f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?&veaction=edit"""
+    webbrowser.open(
+        f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?action=edit&veswitched=1"""
     )
-    print(
+    webbrowser.open(
         f"""https://scholar.google.com/scholar?q=%22{taxon_name.replace(" ", "+")}%22+scielo"""
     )
-
+    webbrowser.open(f"""https://wikidata.org/wiki/{taxon_qid}""")
     quit()
 
     qid = input("If page is created, enter anything to add sitelink. ")

@@ -34,12 +34,16 @@ STATES_WIKI = {
     "RR": "[[Roraima]]",
     "MS": "[[Mato Grosso do Sul]]",
     "AC": "[[Acre]]",
+    "MA": "[[Maranhão]]",
+    "TO": "[[Tocantins]]",
 }
 
 DOMAINS_WIKI = {
     "enum.label.DominiosFitogeograficosEnum.MATA_ATLANTICA": "[[Mata Atlântica]]",
     "enum.label.DominiosFitogeograficosEnum.CERRADO": "[[Cerrado]]",
     "enum.label.DominiosFitogeograficosEnum.PAMPA": "[[Pampa]]",
+    "Pampa": "[[Pampa]]",
+    "Pantanal": "[[Pantanal]]",
     "Central Brazilian Savanna": "[[Cerrado]]",
     "Atlantic Rainforest": "[[Mata Atlântica]]",
     "Amazon Rainforest": "[[Floresta Amazônica]]",
@@ -62,6 +66,8 @@ VEGETATION_WIKI = {
     "Inundated Forest (V\u00e1rzea)": "floresta de [[Planície de inundação|inundação]]",
     "Seasonally Semideciduous Forest": "[[floresta estacional semidecidual]]",
     "Inundated Forest (Igapó)": "[[mata de igapó]]",
+    "Cerrado (lato sensu)": "[[cerrado]]",
+    "Grassland": "[[pradaria]]",
 }
 
 ECOLOGY_WIKI = {
@@ -71,6 +77,7 @@ ECOLOGY_WIKI = {
     "Herb": "[[herbácea]]",
     "Terrestrial": "[[terrícola]]",
     "Tree": "[[arbórea]]",
+    "Saprophyte": "[[saprófita]]",
 }
 
 
@@ -81,6 +88,18 @@ def render_ecology(data):
     text = f"""== Forma de vida ==
 É uma espécie {render_list(substrate, ECOLOGY_WIKI)}. {get_ref_reflora(data)} 
     """
+    return text
+
+
+def render_list_without_dict(list_of_names):
+    text = ""
+    for i, name in enumerate(list_of_names):
+        if i == 0:
+            text = text + name
+        elif i == len(list_of_names) - 1:
+            text = text + " e " + name
+        else:
+            text = text + ", " + name
     return text
 
 
@@ -125,6 +144,10 @@ def get_ref_reflora(data):
         f"titulo={name}|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}}}</ref> "
     )
     return ref
+
+
+def render_category_by_state(data):
+    #TODO
 
 
 def render_distribution_from_reflora(data):
@@ -213,6 +236,8 @@ def get_subspecies_from_reflora(data):
         results = re.search(regex, str(link))
         species.append(results.group(1))
 
+    if len(species) == 0:
+        return ""
     ref = get_ref_reflora(data)
 
     text = f"São conhecidas as seguintes subspécies de {name}:  {ref}"

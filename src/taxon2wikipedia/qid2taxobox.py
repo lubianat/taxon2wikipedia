@@ -54,8 +54,8 @@ def get_taxobox_from_df(parent_taxon_df):
         rank = row["taxonRankLabel.value"]
         name = row["taxonName.value"]
 
-        # super-reino leads to issues in pt-wiki
-        if rank == "super-reino":
+        # super-reino and subdivisão leads to issues in pt-wiki
+        if rank == "super-reino" or rank == "subdivisão":
             continue
 
         n_space = 22 - len(rank)
