@@ -75,6 +75,7 @@ ECOLOGY_WIKI = {
     "Epiphytic": "[[epífita]]",
     "Rupicolous": "[[rupícola]]",
     "Shrub": "[[arbustiva]]",
+    "Subshrub": "[[subarbustiva]]",
     "Herb": "[[herbácea]]",
     "Terrestrial": "[[terrícola]]",
     "Tree": "[[arbórea]]",
