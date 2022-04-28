@@ -15,4 +15,3 @@ WHERE {
   ?item wdt:P171* wd:Q756 .
   hint:Prior hint:gearing "forward".
 }
-ORDER BY DESC(?sitelinks) 

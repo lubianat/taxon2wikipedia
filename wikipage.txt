@@ -2,39 +2,40 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Oxalidales]]    
+| ordem                  = [[Gentianales]]    
 | divisão                = [[Tracheophyta]]    
 | infrarreino            = [[Streptophyta]]    
-| família                = [[Oxalidaceae]]    
-| género                 = [[Oxalis]]    
+| família                = [[Rubiaceae]]    
 | superdivisão           = [[Embryophyta]]    
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
+| género                 = [[Simira]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Oxalis blackii]]    
+| espécie                = [[Simira grazielae]]    
 }}
-'''''Oxalis blackii''''' é uma espécie de  [[planta]] do gênero ''[[Oxalis]]'' e da família [[Oxalidaceae]].
+'''''Simira grazielae''''' é uma espécie de  [[planta]] do gênero ''[[Simira]]'' e da família [[Rubiaceae]].
 == Taxonomia ==
-A espécie foi decrita em [[1994]] por [[Alicia Lourteig]]. <ref>{{Citar web|url=https://www.gbif.org/species/3627420|titulo=Oxalis blackii|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi decrita em [[1981]] por [[Ariane Luna Peixoto]]. <ref>{{Citar web|url=https://www.gbif.org/species/5335275|titulo=Simira grazielae|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+
 
 == Forma de vida ==
-É uma espécie [[terrícola]], [[herbácea]] e [[subarbustiva]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB12450|titulo=Oxalis blackii Lourteig|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref>  
+É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB14291|titulo=Simira grazielae Peixoto|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref>  
     
 == Conservação ==
-A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
+A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
 A espécie é [[endêmica]] do [[Brasil]] e encontrada no estado brasileiro de [[Espírito Santo (estado)|Espírito Santo]]<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]] e vegetação sobre afloramentos rochosos.<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[floresta estacional semidecidual]].<ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6007 ''Oxalis blackii'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6007 ''Simira grazielae'' no projeto Flora e Funga do Brasil]
 {{Controle de autoridade|colapsar}}
 {{esboço-planta}}
 
-[[Categoria:Oxalis]]
-[[Categoria:Plantas descritas em 1994]]
+[[Categoria:Simira]]
+[[Categoria:Plantas descritas em 1981]]
 [[Categoria:Plantas]]
 [[Categoria:Flora do Brasil]]
 [[Categoria:Flora do Espírito Santo]]

@@ -69,6 +69,8 @@ VEGETATION_WIKI = {
     "Cerrado (lato sensu)": "[[cerrado]]",
     "Grassland": "[[pradaria]]",
     "High Altitude Grassland": "[[campos de altitude]]",
+    "Anthropic area": "[[áreas antrópicas]]",
+    "Mixed Ombrophyllous Forest": "[[floresta ombrófila mista|mata de araucária]]",
 }
 
 ECOLOGY_WIKI = {
@@ -81,6 +83,7 @@ ECOLOGY_WIKI = {
     "Tree": "[[arbórea]]",
     "Saprophyte": "[[saprófita]]",
     "Liana/scandent/vine": "[[trepadeira]]",
+    "Corticicolous": "corticícola",
 }
 
 
@@ -175,14 +178,7 @@ A espécie é {endemic_text}"""
         text += "encontrada no estado brasileiro de "
     else:
         text += "encontrada nos estados brasileiros de "
-    for i, state in enumerate(states):
-        print(i)
-        if i == 0:
-            text = text + STATES_WIKI[state]
-        elif i == len(states) - 1:
-            text = text + " e " + STATES_WIKI[state] + ". "
-        else:
-            text = text + ", " + STATES_WIKI[state]
+    text += render_list(states, STATES_WIKI)
     ref = get_ref_reflora(data)
     return text + ref
 
