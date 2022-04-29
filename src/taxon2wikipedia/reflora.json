@@ -2,7 +2,11 @@
     "mostrarHierarquia": true,
     "distribuicaoGeograficaDuvidaNorte": "",
     "estadosCerteza": [
-        "ES"
+        "ES",
+        "MG",
+        "PR",
+        "RJ",
+        "SP"
     ],
     "mostrarGeracaoDescricaoTaxon": false,
     "filhosSubspVar": "",
@@ -10,37 +14,37 @@
     "mostrarDistribuicaoHidrografica": true,
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
-    "exibirMensagemCamposControladosIgual": true,
-    "idTaxon": 14291,
+    "exibirMensagemCamposControladosIgual": false,
+    "idTaxon": 90686,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
-    "distribuicaoGeograficaCertezaSul": "",
+    "distribuicaoGeograficaCertezaSul": "<b>South</b> (Paran\u00e1)<br/>",
     "substrato": [
         "Terrestrial",
-        "Tree"
+        "Herb"
     ],
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
-    "mostrarDescricaoCamposControlados": false,
-    "id": "FB14291",
+    "mostrarDescricaoCamposControlados": true,
+    "id": "FB90686",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(210)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Rubiaceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(14287)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Simira</i></div><div class=\"nomeAutorInfraGenerico\"> Aubl.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(14291)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Has images in the herbarium \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Simira grazielae</i></div><div class=\"nomeAutorInfraGenerico\"> Peixoto</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128483)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Ferns and Lycophytes</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(90671)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Aspleniaceae</div><div class=\"nomeAutorSupraGenerico\"> Newman</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(90672)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Asplenium</i></div><div class=\"nomeAutorInfraGenerico\"> L.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(90686)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Has field images \" src=\"/reflora/layout/default/imagens/listaBrasil/org_img.png\" style=\" vertical-align:middle; padding-bottom: 5px; height: 14px; \" /><img title=\" Has images in the herbarium \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Asplenium campos-portoi</i></div><div class=\"nomeAutorInfraGenerico\"> Brade</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
-    "possuiImagemVoucherINCT": true,
+    "possuiImagemVoucherINCT": false,
     "statusQualificador": [
         "Accepted Name",
         "Correct name"
     ],
-    "mostrarImagensCampos": false,
+    "mostrarImagensCampos": true,
     "distribuicaoGeograficaDuvidaCentroOeste": "",
     "mostrarTipoVegetacao": true,
-    "distribuicaoGeograficaCertezaSudeste": "<b>Southeast</b> (Esp\u00edrito Santo)<br/>",
+    "distribuicaoGeograficaCertezaSudeste": "<b>Southeast</b> (Esp\u00edrito Santo, Minas Gerais, Rio de Janeiro, S\u00e3o Paulo)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "<p>Barbosa, M.R. 2015. Simira in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB14291\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB14291</a>&gt;.<BR>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (DOI: 10.1590/2175-7860201566411)</p>",
-    "nome": "<span><div class=\"taxon\"> <i>Simira grazielae</i></div><div class=\"nomeAutorInfraGenerico\"> Peixoto</div></span>",
+    "bibliografiaFixa": "<p>Sylvestre, L. 2015. Aspleniaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB90686\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB90686</a>&gt;.<BR>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1073-1083. 2015. (DOI: 10.1590 / 2175-7860201566410)</p>",
+    "nome": "<span><div class=\"taxon\"> <i>Asplenium campos-portoi</i></div><div class=\"nomeAutorInfraGenerico\"> Brade</div></span>",
     "distribuicaoGeograficaCertezaNordeste": "",
     "distribuicaoHidrograficaCerteza": "",
     "distribuicaoIlhasPossiveis": "",
@@ -51,17 +55,16 @@
     "distribuicaoGeograficaCertezaNorte": "",
     "estadosDuvida": [],
     "formaVida": [
-        "Tree"
+        "Herb"
     ],
     "tipoVegetacao": [
-        "Seasonally Semideciduous Forest"
+        "Ombrophyllous Forest (Tropical Rain Forest)"
     ],
     "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB14291&action=print",
+    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB90686&action=print",
     "mostrarSinopsesBrasil": false,
     "origem": "Native",
-    "titulo": "Brazilian Flora Checklist - Simira grazielae Peixoto",
-    "referencias": "<td>Bol. Mus. Bot. Munic., 44: 1, 1981.<br></td>",
+    "titulo": "Brazilian Flora Checklist - Asplenium campos-portoi Brade",
     "verificarCitesStatus": true,
     "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
@@ -73,9 +76,9 @@
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "<i>Rubiaceae</i>  <i>in</i> <b>Flora do Brasil 2020.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Available at: <<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB14291 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB14291</a>>. Accessed on: 28 Apr. 2022",
+    "citacao": "Sylvestre, L.S.; Costa, T.V.; Lino, V. 2020. <i>Aspleniaceae</i>  <i>in</i> <b>Flora do Brasil 2020.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Available at: <<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB90686 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB90686</a>>. Accessed on: 29 Apr. 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Simira_grazielae' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Simira_grazielae</a>",
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Asplenium_campos-portoi' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Asplenium_campos-portoi</a>",
     "sinopsesBrasil": [
         {
             "rank": "Subspecies",
@@ -92,7 +95,7 @@
     ],
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Simira grazielae Peixoto",
+    "nomeStr": "Asplenium campos-portoi Brade",
     "mostrarDominioFitogeografico": true,
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
@@ -104,20 +107,15 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>Silva, I.A., 85, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a>, (ES), <font color='red'><b>Typus</b></font><br>Silva, I.A., 35, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 209198 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284405710' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (ES), <font color='red'><b>Typus</b></font><br>D.A. Folli, 2288, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228861518' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (ES)<br>D.A. Folli, 2288, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 502124 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284504682' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (ES)<br>D.A. Folli, 2288, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125812\" target=\"_blank\">K</a>, (ES)<br>D.A. Folli, 4761, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125812\" target=\"_blank\">K</a>, (ES)<br>D.A. Folli, 6255, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284902428' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (ES)</td>",
+    "vouchers": "<td>L. Sylvestre, 1838, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 425563 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284665942' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (RJ)<br>Brade, 12602, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 30674 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284738086' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (RJ)</td>",
     "mostrarTemComoSinonimo": true,
-    "bibliografiaReferencia": "&lt;p&gt;Margalho, L.F. (2017) Revis&amp;atilde;o de&lt;em&gt; Simira &lt;/em&gt;Aubl. (Rubiaceae, Condamineeae)&lt;em&gt;. &lt;/em&gt;Tese de doutorado. Faculdade de Filosofia, Ci&amp;ecirc;ncias e Letras, Universidade de S&amp;atilde;o Paulo, Ribeir&amp;atilde;o Preto, SP, Brazil, 103 pp.&lt;/p&gt;",
+    "descricaoCamposControlados": "<strong>Stem: </strong><strong>position</strong> trailling; <strong>type of the indumentum</strong> scale; <strong>form of the scale</strong> lanceolate/ovate lanceolate. <strong>Leaf: </strong><strong>position</strong> erect; <strong>colour of the petiole</strong> brown matt; <strong>wing of the petiole and or rachis</strong> absent; <strong>indumentum of the petiole and or rachis</strong> scale; <strong>form of the blade foliar</strong> oblong lanceolate; <strong>division of the blade foliar</strong> pinnate; <strong>apex of the blade foliar</strong> acute; <strong>base of the blade</strong> truncate; <strong>presence of the bud</strong> absent; <strong>number of the pairs of the pinae</strong> 6 to 10 pairs/11 to 20 pairs/21 to 30 pairs; <strong>form of the pinna lateral</strong> linear lanceolate; <strong>type of the venation</strong> free; <strong>branching of the veins</strong> 2 furcate or more; <strong>indumentum of the veins</strong> glabrate. <strong>Type of sporangium: </strong><strong>form of the sori</strong> unilateral; <strong>form of the indusium</strong> linear. <strong>Spore: </strong><strong>ornamentation of the perine</strong> cristate/reticulate/layer intermediary baculate. ",
+    "bibliografiaReferencia": "&lt;p&gt;Sylvestre, L. S. 2001. Revis&amp;atilde;o taxon&amp;ocirc;mica das esp&amp;eacute;cies da fam&amp;iacute;lia Aspleniaceae&amp;nbsp;&amp;nbsp;ocorrentes no Brasil. Tese de doutorado. Instituto de Bioci&amp;ecirc;ncias. Universidade de S&amp;atilde;o Paulo.&lt;/p&gt;",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
     "mostrarChaveIdentificacao": false,
     "mostrarHospedeiroIndeterminado": false,
     "mostrarLinkParaTaxon": true,
-    "nomesVernaculos": [
-        {
-            "lingua": "Portuguese",
-            "nome": "arariba",
-            "regiao": "ES"
-        }
-    ],
+    "nomesVernaculos": [],
     "possuiImagemVoucher": true
 }

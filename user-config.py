@@ -6,16 +6,16 @@
 # Pywikibot will import families/xxx_family.py so if you want to change
 # this variable, you have to ensure that such a file exists. You may use
 # generate_family_file to create one.
-family = 'wikidata'
+family = "wikidata"
 
 # The language code of the site to be working on.
-mylang = 'wikidata'
+mylang = "wikidata"
 
 # The dictionary usernames should contain a username for each site where you
 # have a bot account. If you have a unique username for all languages of a
 # family , you can use '*'
-usernames['wikidata']['wikidata'] = 'TiagoLubiana'
-
+usernames["wikidata"]["wikidata"] = "TiagoLubiana"
+usernames["wikipedia"]["pt"] = "TiagoLubiana"
 # The list of BotPasswords is saved in another file. Import it if needed.
 # See https://www.mediawiki.org/wiki/Manual:Pywikibot/BotPasswords to know how
 # use them.
@@ -118,7 +118,7 @@ interwiki_min_subjects = 100
 # interwiki_graph_formats = ['png', 'cmap']
 # If you only need SVG images, use:
 # interwiki_graph_formats = ['svg']
-interwiki_graph_formats = ['png']
+interwiki_graph_formats = ["png"]
 
 # You can post the contents of your autonomous_problems.dat to the wiki,
 # e.g. to https://de.wikipedia.org/wiki/Wikipedia:Interwiki-Konflikte .
@@ -211,11 +211,11 @@ weblink_dead_days = 7
 # db_hostname_format = '{0}.analytics.db.svc.wikimedia.cloud'
 # db_name_format = '{0}_p'
 # db_connect_file = user_home_path('replica.my.cnf')
-db_hostname_format = 'localhost'
-db_username = ''
-db_password = ''
-db_name_format = '{0}'
-db_connect_file = user_home_path('.my.cnf')
+db_hostname_format = "localhost"
+db_username = ""
+db_password = ""
+db_name_format = "{0}"
+db_connect_file = user_home_path(".my.cnf")
 # local port for mysql server
 # ssh -L 4711:enwiki.analytics.db.svc.eqiad.wmflabs:3306 \
 #     user@login.toolforge.org
@@ -267,8 +267,12 @@ cosmetic_changes_disable = {}  # type: Dict[str, Tuple[str, ...]]
 # cosmetic_changes_deny_script += ['your_script_name_1', 'your_script_name_2']
 # Appending the script name also works:
 # cosmetic_changes_deny_script.append('your_script_name')
-cosmetic_changes_deny_script = ['category_redirect', 'cosmetic_changes',
-                                'newitem', 'touch']
+cosmetic_changes_deny_script = [
+    "category_redirect",
+    "cosmetic_changes",
+    "newitem",
+    "touch",
+]
 
 # ############# REPLICATION BOT SETTINGS ################
 # You can add replicate_replace to your user-config.py.
@@ -312,4 +316,3 @@ max_queue_size = 64
 # Version 4 is only available for Python 3.4+
 # Version 5 was added with Python 3.8
 pickle_protocol = 2
-

@@ -91,6 +91,8 @@ def render_ecology(data):
     substrate = data["substrato"]
     life_form = data["formaVida"]
     substrate.extend(life_form)
+    if len(substrate) == 0:
+        return ""
     text = f"""== Forma de vida ==
 É uma espécie {render_list(substrate, ECOLOGY_WIKI)}. {get_ref_reflora(data)} 
     """
@@ -178,7 +180,7 @@ A espécie é {endemic_text}"""
         text += "encontrada no estado brasileiro de "
     else:
         text += "encontrada nos estados brasileiros de "
-    text += render_list(states, STATES_WIKI)
+    text += render_list(states, STATES_WIKI) + "."
     ref = get_ref_reflora(data)
     return text + ref
 

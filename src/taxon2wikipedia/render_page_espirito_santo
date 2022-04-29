@@ -39,7 +39,7 @@ def render_taxonomy(reflora_data, results_df, taxon_qid):
         description_year = results_df["description_year.value"][0]
 
         taxon_author_labels = [f"[[{name}]]" for name in taxon_author_labels]
-        description = f"A espécie foi decrita em [[{description_year}]] por {render_list_without_dict(taxon_author_labels)}. {get_gbif_ref(taxon_qid)}"
+        description = f"A espécie foi descrita em [[{description_year}]] por {render_list_without_dict(taxon_author_labels)}. {get_gbif_ref(taxon_qid)}"
 
     text = f"""== Taxonomia ==
 {description}
@@ -141,9 +141,17 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
     webbrowser.open(
         f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?action=edit&veswitched=1"""
     )
-    quit()
 
-    qid = input("If page is created, enter anything to add sitelink. ")
+    create = input("Create page with pywikibot? (y/n)")
+    if create == "y":
+        from pywikibot.page import Page
+
+        site = pywikibot.Site("pt", "wikipedia")
+        newPage = Page(site, taxon_name)
+        newPage.text = wiki_page
+        newPage.save("summary")
+
+    nothing = input("If page is created, enter anything to add sitelink. ")
 
     site = pywikibot.Site("wikidata", "wikidata")
     repo = site.data_repository()

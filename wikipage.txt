@@ -2,40 +2,43 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Gentianales]]    
-| divisão                = [[Tracheophyta]]    
 | infrarreino            = [[Streptophyta]]    
-| família                = [[Rubiaceae]]    
+| divisão                = [[Pteridophyta]]    
 | superdivisão           = [[Embryophyta]]    
-| subfilo                = [[Euphyllophyta]]    
+| classe                 = [[Polypodiopsida]]    
+| ordem                  = [[Polypodiales]]    
+| família                = [[Aspleniaceae]]    
 | superdomínio           = [[Biota]]    
+| subclasse              = [[Polypodiidae]]    
 | subdomínio             = [[Diaphoretickes]]    
-| género                 = [[Simira]]    
+| género                 = [[Asplenium]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Simira grazielae]]    
+| ordem                  = [[Aspleniales]]    
+| espécie                = [[Asplenium campos-portoi]]    
+| Subordem               = [[Aspleniineae]]    
 }}
-'''''Simira grazielae''''' é uma espécie de  [[planta]] do gênero ''[[Simira]]'' e da família [[Rubiaceae]].
+'''''Asplenium campos-portoi''''' é uma espécie de  [[planta]] do gênero ''[[Asplenium]]'' e da família [[Aspleniaceae]].
 == Taxonomia ==
-A espécie foi decrita em [[1981]] por [[Ariane Luna Peixoto]]. <ref>{{Citar web|url=https://www.gbif.org/species/5335275|titulo=Simira grazielae|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi descrita em [[1940]] por [[Alexander Curt Brade]]. <ref>{{Citar web|url=https://www.gbif.org/species/4257757|titulo=Asplenium campos-portoi|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
 
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB14291|titulo=Simira grazielae Peixoto|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref>  
+É uma espécie [[terrícola]] e [[herbácea]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB90686|titulo=Asplenium campos-portoi Brade|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref>  
     
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é [[endêmica]] do [[Brasil]] e encontrada no estado brasileiro de [[Espírito Santo (estado)|Espírito Santo]]<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[floresta estacional semidecidual]].<ref name=":ref_0"/> 
+A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]], [[Paraná]], [[Rio de Janeiro]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6007 ''Simira grazielae'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6007 ''Asplenium campos-portoi'' no projeto Flora e Funga do Brasil]
 {{Controle de autoridade|colapsar}}
 {{esboço-planta}}
 
-[[Categoria:Simira]]
-[[Categoria:Plantas descritas em 1981]]
+[[Categoria:Asplenium]]
+[[Categoria:Plantas descritas em 1940]]
 [[Categoria:Plantas]]
 [[Categoria:Flora do Brasil]]
 [[Categoria:Flora do Espírito Santo]]

@@ -1,2 +1,5 @@
 2022-02-15 12:21:21 rg1 Python 3.8.10 generate_user_files
 2022-02-15 12:21:31 rg1 Python 3.8.10 generate_user_files
+2022-04-29 08:53:19 r-1 (unknown) Python 3.8.10 pagefromfile
+2022-04-29 08:53:50 r-1 (unknown) Python 3.8.10 pagefromfile "-file:wikipedia.txt" "-textonly" "-title:Asplenium campos-portoi" "-autosummary"
+2022-04-29 08:54:27 r-1 (unknown) Python 3.8.10 pagefromfile "-file:/home/lubianat/Documents/wiki_related/taxon2wikipedia/wikipage.txt" "-textonly" "-title:Asplenium campos-portoi" "-autosummary"
