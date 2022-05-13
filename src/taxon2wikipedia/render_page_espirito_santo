@@ -82,7 +82,12 @@ def main(scope_name: str, taxon_qid: str, reflora_id: str):
     reflora_url = (
         f"""http://servicos.jbrj.gov.br/flora/search/{taxon_name.replace(" ", "_")}"""
     )
-
+    webbrowser.open(
+        f"""https://scholar.google.com/scholar?q=%22{taxon_name.replace(" ", "+")}%22+scielo"""
+    )
+    webbrowser.open(
+        f"""https://google.com/search?q=%22{taxon_name.replace(" ", "+")}%22"""
+    )
     if reflora_id == "search":
         r = requests.get(reflora_url)
         webbrowser.open(reflora_url)
@@ -110,6 +115,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 {{{{Controle de autoridade|colapsar}}}}
 {{{{esboço-{scope_name}}}}}
 
+[[Categoria:{family}]]
 [[Categoria:{genus}]]
 {year_cat}"""
     )
@@ -134,14 +140,6 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
     with open(filepath, "w+") as f:
         f.write(wiki_page)
 
-    webbrowser.open(
-        f"""https://scholar.google.com/scholar?q=%22{taxon_name.replace(" ", "+")}%22+scielo"""
-    )
-    webbrowser.open(f"""https://wikidata.org/wiki/{taxon_qid}""")
-    webbrowser.open(
-        f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?action=edit&veswitched=1"""
-    )
-
     create = input("Create page with pywikibot? (y/n)")
     if create == "y":
         from pywikibot.page import Page
@@ -149,9 +147,12 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
         site = pywikibot.Site("pt", "wikipedia")
         newPage = Page(site, taxon_name)
         newPage.text = wiki_page
-        newPage.save("summary")
-
-    nothing = input("If page is created, enter anything to add sitelink. ")
+        newPage.save(
+            "Esboço criado com código de https://github.com/lubianat/taxon2wikipedia"
+        )
+    else:
+        print("quitting...")
+        quit()
 
     site = pywikibot.Site("wikidata", "wikidata")
     repo = site.data_repository()
@@ -159,6 +160,12 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 
     data = [{"site": "ptwiki", "title": taxon_name.replace(" ", "_")}]
     item.setSitelinks(data)
+
+    webbrowser.open(
+        f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?veaction=edit"""
+    )
+
+    get_cc_by_comment(reflora_data)
 
 
 def render_common_name(results_df):

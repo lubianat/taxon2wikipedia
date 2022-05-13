@@ -67,10 +67,12 @@ VEGETATION_WIKI = {
     "Seasonally Semideciduous Forest": "[[floresta estacional semidecidual]]",
     "Inundated Forest (Igapó)": "[[mata de igapó]]",
     "Cerrado (lato sensu)": "[[cerrado]]",
+    "Caatinga (stricto sensu)": "[[caatinga]]",
     "Grassland": "[[pradaria]]",
     "High Altitude Grassland": "[[campos de altitude]]",
     "Anthropic area": "[[áreas antrópicas]]",
     "Mixed Ombrophyllous Forest": "[[floresta ombrófila mista|mata de araucária]]",
+    "Seasonally Deciduous Forest": "floresta estacional decidual",
 }
 
 ECOLOGY_WIKI = {
@@ -84,6 +86,17 @@ ECOLOGY_WIKI = {
     "Saprophyte": "[[saprófita]]",
     "Liana/scandent/vine": "[[trepadeira]]",
     "Corticicolous": "corticícola",
+    "Hemiepiphytes": "[[hemiepífita]]",
+    "Tufts": "presente em tufos",
+    "Tuft": "presente em tufos",
+    "Hemiparasites": "[[hemiparasitas]]",
+    "Thallose": "talosa",
+    "foliose": "folhosa",
+    "Mat": "formadora de tapete",
+    "Flabellate": "flabelada",
+    "Epixilous": "epixila",
+    "Weft": "formadora de tramas",
+    "Palm Tree": "de [[palmeira]]",
 }
 
 
@@ -97,6 +110,19 @@ def render_ecology(data):
 É uma espécie {render_list(substrate, ECOLOGY_WIKI)}. {get_ref_reflora(data)} 
     """
     return text
+
+
+def get_cc_by_comment(data):
+    text = (
+        data["citacao"]
+        .split("Jardim Bot")[0]
+        .replace("<i>", "''")
+        .replace("</i>", "''")
+    )
+    wiki_text = f"""==Notas==
+    Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de {text}.
+    """
+    print(wiki_text)
 
 
 def render_list_without_dict(list_of_names):
