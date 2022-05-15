@@ -2,10 +2,10 @@
     "mostrarHierarquia": true,
     "distribuicaoGeograficaDuvidaNorte": "",
     "estadosCerteza": [
+        "AM",
+        "BA",
         "ES",
-        "MG",
-        "RJ",
-        "SC"
+        "MG"
     ],
     "mostrarGeracaoDescricaoTaxon": false,
     "filhosSubspVar": "",
@@ -13,22 +13,22 @@
     "mostrarDistribuicaoHidrografica": true,
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
-    "exibirMensagemCamposControladosIgual": true,
-    "idTaxon": 4116,
+    "exibirMensagemCamposControladosIgual": false,
+    "idTaxon": 15259,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
-    "distribuicaoGeograficaCertezaSul": "<b>South</b> (Santa Catarina)<br/>",
+    "distribuicaoGeograficaCertezaSul": "",
     "substrato": [
         "Terrestrial",
-        "Herb"
+        "Liana/scandent/vine"
     ],
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
-    "mostrarDescricaoCamposControlados": false,
-    "id": "FB4116",
+    "mostrarDescricaoCamposControlados": true,
+    "id": "FB15259",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(33)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Acanthaceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(4115)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Chamaeranthemum</i></div><div class=\"nomeAutorInfraGenerico\"> Nees</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(4116)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Has images in the herbarium \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Chamaeranthemum beyrichii</i></div><div class=\"nomeAutorInfraGenerico\"> Nees</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(248)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Vitaceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(15253)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Cissus</i></div><div class=\"nomeAutorInfraGenerico\"> L.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(15259)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Has field images \" src=\"/reflora/layout/default/imagens/listaBrasil/org_img.png\" style=\" vertical-align:middle; padding-bottom: 5px; height: 14px; \" /><img title=\" Has images in the herbarium \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Cissus nobilis</i></div><div class=\"nomeAutorInfraGenerico\"> Kuhlm.</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
     "possuiImagemVoucherINCT": true,
@@ -36,56 +36,53 @@
         "Accepted Name",
         "Correct name"
     ],
-    "mostrarImagensCampos": false,
+    "mostrarImagensCampos": true,
     "distribuicaoGeograficaDuvidaCentroOeste": "",
     "mostrarTipoVegetacao": true,
-    "distribuicaoGeograficaCertezaSudeste": "<b>Southeast</b> (Esp\u00edrito Santo, Minas Gerais, Rio de Janeiro)<br/>",
+    "distribuicaoGeograficaCertezaSudeste": "<b>Southeast</b> (Esp\u00edrito Santo, Minas Gerais)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "<p>Profice, S.R.,Kameyama, C.,C\u00f4rtes, A.L.A.,Braz, D.M.,Indriunas, A.,Vilar, T.,Pessoa, C.,Ezcurra, C.,Wasshausen, D. 2015. Acanthaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB4116\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB4116</a>&gt;.<BR>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (DOI: 10.1590/2175-7860201566411)</p>",
-    "nome": "<span><div class=\"taxon\"> <i>Chamaeranthemum beyrichii</i></div><div class=\"nomeAutorInfraGenerico\"> Nees</div></span>",
-    "distribuicaoGeograficaCertezaNordeste": "",
+    "bibliografiaFixa": "<p>Lombardi, J.A. 2015. Vitaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB15259\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB15259</a>&gt;.<BR>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (DOI: 10.1590/2175-7860201566411)</p>",
+    "nome": "<span><div class=\"taxon\"> <i>Cissus nobilis</i></div><div class=\"nomeAutorInfraGenerico\"> Kuhlm.</div></span>",
+    "distribuicaoGeograficaCertezaNordeste": "<b>Northeast</b> (Bahia)<br/>",
     "distribuicaoHidrograficaCerteza": "",
     "distribuicaoIlhasPossiveis": "",
-    "comentarioPublicoPT": "<p class=\"MsoNormal\" style=\"text-align:justify;text-indent:35.4pt\"><i><span style=\"font-size:10.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif\">Chamaeranthemum\nbeyrichii </span></i><span style=\"font-size:10.0pt;line-height:107%;font-family:\n&quot;Arial&quot;,sans-serif\">Nees uma esp\u00e9cie end\u00eamica da Mata Atl\u00e2ntica do leste do Brasil,\ncom registros de ocorr\u00eancias naturais, at\u00e9 o momento, nos estados do Esp\u00edrito\nSanto, Minas Gerais e Rio de Janeiro. Por possuir folhas variegadas chamativas\ne se propagar vegetativamente de modo f\u00e1cil, esta esp\u00e9cie tem sido h\u00e1 muito\ncultivada como ornamental na Europa e no Brasil.<o:p></o:p></span></p>\n\n<p class=\"MsoNormal\" style=\"text-align:justify;text-indent:35.4pt\"><span style=\"font-size:10.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif\">A\nmaior parte dos esp\u00e9cimes de herb\u00e1rio sob o nome <i>Chamaeranthemum beyrichii</i>\nNees, corresponde, na verdade, h\u00e1 <i>Pseuderanthemum corcovadense</i> (Regel)\nLindau. Este equ\u00edvoco se d\u00e1, possivelmente, pelo fato de Nees (1847b) incluir\nesp\u00e9cimes de <i>P. corcovadense</i> sob <i>C. beyrichii</i> em sua variedade \u201c\u03b2\nfoliis oblongis\u201d.<o:p></o:p></span></p>",
     "mostrarCitacao": true,
-    "endemismo": "Is endemic from Brazil",
+    "endemismo": "Not endemic to Brazil",
     "distribuicaoHidrograficaDuvida": "",
-    "mostrarComentarioPublicoPT": true,
     "mostrarVouchers": true,
-    "distribuicaoGeograficaCertezaNorte": "",
-    "estadosDuvida": [
-        "PR",
-        "SP"
-    ],
+    "distribuicaoGeograficaCertezaNorte": "<b>North</b> (Amazonas)<br/>",
+    "estadosDuvida": [],
     "formaVida": [
-        "Herb"
+        "Liana/scandent/vine"
     ],
     "tipoVegetacao": [
-        "Ombrophyllous Forest (Tropical Rain Forest)"
+        "Anthropic area",
+        "Inundated Forest (V\u00e1rzea)",
+        "Ombrophyllous Forest (Tropical Rain Forest)",
+        "Coastal Forest (Restinga)"
     ],
-    "distribuicaoGeograficaDuvidaSul": "<b>South</b> (Paran\u00e1)<br/>",
-    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB4116&action=print",
+    "distribuicaoGeograficaDuvidaSul": "",
+    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB15259&action=print",
     "mostrarSinopsesBrasil": false,
     "origem": "Native",
-    "titulo": "Brazilian Flora Checklist - Chamaeranthemum beyrichii Nees",
-    "referencias": "<td>Nees, C.G.D., Nat. Syst. Bot. (Lindley), 2: 445, 1836.<font color='red'><b> Original work</font color></b><br></td>",
+    "titulo": "Brazilian Flora Checklist - Cissus nobilis Kuhlm.",
+    "referencias": "<td>Kuhlmann, J.G., Anais Reuniao Sul-Amer. Bot., 1(3): 83, 1938.<font color='red'><b> Original work</font color></b><br></td>",
     "verificarCitesStatus": true,
-    "distribuicaoGeograficaDuvidaSudeste": "<b>Southeast</b> (S\u00e3o Paulo)<br/>",
+    "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
-    "abaDefaultComentarioPublico": "PT",
     "mostrarReferencias": true,
-    "mostrarDescricaoLivrePT": true,
     "mostrarFilhosSubFam": true,
     "dominioFitogeografico": [
+        "Amazon Rainforest",
         "Atlantic Rainforest"
     ],
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "Chagas, E.C.O.; Costa-Lima, J.L. 2020. <i>Chamaeranthemum</i>  <i>in</i> <b>Flora do Brasil 2020.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Available at: <<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB4116 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB4116</a>>. Accessed on: 13 May 2022",
+    "citacao": "Pican\u00e7o, W.L.; Lombardi, J.A. 2020. <i>Vitaceae</i>  <i>in</i> <b>Flora do Brasil 2020.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Available at: <<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB15259 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB15259</a>>. Accessed on: 14 May 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Chamaeranthemum_beyrichii' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Chamaeranthemum_beyrichii</a>",
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Cissus_nobilis' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Cissus_nobilis</a>",
     "sinopsesBrasil": [
         {
             "rank": "Subspecies",
@@ -97,13 +94,12 @@
             "rank": "Varieties",
             "aceito": 0,
             "endemico": 0,
-            "sinonimo": 3
+            "sinonimo": 0
         }
     ],
-    "temComoSinonimo": "<span><a onclick=\"carregaTaxonGrupo(622930)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterotypic</div><div class=\"sinonimo\"> <i>Chamaeranthemum</i></div><div class=\"sinonimo\"> <i>beyrichii</i></div><div class=\"nomeRank\"> var.</div><div class=\"sinonimo\"> <i>rotundifolium</i></div><div class=\"nomeAutorSinonimo\"> Nees</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(611172)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterotypic</div><div class=\"sinonimo\"> <i>Chamaeranthemum</i></div><div class=\"sinonimo\"> <i>beyrichii</i></div><div class=\"nomeRank\"> var.</div><div class=\"sinonimo\"> <i>variegatum</i></div><div class=\"nomeAutorSinonimo\"> Hook.f.</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(4117)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterotypic</div><div class=\"sinonimo\"> <i>Chamaeranthemum gaudichaudii</i></div><div class=\"nomeAutorSinonimo\"> Nees</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(607630)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterotypic</div><div class=\"sinonimo\"> <i>Chamaeranthemum malifolium</i></div><div class=\"nomeAutorSinonimo\"> (Nees) A.L.A.C\u00f4rtes</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(607631)\" href=\"javascript:void(0);\"><img title=\" Has images in the herbarium \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"tipoSinonimo\"> heterotypic</div><div class=\"sinonimo\"> <i>Chamaeranthemum venosum</i></div><div class=\"nomeAutorSinonimo\"> M.B.Foster ex Wassh. & L.B.Sm.</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(622929)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterotypic</div><div class=\"sinonimo\"> <i>Eranthemum leuconeurum</i></div><div class=\"nomeAutorSinonimo\"> hort. ex Schltdl.</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(583192)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterotypic</div><div class=\"sinonimo\"> <i>Schaueria malifolia</i></div><div class=\"nomeAutorSinonimo\"> Nees</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(611171)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> homotype</div><div class=\"sinonimo\"> <i>Chamaeranthemum beyrichii</i></div><div class=\"nomeAutorInfraGenerico\"> Nees</div> <div class=\"nomeRank\"> var.</div><div class=\"sinonimo\"> <i>beyrichii</i></div></a></span><br>",
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Chamaeranthemum beyrichii Nees",
+    "nomeStr": "Cissus nobilis Kuhlm.",
     "mostrarDominioFitogeografico": true,
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
@@ -115,16 +111,31 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>L.S. Leoni, 4790, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285063284' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (MG)<br>R. Reitz, 6271, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126357\" target=\"_blank\">HBR</a>, (SC), <font color='red'><b>Typus</b></font><br>C. Farney et al., 3590, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125352\" target=\"_blank\">MBM</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284252998' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126325\" target=\"_blank\">SPF</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=161768046' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (RJ)<br>D.A. Folli, 2776, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284075208' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125778\" target=\"_blank\">CVRD</a> 5465, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125976\" target=\"_blank\">US</a> 3421859, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125976\" target=\"_blank\">US</a> 3362049, (ES)</td>",
+    "vouchers": "<td>T.B. Flores, 1275, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126323\" target=\"_blank\">ESA</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226910022' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (ES)<br>S.A. Mori, T.S dos Santos & C.B. Thompson, 10839, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125382\" target=\"_blank\">P</a> P03170692, (BA)<br>J.A. Lombardi, 5774, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126349\" target=\"_blank\">BHCB</a></td>",
     "mostrarTemComoSinonimo": true,
-    "descricaoLivrePT": "<p class=\"MsoNormal\" style=\"text-align:justify;text-indent:35.4pt\"><span style=\"font-size:10.0pt;line-height:107%;font-family:&quot;Arial&quot;,sans-serif\">Para descri\u00e7\u00e3o\nmorfol\u00f3gica de <i>Chamaeranthemum beyrichii</i> Nees, veja a descri\u00e7\u00e3o do\ng\u00eanero <i>Chamaeranthemum</i> Nees &lt;<a href=\"http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB4115\">http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB4115</a>&gt;,\npois foi baseada nesta esp\u00e9cie.<o:p></o:p></span></p>",
-    "bibliografiaReferencia": "",
-    "abaDefaultDescLivre": "PT",
+    "descricaoCamposControlados": "<strong>Stem: </strong><strong>form and surface</strong> cylindric/4 - angular; <strong>indumentum of the shoot vegetative and reproductive</strong> with hair non branched and non glandular/hair glandular present; <strong>tendril</strong> divided in pattern dichotomous many times/with scale. <strong>Leaf: </strong><strong>pattern</strong> trifoliate; <strong>petiole</strong> winged/triangular petiolule triangular; <strong>division of the limb</strong> entire; <strong>form of the blade</strong> elliptic/sub elliptic/sub ovate; <strong>base of the blade</strong> rounded/attenuate/cuneate/oblique; <strong>apex of the blade</strong> acuminate/acute. <strong>Inflorescence: </strong><strong>type</strong> umbelliform; <strong>indumentum of the peduncle</strong> hispid/puberulous/pulverulent. <strong>Flower: </strong><strong>indumentum of the pedicel</strong> puberulous/pulverulent; <strong>form of the flower-bud</strong> conical; <strong>corolla</strong> colour - of the - pink/green; <strong>disc nectariferous</strong> concave/depressed at the centro. <strong>Fruit: </strong><strong>type</strong> berry; <strong>form</strong> botuliform. <strong>Seed: </strong><strong>form</strong> sub prismtatic; <strong>laterally</strong> flattened/lateral smooth. ",
+    "bibliografiaReferencia": "&lt;p&gt;Lombardi, J. A. 2000. Vitaceae - G&amp;ecirc;neros Ampelocissus, Ampelopsis e Cissus. Flora Neotropica monograph 80: 1-250.&lt;/p&gt;",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
     "mostrarChaveIdentificacao": false,
     "mostrarHospedeiroIndeterminado": false,
     "mostrarLinkParaTaxon": true,
-    "nomesVernaculos": [],
+    "nomesVernaculos": [
+        {
+            "lingua": "Portuguese",
+            "nome": "uva-da-mata",
+            "regiao": "Belmonte, BA"
+        },
+        {
+            "lingua": "Portuguese",
+            "nome": "cip\u00f3-de-anta",
+            "regiao": "Santa Cruz Cabr\u00e1lia, BA"
+        },
+        {
+            "lingua": "Portuguese",
+            "nome": "uva-do-mato",
+            "regiao": "Linhares, ES"
+        }
+    ],
     "possuiImagemVoucher": true
 }

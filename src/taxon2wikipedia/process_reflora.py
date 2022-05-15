@@ -112,6 +112,17 @@ def render_ecology(data):
     return text
 
 
+def get_common_names(data):
+
+    common_names = data["nomesVernaculos"]
+
+    name_strings = []
+    for name in common_names:
+        if name["lingua"] == "portuguese":
+            name_strings.append(name["nome"])
+    return name_strings
+
+
 def get_cc_by_comment(data):
     text = (
         data["citacao"]
