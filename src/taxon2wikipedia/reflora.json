@@ -2,96 +2,89 @@
     "mostrarHierarquia": true,
     "distribuicaoGeograficaDuvidaNorte": "",
     "estadosCerteza": [
-        "AM",
         "BA",
-        "ES",
-        "MG"
+        "ES"
     ],
     "mostrarGeracaoDescricaoTaxon": false,
     "filhosSubspVar": "",
-    "possuiImagemVoucherHV": true,
+    "possuiImagemVoucherHV": false,
     "mostrarDistribuicaoHidrografica": true,
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
-    "exibirMensagemCamposControladosIgual": false,
-    "idTaxon": 15259,
+    "exibirMensagemCamposControladosIgual": true,
+    "idTaxon": 6609,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
     "distribuicaoGeograficaCertezaSul": "",
     "substrato": [
         "Terrestrial",
-        "Liana/scandent/vine"
+        "Tree"
     ],
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
-    "mostrarDescricaoCamposControlados": true,
-    "id": "FB15259",
+    "mostrarDescricaoCamposControlados": false,
+    "id": "FB6609",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(248)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Vitaceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(15253)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Cissus</i></div><div class=\"nomeAutorInfraGenerico\"> L.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(15259)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Has field images \" src=\"/reflora/layout/default/imagens/listaBrasil/org_img.png\" style=\" vertical-align:middle; padding-bottom: 5px; height: 14px; \" /><img title=\" Has images in the herbarium \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Cissus nobilis</i></div><div class=\"nomeAutorInfraGenerico\"> Kuhlm.</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(68)\" href=\"javascript:void(0);\"><img title=\" detalhar.taxon.controle.taxon.contem.descricao.completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Burseraceae</div><div class=\"nomeAutorSupraGenerico\"> Kunth</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(6607)\" href=\"javascript:void(0);\"><img title=\" detalhar.taxon.controle.taxon.contem.descricao.completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Trattinnickia</i></div><div class=\"nomeAutorInfraGenerico\"> Willd.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(6609)\" href=\"javascript:void(0);\"><img title=\" detalhar.taxon.controle.taxon.contem.descricao.completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Trattinnickia mensalis</i></div><div class=\"nomeAutorInfraGenerico\"> Daly</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
-    "possuiImagemVoucherINCT": true,
+    "possuiImagemVoucherINCT": false,
     "statusQualificador": [
-        "Accepted Name",
-        "Correct name"
+        "enum.label.Status.NOME_ACEITO",
+        "enum.label.Qualificador.NOME_CORRETO"
     ],
-    "mostrarImagensCampos": true,
+    "mostrarImagensCampos": false,
     "distribuicaoGeograficaDuvidaCentroOeste": "",
     "mostrarTipoVegetacao": true,
-    "distribuicaoGeograficaCertezaSudeste": "<b>Southeast</b> (Esp\u00edrito Santo, Minas Gerais)<br/>",
+    "distribuicaoGeograficaCertezaSudeste": "<b>enum.label.ConsultaPublicaRegiaoEnum.SUDESTE</b> (enum.label.EstadosBrasilEnum.Completo.ES)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "<p>Lombardi, J.A. 2015. Vitaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB15259\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB15259</a>&gt;.<BR>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (DOI: 10.1590/2175-7860201566411)</p>",
-    "nome": "<span><div class=\"taxon\"> <i>Cissus nobilis</i></div><div class=\"nomeAutorInfraGenerico\"> Kuhlm.</div></span>",
-    "distribuicaoGeograficaCertezaNordeste": "<b>Northeast</b> (Bahia)<br/>",
+    "bibliografiaFixa": "<p>Daly, D.C. 2015. Burseraceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB6609\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB6609</a>&gt;.<BR>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (DOI: 10.1590/2175-7860201566411)</p>",
+    "nome": "<span><div class=\"taxon\"> <i>Trattinnickia mensalis</i></div><div class=\"nomeAutorInfraGenerico\"> Daly</div></span>",
+    "distribuicaoGeograficaCertezaNordeste": "<b>enum.label.ConsultaPublicaRegiaoEnum.NORDESTE</b> (enum.label.EstadosBrasilEnum.Completo.BA)<br/>",
     "distribuicaoHidrograficaCerteza": "",
     "distribuicaoIlhasPossiveis": "",
     "mostrarCitacao": true,
-    "endemismo": "Not endemic to Brazil",
+    "endemismo": "endemicaBrasil.e.endemica.do.Brasil",
     "distribuicaoHidrograficaDuvida": "",
     "mostrarVouchers": true,
-    "distribuicaoGeograficaCertezaNorte": "<b>North</b> (Amazonas)<br/>",
+    "distribuicaoGeograficaCertezaNorte": "",
     "estadosDuvida": [],
     "formaVida": [
-        "Liana/scandent/vine"
+        "Tree"
     ],
     "tipoVegetacao": [
-        "Anthropic area",
-        "Inundated Forest (V\u00e1rzea)",
-        "Ombrophyllous Forest (Tropical Rain Forest)",
-        "Coastal Forest (Restinga)"
+        "enum.label.DistribuicaoTipoVegetacaoEnum.FLORESTA_ESTACIONAL_SEMIDECIDUAL"
     ],
     "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB15259&action=print",
+    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB6609&action=print",
     "mostrarSinopsesBrasil": false,
-    "origem": "Native",
-    "titulo": "Brazilian Flora Checklist - Cissus nobilis Kuhlm.",
-    "referencias": "<td>Kuhlmann, J.G., Anais Reuniao Sul-Amer. Bot., 1(3): 83, 1938.<font color='red'><b> Original work</font color></b><br></td>",
+    "origem": "enum.label.DistribuicaoOrigemEnum.NATIVA",
+    "titulo": "consulta.publica.uc.resultado.da.consulta.title - Trattinnickia mensalis Daly",
     "verificarCitesStatus": true,
     "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
     "mostrarReferencias": true,
     "mostrarFilhosSubFam": true,
     "dominioFitogeografico": [
-        "Amazon Rainforest",
-        "Atlantic Rainforest"
+        "enum.label.DominiosFitogeograficosEnum.MATA_ATLANTICA"
     ],
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "Pican\u00e7o, W.L.; Lombardi, J.A. 2020. <i>Vitaceae</i>  <i>in</i> <b>Flora do Brasil 2020.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Available at: <<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB15259 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB15259</a>>. Accessed on: 14 May 2022",
+    "citacao": "<i>Burseraceae</i>  consulta.publica.uc.bem.vindo.consulta.publica.consultar.como.citar.fboconsulta.publica.uc.citacao.disponivel<<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB6609 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB6609</a>>. consulta.publica.uc.citacao.acesso.em15 May 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Cissus_nobilis' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Cissus_nobilis</a>",
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Trattinnickia_mensalis' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Trattinnickia_mensalis</a>",
     "sinopsesBrasil": [
         {
-            "rank": "Subspecies",
+            "rank": "SUB_ESPECIE.sinopse",
             "aceito": 0,
             "endemico": 0,
             "sinonimo": 0
         },
         {
-            "rank": "Varieties",
+            "rank": "VARIEDADE.sinopse",
             "aceito": 0,
             "endemico": 0,
             "sinonimo": 0
@@ -99,7 +92,7 @@
     ],
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Cissus nobilis Kuhlm.",
+    "nomeStr": "Trattinnickia mensalis Daly",
     "mostrarDominioFitogeografico": true,
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
@@ -111,10 +104,9 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>T.B. Flores, 1275, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126323\" target=\"_blank\">ESA</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226910022' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (ES)<br>S.A. Mori, T.S dos Santos & C.B. Thompson, 10839, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125382\" target=\"_blank\">P</a> P03170692, (BA)<br>J.A. Lombardi, 5774, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126349\" target=\"_blank\">BHCB</a></td>",
+    "vouchers": "<td>Bel\u00e9m, R.P., 826, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125778\" target=\"_blank\">CVRD</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a><br>D.A. Folli, 490, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125778\" target=\"_blank\">CVRD</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a><br>Spada, J., 6578, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125778\" target=\"_blank\">CVRD</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a></td>",
     "mostrarTemComoSinonimo": true,
-    "descricaoCamposControlados": "<strong>Stem: </strong><strong>form and surface</strong> cylindric/4 - angular; <strong>indumentum of the shoot vegetative and reproductive</strong> with hair non branched and non glandular/hair glandular present; <strong>tendril</strong> divided in pattern dichotomous many times/with scale. <strong>Leaf: </strong><strong>pattern</strong> trifoliate; <strong>petiole</strong> winged/triangular petiolule triangular; <strong>division of the limb</strong> entire; <strong>form of the blade</strong> elliptic/sub elliptic/sub ovate; <strong>base of the blade</strong> rounded/attenuate/cuneate/oblique; <strong>apex of the blade</strong> acuminate/acute. <strong>Inflorescence: </strong><strong>type</strong> umbelliform; <strong>indumentum of the peduncle</strong> hispid/puberulous/pulverulent. <strong>Flower: </strong><strong>indumentum of the pedicel</strong> puberulous/pulverulent; <strong>form of the flower-bud</strong> conical; <strong>corolla</strong> colour - of the - pink/green; <strong>disc nectariferous</strong> concave/depressed at the centro. <strong>Fruit: </strong><strong>type</strong> berry; <strong>form</strong> botuliform. <strong>Seed: </strong><strong>form</strong> sub prismtatic; <strong>laterally</strong> flattened/lateral smooth. ",
-    "bibliografiaReferencia": "&lt;p&gt;Lombardi, J. A. 2000. Vitaceae - G&amp;ecirc;neros Ampelocissus, Ampelopsis e Cissus. Flora Neotropica monograph 80: 1-250.&lt;/p&gt;",
+    "bibliografiaReferencia": "&lt;p&gt;Daly, D. C. 1999. Notes on Trattinnickia, including a synopsis in eastern Brazil&#39;s Atlantic forest complex. Studies in neotropical Burseraceae IX. Kew Bulletin 54 (1): 129-137.&lt;/p&gt;",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
     "mostrarChaveIdentificacao": false,
@@ -122,20 +114,15 @@
     "mostrarLinkParaTaxon": true,
     "nomesVernaculos": [
         {
-            "lingua": "Portuguese",
-            "nome": "uva-da-mata",
-            "regiao": "Belmonte, BA"
+            "lingua": "enum.label.NomesVernaculosLinguaEnum.PORTUGUES",
+            "nome": "amescla",
+            "regiao": "Sudeste"
         },
         {
-            "lingua": "Portuguese",
-            "nome": "cip\u00f3-de-anta",
-            "regiao": "Santa Cruz Cabr\u00e1lia, BA"
-        },
-        {
-            "lingua": "Portuguese",
-            "nome": "uva-do-mato",
-            "regiao": "Linhares, ES"
+            "lingua": "enum.label.NomesVernaculosLinguaEnum.PORTUGUES",
+            "nome": "amescla-tapina",
+            "regiao": "Sudeste"
         }
     ],
-    "possuiImagemVoucher": true
+    "possuiImagemVoucher": false
 }

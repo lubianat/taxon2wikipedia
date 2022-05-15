@@ -112,13 +112,25 @@ def render_ecology(data):
     return text
 
 
+def print_qs_for_names(data, qid):
+    names = get_common_names(data)
+    qs = ""
+    for name in names:
+
+        qs += f'{qid}|P1843|pt:"{name}" \n'
+    return qs
+
+
 def get_common_names(data):
 
     common_names = data["nomesVernaculos"]
 
     name_strings = []
     for name in common_names:
-        if name["lingua"] == "portuguese":
+        if (
+            name["lingua"] == "portuguese"
+            or name["lingua"] == "enum.label.NomesVernaculosLinguaEnum.PORTUGUES"
+        ):
             name_strings.append(name["nome"])
     return name_strings
 

@@ -11,6 +11,7 @@ from pathlib import Path
 from process_reflora import *
 import click
 import webbrowser
+from wdcuration import render_qs_url
 
 HERE = Path(__file__).parent.resolve()
 
@@ -94,6 +95,10 @@ def main(scope_name: str, taxon_qid: str, reflora_id: str):
         reflora_id = r.url.split("FB")[-1]
     reflora_data = get_reflora_data(reflora_id)
 
+    qs = print_qs_for_names(reflora_data, taxon_qid)
+    print(qs)
+    webbrowser.open(render_qs_url(qs))
+    proceed = input("Enter anything to proceed.")
     common_name_text = render_common_name(results_df)
     taxobox = get_taxobox(taxon_qid)
 
