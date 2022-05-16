@@ -1,4 +1,3 @@
-from textwrap import indent
 import requests
 import sys
 from pathlib import Path
@@ -136,12 +135,7 @@ def get_common_names(data):
 
 
 def get_cc_by_comment(data):
-    text = (
-        data["citacao"]
-        .split("Jardim Bot")[0]
-        .replace("<i>", "''")
-        .replace("</i>", "''")
-    )
+    text = data["citacao"].split("Jardim Bot")[0].replace("<i>", "''").replace("</i>", "''")
     wiki_text = f"""==Notas==
     Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de {text}.
     """
@@ -289,30 +283,33 @@ def get_subspecies_from_reflora(data):
     name = data["nomeStr"]
     if "filhosSubspVar" not in data:
         return ""
-    subspecies_html = data["filhosSubspVar"]
-    soup = BeautifulSoup(subspecies_html)
-    links = soup.find_all("a")
-    species = []
-    regex = '"nomeRank"> var\..*?"taxon".*?<i>(.*?)<\/i>'
-    for link in links:
-        print(str(link))
-        results = re.search(regex, str(link))
-        species.append(results.group(1))
+    try:
+        subspecies_html = data["filhosSubspVar"]
+        soup = BeautifulSoup(subspecies_html)
+        links = soup.find_all("a")
+        species = []
+        regex = '"nomeRank"> var\..*?"taxon".*?<i>(.*?)<\/i>'
+        for link in links:
+            print(str(link))
+            results = re.search(regex, str(link))
+            species.append(results.group(1))
 
-    if len(species) == 0:
+        if len(species) == 0:
+            return ""
+        ref = get_ref_reflora(data)
+
+        text = f"São conhecidas as seguintes subspécies de {name}:  {ref}"
+
+        for i in species:
+
+            text = (
+                text
+                + f"""
+  * ''{name}'' var. ''{i}'' """
+            )
+        return text
+    except Exception:
         return ""
-    ref = get_ref_reflora(data)
-
-    text = f"São conhecidas as seguintes subspécies de {name}:  {ref}"
-
-    for i in species:
-
-        text = (
-            text
-            + f"""
-* ''{name}'' var. ''{i}'' """
-        )
-    return text
 
 
 def get_states_from_reflora(data):

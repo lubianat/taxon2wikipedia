@@ -3,6 +3,7 @@ import pandas as pd
 from jinja2 import Template
 import sys
 import requests
+import click
 
 
 def get_parent_taxon_df(qid):
@@ -66,11 +67,7 @@ def get_taxobox_from_df(parent_taxon_df):
         result = result + to_append
 
     try:
-        map = (
-            parent_taxon_df["taxon_range_map_image.value"][0]
-            .split("/")[-1]
-            .replace("%20", " ")
-        )
+        map = parent_taxon_df["taxon_range_map_image.value"][0].split("/")[-1].replace("%20", " ")
         to_append = f"| mapa = { map}\n"
         result = result + to_append
     except:
@@ -86,3 +83,9 @@ def get_taxobox(qid):
     df = get_parent_taxon_df(qid)
     a = get_taxobox_from_df(df)
     return a
+
+
+@click.command(name="taxobox")
+def print_taxobox(qid):
+    taxobox = get_taxobox(qid)
+    print(taxobox)

@@ -2,101 +2,104 @@
     "mostrarHierarquia": true,
     "distribuicaoGeograficaDuvidaNorte": "",
     "estadosCerteza": [
-        "BA",
-        "ES"
+        "MG",
+        "PR",
+        "RJ",
+        "SP"
     ],
     "mostrarGeracaoDescricaoTaxon": false,
-    "filhosSubspVar": "",
-    "possuiImagemVoucherHV": false,
+    "possuiImagemVoucherHV": true,
     "mostrarDistribuicaoHidrografica": true,
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
     "exibirMensagemCamposControladosIgual": true,
-    "idTaxon": 6609,
+    "idTaxon": 622109,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
-    "distribuicaoGeograficaCertezaSul": "",
+    "distribuicaoGeograficaCertezaSul": "<b>South</b> (Paran\u00e1)<br/>",
     "substrato": [
+        "Rupicolous",
         "Terrestrial",
-        "Tree"
+        "Herb"
     ],
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
     "mostrarDescricaoCamposControlados": false,
-    "id": "FB6609",
+    "id": "FB621573",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(68)\" href=\"javascript:void(0);\"><img title=\" detalhar.taxon.controle.taxon.contem.descricao.completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Burseraceae</div><div class=\"nomeAutorSupraGenerico\"> Kunth</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(6607)\" href=\"javascript:void(0);\"><img title=\" detalhar.taxon.controle.taxon.contem.descricao.completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Trattinnickia</i></div><div class=\"nomeAutorInfraGenerico\"> Willd.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(6609)\" href=\"javascript:void(0);\"><img title=\" detalhar.taxon.controle.taxon.contem.descricao.completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Trattinnickia mensalis</i></div><div class=\"nomeAutorInfraGenerico\"> Daly</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(179)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Orchidaceae</div><div class=\"nomeAutorSupraGenerico\"> A.Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(12379)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Zygopetalum</i></div><div class=\"nomeAutorInfraGenerico\"> Hook.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(38436)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Has field images \" src=\"/reflora/layout/default/imagens/listaBrasil/org_img.png\" style=\" vertical-align:middle; padding-bottom: 5px; height: 14px; \" /><img title=\" Has images in the herbarium \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Zygopetalum maculatum</i></div><div class=\"nomeAutorInfraGenerico\"> (Kunth) Garay</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(621573)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Has images in the herbarium \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Zygopetalum</i></div><div class=\"taxon\"> <i>maculatum</i></div><div class=\"nomeRank\"> subsp.</div><div class=\"taxon\"> <i>triste</i></div><div class=\"nomeAutorInfraGenerico\"> (Barb.Rodr.) Meneguzzo</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
     "possuiImagemVoucherINCT": false,
     "statusQualificador": [
-        "enum.label.Status.NOME_ACEITO",
-        "enum.label.Qualificador.NOME_CORRETO"
+        "Accepted Name",
+        "Correct name"
     ],
     "mostrarImagensCampos": false,
     "distribuicaoGeograficaDuvidaCentroOeste": "",
     "mostrarTipoVegetacao": true,
-    "distribuicaoGeograficaCertezaSudeste": "<b>enum.label.ConsultaPublicaRegiaoEnum.SUDESTE</b> (enum.label.EstadosBrasilEnum.Completo.ES)<br/>",
+    "distribuicaoGeograficaCertezaSudeste": "<b>Southeast</b> (Minas Gerais, Rio de Janeiro, S\u00e3o Paulo)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "<p>Daly, D.C. 2015. Burseraceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB6609\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB6609</a>&gt;.<BR>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (DOI: 10.1590/2175-7860201566411)</p>",
-    "nome": "<span><div class=\"taxon\"> <i>Trattinnickia mensalis</i></div><div class=\"nomeAutorInfraGenerico\"> Daly</div></span>",
-    "distribuicaoGeograficaCertezaNordeste": "<b>enum.label.ConsultaPublicaRegiaoEnum.NORDESTE</b> (enum.label.EstadosBrasilEnum.Completo.BA)<br/>",
+    "bibliografiaFixa": "",
+    "nome": "<span><div class=\"taxon\"> <i>Zygopetalum</i></div><div class=\"taxon\"> <i>maculatum</i></div><div class=\"nomeRank\"> subsp.</div><div class=\"taxon\"> <i>triste</i></div><div class=\"nomeAutorInfraGenerico\"> (Barb.Rodr.) Meneguzzo</div></span>",
+    "distribuicaoGeograficaCertezaNordeste": "",
     "distribuicaoHidrograficaCerteza": "",
     "distribuicaoIlhasPossiveis": "",
     "mostrarCitacao": true,
-    "endemismo": "endemicaBrasil.e.endemica.do.Brasil",
+    "endemismo": "Is endemic from Brazil",
     "distribuicaoHidrograficaDuvida": "",
     "mostrarVouchers": true,
     "distribuicaoGeograficaCertezaNorte": "",
-    "estadosDuvida": [],
+    "estadosDuvida": [
+        "BA",
+        "ES",
+        "SC"
+    ],
     "formaVida": [
-        "Tree"
+        "Herb"
     ],
     "tipoVegetacao": [
-        "enum.label.DistribuicaoTipoVegetacaoEnum.FLORESTA_ESTACIONAL_SEMIDECIDUAL"
+        "High Altitude Grassland"
     ],
-    "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB6609&action=print",
+    "distribuicaoGeograficaDuvidaSul": "<b>South</b> (Santa Catarina)<br/>",
+    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB621573&action=print",
     "mostrarSinopsesBrasil": false,
-    "origem": "enum.label.DistribuicaoOrigemEnum.NATIVA",
-    "titulo": "consulta.publica.uc.resultado.da.consulta.title - Trattinnickia mensalis Daly",
+    "origem": "Native",
+    "titulo": "Brazilian Flora Checklist - Zygopetalum maculatum subsp. triste (Barb.Rodr.) Meneguzzo",
+    "referencias": "<td>Meneguzzo, T.E.C., Heringeriana, 14: 157-191, 2020.<font color='red'><b> Original work</font color></b><br></td>",
     "verificarCitesStatus": true,
-    "distribuicaoGeograficaDuvidaSudeste": "",
+    "distribuicaoGeograficaDuvidaSudeste": "<b>Southeast</b> (Esp\u00edrito Santo)<br/>",
     "mostrarEndemismo": true,
     "mostrarReferencias": true,
+    "mostrarDescricaoLivrePT": true,
     "mostrarFilhosSubFam": true,
     "dominioFitogeografico": [
-        "enum.label.DominiosFitogeograficosEnum.MATA_ATLANTICA"
+        "Central Brazilian Savanna",
+        "Atlantic Rainforest"
     ],
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "<i>Burseraceae</i>  consulta.publica.uc.bem.vindo.consulta.publica.consultar.como.citar.fboconsulta.publica.uc.citacao.disponivel<<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB6609 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB6609</a>>. consulta.publica.uc.citacao.acesso.em15 May 2022",
+    "citacao": "Meneguzzo, T.E.C.; Hall, C.F. 2020. <i>Zygopetalum</i>  <i>in</i> <b>Flora do Brasil 2020.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Available at: <<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB621573 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB621573</a>>. Accessed on: 16 May 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Trattinnickia_mensalis' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Trattinnickia_mensalis</a>",
     "sinopsesBrasil": [
         {
-            "rank": "SUB_ESPECIE.sinopse",
-            "aceito": 0,
-            "endemico": 0,
-            "sinonimo": 0
-        },
-        {
-            "rank": "VARIEDADE.sinopse",
+            "rank": "Varieties",
             "aceito": 0,
             "endemico": 0,
             "sinonimo": 0
         }
     ],
+    "temComoSinonimo": "<span><a onclick=\"carregaTaxonGrupo(12389)\" href=\"javascript:void(0);\"><img title=\" Has field images \" src=\"/reflora/layout/default/imagens/listaBrasil/org_img.png\" style=\" vertical-align:middle; padding-bottom: 5px; height: 14px; \" /><div class=\"tipoSinonimo\"> basionym</div><div class=\"sinonimo\"> <i>Zygopetalum triste</i></div><div class=\"nomeAutorSinonimo\"> Barb.Rodr.</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(621578)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterotypic</div><div class=\"sinonimo\"> <i>Zygopetalum</i></div><div class=\"sinonimo\"> <i>brachypetalum</i></div><div class=\"nomeRank\"> var.</div><div class=\"sinonimo\"> <i>stenopetalum</i></div><div class=\"nomeAutorSinonimo\"> Regel</div></a></span><br>",
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Trattinnickia mensalis Daly",
+    "nomeStr": "Zygopetalum maculatum subsp. triste (Barb.Rodr.) Meneguzzo",
     "mostrarDominioFitogeografico": true,
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
-    "distribuicaoGeograficaDuvidaNordeste": "",
+    "distribuicaoGeograficaDuvidaNordeste": "<b>Northeast</b> (Bahia)<br/>",
     "mostrarSubstrato": true,
     "baciasCerteza": [],
     "verificarCncFlora": true,
@@ -104,25 +107,16 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>Bel\u00e9m, R.P., 826, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125778\" target=\"_blank\">CVRD</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a><br>D.A. Folli, 490, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125778\" target=\"_blank\">CVRD</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a><br>Spada, J., 6578, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125778\" target=\"_blank\">CVRD</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a></td>",
+    "vouchers": "<td>H.S. Irwin, 29102, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125279\" target=\"_blank\">MO</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228121201' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126320\" target=\"_blank\">UB</a>, (MG)<br>Meneguzzo, T.E.C., 1397, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=285130226' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124473\" target=\"_blank\">CEN</a>, (MG)<br>Silva, J.M., 138, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125352\" target=\"_blank\">MBM</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126325\" target=\"_blank\">SPF</a>, (PR)<br>Silva, J.M., 3218, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125352\" target=\"_blank\">MBM</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126349\" target=\"_blank\">BHCB</a>, (PR)<br>G. Martinelli, 6155, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 192901 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283958476' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (RJ)<br>Koch, I., 563, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124893\" target=\"_blank\">SP</a>, (SP)<br>Barbosa Rodrigues, J., s.n., SOF, (MG), <font color='red'><b>Typus</b></font></td>",
     "mostrarTemComoSinonimo": true,
-    "bibliografiaReferencia": "&lt;p&gt;Daly, D. C. 1999. Notes on Trattinnickia, including a synopsis in eastern Brazil&#39;s Atlantic forest complex. Studies in neotropical Burseraceae IX. Kew Bulletin 54 (1): 129-137.&lt;/p&gt;",
+    "descricaoLivrePT": "<p style=\"font-variant-numeric: normal; font-variant-east-asian: normal;\">\n<font color=\"#333333\"><font face=\"Arial, sans-serif\"><font style=\"font-size: 10pt\">Plantas\nterr\u00edcolas com pseudobulbos enterrados ou parcialmente enterrados;\nfolhas com limbos curtos (6,8\u201322,4 cm compr.); pseudobulbos curtos\n(2,4\u20133,6 cm compr.); infloresc\u00eancias curtas (19,4\u201325,6 cm\ncompr.); s\u00e9palas e p\u00e9talas verdes claras somente na por\u00e7\u00e3o\nproximal e eventualmente no \u00e1pice, por\u00e7\u00e3o distal marrons escuras,\nraramente com cor de fundo verde clara e com grandes m\u00e1culas marrons\nescuras e concluentes; labelo roxo com veias confluentes roxas\nescuras, comumente esmaecendo em dire\u00e7\u00e3o ao \u00e1pice</font></font></font></p>",
+    "bibliografiaReferencia": "&lt;p&gt;Meneguzzo, T.E.C. (2018) &lt;em&gt;Systematics of &lt;/em&gt;Zygopetalum&lt;em&gt; (&lt;/em&gt;Orchidaceae&lt;em&gt;)&lt;/em&gt;. PhD Thesis. Instituto de Pesquisas Jardim Bot&amp;acirc;nico do Rio de Janeiro, Rio de Janeiro, 528 pp.&lt;/p&gt;\r\n&lt;p&gt;Meneguzzo, T.E.C. (2020) Taxonomic and nomenclatural notes on &lt;em&gt;Zygopetalinae&lt;/em&gt; infraspecies (&lt;em&gt;Orchidaceae&lt;/em&gt;). &lt;em&gt;Heringeriana&lt;/em&gt; 14: 157&amp;ndash;191.&lt;/p&gt;",
+    "abaDefaultDescLivre": "PT",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
     "mostrarChaveIdentificacao": false,
     "mostrarHospedeiroIndeterminado": false,
-    "mostrarLinkParaTaxon": true,
-    "nomesVernaculos": [
-        {
-            "lingua": "enum.label.NomesVernaculosLinguaEnum.PORTUGUES",
-            "nome": "amescla",
-            "regiao": "Sudeste"
-        },
-        {
-            "lingua": "enum.label.NomesVernaculosLinguaEnum.PORTUGUES",
-            "nome": "amescla-tapina",
-            "regiao": "Sudeste"
-        }
-    ],
-    "possuiImagemVoucher": false
+    "mostrarLinkParaTaxon": false,
+    "nomesVernaculos": [],
+    "possuiImagemVoucher": true
 }

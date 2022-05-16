@@ -2,43 +2,46 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Sapindales]]    
+| família                = [[Orchidaceae]]    
+| ordem                  = [[Asparagales]]    
 | divisão                = [[Tracheophyta]]    
+| subfamília             = [[Epidendroideae]]    
 | infrarreino            = [[Streptophyta]]    
-| família                = [[Burseraceae]]    
+| género                 = [[Zygopetalum]]    
 | superdivisão           = [[Embryophyta]]    
 | superdivisão           = [[Equisetopsida]]    
 | subfilo                = [[Euphyllophyta]]    
+| tribo                  = [[Cymbidieae]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
-| tribo                  = [[Canarieae]]    
-| género                 = [[Trattinnickia]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Trattinnickia mensalis]]    
+| espécie                = [[Zygopetalum maculatum]]    
 }}
-'''''Trattinnickia mensalis''''' é uma espécie de  [[planta]] do gênero ''[[Trattinnickia]]'' e da família [[Burseraceae]].
+'''''Zygopetalum maculatum''''' é uma espécie de  [[planta]] do gênero ''[[Zygopetalum]]'' e da família [[Orchidaceae]].
 == Taxonomia ==
-A espécie foi descrita em [[1999]] por [[Douglas C. Daly]]. <ref>{{Citar web|url=https://www.gbif.org/species/3994366|titulo=Trattinnickia mensalis|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi descrita em [[1970]] por [[Leslie A. Garay]]. <ref>{{Citar web|url=https://www.gbif.org/species/2837000|titulo=Zygopetalum maculatum|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
-
+Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB621573|titulo=Zygopetalum maculatum subsp. triste (Barb.Rodr.) Meneguzzo|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+* ''Zygopetalum triste''  Barb.Rodr. 
+* ''Zygopetalum brachypetalum stenopetalum''  Regel 
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB6609|titulo=Trattinnickia mensalis Daly|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref>  
+É uma espécie [[rupícola]], [[terrícola]] e [[herbácea]]. <ref name=":ref_0"/>  
     
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de [[Bahia]] e [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[floresta estacional semidecidual]].<ref name=":ref_0"/> 
+A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de [[Minas Gerais]], [[Paraná]], [[Rio de Janeiro]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
+A espécie é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de [[Cerrado]] e [[Mata Atlântica]], em regiões com vegetação de [[campos de altitude]].<ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6007 ''Trattinnickia mensalis'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6007 ''Zygopetalum maculatum'' no projeto Flora e Funga do Brasil]
 {{Controle de autoridade|colapsar}}
 {{esboço-planta}}
 
-[[Categoria:Burseraceae]]
-[[Categoria:Trattinnickia]]
-[[Categoria:Plantas descritas em 1999]]
+[[Categoria:Orchidaceae]]
+[[Categoria:Zygopetalum]]
+[[Categoria:Plantas descritas em 1970]]
 [[Categoria:Plantas]]
 [[Categoria:Flora do Brasil]]
 [[Categoria:Flora do Espírito Santo]]

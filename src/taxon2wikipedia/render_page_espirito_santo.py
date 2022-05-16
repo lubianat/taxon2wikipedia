@@ -4,11 +4,11 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 import pandas as pd
 from jinja2 import Template
 import sys
-from qid2taxobox import *
-from cleanup import merge_equal_refs
+from .qid2taxobox import *
+from .cleanup import merge_equal_refs
 import pywikibot
 from pathlib import Path
-from process_reflora import *
+from .process_reflora import *
 import click
 import webbrowser
 from wdcuration import render_qs_url
@@ -31,7 +31,7 @@ def get_gbif_ref(qid):
     return ref
 
 
-def render_taxonomy(reflora_data, results_df, taxon_qid):
+def render_taxonomy(reflora_data, results_df, qid):
 
     if "taxon_authorLabel.value" not in results_df:
         description = ""
@@ -40,7 +40,7 @@ def render_taxonomy(reflora_data, results_df, taxon_qid):
         description_year = results_df["description_year.value"][0]
 
         taxon_author_labels = [f"[[{name}]]" for name in taxon_author_labels]
-        description = f"A espécie foi descrita em [[{description_year}]] por {render_list_without_dict(taxon_author_labels)}. {get_gbif_ref(taxon_qid)}"
+        description = f"A espécie foi descrita em [[{description_year}]] por {render_list_without_dict(taxon_author_labels)}. {get_gbif_ref(qid)}"
 
     text = f"""== Taxonomia ==
 {description}
@@ -50,21 +50,19 @@ def render_taxonomy(reflora_data, results_df, taxon_qid):
     return text
 
 
-@click.command()
-@click.argument("taxon-qid")
+@click.command(name="render")
+@click.option("--qid")
 @click.option("--scope-name", default="planta", help="O escopo do táxon alvo.")
-@click.option(
-    "--reflora-id", default="search", help="O número do taxon na base Reflora."
-)
-def main(scope_name: str, taxon_qid: str, reflora_id: str):
+@click.option("--reflora-id", default="search", help="O número do taxon na base Reflora.")
+def main(scope_name: str, qid: str, reflora_id: str):
 
     template_path = Path(f"{HERE}/../data/full_query_taxon.rq.jinja")
     t = Template(template_path.read_text())
-    query = t.render(taxon=taxon_qid)
+    query = t.render(taxon=qid)
 
     results_df = get_rough_df_from_wikidata(query)
 
-    parent_taxon_df = get_parent_taxon_df(taxon_qid)
+    parent_taxon_df = get_parent_taxon_df(qid)
     print(parent_taxon_df)
     family = parent_taxon_df["taxonName.value"][
         parent_taxon_df["taxonRankLabel.value"] == "família"
@@ -80,27 +78,23 @@ def main(scope_name: str, taxon_qid: str, reflora_id: str):
         description_year = results_df["description_year.value"][0]
         year_cat = f"[[Categoria:Plantas descritas em {description_year}]]"
 
-    reflora_url = (
-        f"""http://servicos.jbrj.gov.br/flora/search/{taxon_name.replace(" ", "_")}"""
-    )
+    reflora_url = f"""http://servicos.jbrj.gov.br/flora/search/{taxon_name.replace(" ", "_")}"""
     webbrowser.open(
         f"""https://scholar.google.com/scholar?q=%22{taxon_name.replace(" ", "+")}%22+scielo"""
     )
-    webbrowser.open(
-        f"""https://google.com/search?q=%22{taxon_name.replace(" ", "+")}%22"""
-    )
+    webbrowser.open(f"""https://google.com/search?q=%22{taxon_name.replace(" ", "+")}%22""")
     if reflora_id == "search":
         r = requests.get(reflora_url)
         webbrowser.open(reflora_url)
         reflora_id = r.url.split("FB")[-1]
     reflora_data = get_reflora_data(reflora_id)
 
-    qs = print_qs_for_names(reflora_data, taxon_qid)
+    qs = print_qs_for_names(reflora_data, qid)
     print(qs)
     webbrowser.open(render_qs_url(qs))
     proceed = input("Enter anything to proceed.")
     common_name_text = render_common_name(results_df)
-    taxobox = get_taxobox(taxon_qid)
+    taxobox = get_taxobox(qid)
 
     wiki_page = (
         f"""
@@ -108,7 +102,7 @@ def main(scope_name: str, taxon_qid: str, reflora_id: str):
 '''''{taxon_name}'''''{common_name_text} é uma espécie de  """
         f"[[{scope_name}]] do gênero ''[[{genus}]]'' e da família [[{family}]]."
         f"""
-{render_taxonomy(reflora_data, results_df, taxon_qid)}
+{render_taxonomy(reflora_data, results_df, qid)}
 {render_ecology(reflora_data)}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
@@ -152,16 +146,14 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
         site = pywikibot.Site("pt", "wikipedia")
         newPage = Page(site, taxon_name)
         newPage.text = wiki_page
-        newPage.save(
-            "Esboço criado com código de https://github.com/lubianat/taxon2wikipedia"
-        )
+        newPage.save("Esboço criado com código de https://github.com/lubianat/taxon2wikipedia")
     else:
         print("quitting...")
         quit()
 
     site = pywikibot.Site("wikidata", "wikidata")
     repo = site.data_repository()
-    item = pywikibot.ItemPage(repo, taxon_qid)
+    item = pywikibot.ItemPage(repo, qid)
 
     data = [{"site": "ptwiki", "title": taxon_name.replace(" ", "_")}]
     item.setSitelinks(data)

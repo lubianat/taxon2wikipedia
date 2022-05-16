@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/taxon2wikipedia.egg-info/PKG-INFO
+src/taxon2wikipedia.egg-info/SOURCES.txt
+src/taxon2wikipedia.egg-info/dependency_links.txt
+src/taxon2wikipedia.egg-info/entry_points.txt
+src/taxon2wikipedia.egg-info/not-zip-safe
+src/taxon2wikipedia.egg-info/requires.txt
+src/taxon2wikipedia.egg-info/top_level.txt
