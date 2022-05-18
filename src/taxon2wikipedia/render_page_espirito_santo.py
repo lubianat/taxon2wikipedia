@@ -12,6 +12,7 @@ from .process_reflora import *
 import click
 import webbrowser
 from wdcuration import render_qs_url
+from pywikibot.page import Page
 
 HERE = Path(__file__).parent.resolve()
 
@@ -87,11 +88,12 @@ def main(scope_name: str, qid: str, reflora_id: str):
         r = requests.get(reflora_url)
         webbrowser.open(reflora_url)
         reflora_id = r.url.split("FB")[-1]
+    print(reflora_id)
     reflora_data = get_reflora_data(reflora_id)
 
-    qs = print_qs_for_names(reflora_data, qid)
-    print(qs)
-    webbrowser.open(render_qs_url(qs))
+    if len(reflora_data["nomesVernaculos"]) > 0:
+        qs = print_qs_for_names(reflora_data, qid)
+        webbrowser.open(render_qs_url(qs))
     proceed = input("Enter anything to proceed.")
     common_name_text = render_common_name(results_df)
     taxobox = get_taxobox(qid)
@@ -110,7 +112,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 {render_domains(reflora_data)}
 {{{{Referencias}}}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6007 ''{taxon_name}'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id} ''{taxon_name}'' no projeto Flora e Funga do Brasil]
 {{{{Controle de autoridade|colapsar}}}}
 {{{{esboço-{scope_name}}}}}
 
@@ -141,8 +143,6 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 
     create = input("Create page with pywikibot? (y/n)")
     if create == "y":
-        from pywikibot.page import Page
-
         site = pywikibot.Site("pt", "wikipedia")
         newPage = Page(site, taxon_name)
         newPage.text = wiki_page
