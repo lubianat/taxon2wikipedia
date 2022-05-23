@@ -2,42 +2,42 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Malpighiales]]    
+| ordem                  = [[Laurales]]    
+| família                = [[Lauraceae]]    
 | divisão                = [[Tracheophyta]]    
 | infrarreino            = [[Streptophyta]]    
 | superdivisão           = [[Embryophyta]]    
 | superdivisão           = [[Equisetopsida]]    
-| família                = [[Malpighiaceae]]    
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
-| género                 = [[Heteropterys]]    
+| género                 = [[Beilschmiedia]]    
 | subdomínio             = [[Diaphoretickes]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Heteropterys oberdanii]]    
+| espécie                = [[Beilschmiedia linharensis]]    
 }}
-'''''Heteropterys oberdanii''''' é uma espécie de  [[planta]] do gênero ''[[Heteropterys]]'' e da família [[Malpighiaceae]].
+'''''Beilschmiedia linharensis''''' é uma espécie de  [[planta]] do gênero ''[[Beilschmiedia]]'' e da família [[Lauraceae]].
 == Taxonomia ==
-A espécie foi descrita em [[2003]] por [[André M. Amorim]]. <ref>{{Citar web|url=https://www.gbif.org/species/3982754|titulo=Heteropterys oberdanii|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi descrita em [[1999]] por [[Sachiko Nishida]] e [[Henk van der Werff]]. <ref>{{Citar web|url=https://www.gbif.org/species/4176601|titulo=Beilschmiedia linharensis|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
 
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[trepadeira]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8896|titulo=Heteropterys oberdanii Amorim|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref>  
+É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8389|titulo=Beilschmiedia linharensis Sa. Nishida & van der Werff|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref>  
     
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
 A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de [[Bahia]] e [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[floresta estacional semidecidual]] e [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8896 ''Heteropterys oberdanii'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8389 ''Beilschmiedia linharensis'' no projeto Flora e Funga do Brasil]
 {{Controle de autoridade|colapsar}}
 {{esboço-planta}}
 
-[[Categoria:Malpighiaceae]]
-[[Categoria:Heteropterys]]
-[[Categoria:Plantas descritas em 2003]]
+[[Categoria:Lauraceae]]
+[[Categoria:Beilschmiedia]]
+[[Categoria:Plantas descritas em 1999]]
 [[Categoria:Plantas]]
 [[Categoria:Flora do Brasil]]
 [[Categoria:Flora do Espírito Santo]]

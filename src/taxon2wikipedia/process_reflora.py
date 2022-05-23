@@ -137,7 +137,7 @@ def get_common_names(data):
 def get_cc_by_comment(data):
     text = data["citacao"].split("Jardim Bot")[0].replace("<i>", "''").replace("</i>", "''")
     wiki_text = f"""==Notas==
-    Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de {text}.
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de {text}
     """
     print(wiki_text)
 

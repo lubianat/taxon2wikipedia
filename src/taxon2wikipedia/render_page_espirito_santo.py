@@ -91,6 +91,7 @@ def main(scope_name: str, qid: str, reflora_id: str):
     print(reflora_id)
     reflora_data = get_reflora_data(reflora_id)
 
+    print(reflora_data["nomesVernaculos"])
     if len(reflora_data["nomesVernaculos"]) > 0:
         qs = print_qs_for_names(reflora_data, qid)
         webbrowser.open(render_qs_url(qs))
