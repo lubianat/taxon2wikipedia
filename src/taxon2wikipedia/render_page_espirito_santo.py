@@ -96,6 +96,9 @@ def main(scope_name: str, qid: str, reflora_id: str):
         qs = print_qs_for_names(reflora_data, qid)
         webbrowser.open(render_qs_url(qs))
     proceed = input("Enter anything to proceed.")
+
+    #   if "Legitimate, but incorrect name" in reflora_data["statusQualificador"]:
+
     common_name_text = render_common_name(results_df)
     taxobox = get_taxobox(qid)
 
@@ -158,6 +161,10 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 
     data = [{"site": "ptwiki", "title": taxon_name.replace(" ", "_")}]
     item.setSitelinks(data)
+
+    stringclaim = pywikibot.Claim(repo, "P10701")  # Else, add the value
+    stringclaim.setTarget(f"FB{str(reflora_id)}")
+    item.addClaim(stringclaim, summary="Adding a Reflora ID")
 
     webbrowser.open(
         f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?veaction=edit"""

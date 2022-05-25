@@ -72,6 +72,7 @@ VEGETATION_WIKI = {
     "Anthropic area": "[[áreas antrópicas]]",
     "Mixed Ombrophyllous Forest": "[[floresta ombrófila mista|mata de araucária]]",
     "Seasonally Deciduous Forest": "floresta estacional decidual",
+    "Amazonian Campinarana": "[[Campinarana]]",
 }
 
 ECOLOGY_WIKI = {
