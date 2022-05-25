@@ -118,6 +118,8 @@ def print_qs_for_names(data, qid):
     for name in names:
 
         qs += f'{qid}|P1843|pt:"{name}" \n'
+
+    print(qs)
     return qs
 
 
@@ -128,7 +130,7 @@ def get_common_names(data):
     name_strings = []
     for name in common_names:
         if (
-            name["lingua"] == "portuguese"
+            name["lingua"].lower() == "portuguese"
             or name["lingua"] == "enum.label.NomesVernaculosLinguaEnum.PORTUGUES"
         ):
             name_strings.append(name["nome"])
