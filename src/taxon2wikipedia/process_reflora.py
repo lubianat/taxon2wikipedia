@@ -100,6 +100,20 @@ ECOLOGY_WIKI = {
 }
 
 
+def render_free_description(data):
+    try:
+        if data["mostrarDescricaoLivrePT"] == True:
+            text = f"""
+== Descrição == 
+{data["descricaoLivrePT"]}  {get_ref_reflora(data)}            
+        """
+            return text
+    except KeyError as e:
+        return ""
+    else:
+        return ""
+
+
 def render_ecology(data):
     substrate = data["substrato"]
     life_form = data["formaVida"]
@@ -140,9 +154,8 @@ def get_common_names(data):
 def get_cc_by_comment(data):
     text = data["citacao"].split("Jardim Bot")[0].replace("<i>", "''").replace("</i>", "''")
     wiki_text = f"""==Notas==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de {text}
-    """
-    print(wiki_text)
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de {text}"""
+    return wiki_text
 
 
 def render_list_without_dict(list_of_names):

@@ -97,10 +97,22 @@ def main(scope_name: str, qid: str, reflora_id: str):
         webbrowser.open(render_qs_url(qs))
     proceed = input("Enter anything to proceed.")
 
-    #   if "Legitimate, but incorrect name" in reflora_data["statusQualificador"]:
+    if set(["Illegitimate name", "Legitimate, but incorrect name"]).intersection(
+        set(reflora_data["statusQualificador"])
+    ):
+        wiki_page = f"#REDIRECIONAMENTO[[{reflora_data['ehSinonimo']}"
+        print("Synonym!")
 
-    common_name_text = render_common_name(results_df)
-    taxobox = get_taxobox(qid)
+    else:
+        common_name_text = render_common_name(results_df)
+        taxobox = get_taxobox(qid)
+
+    free_description = render_free_description(reflora_data)
+
+    if free_description != "":
+        notes = f"{get_cc_by_comment(reflora_data)}{get_ref_reflora(reflora_data)}"
+    else:
+        notes = ""
 
     wiki_page = (
         f"""
@@ -110,10 +122,12 @@ def main(scope_name: str, qid: str, reflora_id: str):
         f"""
 {render_taxonomy(reflora_data, results_df, qid)}
 {render_ecology(reflora_data)}
+{render_free_description(reflora_data)}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
 {render_distribution_from_reflora(reflora_data)}
 {render_domains(reflora_data)}
+{notes}
 {{{{Referencias}}}}
 == Ligações externas ==
 * [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id} ''{taxon_name}'' no projeto Flora e Funga do Brasil]
@@ -162,15 +176,13 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
     data = [{"site": "ptwiki", "title": taxon_name.replace(" ", "_")}]
     item.setSitelinks(data)
 
-    stringclaim = pywikibot.Claim(repo, "P10701")  # Else, add the value
-    stringclaim.setTarget(f"FB{str(reflora_id)}")
-    item.addClaim(stringclaim, summary="Adding a Reflora ID")
-
     webbrowser.open(
         f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?veaction=edit"""
     )
 
-    get_cc_by_comment(reflora_data)
+    stringclaim = pywikibot.Claim(repo, "P10701")  # Else, add the value
+    stringclaim.setTarget(f"FB{str(reflora_id)}")
+    item.addClaim(stringclaim, summary="Adding a Reflora ID")
 
 
 def render_common_name(results_df):
