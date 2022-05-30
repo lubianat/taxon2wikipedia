@@ -108,8 +108,8 @@ def main(scope_name: str, qid: str, reflora_id: str):
         taxobox = get_taxobox(qid)
 
     free_description = render_free_description(reflora_data)
-
-    if free_description != "":
+    comment = render_comment(reflora_data)
+    if free_description != "" or comment != "":
         notes = f"{get_cc_by_comment(reflora_data)}{get_ref_reflora(reflora_data)}"
     else:
         notes = ""
@@ -118,7 +118,8 @@ def main(scope_name: str, qid: str, reflora_id: str):
         f"""
 {taxobox}
 '''''{taxon_name}'''''{common_name_text} é uma espécie de  """
-        f"[[{scope_name}]] do gênero ''[[{genus}]]'' e da família [[{family}]]."
+        f"""[[{scope_name}]] do gênero ''[[{genus}]]'' e da família [[{family}]]. {get_ref_reflora(reflora_data)}
+        {comment}"""
         f"""
 {render_taxonomy(reflora_data, results_df, qid)}
 {render_ecology(reflora_data)}
@@ -156,6 +157,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
     print("===== Saving wikipage =====")
     filepath = "wikipage.txt"
     wiki_page = merge_equal_refs(wiki_page)
+    wiki_page = wiki_page.replace("\n\n", "\n")
     with open(filepath, "w+") as f:
         f.write(wiki_page)
 
