@@ -73,6 +73,9 @@ VEGETATION_WIKI = {
     "Mixed Ombrophyllous Forest": "[[floresta ombrófila mista|mata de araucária]]",
     "Seasonally Deciduous Forest": "floresta estacional decidual",
     "Amazonian Campinarana": "[[Campinarana]]",
+    'Seasonal Evergreen Forest':"Floresta Estacional Perenifólia",
+    "Amazonian Savanna" : "savana amazônica",
+    "Mangrove": "[[mangue]]"
 }
 
 ECOLOGY_WIKI = {
@@ -98,6 +101,16 @@ ECOLOGY_WIKI = {
     "Weft": "formadora de tramas",
     "Palm Tree": "de [[palmeira]]",
 }
+
+def render_comment(data):
+  try:
+    if data["mostrarComentarioPublicoPT"] == True:
+      text = f"""{data["comentarioPublicoPT"]} {get_ref_reflora(data)}"""
+      return text
+  except KeyError as e:
+      return ""
+  else:
+      return ""
 
 
 def render_free_description(data):

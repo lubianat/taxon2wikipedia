@@ -2,48 +2,43 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
+| ordem                  = [[Malpighiales]]    
 | divisão                = [[Tracheophyta]]    
-| ordem                  = [[Poales]]    
-| género                 = [[Aechmea]]    
 | infrarreino            = [[Streptophyta]]    
-| subfamília             = [[Bromelioideae]]    
-| família                = [[Bromeliaceae]]    
 | superdivisão           = [[Embryophyta]]    
 | superdivisão           = [[Equisetopsida]]    
+| família                = [[Malpighiaceae]]    
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
+| género                 = [[Banisteriopsis]]    
 | subdomínio             = [[Diaphoretickes]]    
-| espécie                = [[Aechmea triangularis]]    
 | subreino               = [[Viridiplantae]]    
+| espécie                = [[Banisteriopsis sellowiana]]    
 }}
-'''''Aechmea triangularis''''' é uma espécie de  [[planta]] do gênero ''[[Aechmea]]'' e da família [[Bromeliaceae]].
+'''''Banisteriopsis sellowiana''''' é uma espécie de  [[planta]] do gênero ''[[Banisteriopsis]]'' e da família [[Malpighiaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8815|titulo=Banisteriopsis sellowiana (A.Juss.) B.Gates|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+        <div>É uma espécie bem diferentes dos táxons mais próximos (Complexo Banisteriopsis nummifera) pelas suas folhas glabras. Alguns indivíduos de B. nummifera também podem ter folhas glabras. Assim B. sellowiana difere-se desses indivíduos por sua inflorescência com ramos curtos com um número reduzido de flores bem pequenas e seu fruto (samarídeo) contendo pequenas álulas laterais (Gates, 1982).</div><div><br></div><div><br></div><div>Essa espécie faz parte de um complexo (Complexo Banisteriopsis nummifera), que apresentam folhas com pecíolos longos apresentando um par de glândulas protuberantes em seu ápice; flores com panículas bem evidentes; frutos (samarídeos) com indumento apresentando tricomas irritantes (Gates, 1982)</div><div><br></div><div>Complexo Banisteriopsis nummifera:</div><div>B. nummifera</div><div>B. sellowiana</div><div>B. anisandra</div><div>B. gardneriana</div><div>B. lyrata</div> <ref name=":ref_0"/> 
 == Taxonomia ==
-A espécie foi descrita em [[1955]] por [[Lyman Bradford Smith]]. <ref>{{Citar web|url=https://www.gbif.org/species/2698202|titulo=Aechmea triangularis|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
-
-Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB5876|titulo=Aechmea triangularis L.B.Sm.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-* ''Aechmea kautskyana''  E.Pereira &amp; L.B.Sm. 
-* ''Macrochordion kautskyana''  (E.Pereira &amp; L.B.Sm.) L.B.Sm. &amp; W.J.Kress 
-* ''Macrochordion triangularis''  (L.B.Sm.) L.B.Sm. &amp; W.J.Kress 
+A espécie foi descrita em [[1982]] por [[Bronwen Gates]]. <ref>{{Citar web|url=https://www.gbif.org/species/3984594|titulo=Banisteriopsis sellowiana|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+O seguinte sinônimo já foi catalogado:  <ref name=":ref_0"/> 
+* ''Banisteria sellowiana''  A.Juss. 
 == Forma de vida ==
-É uma espécie [[epífita]], [[rupícola]], [[terrícola]] e [[herbácea]]. <ref name=":ref_0"/>  
+É uma espécie [[terrícola]] e [[trepadeira]]. <ref name=":ref_0"/>  
     
-
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
-
 == Distribuição ==
-A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]] e [[Paraná]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]] e [[floresta ombrófila mista|mata de araucária]].<ref name=":ref_0"/> 
-
+A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]] e [[Rio de Janeiro]].<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[mangue]] e [[restinga]].<ref name=":ref_0"/> 
+==Notas==
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Francener, A.; Almeida, R.F. 2020. ''Banisteriopsis''  ''in'' <b>Flora do Brasil 2020.</b> <ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB5876 ''Aechmea triangularis'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8815 ''Banisteriopsis sellowiana'' no projeto Flora e Funga do Brasil]
 {{Controle de autoridade|colapsar}}
 {{esboço-planta}}
-
-[[Categoria:Bromeliaceae]]
-[[Categoria:Aechmea]]
-[[Categoria:Plantas descritas em 1955]]
+[[Categoria:Malpighiaceae]]
+[[Categoria:Banisteriopsis]]
+[[Categoria:Plantas descritas em 1982]]
 [[Categoria:Plantas]]
 [[Categoria:Flora do Brasil]]
 [[Categoria:Flora do Espírito Santo]]

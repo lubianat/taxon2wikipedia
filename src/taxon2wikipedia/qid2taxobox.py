@@ -83,6 +83,7 @@ def get_taxobox(qid):
 
 
 @click.command(name="taxobox")
+@click.option("--qid")
 def print_taxobox(qid):
     taxobox = get_taxobox(qid)
     print(taxobox)
