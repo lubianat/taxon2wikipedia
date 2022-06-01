@@ -14,6 +14,13 @@ def main():
     wikipage_path.write_text(wikipage)
 
 
+def fix_description(wikipage):
+  wikipage = wikipage.replace("compr.", "de comprimento")
+  wikipage = re.sub('<span.*?>','',wikipage)
+  return wikipage
+
+
+
 def merge_equal_refs(wikipage):
     results = re.findall(f"(<ref>.*?</ref>)", wikipage)
     repeated_refs = [

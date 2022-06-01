@@ -267,6 +267,7 @@ def get_reflora_data(fb_id):
     return data
 
 
+
 def get_synonyms_from_reflora(data):
     name = data["nomeStr"]
     if "temComoSinonimo" not in data:

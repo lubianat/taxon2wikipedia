@@ -5,7 +5,7 @@ import pandas as pd
 from jinja2 import Template
 import sys
 from .qid2taxobox import *
-from .cleanup import merge_equal_refs
+from .cleanup import *
 import pywikibot
 from pathlib import Path
 from .process_reflora import *
@@ -97,30 +97,35 @@ def main(scope_name: str, qid: str, reflora_id: str):
         webbrowser.open(render_qs_url(qs))
     proceed = input("Enter anything to proceed.")
 
-    if set(["Illegitimate name", "Legitimate, but incorrect name"]).intersection(
-        set(reflora_data["statusQualificador"])
-    ):
+    if "Correct name" not in set(reflora_data["statusQualificador"]):
         wiki_page = f"#REDIRECIONAMENTO[[{reflora_data['ehSinonimo']}"
         print("Synonym!")
+        site = pywikibot.Site("pt", "wikipedia")
+        if not pywikibot.Page(site, 'Page').exists():
+          pass
+        else:
+          print("Page already exists. Quitting.")
+          quit()
+
 
     else:
         common_name_text = render_common_name(results_df)
         taxobox = get_taxobox(qid)
 
-    free_description = render_free_description(reflora_data)
-    comment = render_comment(reflora_data)
-    if free_description != "" or comment != "":
-        notes = f"{get_cc_by_comment(reflora_data)}{get_ref_reflora(reflora_data)}"
-    else:
-        notes = ""
+        free_description = render_free_description(reflora_data)
+        comment = render_comment(reflora_data)
+        if free_description != "" or comment != "":
+            notes = f"{get_cc_by_comment(reflora_data)}{get_ref_reflora(reflora_data)}"
+        else:
+            notes = ""
 
-    wiki_page = (
-        f"""
+        wiki_page = (
+            f"""
 {taxobox}
 '''''{taxon_name}'''''{common_name_text} é uma espécie de  """
-        f"""[[{scope_name}]] do gênero ''[[{genus}]]'' e da família [[{family}]]. {get_ref_reflora(reflora_data)}
-        {comment}"""
-        f"""
+f"""[[{scope_name}]] do gênero ''[[{genus}]]'' e da família [[{family}]]. {get_ref_reflora(reflora_data)}
+{comment}"""
+f"""
 {render_taxonomy(reflora_data, results_df, qid)}
 {render_ecology(reflora_data)}
 {render_free_description(reflora_data)}
@@ -137,27 +142,28 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 
 [[Categoria:{family}]]
 [[Categoria:{genus}]]
-{year_cat}"""
-    )
-
-    categories = [
-        "Plantas",
-        "Flora do Brasil",
-        "Flora do Espírito Santo",
-        "Wikiconcurso Wiki Loves Espírito Santo (artigos)",
-    ]
-
-    for cat in categories:
-        wiki_page = (
-            wiki_page
-            + f"""
-[[Categoria:{cat}]]"""
+    {year_cat}"""
         )
+
+        categories = [
+            "Plantas",
+            "Flora do Brasil",
+            "Flora do Espírito Santo",
+            "Wikiconcurso Wiki Loves Espírito Santo (artigos)",
+        ]
+
+        for cat in categories:
+            wiki_page = (
+                wiki_page
+                + f"""
+    [[Categoria:{cat}]]"""
+            )
 
     print("===== Saving wikipage =====")
     filepath = "wikipage.txt"
     wiki_page = merge_equal_refs(wiki_page)
     wiki_page = wiki_page.replace("\n\n", "\n")
+    wiki_page  = fix_description(wiki_page)
     with open(filepath, "w+") as f:
         f.write(wiki_page)
 
