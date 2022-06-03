@@ -1,6 +1,7 @@
 from pathlib import Path
 import collections
 import re
+from typing import OrderedDict
 
 HERE = Path(__file__).parent.resolve()
 
@@ -14,9 +15,21 @@ def main():
     wikipage_path.write_text(wikipage)
 
 
+DESCRIPTION_DICT = OrderedDict({
+  " corola ": " [[corola]] "
+})
+
+
 def fix_description(wikipage):
   wikipage = wikipage.replace("compr.", "de comprimento")
-  wikipage = re.sub('<span.*?>','',wikipage)
+  wikipage = re.sub('<span(.|\n)*?>','',wikipage)
+  wikipage = re.sub('<p class(.|\n)*?>','',wikipage)
+  wikipage = re.sub('<\\\\p>','',wikipage)
+  wikipage = re.sub('<\\\\span>','',wikipage)
+
+  for key, value in DESCRIPTION_DICT.items():
+     wikipage = re.sub(key,value,wikipage,1)
+
   return wikipage
 
 

@@ -167,6 +167,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
     with open(filepath, "w+") as f:
         f.write(wiki_page)
 
+    print(f"The length of the current page will be {len(wiki_page.encode('utf-8'))}")
     create = input("Create page with pywikibot? (y/n)")
     if create == "y":
         site = pywikibot.Site("pt", "wikipedia")

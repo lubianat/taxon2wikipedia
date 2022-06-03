@@ -3,31 +3,30 @@
     "distribuicaoGeograficaDuvidaNorte": "",
     "estadosCerteza": [
         "BA",
-        "ES",
-        "RJ"
+        "ES"
     ],
     "mostrarGeracaoDescricaoTaxon": false,
     "filhosSubspVar": "",
-    "possuiImagemVoucherHV": true,
+    "possuiImagemVoucherHV": false,
     "mostrarDistribuicaoHidrografica": true,
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
     "exibirMensagemCamposControladosIgual": false,
-    "idTaxon": 284458,
+    "idTaxon": 17960,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
     "distribuicaoGeograficaCertezaSul": "",
     "substrato": [
         "Terrestrial",
-        "Liana/scandent/vine"
+        "Tree"
     ],
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
     "mostrarDescricaoCamposControlados": true,
-    "id": "FB133269",
+    "id": "FB17960",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(115)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Fabaceae</div><div class=\"nomeAutorSupraGenerico\"> Lindl.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(129669)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Schnella</i></div><div class=\"nomeAutorInfraGenerico\"> Raddi</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(133269)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Has images in the herbarium \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Schnella grazielae</i></div><div class=\"nomeAutorInfraGenerico\"> (Vaz) Wunderlin</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(145)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Lecythidaceae</div><div class=\"nomeAutorSupraGenerico\"> A.Rich.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(8540)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Cariniana</i></div><div class=\"nomeAutorInfraGenerico\"> Casar.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(17960)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Has field images \" src=\"/reflora/layout/default/imagens/listaBrasil/org_img.png\" style=\" vertical-align:middle; padding-bottom: 5px; height: 14px; \" /><div class=\"taxon\"> <i>Cariniana parvifolia</i></div><div class=\"nomeAutorInfraGenerico\"> S.A.Mori, Prance & Menandro</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
     "possuiImagemVoucherINCT": false,
@@ -35,18 +34,18 @@
         "Accepted Name",
         "Correct name"
     ],
-    "mostrarImagensCampos": false,
+    "mostrarImagensCampos": true,
     "distribuicaoGeograficaDuvidaCentroOeste": "",
     "mostrarTipoVegetacao": true,
-    "distribuicaoGeograficaCertezaSudeste": "<b>Southeast</b> (Esp\u00edrito Santo, Rio de Janeiro)<br/>",
+    "distribuicaoGeograficaCertezaSudeste": "<b>Southeast</b> (Esp\u00edrito Santo)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "<p>Vaz, A.M.S.F. 2015. Schnella in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB133269\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB133269</a>&gt;.<BR>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (DOI: 10.1590/2175-7860201566411)</p>",
-    "nome": "<span><div class=\"taxon\"> <i>Schnella grazielae</i></div><div class=\"nomeAutorInfraGenerico\"> (Vaz) Wunderlin</div></span>",
+    "bibliografiaFixa": "<p>Smith, N.P.,Mori, S.A.,Prance, G.T. 2015. Lecythidaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB17960\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB17960</a>&gt;.<BR>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (DOI: 10.1590/2175-7860201566411)</p>",
+    "nome": "<span><div class=\"taxon\"> <i>Cariniana parvifolia</i></div><div class=\"nomeAutorInfraGenerico\"> S.A.Mori, Prance & Menandro</div></span>",
     "distribuicaoGeograficaCertezaNordeste": "<b>Northeast</b> (Bahia)<br/>",
     "distribuicaoHidrograficaCerteza": "",
     "distribuicaoIlhasPossiveis": "",
-    "comentarioPublicoPT": "<span id=\"docs-internal-guid-947761eb-7fff-111e-f153-f009786e562f\" style=\"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); text-size-adjust: auto;\"><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Os bot\u00f5es florais de </span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-style: italic; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Schnella grazielae</span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"> s\u00e3o muito semelhantes aos bot\u00f5es de </span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-style: italic; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">S. angulosa; </span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">ambos apresentam nervuras que formam alas.</span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">No entanto, podem ser distintas pela primeira apresentar bot\u00e3o floral el\u00edptico a oblongo (vs. ovado a urceolado em </span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-style: italic; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">S. angulosa</span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">); p\u00e9tala superior espatulada, 2,3-2,5 cm compr. e \u00e1pice recurvo (vs. p\u00e9tala superior oblanceolada, 1,4- 2,0 </span><span style=\"font-size: 11pt; font-family: Symbol; background-color: transparent; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">\u00d7</span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"> ,0,3-0,6 cm e \u00e1pice agudo em </span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-style: italic; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">S. angulosa</span><span style=\"font-size: 11pt; font-family: Calibri, sans-serif; background-color: transparent; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">).</span></span>",
+    "comentarioPublicoPT": "<span style=\"font-size:12.0pt;line-height:115%;\nfont-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;;mso-fareast-font-family:Calibri;\nmso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:PT-BR;mso-fareast-language:\nEN-US;mso-bidi-language:AR-SA\">Esp\u00e9cie encontrada nos remanescentes de Floresta\nAtl\u00e2ntica pr\u00f3ximos \u00e0 costa no norte do Esp\u00edrito Santo ao sul da Bahia.</span>",
     "mostrarCitacao": true,
     "endemismo": "Is endemic from Brazil",
     "distribuicaoHidrograficaDuvida": "",
@@ -55,22 +54,23 @@
     "distribuicaoGeograficaCertezaNorte": "",
     "estadosDuvida": [],
     "formaVida": [
-        "Liana/scandent/vine"
+        "Tree"
     ],
     "tipoVegetacao": [
         "Ombrophyllous Forest (Tropical Rain Forest)"
     ],
     "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB133269&action=print",
+    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB17960&action=print",
     "mostrarSinopsesBrasil": false,
     "origem": "Native",
-    "titulo": "Brazilian Flora Checklist - Schnella grazielae (Vaz) Wunderlin",
-    "referencias": "<td>Vaz,  A.M.S.F., Atas Soc. Bot. Brasil, Sec. Rio de Janeiro, 2(9): 74-76, 1984.<font color='red'><b> Original work</font color></b><br></td>",
+    "titulo": "Brazilian Flora Checklist - Cariniana parvifolia S.A.Mori, Prance & Menandro",
+    "referencias": "<td>Mori, S.A., Bol. Bot. Univ. S\u00e3o Paulo, 14: 8, 1995.<br></td>",
     "verificarCitesStatus": true,
     "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
     "abaDefaultComentarioPublico": "PT",
     "mostrarReferencias": true,
+    "mostrarDescricaoLivrePT": true,
     "mostrarFilhosSubFam": true,
     "dominioFitogeografico": [
         "Atlantic Rainforest"
@@ -78,9 +78,9 @@
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "Kuntz, J.; Vaz, A.M.S.F. 2020. <i>Schnella</i>  <i>in</i> <b>Flora do Brasil 2020.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Available at: <<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB133269 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB133269</a>>. Accessed on: 01 Jun. 2022",
+    "citacao": "Catenacci, F.S.; Ribeiro, M.; Smith, N.P.; Cabello, N. B. 2020. <i>Cariniana</i>  <i>in</i> <b>Flora do Brasil 2020.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Available at: <<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB17960 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB17960</a>>. Accessed on: 03 Jun. 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Schnella_grazielae' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Schnella_grazielae</a>",
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Cariniana_parvifolia' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Cariniana_parvifolia</a>",
     "sinopsesBrasil": [
         {
             "rank": "Subspecies",
@@ -95,10 +95,9 @@
             "sinonimo": 0
         }
     ],
-    "temComoSinonimo": "<span><a onclick=\"carregaTaxonGrupo(78519)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> basionym</div><div class=\"sinonimo\"> <i>Bauhinia grazielae</i></div><div class=\"nomeAutorSinonimo\"> Vaz</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(112292)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> homotype</div><div class=\"sinonimo\"> <i>Phanera grazielae</i></div><div class=\"nomeAutorSinonimo\"> (Vaz) Vaz</div></a></span><br>",
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Schnella grazielae (Vaz) Wunderlin",
+    "nomeStr": "Cariniana parvifolia S.A.Mori, Prance & Menandro",
     "mostrarDominioFitogeografico": true,
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
@@ -110,10 +109,12 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>A. P. Duarte, 3683, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124237\" target=\"_blank\">CEPEC</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125812\" target=\"_blank\">K</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=227577885' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 86880 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284397788' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 86880 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284409150' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (ES), <font color='red'><b>Typus</b></font></td>",
+    "vouchers": "<td>D.A. Folli, 1437, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125778\" target=\"_blank\">CVRD</a></td>",
     "mostrarTemComoSinonimo": true,
-    "descricaoCamposControlados": "<strong>Leaf: </strong><strong>stipule</strong> persistent; <strong>blade of the shoot floriferous or frutiferous</strong> entire/shallowly bilobed. <strong>Flower: </strong><strong>flower-bud young with tube of the calyx</strong> winged; <strong>shape of the flower-bud</strong> subglobose/globose the ovoid; <strong>shape of the calyx on the anthesis</strong> campanulate; <strong>shape of the lobule of the calyx</strong> elliptic/oblong; <strong>shape of the petal upper</strong> spathulate; <strong>indumentum external of the petal</strong> sericeous; <strong>shape of the anther</strong> ovate; <strong>ovary</strong> sessile. <strong>Fruit: </strong><strong>dehiscence of the fruit</strong> dehiscent. ",
+    "descricaoLivrePT": "<p class=\"MsoNormal\"><span style=\"font-size:12.0pt;line-height:115%;font-family:\n&quot;Palatino Linotype&quot;,&quot;serif&quot;\">Arvores de dossel ou emergentes; folhas com base\nrevoluta, margem crenulada; infloresc\u00eancia em pan\u00edculas; pix\u00eddios cil\u00edndricos.<o:p></o:p></span></p>",
+    "descricaoCamposControlados": "<strong>Stem: </strong><strong>bark</strong> fissured; <strong>bark internal</strong> orange reddish. <strong>Leaf: </strong><strong>margin</strong> crenulate; <strong>base</strong> revolute; <strong>domatia on the axile veins secondary</strong> absent. <strong>Inflorescence: </strong><strong>indumentum</strong> puberulous; <strong>inflorescence</strong> in panicle. <strong>Flower: </strong><strong>ovary</strong> with 3 locule; <strong>petal</strong> white to cream; <strong>type of the androecium</strong> obliquely zygomorphic; <strong>position of the style</strong> oblique. <strong>Fruit: </strong><strong>form</strong> cylindric; <strong>surface of the pericarp</strong> not costate; <strong>ring of the operculum</strong> not muricate. <strong>Seed: </strong><strong>wing</strong> unilateral. ",
     "bibliografiaReferencia": "",
+    "abaDefaultDescLivre": "PT",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
     "mostrarChaveIdentificacao": false,
@@ -122,9 +123,9 @@
     "nomesVernaculos": [
         {
             "lingua": "Portuguese",
-            "nome": "unha-de-boi",
+            "nome": "jequitib\u00e1-cravino",
             "regiao": ""
         }
     ],
-    "possuiImagemVoucher": true
+    "possuiImagemVoucher": false
 }
