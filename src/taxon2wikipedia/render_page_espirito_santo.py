@@ -101,7 +101,7 @@ def main(scope_name: str, qid: str, reflora_id: str):
         wiki_page = f"#REDIRECIONAMENTO[[{reflora_data['ehSinonimo']}"
         print("Synonym!")
         site = pywikibot.Site("pt", "wikipedia")
-        if not pywikibot.Page(site, 'Page').exists():
+        if not pywikibot.Page(site, taxon_name).exists():
           pass
         else:
           print("Page already exists. Quitting.")
@@ -149,7 +149,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
             "Plantas",
             "Flora do Brasil",
             "Flora do Espírito Santo",
-            "Wikiconcurso Wiki Loves Espírito Santo (artigos)",
+            "!Wikiconcurso Wiki Loves Espírito Santo (artigos)",
         ]
 
         for cat in categories:
