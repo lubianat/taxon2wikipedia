@@ -16,7 +16,12 @@ def main():
 
 
 DESCRIPTION_DICT = OrderedDict({
-  " corola ": " [[corola]] "
+  " corola ": " [[corola]] ",
+  ". Folhas ": ". Ela tem [[folhas]] ",
+  ". Flores ": ". Ela tem [[flores]] ",
+  ". Pedicelo ": ". Tem [[pedicelo]] ",
+  ". Labelo ": ". Possui [[labelo]] ",
+  ". Pecíolo ": ". Possui pecíolo ",
 })
 
 
@@ -24,8 +29,12 @@ def fix_description(wikipage):
   wikipage = wikipage.replace("compr.", "de comprimento")
   wikipage = re.sub('<span(.|\n)*?>','',wikipage)
   wikipage = re.sub('<p class(.|\n)*?>','',wikipage)
-  wikipage = re.sub('<\\\\p>','',wikipage)
-  wikipage = re.sub('<\\\\span>','',wikipage)
+  wikipage = re.sub('</p>','',wikipage)
+  wikipage = re.sub('</span>','',wikipage)
+  wikipage = re.sub('</i>', '', wikipage)
+  wikipage = re.sub('<i>', '', wikipage)
+  wikipage = re.sub('<span>', '', wikipage)
+  wikipage = re.sub('<o:p></o:p>', "", wikipage)
 
   for key, value in DESCRIPTION_DICT.items():
      wikipage = re.sub(key,value,wikipage,1)

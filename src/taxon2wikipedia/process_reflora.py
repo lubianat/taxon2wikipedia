@@ -75,7 +75,8 @@ VEGETATION_WIKI = {
     "Amazonian Campinarana": "[[Campinarana]]",
     'Seasonal Evergreen Forest':"Floresta Estacional Perenifólia",
     "Amazonian Savanna" : "savana amazônica",
-    "Mangrove": "[[mangue]]"
+    "Mangrove": "[[mangue]]",
+    "Carrasco Vegetation": "[[vegetação de carrasco]]"
 }
 
 ECOLOGY_WIKI = {
