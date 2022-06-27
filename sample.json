@@ -1,20 +1,20 @@
 {
     "orcid-identifier": {
-        "uri": "http://orcid.org/0000-0002-2549-1614",
-        "path": "0000-0002-2549-1614",
+        "uri": "http://orcid.org/0000-0002-6245-3553",
+        "path": "0000-0002-6245-3553",
         "host": "orcid.org"
     },
     "preferences": {
         "locale": "EN"
     },
     "history": {
-        "creation-method": "MEMBER_REFERRED",
+        "creation-method": "DIRECT",
         "completion-date": null,
         "submission-date": {
-            "value": 1449171105118
+            "value": 1553013148819
         },
         "last-modified-date": {
-            "value": 1611944809639
+            "value": 1651514666978
         },
         "claimed": true,
         "source": null,
@@ -26,133 +26,83 @@
         "last-modified-date": null,
         "name": {
             "created-date": {
-                "value": 1460758072508
+                "value": 1553013148819
             },
             "last-modified-date": {
-                "value": 1460758072508
+                "value": 1553013149054
             },
             "given-names": {
-                "value": "Carlos-Francisco"
+                "value": "Armita"
             },
             "family-name": {
-                "value": "M\u00e9ndez-Cruz"
+                "value": "Nourmohammad"
             },
             "credit-name": null,
             "source": null,
             "visibility": "PUBLIC",
-            "path": "0000-0002-2549-1614"
+            "path": "0000-0002-6245-3553"
         },
         "other-names": {
             "last-modified-date": null,
             "other-name": [],
-            "path": "/0000-0002-2549-1614/other-names"
+            "path": "/0000-0002-6245-3553/other-names"
         },
         "biography": null,
         "researcher-urls": {
             "last-modified-date": null,
             "researcher-url": [],
-            "path": "/0000-0002-2549-1614/researcher-urls"
+            "path": "/0000-0002-6245-3553/researcher-urls"
         },
         "emails": {
             "last-modified-date": null,
             "email": [],
-            "path": "/0000-0002-2549-1614/email"
+            "path": "/0000-0002-6245-3553/email"
         },
         "addresses": {
             "last-modified-date": null,
             "address": [],
-            "path": "/0000-0002-2549-1614/address"
+            "path": "/0000-0002-6245-3553/address"
         },
         "keywords": {
             "last-modified-date": null,
             "keyword": [],
-            "path": "/0000-0002-2549-1614/keywords"
+            "path": "/0000-0002-6245-3553/keywords"
         },
         "external-identifiers": {
             "last-modified-date": null,
             "external-identifier": [],
-            "path": "/0000-0002-2549-1614/external-identifiers"
+            "path": "/0000-0002-6245-3553/external-identifiers"
         },
-        "path": "/0000-0002-2549-1614/person"
+        "path": "/0000-0002-6245-3553/person"
     },
     "activities-summary": {
-        "last-modified-date": {
-            "value": 1583292767779
-        },
+        "last-modified-date": null,
         "educations": {
             "last-modified-date": null,
             "education-summary": [],
-            "path": "/0000-0002-2549-1614/educations"
+            "path": "/0000-0002-6245-3553/educations"
         },
         "employments": {
-            "last-modified-date": {
-                "value": 1583292767779
-            },
-            "employment-summary": [
-                {
-                    "created-date": {
-                        "value": 1480084732589
-                    },
-                    "last-modified-date": {
-                        "value": 1583292767779
-                    },
-                    "source": {
-                        "source-orcid": {
-                            "uri": "http://orcid.org/0000-0002-2549-1614",
-                            "path": "0000-0002-2549-1614",
-                            "host": "orcid.org"
-                        },
-                        "source-client-id": null,
-                        "source-name": {
-                            "value": "Carlos-Francisco M\u00e9ndez-Cruz"
-                        }
-                    },
-                    "department-name": "Computational Genomics Research Program",
-                    "role-title": "Assitant Professor",
-                    "start-date": {
-                        "year": {
-                            "value": "2016"
-                        },
-                        "month": {
-                            "value": "02"
-                        },
-                        "day": {
-                            "value": "01"
-                        }
-                    },
-                    "end-date": null,
-                    "organization": {
-                        "name": "Center for Genome Sciences, UNAM",
-                        "address": {
-                            "city": "Cuernavaca",
-                            "region": "Morelos",
-                            "country": "MX"
-                        },
-                        "disambiguated-organization": null
-                    },
-                    "visibility": "PUBLIC",
-                    "put-code": 2661997,
-                    "path": "/0000-0002-2549-1614/employment/2661997"
-                }
-            ],
-            "path": "/0000-0002-2549-1614/employments"
+            "last-modified-date": null,
+            "employment-summary": [],
+            "path": "/0000-0002-6245-3553/employments"
         },
         "fundings": {
             "last-modified-date": null,
             "group": [],
-            "path": "/0000-0002-2549-1614/fundings"
+            "path": "/0000-0002-6245-3553/fundings"
         },
         "peer-reviews": {
             "last-modified-date": null,
             "group": [],
-            "path": "/0000-0002-2549-1614/peer-reviews"
+            "path": "/0000-0002-6245-3553/peer-reviews"
         },
         "works": {
             "last-modified-date": null,
             "group": [],
-            "path": "/0000-0002-2549-1614/works"
+            "path": "/0000-0002-6245-3553/works"
         },
-        "path": "/0000-0002-2549-1614/activities"
+        "path": "/0000-0002-6245-3553/activities"
     },
-    "path": "/0000-0002-2549-1614"
+    "path": "/0000-0002-6245-3553"
 }

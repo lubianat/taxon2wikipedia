@@ -3,43 +3,44 @@
 | imagem                = 
 | reino                  = [[Plantae]]    
 | divisão                = [[Tracheophyta]]    
+| ordem                  = [[Piperales]]    
 | infrarreino            = [[Streptophyta]]    
+| família                = [[Piperaceae]]    
+| género                 = [[Piper]]    
 | superdivisão           = [[Embryophyta]]    
-| superdivisão           = [[Equisetopsida]]    
-| ordem                  = [[Zingiberales]]    
-| família                = [[Marantaceae]]    
 | subfilo                = [[Euphyllophyta]]    
-| género                 = [[Monotagma]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Monotagma plurispicatum]]    
+| espécie                = [[Piper vicosanum]]    
 }}
-'''''Monotagma plurispicatum''''' é uma espécie de  [[planta]] do gênero ''[[Monotagma]]'' e da família [[Marantaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB9368|titulo=Monotagma plurispicatum (Körn.) K.Schum.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Piper vicosanum''''' é uma espécie de  [[planta]] do gênero ''[[Piper]]'' e da família [[Piperaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB20323|titulo=Piper vicosanum Yunck.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 == Taxonomia ==
-A espécie foi descrita em [[1902]] por [[Karl Moritz Schumann]]. <ref>{{Citar web|url=https://www.gbif.org/species/2762314|titulo=Monotagma plurispicatum|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
-São conhecidas as seguintes subspécies de Monotagma plurispicatum (Körn.) K.Schum.:  <ref name=":ref_0"/> 
-  * ''Monotagma plurispicatum (Körn.) K.Schum.'' var. ''plurispicatum'' 
-Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/> 
-* ''Ischnosiphon plurispicatus''  Körn. 
-* ''Monotagma contrariosum''  J.F. Macbr. 
-* ''Monotagma guianense''  (Körn.) K. Schum. 
+A espécie foi descrita em [[1966]] por [[Truman G. Yuncker]]. <ref>{{Citar web|url=https://www.gbif.org/species/7305531|titulo=Piper vicosanum|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+São conhecidas as seguintes subspécies de Piper vicosanum Yunck.:  <ref name=":ref_0"/> 
+  * ''Piper vicosanum Yunck.'' var. ''vicosanum'' 
+  * ''Piper vicosanum Yunck.'' var. ''scandens'' 
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[herbácea]]. <ref name=":ref_0"/>  
+É uma espécie [[terrícola]] e [[arbustiva]]. <ref name=":ref_0"/>  
     
+== Descrição == 
+Arbusto glabro; [[Pecíolo (botânica)|pecíolo]] glabro; lâmina foliar com a base assimétrica, o lado mais curto agudo, o mais longo, arredondado, obtuso, às vezes, levemente cordado; nervuras secundárias 10, impressas na face adaxial, glabras ou obscuramente pubescente em direção à margem; pedúnculo glabro; espiga 4 cm de comprimento, curto-apiculada; bráctea floral levemente papilosa no ângulos.  <ref name=":ref_0"/>             
+        
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Acre]], [[Alagoas]], [[Amazonas]], [[Amapá]], [[Bahia]], [[Ceará]], [[Espírito Santo (estado)|Espírito Santo]], [[Goiás]], [[Maranhão]], [[Mato Grosso do Sul]], [[Mato Grosso]], [[Pará]], [[Paraíba]] , [[Pernambuco]], [[Piauí]], [[Rondônia]], [[Roraima]], [[Sergipe]] e [[Tocantins]].<ref name=":ref_0"/> 
-A espécie é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de [[Floresta Amazônica]], [[Caatinga]], [[Cerrado]], [[Mata Atlântica]] e [[Pantanal]], em regiões com vegetação de [[Campinarana]], [[vegetação de carrasco]], [[cerrado]], [[Vegetação ripária|mata ciliar]], [[mata de igapó]], [[floresta de terra firme]], floresta de [[Planície de inundação|inundação]], floresta estacional decidual. Ela tem [[flores]] ta Estacional Perenifólia, [[floresta estacional semidecidual]], [[Floresta húmida|floresta ombrófila pluvial]] e [[restinga]].<ref name=":ref_0"/> 
+A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de [[Alagoas]], [[Amazonas]], [[Bahia]], [[Distrito Federal]], [[Espírito Santo (estado)|Espírito Santo]], [[Goiás]], [[Maranhão]], [[Minas Gerais]], [[Mato Grosso do Sul]], [[Mato Grosso]], [[Pernambuco]], [[Paraná]], [[Rio de Janeiro]], [[Roraima]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
+A espécie é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de [[Floresta Amazônica]], [[Cerrado]] e [[Mata Atlântica]], em regiões com vegetação de [[cerrado]], [[floresta estacional semidecidual]] e [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
+==Notas==
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Guimarães, E.F.; Medeiros, E.V.S.S.; Queiroz, G.A. 2020. ''Piper''  ''in'' <b>Flora do Brasil 2020.</b> <ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9368 ''Monotagma plurispicatum'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB20323 ''Piper vicosanum'' no projeto Flora e Funga do Brasil]
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Marantaceae]]
-[[Categoria:Monotagma]]
-    [[Categoria:Plantas descritas em 1902]]
+[[Categoria:Piperaceae]]
+[[Categoria:Piper]]
+    [[Categoria:Plantas descritas em 1966]]
     [[Categoria:Plantas]]
     [[Categoria:Flora do Brasil]]
     [[Categoria:Flora do Espírito Santo]]

@@ -13,6 +13,10 @@ import click
 import webbrowser
 from wdcuration import render_qs_url
 from pywikibot.page import Page
+from urllib3.exceptions import InsecureRequestWarning
+from urllib3 import disable_warnings
+
+disable_warnings(InsecureRequestWarning)
 
 HERE = Path(__file__).parent.resolve()
 
@@ -65,6 +69,7 @@ def main(scope_name: str, qid: str, reflora_id: str):
 
     parent_taxon_df = get_parent_taxon_df(qid)
     print(parent_taxon_df)
+    print(parent_taxon_df["taxonRankLabel.value"])
     family = parent_taxon_df["taxonName.value"][
         parent_taxon_df["taxonRankLabel.value"] == "família"
     ].item()
@@ -85,7 +90,7 @@ def main(scope_name: str, qid: str, reflora_id: str):
     )
     webbrowser.open(f"""https://google.com/search?q=%22{taxon_name.replace(" ", "+")}%22""")
     if reflora_id == "search":
-        r = requests.get(reflora_url)
+        r = requests.get(reflora_url, verify=False)
         webbrowser.open(reflora_url)
         reflora_id = r.url.split("FB")[-1]
     print(reflora_id)
@@ -102,11 +107,10 @@ def main(scope_name: str, qid: str, reflora_id: str):
         print("Synonym!")
         site = pywikibot.Site("pt", "wikipedia")
         if not pywikibot.Page(site, taxon_name).exists():
-          pass
+            pass
         else:
-          print("Page already exists. Quitting.")
-          quit()
-
+            print("Page already exists. Quitting.")
+            quit()
 
     else:
         common_name_text = render_common_name(results_df)
@@ -123,9 +127,9 @@ def main(scope_name: str, qid: str, reflora_id: str):
             f"""
 {taxobox}
 '''''{taxon_name}'''''{common_name_text} é uma espécie de  """
-f"""[[{scope_name}]] do gênero ''[[{genus}]]'' e da família [[{family}]]. {get_ref_reflora(reflora_data)}
+            f"""[[{scope_name}]] do gênero ''[[{genus}]]'' e da família [[{family}]]. {get_ref_reflora(reflora_data)}
 {comment}"""
-f"""
+            f"""
 {render_taxonomy(reflora_data, results_df, qid)}
 {render_ecology(reflora_data)}
 {render_free_description(reflora_data)}
@@ -163,7 +167,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
     filepath = "wikipage.txt"
     wiki_page = merge_equal_refs(wiki_page)
     wiki_page = wiki_page.replace("\n\n", "\n")
-    wiki_page  = fix_description(wiki_page)
+    wiki_page = fix_description(wiki_page)
     with open(filepath, "w+") as f:
         f.write(wiki_page)
 
