@@ -73,10 +73,11 @@ VEGETATION_WIKI = {
     "Mixed Ombrophyllous Forest": "[[floresta ombrófila mista|mata de araucária]]",
     "Seasonally Deciduous Forest": "floresta estacional decidual",
     "Amazonian Campinarana": "[[Campinarana]]",
-    'Seasonal Evergreen Forest':"Floresta Estacional Perenifólia",
-    "Amazonian Savanna" : "savana amazônica",
+    "Seasonal Evergreen Forest": "Floresta Estacional Perenifólia",
+    "Amazonian Savanna": "savana amazônica",
     "Mangrove": "[[mangue]]",
-    "Carrasco Vegetation": "[[vegetação de carrasco]]"
+    "Carrasco Vegetation": "[[vegetação de carrasco]]",
+    "Palm Grove": "[[palmeiral]]",
 }
 
 ECOLOGY_WIKI = {
@@ -103,15 +104,16 @@ ECOLOGY_WIKI = {
     "Palm Tree": "de [[palmeira]]",
 }
 
+
 def render_comment(data):
-  try:
-    if data["mostrarComentarioPublicoPT"] == True:
-      text = f"""{data["comentarioPublicoPT"]} {get_ref_reflora(data)}"""
-      return text
-  except KeyError as e:
-      return ""
-  else:
-      return ""
+    try:
+        if data["mostrarComentarioPublicoPT"] == True:
+            text = f"""{data["comentarioPublicoPT"]} {get_ref_reflora(data)}"""
+            return text
+    except KeyError as e:
+        return ""
+    else:
+        return ""
 
 
 def render_free_description(data):
@@ -266,7 +268,6 @@ def get_reflora_data(fb_id):
     r = requests.get(url)
     data = r.json()
     return data
-
 
 
 def get_synonyms_from_reflora(data):

@@ -15,40 +15,41 @@ def main():
     wikipage_path.write_text(wikipage)
 
 
-DESCRIPTION_DICT = OrderedDict({
-  " corola ": " [[corola]] ",
-  ". Folhas ": ". Ela tem [[folhas]] ",
-  ". Flores ": ". Ela tem [[flores]] ",
-  ". Pedicelo ": ". Tem [[pedicelo]] ",
-  ". Labelo ": ". Possui [[labelo]] ",
-  ". Pecíolo ": ". Possui pecíolo ",
-  " pecíolo ": " [[Pecíolo (botânica)|pecíolo]] "
-})
+DESCRIPTION_DICT = OrderedDict(
+    {
+        " corola ": " [[corola]] ",
+        ". Folhas ": ". Ela tem [[folhas]] ",
+        ". Flores ": ". Ela tem [[flores]] ",
+        ". Pedicelo ": ". Tem [[pedicelo]] ",
+        ". Labelo ": ". Possui [[labelo]] ",
+        ". Pecíolo ": ". Possui pecíolo ",
+        " pecíolo ": " [[Pecíolo (botânica)|pecíolo]] ",
+        " pedicelo ": " [[pedicelo]] ",
+        " tricomas ": " [[tricoma]]s ",
+    }
+)
 
 
 def fix_description(wikipage):
-  wikipage = wikipage.replace("compr.", "de comprimento")
-  wikipage = re.sub('<span(.|\n)*?>','',wikipage)
-  wikipage = re.sub('<p class(.|\n)*?>','',wikipage)
-  wikipage = re.sub('</p>','',wikipage)
-  wikipage = re.sub('</span>','',wikipage)
-  wikipage = re.sub('</i>', '', wikipage)
-  wikipage = re.sub('<i>', '', wikipage)
-  wikipage = re.sub('<span>', '', wikipage)
-  wikipage = re.sub('<o:p></o:p>', "", wikipage)
+    wikipage = wikipage.replace("compr.", "de comprimento")
+    wikipage = re.sub("<span(.|\n)*?>", "", wikipage)
+    wikipage = re.sub("<p class(.|\n)*?>", "", wikipage)
+    wikipage = re.sub("</p>", "", wikipage)
+    wikipage = re.sub("</span>", "", wikipage)
+    wikipage = re.sub("</i>", "", wikipage)
+    wikipage = re.sub("<i>", "", wikipage)
+    wikipage = re.sub("<span>", "", wikipage)
+    wikipage = re.sub("<o:p></o:p>", "", wikipage)
 
-  for key, value in DESCRIPTION_DICT.items():
-     wikipage = re.sub(key,value,wikipage,1)
+    for key, value in DESCRIPTION_DICT.items():
+        wikipage = re.sub(key, value, wikipage, 1)
 
-  return wikipage
-
+    return wikipage
 
 
 def merge_equal_refs(wikipage):
     results = re.findall(f"(<ref>.*?</ref>)", wikipage)
-    repeated_refs = [
-        item for item, count in collections.Counter(results).items() if count > 1
-    ]
+    repeated_refs = [item for item, count in collections.Counter(results).items() if count > 1]
     print(repeated_refs)
 
     for i, repeated_ref in enumerate(repeated_refs):
