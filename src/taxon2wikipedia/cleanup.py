@@ -40,6 +40,11 @@ def fix_description(wikipage):
     wikipage = re.sub("<i>", "", wikipage)
     wikipage = re.sub("<span>", "", wikipage)
     wikipage = re.sub("<o:p></o:p>", "", wikipage)
+    wikipage = re.sub(
+        '<p style="margin-bottom: 0px; font-size: 11px; line-height: normal; font-family: Times; color: rgb\(47, 42, 43\);">',
+        "",
+        wikipage,
+    )
 
     for key, value in DESCRIPTION_DICT.items():
         wikipage = re.sub(key, value, wikipage, 1)

@@ -102,7 +102,9 @@ def main(scope_name: str, qid: str, reflora_id: str):
         webbrowser.open(render_qs_url(qs))
     proceed = input("Enter anything to proceed.")
 
-    if "Correct name" not in set(reflora_data["statusQualificador"]):
+    if "ehSinonimo" in reflora_data and "Correct name" not in set(
+        reflora_data["statusQualificador"]
+    ):
         wiki_page = f"#REDIRECIONAMENTO[[{reflora_data['ehSinonimo']}"
         print("Synonym!")
         site = pywikibot.Site("pt", "wikipedia")
