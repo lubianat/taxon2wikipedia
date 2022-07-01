@@ -2,7 +2,6 @@
     "mostrarHierarquia": true,
     "distribuicaoGeograficaDuvidaNorte": "",
     "estadosCerteza": [
-        "BA",
         "ES"
     ],
     "mostrarGeracaoDescricaoTaxon": false,
@@ -12,80 +11,84 @@
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
     "exibirMensagemCamposControladosIgual": false,
-    "idTaxon": 12800,
+    "idTaxon": 10750,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
     "distribuicaoGeograficaCertezaSul": "",
     "substrato": [
         "Terrestrial",
-        "Shrub"
+        "Tree"
     ],
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
     "mostrarDescricaoCamposControlados": true,
-    "id": "FB12800",
+    "id": "FB10750",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(190)\" href=\"javascript:void(0);\"><img title=\" detalhar.taxon.controle.taxon.contem.descricao.completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Piperaceae</div><div class=\"nomeAutorSupraGenerico\"> Giseke</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(12735)\" href=\"javascript:void(0);\"><img title=\" detalhar.taxon.controle.taxon.contem.descricao.completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Piper</i></div><div class=\"nomeAutorInfraGenerico\"> L.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(12800)\" href=\"javascript:void(0);\"><img title=\" detalhar.taxon.controle.taxon.contem.descricao.completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" detalhar.taxon.controle.taxon.contem.imagens.campo \" src=\"/reflora/layout/default/imagens/listaBrasil/org_img.png\" style=\" vertical-align:middle; padding-bottom: 5px; height: 14px; \" /><div class=\"taxon\"> <i>Piper laevicarpum</i></div><div class=\"nomeAutorInfraGenerico\"> Yunck.</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(171)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Myrtaceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(10660)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Myrcia</i></div><div class=\"nomeAutorInfraGenerico\"> DC.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(10750)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Has field images \" src=\"/reflora/layout/default/imagens/listaBrasil/org_img.png\" style=\" vertical-align:middle; padding-bottom: 5px; height: 14px; \" /><img title=\" Has images in the herbarium \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Myrcia riodocensis</i></div><div class=\"nomeAutorInfraGenerico\"> G.M.Barroso & Peixoto</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
-    "possuiImagemVoucherINCT": false,
+    "possuiImagemVoucherINCT": true,
     "statusQualificador": [
-        "enum.label.Status.NOME_ACEITO",
-        "enum.label.Qualificador.NOME_CORRETO"
+        "Accepted Name",
+        "Correct name"
     ],
     "mostrarImagensCampos": true,
     "distribuicaoGeograficaDuvidaCentroOeste": "",
     "mostrarTipoVegetacao": true,
-    "distribuicaoGeograficaCertezaSudeste": "<b>enum.label.ConsultaPublicaRegiaoEnum.SUDESTE</b> (enum.label.EstadosBrasilEnum.Completo.ES)<br/>",
+    "distribuicaoGeograficaCertezaSudeste": "<b>Southeast</b> (Esp\u00edrito Santo)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "<p>Guimar\u00e3es, E.F.,Carvalho-Silva, M.,Monteiro, D.,Medeiros, E.S.,Queiroz, G.A. 2015. Piperaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB12800\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB12800</a>&gt;.<BR>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (DOI: 10.1590/2175-7860201566411)</p>",
-    "nome": "<span><div class=\"taxon\"> <i>Piper laevicarpum</i></div><div class=\"nomeAutorInfraGenerico\"> Yunck.</div></span>",
-    "distribuicaoGeograficaCertezaNordeste": "<b>enum.label.ConsultaPublicaRegiaoEnum.NORDESTE</b> (enum.label.EstadosBrasilEnum.Completo.BA)<br/>",
+    "bibliografiaFixa": "<p>Sobral, M.,Proen\u00e7a, C.,Souza, M.,Mazine, F.,Lucas, E. 2015. Myrtaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB10750\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB10750</a>&gt;.<BR>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (DOI: 10.1590/2175-7860201566411)</p>",
+    "nome": "<span><div class=\"taxon\"> <i>Myrcia riodocensis</i></div><div class=\"nomeAutorInfraGenerico\"> G.M.Barroso & Peixoto</div></span>",
+    "distribuicaoGeograficaCertezaNordeste": "",
     "distribuicaoHidrograficaCerteza": "",
     "distribuicaoIlhasPossiveis": "",
+    "comentarioPublicoPT": "Bot\u00f5es florais em mar\u00e7o e julho.",
     "mostrarCitacao": true,
-    "endemismo": "endemicaBrasil.e.endemica.do.Brasil",
+    "endemismo": "Is endemic from Brazil",
     "distribuicaoHidrograficaDuvida": "",
+    "mostrarComentarioPublicoPT": true,
     "mostrarVouchers": true,
     "distribuicaoGeograficaCertezaNorte": "",
     "estadosDuvida": [],
     "formaVida": [
-        "Shrub"
+        "Tree"
     ],
     "tipoVegetacao": [
-        "enum.label.DistribuicaoTipoVegetacaoEnum.FLORESTA_OMBROFILA"
+        "Ombrophyllous Forest (Tropical Rain Forest)"
     ],
     "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB12800&action=print",
+    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB10750&action=print",
     "mostrarSinopsesBrasil": false,
-    "origem": "enum.label.DistribuicaoOrigemEnum.NATIVA",
-    "titulo": "consulta.publica.uc.resultado.da.consulta.title - Piper laevicarpum Yunck.",
+    "origem": "Native",
+    "titulo": "Brazilian Flora Checklist - Myrcia riodocensis G.M.Barroso & Peixoto",
+    "referencias": "<td>Barroso, G. & A.L. Peixoto, Acta Bot. Brasil., 4(2): 13, 1990.<font color='red'><b> Original work</font color></b><br>Lucas, E. J. et al., Ann. Missouri Bot. Gard., 101(4): 689, 2016.<br></td>",
     "verificarCitesStatus": true,
     "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
+    "abaDefaultComentarioPublico": "PT",
     "mostrarReferencias": true,
     "mostrarDescricaoLivrePT": true,
     "mostrarFilhosSubFam": true,
     "dominioFitogeografico": [
-        "enum.label.DominiosFitogeograficosEnum.MATA_ATLANTICA"
+        "Atlantic Rainforest"
     ],
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "Guimar\u00e3es, E.F.; Medeiros, E.V.S.S.; Queiroz, G.A. 2020. <i>Piper</i>  consulta.publica.uc.bem.vindo.consulta.publica.consultar.como.citar.fboconsulta.publica.uc.citacao.disponivel<<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB12800 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB12800</a>>. consulta.publica.uc.citacao.acesso.em30 Jun. 2022",
+    "citacao": "Santos, M.F.; Amorim, B.S.; Burton, G.P.; Fernandes, T.; Gaem, P.H.; Louren\u00e7o, A.R.L.; Lima, D.F.; Rosa, P.O.; Santos, L.L.D.; Staggemeier, V.G.; Vasconcelos, T.N.C.; Lucas, E.J. 2020. <i>Myrcia</i>  <i>in</i> <b>Flora do Brasil 2020.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Available at: <<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB10750 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB10750</a>>. Accessed on: 01 Jul. 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Piper_laevicarpum' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Piper_laevicarpum</a>",
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Myrcia_riodocensis' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Myrcia_riodocensis</a>",
     "sinopsesBrasil": [
         {
-            "rank": "SUB_ESPECIE.sinopse",
+            "rank": "Subspecies",
             "aceito": 0,
             "endemico": 0,
             "sinonimo": 0
         },
         {
-            "rank": "VARIEDADE.sinopse",
+            "rank": "Varieties",
             "aceito": 0,
             "endemico": 0,
             "sinonimo": 0
@@ -93,7 +96,7 @@
     ],
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Piper laevicarpum Yunck.",
+    "nomeStr": "Myrcia riodocensis G.M.Barroso & Peixoto",
     "mostrarDominioFitogeografico": true,
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
@@ -105,10 +108,10 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>A.C. Brade, 18241, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a></td>",
+    "vouchers": "<td>A.L. Peixoto, 2331, (ES)<br>D. Sucre, 8269, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125778\" target=\"_blank\">CVRD</a> 2961, (ES), <font color='red'><b>Typus</b></font></td>",
     "mostrarTemComoSinonimo": true,
-    "descricaoLivrePT": "L\u00e2mina foliar com 3 nervuras secund\u00e1rias, a inferior mais curta inconsp\u00edcua, as superiores conectadas \u00e0 nervura mediana at\u00e9 o \u00e1pice; espiga ca. 1 cm compr.; br\u00e1ctea floral glabra na face superior, pilosa na inferior; estigmas ligulados.",
-    "descricaoCamposControlados": "<strong>Stem: </strong><strong>growth</strong> erect; <strong>trichome</strong> absent. <strong>Leaf: </strong><strong>petiole with sheath</strong> basal; <strong>surface</strong> smooth; <strong>gland(s)</strong> inconspicuous/translucid; <strong>form</strong> lanceolate; <strong>apex</strong> short acuminate; <strong>symmetry of the base</strong> asymmetric; <strong>base</strong> cordate auriculate; <strong>trichome</strong> glabrate on the side adaxial/glabrate on the side abaxial; <strong>venation</strong> eucamptodromous; <strong>disposition of the veins</strong> to to portion median/below of the portion median. <strong>Inflorescence: </strong><strong>type</strong> spike(s); <strong>orientation</strong> erect. <strong>Flower: </strong><strong>form of the bract(s) floral</strong> lunate/subpeltate; <strong>margin of the bract(s) floral</strong> upper glabrate lower pilose. <strong>Fruit: </strong><strong>form and surface</strong> globose; <strong>apex</strong> rounded; <strong>style</strong> inconspicuous/absent/style sessile with 3 stigma; <strong>trichome</strong> absent. ",
+    "descricaoLivrePT": "<p><span style=\"font-weight: bold;\">\u00c1rvore </span>de caule descamante, soltando placas avermelhadas. <span style=\"font-weight: bold;\">Folha </span>oblongo-lanceolada, \u00e1pice atenuado e base obtusa a cordata; nervura central canaliculada bastante fina, sobressai em rela\u00e7\u00e3o ao limbo no material seco por adquirir colora\u00e7\u00e3o mais enegrecida&nbsp;alguns tricomas. <span style=\"font-weight: bold;\">Infloresc\u00eancia </span>com raque glabra, ocasionalmente puberulenta, na base alguns tricomas curtos e estrigosos s\u00e3o vis\u00edveis; bract\u00e9olas lanceoladas na ramifica\u00e7\u00e3o secund\u00e1ria s\u00e3o vis\u00edveis; s\u00e3o comuns pan\u00edculas terminais opostas, as quais podem bifurcar ou trifurcar na base dando aspecto de 4 ou 6 pan\u00edculas no \u00e1pice do ramo. <span style=\"font-weight: bold;\">Flor </span>com hipanto glabro a puberulento, de aspecto glandular, quando presentes tricomas s\u00e3o muito curtos; na base dos bot\u00f5es bract\u00e9olas lineares s\u00e3o vis\u00edveis. <span style=\"font-weight: bold;\">C\u00e1lice </span>internamente piloso, de lobos livres, irregulares e com tricomas nas margens.</p><p><br></p><p>. Superf\u00edcie do hipanto glandulosa. 4 lobos calicinais desiguais.</p>",
+    "descricaoCamposControlados": "<strong>Stem: </strong><strong>growth</strong> monopodial; <strong>trichome type</strong> absent. <strong>Leaf: </strong><strong>adaxial midrib</strong> completely channeled; <strong>leaf shape</strong> lanceolate/oblong; <strong>abaxial leaf indumentum</strong> glabrous; <strong>bract(s) or cataphyll subtended leaf node</strong> absent. <strong>Inflorescence: </strong><strong>inflorescence branchlet shape</strong> compressed; <strong>bracteole(s) subtended flower</strong> caducous/linear; <strong>inflorescence branch per axillary bud</strong> 2/3; <strong>inflorescence position</strong> terminal; <strong>shape</strong> pyramidal opposite. <strong>Flower: </strong><strong>anther theca</strong> equal; <strong>floral disc hair</strong> staminal ring only; <strong>hypanthium shape</strong> turbinate; <strong>hypanthium indumentum</strong> glabrous/puberulent; <strong>sepal fusion</strong> completely free; <strong>locule number</strong> unknown; <strong>calyx opening</strong> not tearing. <strong>Fruit: </strong><strong>calyx lobe(s) in fruit</strong> unknown; <strong>fruit shape</strong> unknown. ",
     "bibliografiaReferencia": "",
     "abaDefaultDescLivre": "PT",
     "mostrarComentarioPublico": false,
@@ -117,5 +120,5 @@
     "mostrarHospedeiroIndeterminado": false,
     "mostrarLinkParaTaxon": true,
     "nomesVernaculos": [],
-    "possuiImagemVoucher": false
+    "possuiImagemVoucher": true
 }

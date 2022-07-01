@@ -2,43 +2,44 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
+| ordem                  = [[Myrtales]]    
 | divisão                = [[Tracheophyta]]    
-| ordem                  = [[Piperales]]    
 | infrarreino            = [[Streptophyta]]    
-| família                = [[Piperaceae]]    
-| género                 = [[Piper]]    
+| família                = [[Myrtaceae]]    
 | superdivisão           = [[Embryophyta]]    
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
+| género                 = [[Myrcia]]    
 | subdomínio             = [[Diaphoretickes]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Piper laevicarpum]]    
+| espécie                = [[Myrcia riodocensis]]    
 }}
-'''''Piper laevicarpum''''' é uma espécie de  [[planta]] do gênero ''[[Piper]]'' e da família [[Piperaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB12800|titulo=Piper laevicarpum Yunck.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Myrcia riodocensis''''' é uma espécie de  [[planta]] do gênero ''[[Myrcia]]'' e da família [[Myrtaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB10750|titulo=Myrcia riodocensis G.M.Barroso & Peixoto|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+Botões florais em março e julho. <ref name=":ref_0"/> 
 == Taxonomia ==
-A espécie foi descrita em [[1966]] por [[Truman G. Yuncker]]. <ref>{{Citar web|url=https://www.gbif.org/species/4190775|titulo=Piper laevicarpum|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi descrita em [[1990]] por [[Ariane Luna Peixoto]] e [[Graziela Barroso]]. <ref>{{Citar web|url=https://www.gbif.org/species/3174001|titulo=Myrcia riodocensis|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[arbustiva]]. <ref name=":ref_0"/>  
+É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"/>  
     
 == Descrição == 
-Lâmina foliar com 3 nervuras secundárias, a inferior mais curta inconspícua, as superiores conectadas à nervura mediana até o ápice; espiga ca. 1 cm de comprimento; bráctea floral glabra na face superior, pilosa na inferior; estigmas ligulados.  <ref name=":ref_0"/>             
+<p>Árvore de caule descamante, soltando placas avermelhadas. Folha oblongo-lanceolada, ápice atenuado e base obtusa a cordata; nervura central canaliculada bastante fina, sobressai em relação ao limbo no material seco por adquirir coloração mais enegrecida&nbsp;alguns tricomas. Inflorescência com raque glabra, ocasionalmente puberulenta, na base alguns [[tricoma]]s curtos e estrigosos são visíveis; bractéolas lanceoladas na ramificação secundária são visíveis; são comuns panículas terminais opostas, as quais podem bifurcar ou trifurcar na base dando aspecto de 4 ou 6 panículas no ápice do ramo. Flor com [[hipanto]]glabro a puberulento, de aspecto glandular, quando presentes tricomas são muito curtos; na base dos botões bractéolas lineares são visíveis. Cálice internamente piloso, de lobos livres, irregulares e com tricomas nas margens.<p><br><p>. Superfície do hipanto glandulosa. 4 lobos calicinais desiguais.  <ref name=":ref_0"/>             
         
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 == Distribuição ==
-A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de [[Bahia]] e [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
+A espécie é [[endêmica]] do [[Brasil]] e encontrada no estado brasileiro de [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
 A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
 ==Notas==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Guimarães, E.F.; Medeiros, E.V.S.S.; Queiroz, G.A. 2020. ''Piper''  consulta.publica.uc.bem.vindo.consulta.publica.consultar.como.citar.fboconsulta.publica.uc.citacao.disponivel<<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB12800 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB12800</a>>. consulta.publica.uc.citacao.acesso.em30 Jun. 2022<ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Santos, M.F.; Amorim, B.S.; Burton, G.P.; Fernandes, T.; Gaem, P.H.; Lourenço, A.R.L.; Lima, D.F.; Rosa, P.O.; Santos, L.L.D.; Staggemeier, V.G.; Vasconcelos, T.N.C.; Lucas, E.J. 2020. ''Myrcia''  ''in'' <b>Flora do Brasil 2020.</b> <ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB12800 ''Piper laevicarpum'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB10750 ''Myrcia riodocensis'' no projeto Flora e Funga do Brasil]
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Piperaceae]]
-[[Categoria:Piper]]
-    [[Categoria:Plantas descritas em 1966]]
+[[Categoria:Myrtaceae]]
+[[Categoria:Myrcia]]
+    [[Categoria:Plantas descritas em 1990]]
     [[Categoria:Plantas]]
     [[Categoria:Flora do Brasil]]
     [[Categoria:Flora do Espírito Santo]]

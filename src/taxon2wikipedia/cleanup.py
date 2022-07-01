@@ -26,6 +26,8 @@ DESCRIPTION_DICT = OrderedDict(
         " pecíolo ": " [[Pecíolo (botânica)|pecíolo]] ",
         " pedicelo ": " [[pedicelo]] ",
         " tricomas ": " [[tricoma]]s ",
+        " hipanto ": " [[hipanto]]",
+        " bracteólas ": " [[bracteóla]]s",
     }
 )
 
