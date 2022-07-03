@@ -106,6 +106,11 @@ def main(scope_name: str, qid: str, reflora_id: str):
         reflora_data["statusQualificador"]
     ):
         wiki_page = f"#REDIRECIONAMENTO[[{reflora_data['ehSinonimo']}"
+        wiki_page = re.sub(
+            '<a onclick=.*?taxon">(.*)<\/div><div class="nomeAutorSinonimo">.*',
+            "\\1]]",
+            wiki_page,
+        )
         print("Synonym!")
         site = pywikibot.Site("pt", "wikipedia")
         if not pywikibot.Page(site, taxon_name).exists():
