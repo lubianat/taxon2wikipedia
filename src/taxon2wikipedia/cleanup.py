@@ -17,17 +17,22 @@ def main():
 
 DESCRIPTION_DICT = OrderedDict(
     {
-        " corola ": " [[corola]] ",
         ". Folhas ": ". Ela tem [[folhas]] ",
         ". Flores ": ". Ela tem [[flores]] ",
         ". Pedicelo ": ". Tem [[pedicelo]] ",
         ". Labelo ": ". Possui [[labelo]] ",
         ". Pecíolo ": ". Possui pecíolo ",
-        " pecíolo ": " [[Pecíolo (botânica)|pecíolo]] ",
-        " pedicelo ": " [[pedicelo]] ",
-        " tricomas ": " [[tricoma]]s ",
-        " hipanto ": " [[hipanto]]",
-        " bracteólas ": " [[bracteóla]]s",
+    }
+)
+
+BASE_DESCRIPTION_DICT = OrderedDict(
+    {
+        "corola": "[[corola]]",
+        "pecíolo": "[[Pecíolo (botânica)|pecíolo]]",
+        "pedicelo": "[[pedicelo]]",
+        "tricoma": "[[tricoma]]",
+        "hipanto": "[[hipanto]]",
+        "bracteóla": "[[bracteóla]]",
     }
 )
 
@@ -50,6 +55,12 @@ def fix_description(wikipage):
 
     for key, value in DESCRIPTION_DICT.items():
         wikipage = re.sub(key, value, wikipage, 1)
+
+    for key, value in DESCRIPTION_DICT.items():
+        wikipage = re.sub(f" {key} ", f" {value} ", wikipage, 1)
+
+    for key, value in DESCRIPTION_DICT.items():
+        wikipage = re.sub(f" {key.capitalize} ", f" {value} ", wikipage, 1)
 
     return wikipage
 
