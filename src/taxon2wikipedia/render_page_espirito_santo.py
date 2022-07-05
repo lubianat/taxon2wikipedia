@@ -107,7 +107,7 @@ def main(scope_name: str, qid: str, reflora_id: str):
     ):
         wiki_page = f"#REDIRECIONAMENTO[[{reflora_data['ehSinonimo']}"
         wiki_page = re.sub(
-            '<a onclick=.*?taxon">(.*)<\/div><div class="nomeAutorSinonimo">.*',
+            '<a onclick=.*?taxon">(.*?)<\/div><div class="nomeAutorSinonimo">.*',
             "\\1]]",
             wiki_page,
         )

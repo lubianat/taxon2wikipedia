@@ -2,33 +2,40 @@
     "mostrarHierarquia": true,
     "distribuicaoGeograficaDuvidaNorte": "",
     "estadosCerteza": [
-        "ES"
+        "AC",
+        "AM",
+        "AP",
+        "BA",
+        "ES",
+        "MA",
+        "PA",
+        "RR"
     ],
     "mostrarGeracaoDescricaoTaxon": false,
     "filhosSubspVar": "",
-    "possuiImagemVoucherHV": false,
+    "possuiImagemVoucherHV": true,
     "mostrarDistribuicaoHidrografica": true,
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
     "exibirMensagemCamposControladosIgual": false,
-    "idTaxon": 79484,
+    "idTaxon": 23495,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
     "distribuicaoGeograficaCertezaSul": "",
     "substrato": [
-        "Epiphytic",
-        "Herb"
+        "Terrestrial",
+        "Tree"
     ],
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
     "mostrarDescricaoCamposControlados": true,
-    "id": "FB79484",
+    "id": "FB23495",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(179)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Orchidaceae</div><div class=\"nomeAutorSupraGenerico\"> A.Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(11233)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Bulbophyllum</i></div><div class=\"nomeAutorInfraGenerico\"> Thouars</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(79484)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Bulbophyllum boudetiana</i></div><div class=\"nomeAutorInfraGenerico\"> Fraga</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiosperms</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(155)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Malpighiaceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(8827)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Byrsonima</i></div><div class=\"nomeAutorInfraGenerico\"> Rich. ex Kunth</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(23495)\" href=\"javascript:void(0);\"><img title=\" The taxon description is complete \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Has images in the herbarium \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Byrsonima japurensis</i></div><div class=\"nomeAutorInfraGenerico\"> A.Juss.</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
-    "possuiImagemVoucherINCT": false,
+    "possuiImagemVoucherINCT": true,
     "statusQualificador": [
         "Accepted Name",
         "Correct name"
@@ -39,48 +46,46 @@
     "distribuicaoGeograficaCertezaSudeste": "<b>Southeast</b> (Esp\u00edrito Santo)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "<p>Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimar\u00e3es, L.R.S. 2015. Orchidaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB79484\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB79484</a>&gt;.<BR>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (DOI: 10.1590/2175-7860201566411)</p>",
-    "nome": "<span><div class=\"taxon\"> <i>Bulbophyllum boudetiana</i></div><div class=\"nomeAutorInfraGenerico\"> Fraga</div></span>",
-    "distribuicaoGeograficaCertezaNordeste": "",
+    "bibliografiaFixa": "<p>Mamede, M.C.H.,Francener, A. 2015. Byrsonima in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. Disponivel&nbsp;em:&nbsp;&lt;<a href=\"http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB23495\">http://floradobrasil.jbrj.gov.br/jabot/floradobrasil/FB23495</a>&gt;.<BR>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (DOI: 10.1590/2175-7860201566411)</p>",
+    "nome": "<span><div class=\"taxon\"> <i>Byrsonima japurensis</i></div><div class=\"nomeAutorInfraGenerico\"> A.Juss.</div></span>",
+    "distribuicaoGeograficaCertezaNordeste": "<b>Northeast</b> (Bahia, Maranh\u00e3o)<br/>",
     "distribuicaoHidrograficaCerteza": "",
     "distribuicaoIlhasPossiveis": "",
-    "comentarioPublicoPT": "<span lang=\"PT-BR\" style=\"font-size:12.0pt;font-family:\n&quot;Times New Roman&quot;,serif;mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;\nmso-ansi-language:PT-BR;mso-fareast-language:PT-BR;mso-bidi-language:AR-SA\">Esp\u00e9cie\nend\u00eamica de Mata Atl\u00e2ntica do estado do Esp\u00edrito Santo.</span>",
     "mostrarCitacao": true,
-    "endemismo": "Is endemic from Brazil",
+    "endemismo": "Not endemic to Brazil",
     "distribuicaoHidrograficaDuvida": "",
-    "mostrarComentarioPublicoPT": true,
     "mostrarVouchers": true,
-    "distribuicaoGeograficaCertezaNorte": "",
+    "distribuicaoGeograficaCertezaNorte": "<b>North</b> (Acre, Amazonas, Amap\u00e1, Par\u00e1, Roraima)<br/>",
     "estadosDuvida": [],
     "formaVida": [
-        "Herb"
+        "Tree"
     ],
     "tipoVegetacao": [
-        "Ombrophyllous Forest (Tropical Rain Forest)",
-        "Rock outcrop vegetation"
+        "Riverine Forest and/or Gallery Forest",
+        "Inundated Forest (Igap\u00f3)",
+        "Inundated Forest (V\u00e1rzea)"
     ],
     "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB79484&action=print",
+    "linkImpressora": "https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB23495&action=print",
     "mostrarSinopsesBrasil": false,
     "origem": "Native",
-    "titulo": "Brazilian Flora Checklist - Bulbophyllum boudetiana Fraga",
-    "referencias": "<td>De Fraga CN, Bulbophyllum boudetiana (Orchidaceae), a New Speci, Novon 14(1): 40-42, 2004.<font color='red'><b> Original work</font color></b><br></td>",
+    "titulo": "Brazilian Flora Checklist - Byrsonima japurensis A.Juss.",
     "verificarCitesStatus": true,
     "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
-    "abaDefaultComentarioPublico": "PT",
     "mostrarReferencias": true,
     "mostrarDescricaoLivrePT": true,
     "mostrarFilhosSubFam": true,
     "dominioFitogeografico": [
+        "Amazon Rainforest",
         "Atlantic Rainforest"
     ],
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "Smidt, E.C. 2020. <i>Bulbophyllum</i>  <i>in</i> <b>Flora do Brasil 2020.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Available at: <<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB79484 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB79484</a>>. Accessed on: 04 Jul. 2022",
+    "citacao": "Francener, A. 2020. <i>Byrsonima</i>  <i>in</i> <b>Flora do Brasil 2020.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Available at: <<a href=https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB23495 target='_blank'>https://floradobrasil2020.jbrj.gov.br/reflora/floradobrasil/FB23495</a>>. Accessed on: 04 Jul. 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Bulbophyllum_boudetiana' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Bulbophyllum_boudetiana</a>",
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Byrsonima_japurensis' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Byrsonima_japurensis</a>",
     "sinopsesBrasil": [
         {
             "rank": "Subspecies",
@@ -95,10 +100,10 @@
             "sinonimo": 0
         }
     ],
-    "temComoSinonimo": "<span><a onclick=\"carregaTaxonGrupo(11236)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> homotype</div><div class=\"sinonimo\"> <i>Bulbophyllum boudetianum</i></div><div class=\"nomeAutorSinonimo\"> Fraga</div></a></span><br>",
+    "temComoSinonimo": "<span><a onclick=\"carregaTaxonGrupo(23494)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterotypic</div><div class=\"sinonimo\"> <i>Byrsonima fluminensis</i></div><div class=\"nomeAutorSinonimo\"> Nied.</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(84736)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterotypic</div><div class=\"sinonimo\"> <i>Byrsonima inundata</i></div><div class=\"nomeAutorSinonimo\"> Benth.</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(8836)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterotypic</div><div class=\"sinonimo\"> <i>Byrsonima laevigata</i></div><div class=\"nomeAutorSinonimo\"> (Poir.) DC.</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(84740)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterotypic</div><div class=\"sinonimo\"> <i>Byrsonima obversa</i></div><div class=\"nomeAutorSinonimo\"> Miq.</div></a></span><br>",
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Bulbophyllum boudetiana Fraga",
+    "nomeStr": "Byrsonima japurensis A.Juss.",
     "mostrarDominioFitogeografico": true,
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
@@ -110,17 +115,23 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>A.P. Fontana, 947, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125354\" target=\"_blank\">MBML</a>, (ES)<br>C.N. Fraga, 636, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125354\" target=\"_blank\">MBML</a>, (ES), <font color='red'><b>Typus</b></font></td>",
+    "vouchers": "<td>G.T. Prance, 2974, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a> 755864, (AC)<br>G.T. Prance, 3984, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a> 1802365, (RR)<br>J.G. Jardim, 2125, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124893\" target=\"_blank\">SP</a> 363703, (BA)<br>S.A. Mori, 17228, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a> 1802404, (AP)<br>I. L. Amaral, 648, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 269608 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283880688' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (AM)<br>Jangoux, J., 246, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126335\" target=\"_blank\">UEC</a> 20202, (MA)<br>B. Maguire, 56060, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a> 1802397, (PA)</td>",
     "mostrarTemComoSinonimo": true,
-    "descricaoLivrePT": "<p style=\"margin:0cm;margin-bottom:.0001pt;text-align:justify;text-indent:36.0pt;\nline-height:150%\"><i>Ervas </i><span lang=\"PT-BR\">preferencialmente ep\u00edfitas.<i>\nRizoma </i>inconsp\u00edcuo,<i> Pseudobulbo </i>transversalmente<i> </i>r\u00f4mbico,<i> </i>amarelo,<i> </i>rugoso,<i> </i>unifoliado.<i> Folha </i>plana,<i> </i>el\u00edptica,<i> </i>base<i> </i>constrita,<i> </i>\u00e1pice<i> </i>agudo,<i> </i>cori\u00e1cea.<i> Infloresc\u00eancia </i>pendente,<i> </i>em<i>\n</i>racemo,<i> </i>multiflora.<i> Flores </i>dispostas<i> </i>disticamente<i> </i>ao<i> </i>longo<i> </i>da<i> </i>raque.<i> S\u00e9pala </i>dorsal ereta,<i> </i>laterais<i> </i>patentes,<i> </i>superf\u00edcie<i> </i>lisa,<i> </i>amarelas;<i> </i>s\u00e9pala dorsal\nlanceolada<i> </i>\u00e1pice<i> </i>agudo,<i> </i>plano,<i> </i>trinervada,<i> </i>margem<i> </i>glabra;<i> </i>s\u00e9palas laterais<i> </i>lanceoladas,<i> </i>base<i> </i>fusionada<i> </i>com<i> </i>a<i> </i>flor,<i> </i>divergentes,<i> </i>livres,<i> </i>assim\u00e9tricas,<i> </i>trinervadas,<i> </i>\u00e1pice<i> </i>longamente<i> </i>caudado,<i> </i>margem<i> </i>glabra.<i> P\u00e9talas </i>lanceoladas,<i> </i>eretas,<i> </i>s\u00e9sseis,<i> </i>\u00e1pice<i> </i>agudo,<i> </i>plano,<i> </i>amarelas,<i> </i>com<i>\n</i>nervura<i> </i>central<i> </i>p\u00farpura,<i> </i>uninervadas,<i> </i>margem<i> </i>glabra.<i> Labelo </i>inteiro,<i> </i>\u00e1pice<i> </i>ereto,<i> </i>ap\u00eandices<i> </i>basais<i> </i>ausentes,<i> </i>predominantemente\namarelo<i> </i>com<i> </i>pontua\u00e7\u00f5es<i> </i>p\u00farpuras,<i> </i>lobos<i> </i>laterais<i> </i>ausentes,<i> </i>n\u00e3o<i>\n</i>diferenciado<i> </i>em<i> </i>epiquilo<i> </i>e<i> </i>hipoquilo,<i> </i>disco<i> </i>com<i> </i>sulco<i> </i>liso,<i> </i>calo<i> </i>ausente,<i> </i>papiloso<i> </i>na<i> </i>face.<i>&nbsp;</i><o:p></o:p></span></p>",
-    "descricaoCamposControlados": "<strong>Stem: </strong><strong>pseudobulb disposition</strong> trailling; <strong>pseudobulb shape transverse</strong> discoid; <strong>pseudobulb number of the leaf</strong> unifoliolate; <strong>pseudobulb surface</strong> smooth. <strong>Leaf: </strong><strong>leaf consistency</strong> membranous; <strong>leaf shape transversely</strong> flat. <strong>Inflorescence: </strong><strong>disposition of the flower</strong> distichous; <strong>scape shape transverse</strong> cylindric. ",
-    "bibliografiaReferencia": "&lt;p&gt;SMIDT, E.C. 2007. Filogenia e revis&amp;atilde;o taxon&amp;ocirc;mica de Bulbophyllum Thouars (Orchidaceae) ocorrentes no neotr&amp;oacute;pico. Tese de Doutorado, Universidade Estadual de Feira de Santana, Feira de Santana, 346 p.&lt;/p&gt;\r\n&lt;p&gt;GRAVENDEEL, B.; VERMULEN, J.J.; FISCHER, G.A.; SMIDT, E.C.; VEITCH, N.C.; GRAYER, R.J.; Sieder, A. 621. BULBOPHYLLUM. In: A.M.Pridgeon; P.J.Cribb; M.W.Chase; F.N.Rasmussen.(Org.). Genera Orchidacearum. 1ed.Oxford: Oxford University Press, 2014, v.6, p.4-51.&lt;/p&gt;\r\n&lt;p&gt;SMIDT, E.C.; BORBA, Eduardo Leite; Gravendeel, B.; Fischer, G.A.; BERG, C&amp;aacute;ssio Van Den. Molecular phylogeny of the Neotropical sections of Bulbophyllum (Orchidaceae) using nuclear and plastid spacers. Taxon, v.60, p.1050-1064,2011.&lt;/p&gt;\r\n&lt;p&gt;De Fraga CN (2004)Bulbophyllum boudetiana&amp;nbsp; (Orchidaceae), a New Species from the Brazilian Atlantic Forest, Esp&amp;iacute;rito Santo. Novon 14(1): 40-42.&lt;/p&gt;",
+    "descricaoLivrePT": "<p class=\"MsoNormal\" style=\"margin: 0cm 0cm 0.0001pt 18pt; text-align: justify; line-height: 14.65pt; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><i><span style=\"font-size:\n12.0pt;font-family:&quot;Times New Roman&quot;,serif\">\u00c1rvore </span></i><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif\">3,0-18,0 m alt.,\ncaule a\u00e9reo. <i>Est\u00edpulas </i>1,5-2,0 mm\ncompr., completamente conadas, o par triangular, persistentes. </span><i><span style=\"font-size:12.0pt;font-family:\n&quot;Times New Roman&quot;,serif;mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;\nmso-fareast-language:PT-BR;mso-bidi-font-weight:bold\">Folhas</span></i><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:\n&quot;Times New Roman&quot;;color:black;mso-fareast-language:PT-BR\"> cart\u00e1ceas ou cori\u00e1ceas;\npec\u00edolo 0,5-2,4 cm compr.; l\u00e2mina 6,3-18,6 x 2,4-7,4 cm, el\u00edptica a oboval, raramente\noval ou oblonga, \u00e1pice arredondado, base atenuada, margem plana; glabra ou esparsamente\npubescente em ambas as faces, tricomas &nbsp;s\u00e9sseis,\nos dois bra\u00e7os de comprimentos semelhantes, adpressos, retos; </span><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif\">nervuras\nsecund\u00e1rias evidentes em ambas as faces e as terci\u00e1rias na face abaxial, 9-13\nnervuras secund\u00e1rias. </span><i><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:\n&quot;Times New Roman&quot;;color:black;mso-fareast-language:PT-BR\">Tirsos</span></i><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:\n&quot;Times New Roman&quot;;color:black;mso-fareast-language:PT-BR\">, 1 flor por cinc\u00ednio,\n6,0-18,0 cm compr.; </span><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif\">br\u00e1cteas\npresentes na base do pedicelo e bract\u00e9olas no ped\u00fanculo ou no pedicelo, ambas persistentes\nou dec\u00edduas na frutifica\u00e7\u00e3o; br\u00e1cteas 0,5-1,5 x 0,5-1,0 mm lanceoladas, ovais,\ntriangulares ou menos frequentemente suborbiculares;</span><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:\n&quot;Times New Roman&quot;;color:black;mso-fareast-language:PT-BR\"> ped\u00fanculo 0,0-0,5 mm\ncompr.; </span><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif\">bract\u00e9olas\n0,5-1,0 x 0,5-0,8 mm semelhantes as br\u00e1cteas;</span><span style=\"font-size:\n12.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:&quot;Times New Roman&quot;;\ncolor:black;mso-fareast-language:PT-BR\"> </span><span style=\"font-size:12.0pt;\nfont-family:&quot;Times New Roman&quot;,serif\">pedicelos 6,5-10,0 mm compr., delgados<span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">. <i>S\u00e9palas</i> 1,5-2,0 x 1,0-1,5 mm, al\u00e9m das\ngl\u00e2ndulas, oblongas ou ovais, eretas ou reflexas,</span> face adaxial glabra e\ne face abaxial esparsamente ser\u00edceas;</span><span style=\"font-size:12.0pt;\nfont-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:&quot;Times New Roman&quot;;\ncolor:black;mso-fareast-language:PT-BR;mso-bidi-font-weight:bold\"> </span><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:\n&quot;Times New Roman&quot;;color:black;mso-fareast-language:PT-BR\">gl\u00e2ndulas 1,0-2,0 x 0,5-1,0\nmm</span><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif\">.</span><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:\n&quot;Times New Roman&quot;;color:black;mso-fareast-language:PT-BR;mso-bidi-font-weight:\nbold\"> <i>P\u00e9talas </i>alvas ou r\u00f3seas</span><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:\n&quot;Times New Roman&quot;;color:black;mso-fareast-language:PT-BR\">, p\u00e9talas laterais </span><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif\">c\u00f4ncavas, limbo\n3,0-4,5 x 4,0-4,5 mm, unha ca. 3,0 mm compr., p\u00e9tala posterior, espatuliforme, ligeiramente\ncorrugada, limbo 3,0-4,0 x 3,0-3,5 mm, unha ca. 3,0 mm compr.<span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"> </span><i>Estames</i>, livres, semelhantes entre si;\nfiletes 1,8-2,0 mm compr<span style=\"background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\">., hirsutos na base; conectivos 0,7-3,2 mm compr., mais ou menos\nc\u00f4nicos ou ligeiramente clavados, ligeiramente recurvados, ultrapassando as\nanteras em 0,2-0,7 mm compr.; anteras 1,5-2,0 mm compr, ser\u00edceas, </span>lineares</span><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:\n&quot;Times New Roman&quot;;color:black;mso-fareast-language:PT-BR\">. </span><i><span style=\"font-size:12.0pt;font-family:\n&quot;Times New Roman&quot;,serif\">Ov\u00e1rio </span></i><span style=\"font-size:12.0pt;\nfont-family:&quot;Times New Roman&quot;,serif\">1,0-1,3 mm compr., glabro</span><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:\n&quot;Times New Roman&quot;;color:black;mso-fareast-language:PT-BR\">; estiletes 3,5-4,6\nmm compr., semelhantes entre si. <i>Drupas</i>\nvermelhos, 10,0-12,0 mm diam. (secos), ovoides a globosos, \u00e1pice mucronado,\nglabras ou esparsamente s\u00e9ricas no \u00e1pice (Elias, 2004).</span></p>",
+    "descricaoCamposControlados": "<strong>Leaf: </strong><strong>abaxial</strong> glabrate/glabrescent. <strong>Inflorescence: </strong><strong>cincinnus</strong> uniflorous. <strong>Flower: </strong><strong>pedicel</strong> pedunculate; <strong>petal</strong> white/pinkish; <strong>anther</strong> sericeous. <strong>Fruit: </strong><strong>indumentum</strong> glabrous/sericeous. ",
+    "bibliografiaReferencia": "&lt;p class=&quot;MsoNormal&quot; style=&quot;text-indent: 0cm; line-height: 200%; text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 10.0pt; line-height: 200%; color: windowtext;&quot;&gt;Elias, S.I. 2004. &lt;strong&gt;Revis&amp;atilde;o e Redefini&amp;ccedil;&amp;atilde;o de &lt;em&gt;Byrsonima &lt;/em&gt;Rich. ex Kunth subg. &lt;em&gt;Macrozeugma &lt;/em&gt;Nied. (Malpighiaceae).&lt;/strong&gt; Tese de doutorado, Universidade de S&amp;atilde;o Paulo, S&amp;atilde;o Paulo. &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 10.0pt; line-height: 200%; color: windowtext; mso-ansi-language: EN-US;&quot;&gt;371 p.&lt;/span&gt;&lt;/p&gt;",
     "abaDefaultDescLivre": "PT",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
     "mostrarChaveIdentificacao": false,
     "mostrarHospedeiroIndeterminado": false,
     "mostrarLinkParaTaxon": true,
-    "nomesVernaculos": [],
-    "possuiImagemVoucher": false
+    "nomesVernaculos": [
+        {
+            "lingua": "Portuguese",
+            "nome": "murici-da-mata",
+            "regiao": "Acre"
+        }
+    ],
+    "possuiImagemVoucher": true
 }

@@ -32,7 +32,12 @@ BASE_DESCRIPTION_DICT = OrderedDict(
         "pedicelo": "[[pedicelo]]",
         "tricoma": "[[tricoma]]",
         "hipanto": "[[hipanto]]",
-        "bracteóla": "[[bracteóla]]",
+        "bractéola": "[[bractéola]]",
+        "pétala": "[[pétala]]",
+        "estípula": "[[estípula]]",
+        "drupa": "[[drupa]]",
+        "sépala": "[[sépala]]",
+        "antera": "[[antera]]",
     }
 )
 
@@ -56,11 +61,11 @@ def fix_description(wikipage):
     for key, value in DESCRIPTION_DICT.items():
         wikipage = re.sub(key, value, wikipage, 1)
 
-    for key, value in DESCRIPTION_DICT.items():
+    for key, value in BASE_DESCRIPTION_DICT.items():
         wikipage = re.sub(f" {key} ", f" {value} ", wikipage, 1)
-
-    for key, value in DESCRIPTION_DICT.items():
+        wikipage = re.sub(f" {key}s ", f" {value}s ", wikipage, 1)
         wikipage = re.sub(f" {key.capitalize} ", f" {value} ", wikipage, 1)
+        wikipage = re.sub(f" {key.capitalize}s ", f" {value}s ", wikipage, 1)
 
     return wikipage
 
