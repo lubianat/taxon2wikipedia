@@ -38,6 +38,10 @@ BASE_DESCRIPTION_DICT = OrderedDict(
         "drupa": "[[drupa]]",
         "sépala": "[[sépala]]",
         "antera": "[[antera]]",
+        "bráctea": "[[bráctea]]",
+        "subarbusto": "[[subarbusto]]",
+        "lâmina foliar": "[[lâmina foliar]]",
+        "cálice": "[[Cálice (botânica)|cálice]]",
     }
 )
 
