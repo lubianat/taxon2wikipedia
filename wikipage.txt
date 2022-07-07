@@ -2,50 +2,45 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| divisão                = [[Tracheophyta]]    
 | infrarreino            = [[Streptophyta]]    
+| ordem                  = [[Jungermanniales]]    
+| classe                 = [[Jungermanniopsida]]    
+| filo                   = [[Marchantiophyta]]    
+| divisão                = [[Marchantiophyta]]    
 | superdivisão           = [[Embryophyta]]    
-| ordem                  = [[Zingiberales]]    
-| família                = [[Marantaceae]]    
-| subfilo                = [[Euphyllophyta]]    
+| género                 = [[Calypogeia]]    
+| família                = [[Calypogeiaceae]]    
+| subclasse              = [[Jungermanniidae]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
 | subreino               = [[Viridiplantae]]    
-| género                 = [[Goeppertia]]    
-| espécie                = [[Goeppertia wiotiana]]    
+| Subordem               = [[Jungermanniineae]]    
+| espécie                = [[Calypogeia andicola]]    
 }}
-'''''Goeppertia wiotiana''''' é uma espécie de  [[planta]] do gênero ''[[Goeppertia]]'' e da família [[Marantaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB604228|titulo=Goeppertia wiotiana (Jacob-Makoy ex É.Morren) Saka|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Calypogeia andicola''''' é uma espécie de  [[planta]] do gênero ''[[Calypogeia]]'' e da família [[Calypogeiaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB618247|titulo=Calypogeia andicola Bischler|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 == Taxonomia ==
-A espécie foi descrita em [[2017]] por [[Mariana Naomi Saka]]. 
-Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/> 
-* ''Calathea wiotiana''  Jacob-Makoy ex É.Morren 
-* ''Calathea wioti''  (E. Morren) Regel 
-* ''Calathea wiotii''  (E.Morren) Regel 
-* ''Goeppertia wiotii''  (É.Morren) Borchs. &amp; S.Suárez 
-* ''Maranta wiotii''  E.Morren 
+
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[herbácea]]. <ref name=":ref_0"/>  
+É uma espécie [[litófita]] e formadora de tramas. <ref name=":ref_0"/>  
     
 == Descrição == 
-Ervas, 0,2-0,4 m
-altura. Lâmina foliar ornamentada, face adaxial verde com máculas elípticas verde-escuras ou marrons nas nervuras secundárias, ou inteiramente verdes; face abaxial
-vinácea ou verde-acinzentada. Brácteas verde-amarronzadas, cálice e [[corola]] alvos.&nbsp;  <ref name=":ref_0"/>             
+Plantas folhosas, caulídios ramificados, ramificação lateral, irregular, caulídios em secção transversal sem diferenciação clara entre as células corticais e interiores, translúcidos, com ramos flageliformes ou caducos, sem paráfilas, crescimento anacrogineo, células dos filídios sem trigônios, lisas, rizóides presentes, incolores, ramos dorsiventral, com duas fileiras iguais de folhas laterais e uma terceira fileira ventral menor, não imbricados, filídios marcadamente assimétricos, ovalados, sub-transversalmente inseridos, a metade dorsal mais ou menos transversal, a metade ventral oblíqua, alternados, sobrepostas, súcubo, margens inteiras, não ou bordeada por células diferenciadas, planas, inserção reta ou pouco decurrente dorsalmente, lobos inteiros, ápice inteiro, anfigastros menor do que as laterais embora bem desenvolvidas e conspícuas, bilobados, rombicos, menores que a largura do caulídio, inteiros, distantes, com corpos oleosos visíveis, gemas ausentes, bisexuado, gametangios agrupados em inflorescências com brácteas, autóicos, ramos masculinos, possuindo muitos anteridios, pedunculados, não misturado com paráfises, ramos femininos pouco diferenciado, marsúpio presente, mas vestigial, [[bráctea]]s presente, maiores que os filídios, [[bractéola]] presente, perianto distalmente plicado.  <ref name=":ref_0"/>             
         
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 == Distribuição ==
-A espécie é [[endêmica]] do [[Brasil]] e encontrada nos estados brasileiros de [[Bahia]] e [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]] e [[restinga]].<ref name=":ref_0"/> 
+A espécie é encontrada nos estados brasileiros de [[Bahia]] e [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
 ==Notas==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Saka, M.N. 2020. ''Goeppertia''  ''in'' <b>Flora do Brasil 2020.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Peralta, D.F.; Souza, A.M.; Carmo, D.M.; Santos, E.L.; Valente, E.B.; Oliveira, H.C.; Lima, J.S.; Amelio, L.A.; Prochazka, L.S. 2020. ''Calypogeiaceae''  ''in'' <b>Flora do Brasil 2020.</b> <ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB604228 ''Goeppertia wiotiana'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB618247 ''Calypogeia andicola'' no projeto Flora e Funga do Brasil]
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Marantaceae]]
-[[Categoria:Goeppertia]]
-    [[Categoria:Plantas descritas em 2017]]
+[[Categoria:Calypogeiaceae]]
+[[Categoria:Calypogeia]]
+    
     [[Categoria:Plantas]]
     [[Categoria:Flora do Brasil]]
     [[Categoria:Flora do Espírito Santo]]

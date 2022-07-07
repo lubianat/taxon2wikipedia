@@ -42,6 +42,10 @@ BASE_DESCRIPTION_DICT = OrderedDict(
         "subarbusto": "[[subarbusto]]",
         "lâmina foliar": "[[lâmina foliar]]",
         "cálice": "[[Cálice (botânica)|cálice]]",
+        "filídio": "[[filídio]]",
+        "rizóide": "[[rizóide]]",
+        "anfigastro": "[[anfigastro]]",
+        "anterídeo": "[[anterídeo]]",
     }
 )
 

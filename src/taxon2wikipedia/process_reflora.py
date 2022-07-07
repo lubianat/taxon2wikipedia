@@ -104,6 +104,7 @@ ECOLOGY_WIKI = {
     "Epixilous": "epixila",
     "Weft": "formadora de tramas",
     "Palm Tree": "de [[palmeira]]",
+    "Saxicolous": "[[litófita]]",
 }
 
 
