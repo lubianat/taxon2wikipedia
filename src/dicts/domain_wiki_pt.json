@@ -1,0 +1,12 @@
+{
+  "enum.label.DominiosFitogeograficosEnum.MATA_ATLANTICA": "[[Mata Atlântica]]",
+  "enum.label.DominiosFitogeograficosEnum.CERRADO": "[[Cerrado]]",
+  "enum.label.DominiosFitogeograficosEnum.PAMPA": "[[Pampa]]",
+  "enum.label.DominiosFitogeograficosEnum.AMAZONIA": "[[Floresta Amazônica]]",
+  "Pampa": "[[Pampa]]",
+  "Pantanal": "[[Pantanal]]",
+  "Cerrado": "[[Cerrado]]",
+  "Mata Atlântica": "[[Mata Atlântica]]",
+  "Amazônia": "[[Floresta Amazônica]]",
+  "Caatinga": "[[Caatinga]]"
+}

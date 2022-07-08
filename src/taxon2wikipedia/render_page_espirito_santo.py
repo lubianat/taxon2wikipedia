@@ -134,7 +134,7 @@ def main(scope_name: str, qid: str, reflora_id: str):
         wiki_page = (
             f"""
 {taxobox}
-'''''{taxon_name}'''''{common_name_text} é uma espécie de  """
+'''''{taxon_name}'''''{common_name_text} é uma espécie de """
             f"""[[{scope_name}]] do gênero ''[[{genus}]]'' e da família [[{family}]]. {get_ref_reflora(reflora_data)}
 {comment}"""
             f"""

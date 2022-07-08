@@ -107,6 +107,14 @@ ECOLOGY_WIKI = {
     "Saxicolous": "[[litófita]]",
 }
 
+# New dicts created after source was changed to portuguese
+
+VEGETATION_WIKI = json.loads(HERE.parent.joinpath("dicts/vegetation_wiki_pt.json").read_text())
+
+DOMAINS_WIKI = json.loads(HERE.parent.joinpath("dicts/domain_wiki_pt.json").read_text())
+
+ECOLOGY_WIKI = json.loads(HERE.parent.joinpath("dicts/ecology_wiki_pt.json").read_text())
+
 
 def render_comment(data):
     try:
