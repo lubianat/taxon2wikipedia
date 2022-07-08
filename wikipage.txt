@@ -2,45 +2,49 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
+| família                = [[Orchidaceae]]    
+| ordem                  = [[Asparagales]]    
+| divisão                = [[Tracheophyta]]    
+| subfamília             = [[Epidendroideae]]    
 | infrarreino            = [[Streptophyta]]    
-| ordem                  = [[Jungermanniales]]    
-| classe                 = [[Jungermanniopsida]]    
-| filo                   = [[Marchantiophyta]]    
-| divisão                = [[Marchantiophyta]]    
+| género                 = [[Cattleya]]    
+| Q3965313               = [[Laeliinae]]    
 | superdivisão           = [[Embryophyta]]    
-| género                 = [[Calypogeia]]    
-| família                = [[Calypogeiaceae]]    
-| subclasse              = [[Jungermanniidae]]    
+| subfilo                = [[Euphyllophyta]]    
+| tribo                  = [[Epidendreae]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
 | subreino               = [[Viridiplantae]]    
-| Subordem               = [[Jungermanniineae]]    
-| espécie                = [[Calypogeia andicola]]    
+| espécie                = [[Cattleya neokautskyi]]    
 }}
-'''''Calypogeia andicola''''' é uma espécie de  [[planta]] do gênero ''[[Calypogeia]]'' e da família [[Calypogeiaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB618247|titulo=Calypogeia andicola Bischler|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Cattleya neokautskyi''''' é uma espécie de  [[planta]] do gênero ''[[Cattleya]]'' e da família [[Orchidaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB65218|titulo=Cattleya neokautskyi Van den Berg|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+Pertence à série Parviflorae. Cattleya neokautskyi foi descrita para algumas populações que apresentam diferenciação em relação a C. harpophylla, que ocorre na mesma região. O labelo tem o lobo terminal mais curto, e as [[pétala]]s e [[sépala]]s são mais largas. A separação das duas espécies é bastante tênue. Floresce no inverno.  <ref name=":ref_0"/> 
 == Taxonomia ==
-
+A espécie foi descrita em [[2008]] por [[Cássio van den Berg]]. <ref>{{Citar web|url=https://www.gbif.org/species/2812277|titulo=Cattleya neokautskyi|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/> 
+* ''Laelia kautskyi''  Pabst 
+* ''Dungsia kautskyi''  (Pabst) Chiron &amp; V.P.Castro 
+* ''Hoffmannseggella kautskyi''  (Pabst) H.G.Jones 
+* ''Laelia kautskyana''  Pabst 
+* ''Sophronitis kautskyi''  (Pabst) van den Berg &amp; M.W.Chase 
 == Forma de vida ==
-É uma espécie [[litófita]] e formadora de tramas. <ref name=":ref_0"/>  
+É uma espécie [[epífita]] e [[herbácea]]. <ref name=":ref_0"/>  
     
-== Descrição == 
-Plantas folhosas, caulídios ramificados, ramificação lateral, irregular, caulídios em secção transversal sem diferenciação clara entre as células corticais e interiores, translúcidos, com ramos flageliformes ou caducos, sem paráfilas, crescimento anacrogineo, células dos filídios sem trigônios, lisas, rizóides presentes, incolores, ramos dorsiventral, com duas fileiras iguais de folhas laterais e uma terceira fileira ventral menor, não imbricados, filídios marcadamente assimétricos, ovalados, sub-transversalmente inseridos, a metade dorsal mais ou menos transversal, a metade ventral oblíqua, alternados, sobrepostas, súcubo, margens inteiras, não ou bordeada por células diferenciadas, planas, inserção reta ou pouco decurrente dorsalmente, lobos inteiros, ápice inteiro, anfigastros menor do que as laterais embora bem desenvolvidas e conspícuas, bilobados, rombicos, menores que a largura do caulídio, inteiros, distantes, com corpos oleosos visíveis, gemas ausentes, bisexuado, gametangios agrupados em inflorescências com brácteas, autóicos, ramos masculinos, possuindo muitos anteridios, pedunculados, não misturado com paráfises, ramos femininos pouco diferenciado, marsúpio presente, mas vestigial, [[bráctea]]s presente, maiores que os filídios, [[bractéola]] presente, perianto distalmente plicado.  <ref name=":ref_0"/>             
-        
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Bahia]] e [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
+A espécie é [[endêmica]] do [[Brasil]] e encontrada no estado brasileiro de [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
 A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
 ==Notas==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Peralta, D.F.; Souza, A.M.; Carmo, D.M.; Santos, E.L.; Valente, E.B.; Oliveira, H.C.; Lima, J.S.; Amelio, L.A.; Prochazka, L.S. 2020. ''Calypogeiaceae''  ''in'' <b>Flora do Brasil 2020.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de van den Berg, C. 2020. ''Cattleya''  ''in'' <b>Flora do Brasil 2020.</b> <ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB618247 ''Calypogeia andicola'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB65218 ''Cattleya neokautskyi'' no projeto Flora e Funga do Brasil]
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Calypogeiaceae]]
-[[Categoria:Calypogeia]]
-    
+[[Categoria:Orchidaceae]]
+[[Categoria:Cattleya]]
+    [[Categoria:Plantas descritas em 2008]]
     [[Categoria:Plantas]]
     [[Categoria:Flora do Brasil]]
     [[Categoria:Flora do Espírito Santo]]

@@ -46,6 +46,7 @@ BASE_DESCRIPTION_DICT = OrderedDict(
         "rizóide": "[[rizóide]]",
         "anfigastro": "[[anfigastro]]",
         "anterídeo": "[[anterídeo]]",
+        "pseudobulbo": "[[pseudobulbo]]",
     }
 )
 
@@ -60,6 +61,9 @@ def fix_description(wikipage):
     wikipage = re.sub("<i>", "", wikipage)
     wikipage = re.sub("<span>", "", wikipage)
     wikipage = re.sub("<o:p></o:p>", "", wikipage)
+    wikipage = re.sub("&nbsp;", " ", wikipage)
+    wikipage = re.sub(" ca. ", " com cerca de ", wikipage)
+
     wikipage = re.sub(
         '<p style="margin-bottom: 0px; font-size: 11px; line-height: normal; font-family: Times; color: rgb\(47, 42, 43\);">',
         "",

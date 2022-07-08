@@ -264,10 +264,7 @@ A espécie é {endemic_text}"""
 
 
 def get_reflora_data(fb_id):
-    url = (
-        "https://floradobrasil2020.jbrj.gov.br/reflora/listaBrasil/"
-        f"ConsultaPublicaUC/ResultadoDaConsultaCarregaTaxonGrupo.do?&idDadosListaBrasil={fb_id}"
-    )
+    url = f"http://reflora.jbrj.gov.br/reflora/listaBrasil/ConsultaPublicaUC/ResultadoDaConsultaCarregaTaxonGrupo.do?&idDadosListaBrasil={fb_id}"
     r = requests.get(url)
     data = r.json()
     return data
@@ -351,7 +348,6 @@ def get_states_from_reflora(data):
     name = data["nomeStr"]
 
     states = data["estadosCerteza"]
-    HERE.joinpath("reflora.json").write_text(json.dumps(data, indent=4))
 
     return states
 
