@@ -5,12 +5,12 @@
         "ES"
     ],
     "filhosSubspVar": "",
-    "possuiImagemVoucherHV": true,
+    "possuiImagemVoucherHV": false,
     "mostrarDistribuicaoHidrografica": true,
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
     "exibirMensagemCamposControladosIgual": false,
-    "idTaxon": 8497,
+    "idTaxon": 110351,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
@@ -21,9 +21,9 @@
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
     "mostrarDescricaoCamposControlados": true,
-    "id": "FB8497",
+    "id": "FB110351",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiospermas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(143)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Lauraceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(8440)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Ocotea</i></div><div class=\"nomeAutorInfraGenerico\"> Aubl.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(8497)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de herb\u00e1rio \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Ocotea cryptocarpa</i></div><div class=\"nomeAutorInfraGenerico\"> Baitello</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiospermas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(110219)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Annonaceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(110296)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Duguetia</i></div><div class=\"nomeAutorInfraGenerico\"> A.St.-Hil.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(110351)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Duguetia sooretamae</i></div><div class=\"nomeAutorInfraGenerico\"> Maas</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
     "possuiImagemVoucherINCT": false,
@@ -37,11 +37,11 @@
     "distribuicaoGeograficaCertezaSudeste": "<b>Sudeste</b> (Esp\u00edrito Santo)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "Quinet, A.,Baitello, J.B.,Moraes, P.L.R. de,Assis, L.,Alves, F.M. 2015. Lauraceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB8497>http://floradobrasil2015.jbrj.gov.br/FB8497</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
-    "nome": "<span><div class=\"taxon\"> <i>Ocotea cryptocarpa</i></div><div class=\"nomeAutorInfraGenerico\"> Baitello</div></span>",
+    "bibliografiaFixa": "Maas, P.,Lob\u00e3o, A.,Rainer, H. 2015. Annonaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB110351>http://floradobrasil2015.jbrj.gov.br/FB110351</a>)<br><br>Lob\u00e3o, A.Q. 2020. Duguetia in Flora do Brasil 2020. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB110351\">https://floradobrasil2020.jbrj.gov.br/FB110351</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+    "nome": "<span><div class=\"taxon\"> <i>Duguetia sooretamae</i></div><div class=\"nomeAutorInfraGenerico\"> Maas</div></span>",
     "distribuicaoGeograficaCertezaNordeste": "",
     "distribuicaoHidrograficaCerteza": "",
-    "nomeDataplamt": "Ocotea cryptocarpa",
+    "nomeDataplamt": "Duguetia sooretamae",
     "distribuicaoIlhasPossiveis": "",
     "mostrarCitacao": true,
     "endemismo": "\u00e9 end\u00eamica do Brasil",
@@ -53,14 +53,14 @@
         "\u00c1rvore"
     ],
     "tipoVegetacao": [
-        "Floresta Ombr\u00f3fila (Floresta Pluvial)"
+        "Restinga"
     ],
     "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB8497&action=print",
+    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB110351&action=print",
     "mostrarSinopsesBrasil": false,
     "origem": "Nativa",
-    "titulo": "Flora e Funga do Brasil - Ocotea cryptocarpa Baitello",
-    "referencias": "<td>Baitello, J.B.,  Acta bot. bras. , 15 (3): 445-450, 2001.<font color='red'><b> Obra Original</font color></b><br></td>",
+    "titulo": "Flora e Funga do Brasil - Duguetia sooretamae Maas",
+    "referencias": "<td>Maas, P.J.M. et al., Flora Neotropica, 88: 197, 2003.<br></td>",
     "verificarCitesStatus": true,
     "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
@@ -72,9 +72,9 @@
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "<i>Lauraceae</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB8497 target='_blank'>https://floradobrasil.jbrj.gov.br/FB8497</a>>. Acesso em:  10 jul. 2022",
+    "citacao": "Lob\u00e3o, A.Q. <i>Duguetia</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB110351 target='_blank'>https://floradobrasil.jbrj.gov.br/FB110351</a>>. Acesso em:  10 jul. 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Ocotea_cryptocarpa' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Ocotea_cryptocarpa</a>",
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Duguetia_sooretamae' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Duguetia_sooretamae</a>",
     "sinopsesBrasil": [
         {
             "rank": "Subesp\u00e9cies",
@@ -91,7 +91,7 @@
     ],
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Ocotea cryptocarpa Baitello",
+    "nomeStr": "Duguetia sooretamae Maas",
     "mostrarDominioFitogeografico": true,
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
@@ -103,15 +103,21 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>Thomaz, L.D., s.n., <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124908\" target=\"_blank\">SPSF</a> 18757, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 448109 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284320282' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <font color='red'><b>Typus</b></font></td>",
+    "vouchers": "<td>P.J.M. Maas, 8827, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125778\" target=\"_blank\">CVRD</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126669\" target=\"_blank\">H</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125812\" target=\"_blank\">K</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125354\" target=\"_blank\">MBML</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125279\" target=\"_blank\">MO</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124893\" target=\"_blank\">SP</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125427\" target=\"_blank\">U</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126512\" target=\"_blank\">ULM</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126513\" target=\"_blank\">WU</a></td>",
     "mostrarTemComoSinonimo": true,
-    "descricaoCamposControlados": "<strong>Caule: </strong><strong>crescimento dos ramo(s)</strong> cont\u00ednuo(s). <strong>Folha: </strong><strong>filotaxia</strong> alterna(s); <strong>forma das l\u00e2mina(s)</strong> obovada(s); <strong>vena\u00e7\u00e3o na(s) face(s) adaxial das l\u00e2mina(s) proeminente(s)</strong> convexa(s); <strong>dom\u00e1cia em tufo(s) de tricoma(s)</strong> ausente(s); <strong>dom\u00e1cia em cavidade(s)</strong> ausente(s); <strong>catafilo(s)</strong> ausente(s). <strong>Infloresc\u00eancia: </strong><strong>tipo de infloresc\u00eancia(s)</strong> pan\u00edcula(s); <strong>posi\u00e7\u00e3o das infloresc\u00eancia(s)</strong> axilar(es)/subterminal(ais). <strong>Flor: </strong><strong>pedicelo(s)</strong> presente(s); <strong>sexualidade</strong> bissexual; <strong>forma do hipanto</strong> obc\u00f4nico(s); <strong>estamin\u00f3dio(s)</strong> presente(s); <strong>tamanho estilete(s) ov\u00e1rio(s)</strong> igual(ais)/menor(es); <strong>pistil\u00f3dio(s)</strong> ausente(s). <strong>Fruto: </strong><strong>forma das c\u00fapula(s)</strong> globoso(s); <strong>forma dos fruto(s)</strong> globoso(s); <strong>n\u00famero de margem(ns) das c\u00fapula(s)</strong> 1; <strong>rela\u00e7\u00e3o c\u00fapula(s) fruto(s)</strong> envolvendo totalmente; <strong>t\u00e9pala(s) em fruto(s) maduro(s)</strong> ausente(s). ",
-    "bibliografiaReferencia": "&lt;p&gt;Baitello, J.B. 2001. Novas Esp&amp;eacute;cies de Lauraceae para a Flora Brasileira. Acta Bot&amp;acirc;nica Brasilica 15 (3): 445 &amp;ndash; 450.&lt;/p&gt;",
+    "descricaoCamposControlados": "<strong>Caule: </strong><strong>pilosidade ramo(s) jovem(ns)</strong> tricoma(s) lepidoto(s). <strong>Folha: </strong><strong>forma da l\u00e2mina(s)</strong> estreitamente ovada(s); <strong>pilosidade na(s) face(s) adaxial</strong> glabra(s); <strong>pilosidade na(s) face(s) abaxial</strong> tricoma(s) lepidoto(s); <strong>forma da base</strong> aguda(s); <strong>forma do \u00e1pice(s)</strong> agudo(s). <strong>Infloresc\u00eancia: </strong><strong>presen\u00e7a de infloresc\u00eancia(s)</strong> presente(s); <strong>tipo de infloresc\u00eancia(s)</strong> pauciflora(s). <strong>Flor: </strong><strong>forma do bot\u00e3o-floral</strong> estreitamente ovoide(s); <strong>cor da flor(es)</strong> creme/esverdeada; <strong>cona\u00e7\u00e3o da s\u00e9pala(s)</strong> conata(s) na(s) base; <strong>forma da s\u00e9pala(s)</strong> largamente ovada(s); <strong>rela\u00e7\u00e3o entre p\u00e9tala(s) externa(s) e interna(s)</strong> subiguais; <strong>forma da p\u00e9tala(s) externa(s)</strong> largamente ovada(s); <strong>forma das p\u00e9tala(s) interna(s)</strong> estreitamente ovada(s); <strong>cor dos estame(s)</strong> desconhecido(s). <strong>Fruto: </strong><strong>cor do fruto(s)</strong> esverdeado; <strong>forma do fruto(s)</strong> subgloboso(s); <strong>presen\u00e7a do colar basal(ais)</strong> presente(s); <strong>presen\u00e7a de tricoma(s)</strong> tricoma(s) lepidoto(s). ",
+    "bibliografiaReferencia": "",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
     "mostrarChaveIdentificacao": false,
     "mostrarHospedeiroIndeterminado": false,
     "mostrarLinkParaTaxon": true,
-    "nomesVernaculos": [],
-    "possuiImagemVoucher": true
+    "nomesVernaculos": [
+        {
+            "lingua": "Portugu\u00eas",
+            "nome": "pinda\u00edba-coroa",
+            "regiao": ""
+        }
+    ],
+    "possuiImagemVoucher": false
 }

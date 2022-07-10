@@ -2,114 +2,114 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Laurales]]    
-| família                = [[Lauraceae]]    
 | divisão                = [[Tracheophyta]]    
+| ordem                  = [[Magnoliales]]    
 | infrarreino            = [[Streptophyta]]    
 | superdivisão           = [[Embryophyta]]    
+| família                = [[Annonaceae]]    
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
-| género                 = [[Ocotea]]    
 | subdomínio             = [[Diaphoretickes]]    
+| género                 = [[Duguetia]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Ocotea cryptocarpa]]    
+| espécie                = [[Duguetia sooretamae]]    
 }}
-'''''Ocotea cryptocarpa''''' é uma espécie de [[planta]] do gênero ''[[Ocotea]]'' e da família [[Lauraceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8497|titulo=Ocotea cryptocarpa Baitello|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Duguetia sooretamae''''' é uma espécie de [[planta]] do gênero ''[[Duguetia]]'' e da família [[Annonaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB110351|titulo=Duguetia sooretamae Maas|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 == Taxonomia ==
-A espécie foi descrita em [[2001]] por [[João Batista Baitello]]. <ref>{{Citar web|url=https://www.gbif.org/species/4183288|titulo=Ocotea cryptocarpa|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi descrita em [[1999]] por [[Paul Maas]]. <ref>{{Citar web|url=https://www.gbif.org/species/3157501|titulo=Duguetia sooretamae|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
 == Forma de vida ==
 É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"/>  
     
-== Descrição == 
+== Descrição ==
 
-      {| class="wikitable" 
-|+
-! colspan="2" |'''Caule'''<ref name=":ref_0" />
-|-
-|'''crescimento dos ramo'''
-|contínuo
-|+
-! colspan="2" |'''Folha'''<ref name=":ref_0" />
-|-
-|'''filotaxia'''
-|alterna
-|-
-|'''forma das lâmina'''
-|obovada
-|-
-|'''venação na face adaxial das lâmina proeminente'''
-|convexa
-|-
-|'''domácia em tufo de tricoma'''
-|ausente
-|-
-|'''domácia em cavidade'''
-|ausente
-|-
-|'''catafilo'''
-|ausente
-|+
-! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
-|-
-|'''tipo de inflorescência'''
-|panícula
-|-
-|'''posição das inflorescência'''
-|axilar/subterminal
-|+
-! colspan="2" |'''Flor'''<ref name=":ref_0" />
-|-
-|'''pedicelo'''
-|presente
-|-
-|'''sexualidade'''
-|bissexual
-|-
-|'''forma do hipanto'''
-|obcônico
-|-
-|'''estaminódio'''
-|presente
-|-
-|'''tamanho estilete ovário'''
-|igual/menor
-|-
-|'''pistilódio'''
-|ausente
-|+
-! colspan="2" |'''Fruto'''<ref name=":ref_0" />
-|-
-|'''forma das cúpula'''
-|globoso
-|-
-|'''forma dos fruto'''
-|globoso
-|-
-|'''número de margem das cúpula'''
-|1
-|-
-|'''relação cúpula fruto'''
-|envolvendo totalmente
-|-
-|'''tépala em fruto maduro'''
-|ausente
-|}
+        {| class="wikitable" 
+  |+
+  ! colspan="2" |'''Caule'''<ref name=":ref_0" />
+  |-
+  |'''pilosidade ramo jovem'''
+  |tricoma lepidoto
+  |+
+  ! colspan="2" |'''Folha'''<ref name=":ref_0" />
+  |-
+  |'''forma da lâmina'''
+  |estreitamente ovada
+  |-
+  |'''pilosidade na face adaxial'''
+  |glabra
+  |-
+  |'''pilosidade na face abaxial'''
+  |tricoma lepidoto
+  |-
+  |'''forma da base'''
+  |aguda
+  |-
+  |'''forma do ápice'''
+  |agudo
+  |+
+  ! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
+  |-
+  |'''presença de inflorescência'''
+  |presente
+  |-
+  |'''tipo de inflorescência'''
+  |pauciflora
+  |+
+  ! colspan="2" |'''Flor'''<ref name=":ref_0" />
+  |-
+  |'''forma do botão-floral'''
+  |estreitamente ovoide
+  |-
+  |'''cor da flor'''
+  |creme/esverdeada
+  |-
+  |'''conação da sépala'''
+  |conata na base
+  |-
+  |'''forma da sépala'''
+  |largamente ovada
+  |-
+  |'''relação entre [[pétala]] externa e interna'''
+  |subiguais
+  |-
+  |'''forma da pétala externa'''
+  |largamente ovada
+  |-
+  |'''forma das pétala interna'''
+  |estreitamente ovada
+  |-
+  |'''cor dos estame'''
+  |desconhecido
+  |+
+  ! colspan="2" |'''Fruto'''<ref name=":ref_0" />
+  |-
+  |'''cor do fruto'''
+  |esverdeado
+  |-
+  |'''forma do fruto'''
+  |subgloboso
+  |-
+  |'''presença do colar basal'''
+  |presente
+  |-
+  |'''presença de tricoma'''
+  |tricoma lepidoto
+  |}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 == Distribuição ==
 A espécie é encontrada no estado brasileiro de [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[restinga]].<ref name=":ref_0"/> 
 ==Notas==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de ''Lauraceae''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Lobão, A.Q. ''Duguetia''  ''in'' Flora e Funga do Brasil. <ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8497 ''Ocotea cryptocarpa'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB110351 ''Duguetia sooretamae'' no projeto Flora e Funga do Brasil]
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Lauraceae]]
-[[Categoria:Ocotea]]
-    [[Categoria:Plantas descritas em 2001]]
+[[Categoria:Annonaceae]]
+[[Categoria:Duguetia]]
+    [[Categoria:Plantas descritas em 1999]]
     [[Categoria:Plantas]]
     [[Categoria:Flora do Brasil]]
     [[Categoria:Flora do Espírito Santo]]

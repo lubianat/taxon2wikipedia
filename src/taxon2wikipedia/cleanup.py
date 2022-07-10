@@ -2,8 +2,10 @@ from pathlib import Path
 import collections
 import re
 from typing import OrderedDict
+import json
 
 HERE = Path(__file__).parent.resolve()
+DICTS = HERE.parent.joinpath("dicts")
 
 
 def main():
@@ -25,50 +27,31 @@ DESCRIPTION_DICT = OrderedDict(
     }
 )
 
-BASE_DESCRIPTION_DICT = OrderedDict(
-    {
-        "corola": "[[corola]]",
-        "pecíolo": "[[Pecíolo (botânica)|pecíolo]]",
-        "pedicelo": "[[pedicelo]]",
-        "tricoma": "[[tricoma]]",
-        "hipanto": "[[hipanto]]",
-        "bractéola": "[[bractéola]]",
-        "pétala": "[[pétala]]",
-        "estípula": "[[estípula]]",
-        "drupa": "[[drupa]]",
-        "sépala": "[[sépala]]",
-        "antera": "[[antera]]",
-        "bráctea": "[[bráctea]]",
-        "subarbusto": "[[subarbusto]]",
-        "lâmina foliar": "[[lâmina foliar]]",
-        "cálice": "[[Cálice (botânica)|cálice]]",
-        "filídio": "[[filídio]]",
-        "rizóide": "[[rizóide]]",
-        "anfigastro": "[[anfigastro]]",
-        "anterídeo": "[[anterídeo]]",
-        "pseudobulbo": "[[pseudobulbo]]",
-        "dicásio": "[[dicásio]]",
-    }
-)
+BASE_DESCRIPTION_DICT = json.loads(DICTS.joinpath("botanical_terms_wiki_pt.json").read_text())
 
 
 def fix_description(wikipage):
     wikipage = wikipage.replace("compr.", "de comprimento")
+    wikipage = wikipage.replace("esp.", "de espessura")
+    wikipage = wikipage.replace("diâm.", "de diâmetro")
     wikipage = wikipage.replace(" m ", " metros ")
     wikipage = wikipage.replace(" cm ", " centímetros ")
     wikipage = wikipage.replace(" mm ", " milímetros ")
     wikipage = wikipage.replace("alt.", "de altura")
+    wikipage = re.sub("compr\n", "de comprimento\n", wikipage)
     wikipage = re.sub("<span(.|\n)*?>", "", wikipage)
     wikipage = re.sub("<p class(.|\n)*?>", "", wikipage)
     wikipage = re.sub("</p>", "", wikipage)
     wikipage = re.sub("</span>", "", wikipage)
     wikipage = re.sub("</i>", "", wikipage)
     wikipage = re.sub("<i>", "", wikipage)
+    wikipage = re.sub("</b>", "", wikipage)
+    wikipage = re.sub("<b>", "", wikipage)
     wikipage = re.sub("<span>", "", wikipage)
     wikipage = re.sub("<o:p></o:p>", "", wikipage)
     wikipage = re.sub("&nbsp;", " ", wikipage)
     wikipage = re.sub(" ca. ", " com cerca de ", wikipage)
-
+    wikipage = wikipage.replace('<i style="font-size: 13px;">', "")
     wikipage = re.sub(
         '<p style="margin-bottom: 0px; font-size: 11px; line-height: normal; font-family: Times; color: rgb\(47, 42, 43\);">',
         "",

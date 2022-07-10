@@ -76,6 +76,13 @@ def main(scope_name: str, qid: str, reflora_id: str, open_url: bool):
 
         free_description = render_free_description(reflora_data)
         comment = render_comment(reflora_data)
+        if free_description != "" or comment != "" or "descricaoCamposControlados" in reflora_data:
+            notes = f"{get_cc_by_comment(reflora_data)}{get_ref_reflora(reflora_data)}"
+            description_title = "== Descrição =="
+        else:
+            description_title = ""
+            notes = ""
+
         notes = f"{get_cc_by_comment(reflora_data)}{get_ref_reflora(reflora_data)}"
         wiki_page = (
             f"""
@@ -86,7 +93,7 @@ def main(scope_name: str, qid: str, reflora_id: str, open_url: bool):
             f"""
 {render_taxonomy(reflora_data, results_df, qid)}
 {render_ecology(reflora_data)}
-== Descrição == 
+{description_title}
 {render_free_description(reflora_data)}
 {render_description_table(reflora_data)}
 == Conservação ==

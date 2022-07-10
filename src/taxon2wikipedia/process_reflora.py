@@ -209,43 +209,46 @@ def render_list(list_of_ids, dict_of_wikitexts):
 
 
 def render_description_table(data):
-    controlled_fields = data["descricaoCamposControlados"]
-    controlled_fields = controlled_fields.replace(r"(s)", "")
-    controlled_fields = controlled_fields.replace(r"(ais)", "")
-    controlled_fields = controlled_fields.replace(r"(es)", "")
-    controlled_fields = controlled_fields.replace(r"(ns)", "")
-    controlled_fields = controlled_fields.replace(r"(eis)", "")
+    if "descricaoCamposControlados" not in data:
+        return ""
+    else:
+        controlled_fields = data["descricaoCamposControlados"]
+        controlled_fields = controlled_fields.replace(r"(s)", "")
+        controlled_fields = controlled_fields.replace(r"(ais)", "")
+        controlled_fields = controlled_fields.replace(r"(es)", "")
+        controlled_fields = controlled_fields.replace(r"(ns)", "")
+        controlled_fields = controlled_fields.replace(r"(eis)", "")
+        controlled_fields = controlled_fields.replace(r"(ções)", "")
+        controlled_fields = controlled_fields.replace("<strong>", "")
 
-    controlled_fields = controlled_fields.replace("<strong>", "")
+        controlled_fields = controlled_fields.split(".")
+        wikitable = f"""
+        {{| class="wikitable" """
+        for field in controlled_fields:
 
-    controlled_fields = controlled_fields.split(".")
-    wikitable = f"""
-      {{| class="wikitable" """
-    for field in controlled_fields:
-
-        try:
-            title = field.split(":")[0].strip()
-            content = field.split(":")[1]
-            rows = content.split(";")
-            wikitable += f"""
-|+
-! colspan="2" |'''{title}'''<ref name=":ref_0" />"""
-
-            for row in rows:
-                key = row.split("</strong>")[-2].strip()
-                value = row.split("</strong>")[-1].strip()
+            try:
+                title = field.split(":")[0].strip()
+                content = field.split(":")[1]
+                rows = content.split(";")
                 wikitable += f"""
-|-
-|'''{key}'''
-|{value}"""
+  |+
+  ! colspan="2" |'''{title}'''<ref name=":ref_0" />"""
 
-        except Exception as e:
-            print("Exception found:")
-            print(e)
-            pass
-    wikitable += """
-|}"""
-    return wikitable
+                for row in rows:
+                    key = row.split("</strong>")[-2].strip()
+                    value = row.split("</strong>")[-1].strip()
+                    wikitable += f"""
+  |-
+  |'''{key}'''
+  |{value}"""
+
+            except Exception as e:
+                print("Exception found:")
+                print(e)
+                pass
+        wikitable += """
+  |}"""
+        return wikitable
 
 
 def render_domains(data):
