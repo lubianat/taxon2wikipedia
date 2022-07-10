@@ -76,11 +76,7 @@ def main(scope_name: str, qid: str, reflora_id: str, open_url: bool):
 
         free_description = render_free_description(reflora_data)
         comment = render_comment(reflora_data)
-        if free_description != "" or comment != "":
-            notes = f"{get_cc_by_comment(reflora_data)}{get_ref_reflora(reflora_data)}"
-        else:
-            notes = ""
-
+        notes = f"{get_cc_by_comment(reflora_data)}{get_ref_reflora(reflora_data)}"
         wiki_page = (
             f"""
 {taxobox}
@@ -90,7 +86,9 @@ def main(scope_name: str, qid: str, reflora_id: str, open_url: bool):
             f"""
 {render_taxonomy(reflora_data, results_df, qid)}
 {render_ecology(reflora_data)}
+== Descrição == 
 {render_free_description(reflora_data)}
+{render_description_table(reflora_data)}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
 {render_distribution_from_reflora(reflora_data)}

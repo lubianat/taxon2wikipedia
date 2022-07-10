@@ -47,12 +47,17 @@ BASE_DESCRIPTION_DICT = OrderedDict(
         "anfigastro": "[[anfigastro]]",
         "anterídeo": "[[anterídeo]]",
         "pseudobulbo": "[[pseudobulbo]]",
+        "dicásio": "[[dicásio]]",
     }
 )
 
 
 def fix_description(wikipage):
     wikipage = wikipage.replace("compr.", "de comprimento")
+    wikipage = wikipage.replace(" m ", " metros ")
+    wikipage = wikipage.replace(" cm ", " centímetros ")
+    wikipage = wikipage.replace(" mm ", " milímetros ")
+    wikipage = wikipage.replace("alt.", "de altura")
     wikipage = re.sub("<span(.|\n)*?>", "", wikipage)
     wikipage = re.sub("<p class(.|\n)*?>", "", wikipage)
     wikipage = re.sub("</p>", "", wikipage)
