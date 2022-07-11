@@ -64,9 +64,7 @@ with open(filepath, "w+") as f:
     f.write(wiki_page)
 
 
-print(
-    f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?action=edit&veswitched=1"""
-)
+print(f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?action=edit&veswitched=1""")
 print(f"""https://www.google.com/search?q={taxon_name.replace(" ", "_")}""")
 
 quit()

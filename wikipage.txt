@@ -2,24 +2,33 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| divisão                = [[Tracheophyta]]    
-| ordem                  = [[Magnoliales]]    
 | infrarreino            = [[Streptophyta]]    
+| divisão                = [[Pteridophyta]]    
 | superdivisão           = [[Embryophyta]]    
-| família                = [[Annonaceae]]    
-| subfilo                = [[Euphyllophyta]]    
+| classe                 = [[Polypodiopsida]]    
+| família                = [[Dryopteridaceae]]    
+| ordem                  = [[Polypodiales]]    
 | superdomínio           = [[Biota]]    
+| subclasse              = [[Polypodiidae]]    
 | subdomínio             = [[Diaphoretickes]]    
-| género                 = [[Duguetia]]    
+| subfamília             = [[Elaphoglossoideae]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Duguetia sooretamae]]    
+| ordem                  = [[Aspleniales]]    
+| espécie                = [[Elaphoglossum nigrescens]]    
+| género                 = [[Elaphoglossum]]    
+| Subordem               = [[Polypodiineae]]    
 }}
-'''''Duguetia sooretamae''''' é uma espécie de [[planta]] do gênero ''[[Duguetia]]'' e da família [[Annonaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB110351|titulo=Duguetia sooretamae Maas|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Elaphoglossum nigrescens''''' é uma espécie de [[planta]] do gênero ''[[Elaphoglossum]]'' e da família [[Dryopteridaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB91055|titulo=Elaphoglossum nigrescens (Hook.) T.Moore ex Diels|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 == Taxonomia ==
-A espécie foi descrita em [[1999]] por [[Paul Maas]]. <ref>{{Citar web|url=https://www.gbif.org/species/3157501|titulo=Duguetia sooretamae|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
-
+A espécie foi descrita em [[1899]] por [[Ludwig Diels]]. <ref>{{Citar web|url=https://www.gbif.org/species/4011667|titulo=Elaphoglossum nigrescens|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/> 
+* ''Acrostichum nigrescens''  Hook. 
+* ''Acrostichum flaccidum pallidum''  Mett. ex Baker 
+* ''Acrostichum pallidum''  Mett. ex Baker 
+* ''Elaphoglossum pallidum''  (Mett. ex Baker) Hieron. 
+* ''Elaphoglossum wacketii''  Rosenst. 
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"/>  
+É uma espécie [[epífita]], [[rupícola]], [[terrícola]] e [[herbácea]]. <ref name=":ref_0"/>  
     
 == Descrição ==
 
@@ -27,89 +36,77 @@ A espécie foi descrita em [[1999]] por [[Paul Maas]]. <ref>{{Citar web|url=http
   |+
   ! colspan="2" |'''Caule'''<ref name=":ref_0" />
   |-
-  |'''pilosidade ramo jovem'''
-  |tricoma lepidoto
+  |'''porte'''
+  |curto rastejante
+  |-
+  |'''escama cor'''
+  |avermelhada/preta
+  |-
+  |'''escama tipo'''
+  |concolor
+  |-
+  |'''escama margem'''
+  |inteira
   |+
   ! colspan="2" |'''Folha'''<ref name=":ref_0" />
   |-
-  |'''forma da lâmina'''
-  |estreitamente ovada
-  |-
-  |'''pilosidade na face adaxial'''
-  |glabra
-  |-
-  |'''pilosidade na face abaxial'''
-  |tricoma lepidoto
-  |-
-  |'''forma da base'''
-  |aguda
-  |-
-  |'''forma do ápice'''
-  |agudo
-  |+
-  ! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
-  |-
-  |'''presença de inflorescência'''
+  |'''filopódio'''
   |presente
   |-
-  |'''tipo de inflorescência'''
-  |pauciflora
-  |+
-  ! colspan="2" |'''Flor'''<ref name=":ref_0" />
+  |'''posição'''
+  |aproximada
   |-
-  |'''forma do botão-floral'''
-  |estreitamente ovoide
+  |'''divisão'''
+  |simples
   |-
-  |'''cor da flor'''
-  |creme/esverdeada
+  |'''lâmina formato'''
+  |estreitamente elíptica/oblanceolada
   |-
-  |'''conação da sépala'''
-  |conata na base
+  |'''lâmina base'''
+  |longamente decurrente
   |-
-  |'''forma da sépala'''
-  |largamente ovada
+  |'''lâmina ápice'''
+  |agudo/arredondado
   |-
-  |'''relação entre [[pétala]] externa e interna'''
-  |subiguais
+  |'''apical gema'''
+  |ausente
   |-
-  |'''forma da pétala externa'''
-  |largamente ovada
+  |'''glandular tricoma'''
+  |ausente
   |-
-  |'''forma das pétala interna'''
-  |estreitamente ovada
+  |'''nervura'''
+  |livre
   |-
-  |'''cor dos estame'''
-  |desconhecido
-  |+
-  ! colspan="2" |'''Fruto'''<ref name=":ref_0" />
+  |'''hidatódio'''
+  |ausente
   |-
-  |'''cor do fruto'''
-  |esverdeado
+  |'''lâmina escama densidade'''
+  |glabrescente
   |-
-  |'''forma do fruto'''
-  |subgloboso
+  |'''laminar margem escama formato'''
+  |lanceolada/ovada
   |-
-  |'''presença do colar basal'''
-  |presente
+  |'''costal escama formato'''
+  |glabro
   |-
-  |'''presença de tricoma'''
-  |tricoma lepidoto
+  |'''fértil folha'''
+  |mais longa que estéril
   |}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 == Distribuição ==
-A espécie é encontrada no estado brasileiro de [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[restinga]].<ref name=":ref_0"/> 
+A espécie é encontrada nos estados brasileiros de [[Amazonas]], [[Bahia]], [[Ceará]], [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]], [[Paraná]], [[Rio de Janeiro]], [[Santa Catarina]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
+A espécie é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de [[Floresta Amazônica]] e [[Mata Atlântica]], em regiões com vegetação de floresta de [[Planície de inundação|inundação]], [[Floresta húmida|floresta ombrófila pluvial]] e [[floresta ombrófila mista|mata de araucária]].<ref name=":ref_0"/> 
 ==Notas==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Lobão, A.Q. ''Duguetia''  ''in'' Flora e Funga do Brasil. <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Matos, F.B. ''Elaphoglossum''  ''in'' Flora e Funga do Brasil. <ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB110351 ''Duguetia sooretamae'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB91055 ''Elaphoglossum nigrescens'' no projeto Flora e Funga do Brasil]
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Annonaceae]]
-[[Categoria:Duguetia]]
-    [[Categoria:Plantas descritas em 1999]]
+[[Categoria:Dryopteridaceae]]
+[[Categoria:Elaphoglossum]]
+    [[Categoria:Plantas descritas em 1899]]
     [[Categoria:Plantas]]
     [[Categoria:Flora do Brasil]]
     [[Categoria:Flora do Espírito Santo]]

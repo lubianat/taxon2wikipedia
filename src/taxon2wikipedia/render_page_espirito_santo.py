@@ -43,11 +43,9 @@ def main(scope_name: str, qid: str, reflora_id: str, open_url: bool):
         r = requests.get(reflora_url, verify=False)
         webbrowser.open(reflora_url)
         reflora_id = r.url.split("FB")[-1]
-    print(reflora_id)
     reflora_data = get_reflora_data(reflora_id)
     HERE.joinpath("reflora.json").write_text(json.dumps(reflora_data, indent=4))
 
-    print(reflora_data["nomesVernaculos"])
     if len(reflora_data["nomesVernaculos"]) > 0:
         qs = print_qs_for_names(reflora_data, qid)
         webbrowser.open(render_qs_url(qs))

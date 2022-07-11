@@ -159,7 +159,6 @@ def print_qs_for_names(data, qid):
 
         qs += f'{qid}|P1843|pt:"{name}" \n'
 
-    print(qs)
     return qs
 
 
@@ -243,8 +242,6 @@ def render_description_table(data):
   |{value}"""
 
             except Exception as e:
-                print("Exception found:")
-                print(e)
                 pass
         wikitable += """
   |}"""
@@ -325,26 +322,22 @@ def get_synonyms_from_reflora(data):
     if "temComoSinonimo" not in data:
         return ""
     subspecies_html = data["temComoSinonimo"]
-    soup = BeautifulSoup(subspecies_html)
+    soup = BeautifulSoup(subspecies_html, "lxml")
     species = []
     regex = '<div class="sinonimo">.*?<i>(.*?)<\/i>'
     regex_auth = '<div class="nomeAutorSinonimo">(.*?)<\/div>'
     mydivs = soup.find_all("a")
     for div in mydivs:
-        print(str(div))
         try:
             results = re.findall(regex, str(div))
             author = re.findall(regex_auth, str(div))
-
             species.append("''" + " ".join(results) + "'' " + author[0])
-            print(results)
 
         except:
             continue
 
     ref = get_ref_reflora(data)
 
-    print(species)
     if len(species) == 1:
         text = f"O seguinte sinônimo já foi catalogado:  {ref}"
 
@@ -372,7 +365,6 @@ def get_subspecies_from_reflora(data):
         species = []
         regex = '"nomeRank"> var\..*?"taxon".*?<i>(.*?)<\/i>'
         for link in links:
-            print(str(link))
             results = re.search(regex, str(link))
             species.append(results.group(1))
 

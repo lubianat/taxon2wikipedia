@@ -2,31 +2,41 @@
     "mostrarHierarquia": true,
     "distribuicaoGeograficaDuvidaNorte": "",
     "estadosCerteza": [
-        "ES"
+        "AM",
+        "BA",
+        "CE",
+        "ES",
+        "MG",
+        "PR",
+        "RJ",
+        "SC",
+        "SP"
     ],
     "filhosSubspVar": "",
-    "possuiImagemVoucherHV": false,
+    "possuiImagemVoucherHV": true,
     "mostrarDistribuicaoHidrografica": true,
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
     "exibirMensagemCamposControladosIgual": false,
-    "idTaxon": 110351,
+    "idTaxon": 91055,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
-    "distribuicaoGeograficaCertezaSul": "",
+    "distribuicaoGeograficaCertezaSul": "<b>Sul</b> (Paran\u00e1, Santa Catarina)<br/>",
     "substrato": [
+        "Ep\u00edfita",
+        "Rup\u00edcola",
         "Terr\u00edcola"
     ],
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
     "mostrarDescricaoCamposControlados": true,
-    "id": "FB110351",
+    "id": "FB91055",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiospermas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(110219)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Annonaceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(110296)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Duguetia</i></div><div class=\"nomeAutorInfraGenerico\"> A.St.-Hil.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(110351)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Duguetia sooretamae</i></div><div class=\"nomeAutorInfraGenerico\"> Maas</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128483)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Samambaias e Lic\u00f3fitas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(90950)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Dryopteridaceae</div><div class=\"nomeAutorSupraGenerico\"> Herter</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(91002)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Elaphoglossum</i></div><div class=\"nomeAutorInfraGenerico\"> Schott ex J.Sm.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(91055)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de herb\u00e1rio \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Elaphoglossum nigrescens</i></div><div class=\"nomeAutorInfraGenerico\"> (Hook.) T.Moore ex Diels</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
-    "possuiImagemVoucherINCT": false,
+    "possuiImagemVoucherINCT": true,
     "statusQualificador": [
         "Nome aceito",
         "Nome correto"
@@ -34,47 +44,50 @@
     "mostrarImagensCampos": false,
     "distribuicaoGeograficaDuvidaCentroOeste": "",
     "mostrarTipoVegetacao": true,
-    "distribuicaoGeograficaCertezaSudeste": "<b>Sudeste</b> (Esp\u00edrito Santo)<br/>",
+    "distribuicaoGeograficaCertezaSudeste": "<b>Sudeste</b> (Esp\u00edrito Santo, Minas Gerais, Rio de Janeiro, S\u00e3o Paulo)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "Maas, P.,Lob\u00e3o, A.,Rainer, H. 2015. Annonaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB110351>http://floradobrasil2015.jbrj.gov.br/FB110351</a>)<br><br>Lob\u00e3o, A.Q. 2020. Duguetia in Flora do Brasil 2020. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB110351\">https://floradobrasil2020.jbrj.gov.br/FB110351</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
-    "nome": "<span><div class=\"taxon\"> <i>Duguetia sooretamae</i></div><div class=\"nomeAutorInfraGenerico\"> Maas</div></span>",
-    "distribuicaoGeograficaCertezaNordeste": "",
+    "bibliografiaFixa": "Windisch, P.G.,Kieling-Rubio, M.A. 2015. Elaphoglossum in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB91055>http://floradobrasil2015.jbrj.gov.br/FB91055</a>)<br><br>Matos, F.B. 2020. Elaphoglossum in Flora do Brasil 2020. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB91055\">https://floradobrasil2020.jbrj.gov.br/FB91055</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+    "nome": "<span><div class=\"taxon\"> <i>Elaphoglossum nigrescens</i></div><div class=\"nomeAutorInfraGenerico\"> (Hook.) T.Moore ex Diels</div></span>",
+    "distribuicaoGeograficaCertezaNordeste": "<b>Nordeste</b> (Bahia, Cear\u00e1)<br/>",
     "distribuicaoHidrograficaCerteza": "",
-    "nomeDataplamt": "Duguetia sooretamae",
+    "nomeDataplamt": "Elaphoglossum nigrescens",
     "distribuicaoIlhasPossiveis": "",
     "mostrarCitacao": true,
-    "endemismo": "\u00e9 end\u00eamica do Brasil",
+    "endemismo": "n\u00e3o \u00e9 end\u00eamica do Brasil",
     "distribuicaoHidrograficaDuvida": "",
     "mostrarVouchers": true,
-    "distribuicaoGeograficaCertezaNorte": "",
+    "distribuicaoGeograficaCertezaNorte": "<b>Norte</b> (Amazonas)<br/>",
     "estadosDuvida": [],
     "formaVida": [
-        "\u00c1rvore"
+        "Erva"
     ],
     "tipoVegetacao": [
-        "Restinga"
+        "Floresta de V\u00e1rzea",
+        "Floresta Ombr\u00f3fila (Floresta Pluvial)",
+        "Floresta Ombr\u00f3fila Mista"
     ],
     "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB110351&action=print",
+    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB91055&action=print",
     "mostrarSinopsesBrasil": false,
     "origem": "Nativa",
-    "titulo": "Flora e Funga do Brasil - Duguetia sooretamae Maas",
-    "referencias": "<td>Maas, P.J.M. et al., Flora Neotropica, 88: 197, 2003.<br></td>",
+    "titulo": "Flora e Funga do Brasil - Elaphoglossum nigrescens (Hook.) T.Moore ex Diels",
+    "referencias": "<td>Diels, F.L.E., Nat. Pflanzenfam., 1: 332, 1899.<font color='red'><b> Obra Original</font color></b><br>Vasco, A., Moran, R.C. & Rouhan, G., Brittonia, 61: 241-272, 2009.<br>Alston, A.H.G., Bol. Soc. Brot., s\u00e9r. 2, 32: 1-32, 1958.<br></td>",
     "verificarCitesStatus": true,
     "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
     "mostrarReferencias": true,
     "mostrarFilhosSubFam": true,
     "dominioFitogeografico": [
+        "Amaz\u00f4nia",
         "Mata Atl\u00e2ntica"
     ],
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "Lob\u00e3o, A.Q. <i>Duguetia</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB110351 target='_blank'>https://floradobrasil.jbrj.gov.br/FB110351</a>>. Acesso em:  10 jul. 2022",
+    "citacao": "Matos, F.B. <i>Elaphoglossum</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB91055 target='_blank'>https://floradobrasil.jbrj.gov.br/FB91055</a>>. Acesso em:  11 jul. 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Duguetia_sooretamae' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Duguetia_sooretamae</a>",
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Elaphoglossum_nigrescens' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Elaphoglossum_nigrescens</a>",
     "sinopsesBrasil": [
         {
             "rank": "Subesp\u00e9cies",
@@ -89,9 +102,10 @@
             "sinonimo": 0
         }
     ],
+    "temComoSinonimo": "<span><a onclick=\"carregaTaxonGrupo(110022)\" href=\"javascript:void(0);\"><img title=\" Cont\u00e9m imagens de herb\u00e1rio \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"tipoSinonimo\"> basi\u00f4nimo</div><div class=\"sinonimo\"> <i>Acrostichum nigrescens</i></div><div class=\"nomeAutorSinonimo\"> Hook.</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(615957)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterot\u00edpico</div><div class=\"sinonimo\"> <i>Acrostichum</i></div><div class=\"sinonimo\"> <i>flaccidum</i></div><div class=\"nomeRank\"> var.</div><div class=\"sinonimo\"> <i>pallidum</i></div><div class=\"nomeAutorSinonimo\"> Mett. ex Baker</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(615960)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterot\u00edpico</div><div class=\"sinonimo\"> <i>Acrostichum pallidum</i></div><div class=\"nomeAutorSinonimo\"> Mett. ex Baker</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(615958)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterot\u00edpico</div><div class=\"sinonimo\"> <i>Elaphoglossum pallidum</i></div><div class=\"nomeAutorSinonimo\"> (Mett. ex Baker) Hieron.</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(91087)\" href=\"javascript:void(0);\"><img title=\" Cont\u00e9m imagens de herb\u00e1rio \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"tipoSinonimo\"> heterot\u00edpico</div><div class=\"sinonimo\"> <i>Elaphoglossum wacketii</i></div><div class=\"nomeAutorSinonimo\"> Rosenst.</div></a></span><br>",
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Duguetia sooretamae Maas",
+    "nomeStr": "Elaphoglossum nigrescens (Hook.) T.Moore ex Diels",
     "mostrarDominioFitogeografico": true,
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
@@ -103,21 +117,15 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>P.J.M. Maas, 8827, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125778\" target=\"_blank\">CVRD</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126669\" target=\"_blank\">H</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125812\" target=\"_blank\">K</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125354\" target=\"_blank\">MBML</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125279\" target=\"_blank\">MO</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124893\" target=\"_blank\">SP</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125427\" target=\"_blank\">U</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126512\" target=\"_blank\">ULM</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126513\" target=\"_blank\">WU</a></td>",
+    "vouchers": "<td>R. Spruce, 2187, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 6817 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284685228' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125976\" target=\"_blank\">US</a> 6817 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100313789' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (AM)<br>F.B. Matos, 1024, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126365\" target=\"_blank\">UPCB</a> 69027, (BA)<br>M. Almeida-Neto, 377, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126215\" target=\"_blank\">SJRP</a> 69027 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=100064211' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (CE)<br>R.R. Vervloet, 1176, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125354\" target=\"_blank\">MBML</a> 17592, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 429723 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284685346' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (ES)<br>A. Salino, 9453, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126349\" target=\"_blank\">BHCB</a> 87160, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a> 720581, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a> 720585, (MG)<br>G. Hatschbach, 20369, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125352\" target=\"_blank\">MBM</a> 9148, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124884\" target=\"_blank\">PACA</a> 79209, (PR)<br>A.C. Brade, 17347, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 46647 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284685154' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (RJ)<br>P.H. Labiak, 297, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125352\" target=\"_blank\">MBM</a> 187660, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126365\" target=\"_blank\">UPCB</a> 25805, (SC)<br>A. Salino, 10335, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126349\" target=\"_blank\">BHCB</a> 91743, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a> 720596, (SP)</td>",
     "mostrarTemComoSinonimo": true,
-    "descricaoCamposControlados": "<strong>Caule: </strong><strong>pilosidade ramo(s) jovem(ns)</strong> tricoma(s) lepidoto(s). <strong>Folha: </strong><strong>forma da l\u00e2mina(s)</strong> estreitamente ovada(s); <strong>pilosidade na(s) face(s) adaxial</strong> glabra(s); <strong>pilosidade na(s) face(s) abaxial</strong> tricoma(s) lepidoto(s); <strong>forma da base</strong> aguda(s); <strong>forma do \u00e1pice(s)</strong> agudo(s). <strong>Infloresc\u00eancia: </strong><strong>presen\u00e7a de infloresc\u00eancia(s)</strong> presente(s); <strong>tipo de infloresc\u00eancia(s)</strong> pauciflora(s). <strong>Flor: </strong><strong>forma do bot\u00e3o-floral</strong> estreitamente ovoide(s); <strong>cor da flor(es)</strong> creme/esverdeada; <strong>cona\u00e7\u00e3o da s\u00e9pala(s)</strong> conata(s) na(s) base; <strong>forma da s\u00e9pala(s)</strong> largamente ovada(s); <strong>rela\u00e7\u00e3o entre p\u00e9tala(s) externa(s) e interna(s)</strong> subiguais; <strong>forma da p\u00e9tala(s) externa(s)</strong> largamente ovada(s); <strong>forma das p\u00e9tala(s) interna(s)</strong> estreitamente ovada(s); <strong>cor dos estame(s)</strong> desconhecido(s). <strong>Fruto: </strong><strong>cor do fruto(s)</strong> esverdeado; <strong>forma do fruto(s)</strong> subgloboso(s); <strong>presen\u00e7a do colar basal(ais)</strong> presente(s); <strong>presen\u00e7a de tricoma(s)</strong> tricoma(s) lepidoto(s). ",
+    "descricaoCamposControlados": "<strong>Caule: </strong><strong>porte</strong> curto(s) rastejante(s); <strong>escama(s) cor</strong> avermelhada/preta; <strong>escama(s) tipo</strong> concolor(es); <strong>escama(s) margem(ns)</strong> inteira. <strong>Folha: </strong><strong>filop\u00f3dio</strong> presente(s); <strong>posi\u00e7\u00e3o</strong> aproximada(s); <strong>divis\u00e3o</strong> simples; <strong>l\u00e2mina(s) formato</strong> estreitamente el\u00edptica(s)/oblanceolada(s); <strong>l\u00e2mina(s) base</strong> longamente decurrente(s); <strong>l\u00e2mina(s) \u00e1pice(s)</strong> agudo(s)/arredondado(s); <strong>apical(ais) gema(s)</strong> ausente(s); <strong>glandular(es) tricoma(s)</strong> ausente(s); <strong>nervura(s)</strong> livre(s); <strong>hidat\u00f3dio(s)</strong> ausente(s); <strong>l\u00e2mina(s) escama(s) densidade(s)</strong> glabrescente(s); <strong>laminar(es) margem(ns) escama(s) formato</strong> lanceolada(s)/ovada(s); <strong>costal escama(s) formato</strong> glabro(s); <strong>f\u00e9rtil(eis) folha(s)</strong> mais longa que est\u00e9ril(eis). ",
     "bibliografiaReferencia": "",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
     "mostrarChaveIdentificacao": false,
     "mostrarHospedeiroIndeterminado": false,
     "mostrarLinkParaTaxon": true,
-    "nomesVernaculos": [
-        {
-            "lingua": "Portugu\u00eas",
-            "nome": "pinda\u00edba-coroa",
-            "regiao": ""
-        }
-    ],
-    "possuiImagemVoucher": false
+    "nomesVernaculos": [],
+    "possuiImagemVoucher": true
 }

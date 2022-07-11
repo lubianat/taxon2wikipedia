@@ -37,7 +37,7 @@ def get_rough_df_from_wikidata(query):
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
-    results_df = pd.io.json.json_normalize(results["results"]["bindings"])
+    results_df = pd.json_normalize(results["results"]["bindings"])
     return results_df
 
 
