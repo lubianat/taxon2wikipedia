@@ -30,35 +30,43 @@ DESCRIPTION_DICT = OrderedDict(
 BASE_DESCRIPTION_DICT = json.loads(DICTS.joinpath("botanical_terms_wiki_pt.json").read_text())
 
 
+REPLACE_DICT = {
+    "compr.": "de comprimento",
+    "esp.": "de espessura",
+    "diâm.": "de diâmetro",
+    " m ": " metros ",
+    " cm ": " centímetros ",
+    " mm ": " milímetros ",
+    "alt.": "de altura",
+    '<i style="font-size: 13px;">': "",
+}
+
+RESUB_DICT = {
+    "compr\n": "de comprimento\n",
+    "<span(.|\n)*?>": "",
+    "<p class(.|\n)*?>": "",
+    "</p>": "",
+    "</span>": "",
+    "</i>": "",
+    "<i>": "",
+    "</b>": "",
+    "<b>": "",
+    "<span>": "",
+    "<w:.*?>": "",
+    "</w.*?>": "",
+    "<o:p></o:p>": "",
+    "&nbsp;": " ",
+    " ca. ": " com cerca de ",
+    '<p style="margin-bottom: 0px; font-size: 11px; line-height: normal; font-family: Times; color: rgb\(47, 42, 43\);">': "",
+}
+
+
 def fix_description(wikipage):
-    wikipage = wikipage.replace("compr.", "de comprimento")
-    wikipage = wikipage.replace("esp.", "de espessura")
-    wikipage = wikipage.replace("diâm.", "de diâmetro")
-    wikipage = wikipage.replace(" m ", " metros ")
-    wikipage = wikipage.replace(" cm ", " centímetros ")
-    wikipage = wikipage.replace(" mm ", " milímetros ")
-    wikipage = wikipage.replace("alt.", "de altura")
-    wikipage = re.sub("compr\n", "de comprimento\n", wikipage)
-    wikipage = re.sub("<span(.|\n)*?>", "", wikipage)
-    wikipage = re.sub("<p class(.|\n)*?>", "", wikipage)
-    wikipage = re.sub("</p>", "", wikipage)
-    wikipage = re.sub("</span>", "", wikipage)
-    wikipage = re.sub("</i>", "", wikipage)
-    wikipage = re.sub("<i>", "", wikipage)
-    wikipage = re.sub("</b>", "", wikipage)
-    wikipage = re.sub("<b>", "", wikipage)
-    wikipage = re.sub("<span>", "", wikipage)
-    wikipage = re.sub("<w:.*?>", "", wikipage)
-    wikipage = re.sub("</w.*?>", "", wikipage)
-    wikipage = re.sub("<o:p></o:p>", "", wikipage)
-    wikipage = re.sub("&nbsp;", " ", wikipage)
-    wikipage = re.sub(" ca. ", " com cerca de ", wikipage)
-    wikipage = wikipage.replace('<i style="font-size: 13px;">', "")
-    wikipage = re.sub(
-        '<p style="margin-bottom: 0px; font-size: 11px; line-height: normal; font-family: Times; color: rgb\(47, 42, 43\);">',
-        "",
-        wikipage,
-    )
+    for key, value in REPLACE_DICT.items:
+        wikipage = wikipage.replace(key, value)
+
+    for key, value in RESUB_DICT.items:
+        wikipage = re.sub(key, value, wikipage)
 
     for key, value in DESCRIPTION_DICT.items():
         wikipage = re.sub(key, value, wikipage, 1)
