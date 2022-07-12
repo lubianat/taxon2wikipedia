@@ -48,6 +48,8 @@ def fix_description(wikipage):
     wikipage = re.sub("</b>", "", wikipage)
     wikipage = re.sub("<b>", "", wikipage)
     wikipage = re.sub("<span>", "", wikipage)
+    wikipage = re.sub("<w:.*?>", "", wikipage)
+    wikipage = re.sub("</w.*?>", "", wikipage)
     wikipage = re.sub("<o:p></o:p>", "", wikipage)
     wikipage = re.sub("&nbsp;", " ", wikipage)
     wikipage = re.sub(" ca. ", " com cerca de ", wikipage)
@@ -73,11 +75,9 @@ def fix_description(wikipage):
 def merge_equal_refs(wikipage):
     results = re.findall(f"(<ref>.*?</ref>)", wikipage)
     repeated_refs = [item for item, count in collections.Counter(results).items() if count > 1]
-    print(repeated_refs)
 
     for i, repeated_ref in enumerate(repeated_refs):
         parts = wikipage.partition(repeated_ref)  # returns a tuple
-        print(parts[1])
         print("========")
         wikipage = (
             parts[0]
