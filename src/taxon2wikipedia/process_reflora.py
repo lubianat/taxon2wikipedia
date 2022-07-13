@@ -171,6 +171,7 @@ def get_common_names(data):
         if (
             name["lingua"].lower() == "portuguese"
             or name["lingua"] == "enum.label.NomesVernaculosLinguaEnum.PORTUGUES"
+            or name["lingua"] == "Portugu\u00eas"
         ):
             name_strings.append(name["nome"])
     return name_strings

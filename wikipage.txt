@@ -3,24 +3,23 @@
 | imagem                = 
 | reino                  = [[Plantae]]    
 | divisão                = [[Tracheophyta]]    
-| ordem                  = [[Poales]]    
 | infrarreino            = [[Streptophyta]]    
-| subfamília             = [[Bromelioideae]]    
-| género                 = [[Orthophytum]]    
-| família                = [[Bromeliaceae]]    
 | superdivisão           = [[Embryophyta]]    
+| ordem                  = [[Zingiberales]]    
+| família                = [[Marantaceae]]    
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
-| espécie                = [[Orthophytum zanonii]]    
+| género                 = [[Ischnosiphon]]    
 | subreino               = [[Viridiplantae]]    
+| espécie                = [[Ischnosiphon ovatus]]    
 }}
-'''''Orthophytum zanonii''''' é uma espécie de [[planta]] do gênero ''[[Orthophytum]]'' e da família [[Bromeliaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB6306|titulo=Orthophytum zanonii Leme|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Ischnosiphon ovatus''''' é uma espécie de [[planta]] do gênero ''[[Ischnosiphon]]'' e da família [[Marantaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB9347|titulo=Ischnosiphon ovatus Körn.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 == Taxonomia ==
-A espécie foi descrita em [[2004]] por [[Elton Martinez Carvalho Leme]]. <ref>{{Citar web|url=https://www.gbif.org/species/2697620|titulo=Orthophytum zanonii|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi descrita em [[1862]] por [[Friedrich August Körnicke]]. <ref>{{Citar web|url=https://www.gbif.org/species/2761031|titulo=Ischnosiphon ovatus|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
 == Forma de vida ==
-É uma espécie [[rupícola]] e [[herbácea]]. <ref name=":ref_0"/>  
+É uma espécie [[terrícola]] e [[herbácea]]. <ref name=":ref_0"/>  
     
 == Descrição ==
 
@@ -28,69 +27,48 @@ A espécie foi descrita em [[2004]] por [[Elton Martinez Carvalho Leme]]. <ref>{
   |+
   ! colspan="2" |'''Caule'''<ref name=":ref_0" />
   |-
-  |'''caule'''
-  |longo caulescente
+  |'''crescimento'''
+  |rosulado
+  |-
+  |'''ramificação'''
+  |ausente
   |+
   ! colspan="2" |'''Folha'''<ref name=":ref_0" />
   |-
-  |'''folha'''
-  |não formando roseta
+  |'''forma'''
+  |ovada
   |-
-  |'''lâmina foliar'''
-  |fortemente coriácea
-  |-
-  |'''lâmina foliar face abaxial'''
-  |lepidota
+  |'''simetria'''
+  |simétrica
   |+
   ! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
   |-
-  |'''inflorescência'''
-  |séssil
-  |-
-  |'''pedúnculo'''
-  |ausente
-  |-
-  |'''indumento dos pedúnculo'''
-  |glabro
-  |-
-  |'''inflorescência'''
-  |composta
-  |-
-  |'''inflorescência'''
-  |em espiga de glomérulo
+  |'''número de [[bractéola]] por címula'''
+  |1
   |+
   ! colspan="2" |'''Flor'''<ref name=":ref_0" />
   |-
-  |'''bráctea floral face abaxial'''
-  |lepidota
+  |'''cor das pétala'''
+  |branca/rosa
   |-
-  |'''bráctea floral face adaxial'''
-  |lepidota
-  |-
-  |'''bráctea floral'''
-  |verde
-  |-
-  |'''sépala'''
-  |verde
-  |-
-  |'''pétala'''
-  |esverdeada
+  |'''cor do estaminódio externo'''
+  |branco
   |}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 == Distribuição ==
-A espécie é encontrada no estado brasileiro de [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de vegetação sobre afloramentos rochosos.<ref name=":ref_0"/> 
+A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]], [[Paraná]], [[Rio de Janeiro]], [[Santa Catarina]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[floresta estacional semidecidual]], [[Floresta húmida|floresta ombrófila pluvial]], [[restinga]] e vegetação sobre afloramentos rochosos.<ref name=":ref_0"/> 
 ==Notas==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Louzada, R.B. ''Orthophytum''  ''in'' Flora e Funga do Brasil. <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de André, T. ''Ischnosiphon''  ''in'' Flora e Funga do Brasil. <ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6306 ''Orthophytum zanonii'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9347 ''Ischnosiphon ovatus'' no projeto Flora e Funga do Brasil]
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Bromeliaceae]]
-[[Categoria:Orthophytum]]
-    [[Categoria:Plantas descritas em 2004]]
+[[Categoria:Marantaceae]]
+[[Categoria:Ischnosiphon]]
+    [[Categoria:Plantas descritas em 1862]]
     [[Categoria:Plantas]]
     [[Categoria:Flora do Brasil]]
     [[Categoria:Flora do Espírito Santo]]

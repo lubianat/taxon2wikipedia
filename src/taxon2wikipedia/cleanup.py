@@ -54,6 +54,8 @@ RESUB_DICT = {
     "<span>": "",
     "<w:.*?>": "",
     "</w.*?>": "",
+    "</st1:.*?>": "",
+    "<st1:.*?>": "",
     "<o:p></o:p>": "",
     "&nbsp;": " ",
     " ca. ": " com cerca de ",
@@ -62,10 +64,10 @@ RESUB_DICT = {
 
 
 def fix_description(wikipage):
-    for key, value in REPLACE_DICT.items:
+    for key, value in REPLACE_DICT.items():
         wikipage = wikipage.replace(key, value)
 
-    for key, value in RESUB_DICT.items:
+    for key, value in RESUB_DICT.items():
         wikipage = re.sub(key, value, wikipage)
 
     for key, value in DESCRIPTION_DICT.items():
