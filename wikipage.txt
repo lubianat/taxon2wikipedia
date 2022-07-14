@@ -3,72 +3,138 @@
 | imagem                = 
 | reino                  = [[Plantae]]    
 | divisão                = [[Tracheophyta]]    
+| ordem                  = [[Liliales]]    
 | infrarreino            = [[Streptophyta]]    
+| família                = [[Smilacaceae]]    
+| género                 = [[Smilax]]    
 | superdivisão           = [[Embryophyta]]    
-| ordem                  = [[Zingiberales]]    
-| família                = [[Marantaceae]]    
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
-| género                 = [[Ischnosiphon]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Ischnosiphon ovatus]]    
+| espécie                = [[Smilax spicata]]    
 }}
-'''''Ischnosiphon ovatus''''' é uma espécie de [[planta]] do gênero ''[[Ischnosiphon]]'' e da família [[Marantaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB9347|titulo=Ischnosiphon ovatus Körn.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Smilax spicata''''' é uma espécie de [[planta]] do gênero ''[[Smilax]]'' e da família [[Smilacaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB14566|titulo=Smilax spicata Vell.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 == Taxonomia ==
-A espécie foi descrita em [[1862]] por [[Friedrich August Körnicke]]. <ref>{{Citar web|url=https://www.gbif.org/species/2761031|titulo=Ischnosiphon ovatus|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
-
+A espécie foi descrita em [[1831]] por [[José Mariano de Conceição Vellozo]]. <ref>{{Citar web|url=https://www.gbif.org/species/5295093|titulo=Smilax spicata|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+O seguinte sinônimo já foi catalogado:  <ref name=":ref_0"/> 
+* ''Smilax colossea''  Toledo 
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[herbácea]]. <ref name=":ref_0"/>  
+É uma espécie [[terrícola]] e [[trepadeira]]. <ref name=":ref_0"/>  
     
 == Descrição ==
-
+Liana. Caule
+1,5-2,0 centímetros diam., quadrangular, alado, cujos ângulos se projetam, de longe em
+longe, em dentes triangulares agudos, pungentes. Ramo quadrangular, levemente
+alado sem acúleos. No ápice de cada nó há uma folha abortada, reduzida à
+bainha, [[Pecíolo (botânica)|pecíolo]] e ápice falciforme. Bainha da folha 0,7-1,5 centímetros de comprimento, lisa;
+pecíolo 5,0-6,0 milímetros de diâmetro, espessado; lâmina 14,0-40,0 centímetros x 4,0-23,0 cm, ovada ou lanceolada, papirácea
+ou coriácea, de coloração esverdeada quando seca, fosca; ápice acuminado; base
+obtusa, arredondada ou levemente emarginada, margem plana; nervuras 5, 3
+principais e 2 inconspícuas, 1º par de nervuras laterais de origem basal,
+venação proeminente em ambas as faces, reticulado de aréolas laxas. Eixo
+terminal da cima umbeliforme estaminada, liso. Botão floral 2,8-3,0 milímetros x
+1,0-1,1 mm, elíptico. Ela tem [[flores]] estaminadas vinosas, [[pedicelo]] 0,6-1,0 centímetros de comprimento
+Tépalas dos dois verticilos diferentes entre si, reflexas; as externas 3,0-3,2
+mm x 1,0-1,2 mm, oblongas, cuculadas no ápice; as internas 2,1-2,3 milímetros x 0,5-0,7
+mm, lanceoladas, papilhosas no ápice. Estames com [[antera]]s oblongas, de mesmo
+comprimento dos filetes. Eixo terminal da cima umbeliforme pistilada liso.
+Botão floral 2,0-2,2 milímetros x 1,0-1,2 mm, ovado. Flores pistiladas vinosas,
+pedicelos 0,6-1,5 centímetros de comprimento Tépalas dos dois verticilos diferentes entre si, reflexas;
+as externas 3,0-401 milímetros x 1,0-1,5 mm, oblongas, cuculadas no ápice; as internas
+2,0-2,1 milímetros x 0,3-0,5 mm, papilhosas no ápice; [[estaminódio]]s 6, filiformes, não
+quando atingindo a metade do comprimento do ovário. Bagas 0,7-2,0 centímetros diam.,
+quando imaturas verdes, quando maduras de vinosas a negras. Sementes 0,8-1,0 cm
+de diâmetro, avermelhadas.  <ref name=":ref_0"/>             
+        
         {| class="wikitable" 
+  |+
+  ! colspan="2" |'''Raiz'''<ref name=":ref_0" />
+  |-
+  |'''do tipo'''
+  |rizóforo/raiz gemífera/estolão
+  |-
+  |'''de consistência'''
+  |lenhosa/longa/cilíndrica/com poucas ramificação/paralela à superfície
   |+
   ! colspan="2" |'''Caule'''<ref name=":ref_0" />
   |-
-  |'''crescimento'''
-  |rosulado
-  |-
-  |'''ramificação'''
-  |ausente
+  |'''ramo'''
+  |anguloso/glabro
   |+
   ! colspan="2" |'''Folha'''<ref name=":ref_0" />
   |-
-  |'''forma'''
-  |ovada
+  |'''de disposição'''
+  |simples/alterna/fosca
   |-
-  |'''simetria'''
-  |simétrica
+  |'''textura'''
+  |papirácea/coriácea
+  |-
+  |'''padrão de nervação'''
+  |acródromo/5 nervura primária
+  |-
+  |'''pecíolo'''
+  |canaliculado/com par de gavinha
+  |-
+  |'''lâmina'''
+  |lanceolada/ovada
+  |-
+  |'''base'''
+  |obtusa/arredondada
+  |-
+  |'''ápice'''
+  |acuminado
+  |-
+  |'''bainha'''
+  |bilabiada
   |+
   ! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
   |-
-  |'''número de [[bractéola]] por címula'''
-  |1
+  |'''disposição'''
+  |cima umbeliforme
   |+
   ! colspan="2" |'''Flor'''<ref name=":ref_0" />
   |-
-  |'''cor das pétala'''
-  |branca/rosa
+  |'''díclina'''
+  |pequena/vinácea/pedicelada/bracteada/com profilo de espessamento globoso
   |-
-  |'''cor do estaminódio externo'''
-  |branco
+  |'''perigônio'''
+  |com 6 tépala/reflexa/ereta/heteroclamídea/externa mais larga que interna
+  |-
+  |'''androceu'''
+  |6 estame/antera biteca/antera basifixa/filete igual à antera
+  |-
+  |'''ovário'''
+  |tricarpelar/trilocular/1 a 2 óvulo por lóculo/sobre disco/súpero/anguloso/3 estilete curto/estigma papiloso/6 estaminódio/estaminódio filiforme
+  |+
+  ! colspan="2" |'''Fruto'''<ref name=":ref_0" />
+  |-
+  |'''tipo'''
+  |baga/globoso
+  |+
+  ! colspan="2" |'''Semente'''<ref name=":ref_0" />
+  |-
+  |'''semente'''
+  |esférica
+  |-
+  |'''embrião'''
+  |pequeno/endosperma alvo/de consistência óssea/hilo oposto à micrópila
   |}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]], [[Paraná]], [[Rio de Janeiro]], [[Santa Catarina]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[floresta estacional semidecidual]], [[Floresta húmida|floresta ombrófila pluvial]], [[restinga]] e vegetação sobre afloramentos rochosos.<ref name=":ref_0"/> 
+A espécie é encontrada nos estados brasileiros de [[Espírito Santo (estado)|Espírito Santo]], [[Rio de Janeiro]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
 ==Notas==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de André, T. ''Ischnosiphon''  ''in'' Flora e Funga do Brasil. <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Fraga, F.R.M.; Andreata, R.H.P. ''Smilacaceae''  ''in'' Flora e Funga do Brasil. <ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9347 ''Ischnosiphon ovatus'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14566 ''Smilax spicata'' no projeto Flora e Funga do Brasil]
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Marantaceae]]
-[[Categoria:Ischnosiphon]]
-    [[Categoria:Plantas descritas em 1862]]
+[[Categoria:Smilacaceae]]
+[[Categoria:Smilax]]
+    [[Categoria:Plantas descritas em 1831]]
     [[Categoria:Plantas]]
     [[Categoria:Flora do Brasil]]
     [[Categoria:Flora do Espírito Santo]]

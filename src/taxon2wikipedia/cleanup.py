@@ -10,10 +10,8 @@ DICTS = HERE.parent.joinpath("dicts")
 
 def main():
     wikipage_path = HERE.parent.parent.joinpath("wikipage.txt")
-
     wikipage = wikipage_path.read_text()
     wikipage = merge_equal_refs(wikipage)
-
     wikipage_path.write_text(wikipage)
 
 
@@ -27,20 +25,11 @@ DESCRIPTION_DICT = OrderedDict(
     }
 )
 
-BASE_DESCRIPTION_DICT = json.loads(DICTS.joinpath("botanical_terms_wiki_pt.json").read_text())
+BOTANICAL_DICT = json.loads(DICTS.joinpath("botanical_terms_wiki_pt.json").read_text())
 
+REPLACE_DICT = json.loads(DICTS.joinpath("replace_dict_pt.json").read_text())
 
-REPLACE_DICT = {
-    "compr.": "de comprimento",
-    "esp.": "de espessura",
-    "diâm.": "de diâmetro",
-    " m ": " metros ",
-    " cm ": " centímetros ",
-    " mm ": " milímetros ",
-    "alt.": "de altura",
-    '<i style="font-size: 13px;">': "",
-}
-
+# Cannot be factored out into json due to different quote styling
 RESUB_DICT = {
     "compr\n": "de comprimento\n",
     "<span(.|\n)*?>": "",
@@ -60,6 +49,7 @@ RESUB_DICT = {
     "&nbsp;": " ",
     " ca. ": " com cerca de ",
     '<p style="margin-bottom: 0px; font-size: 11px; line-height: normal; font-family: Times; color: rgb\(47, 42, 43\);">': "",
+    '<i style="font-size: 13px;">': "",
 }
 
 
@@ -73,7 +63,7 @@ def fix_description(wikipage):
     for key, value in DESCRIPTION_DICT.items():
         wikipage = re.sub(key, value, wikipage, 1)
 
-    for key, value in BASE_DESCRIPTION_DICT.items():
+    for key, value in BOTANICAL_DICT.items():
         wikipage = re.sub(f" {key} ", f" {value} ", wikipage, 1)
         wikipage = re.sub(f" {key}s ", f" {value}s ", wikipage, 1)
         wikipage = re.sub(f" {key.capitalize} ", f" {value} ", wikipage, 1)
