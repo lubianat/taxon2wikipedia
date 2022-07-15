@@ -1,12 +1,12 @@
 {
-  "enum.label.DominiosFitogeograficosEnum.MATA_ATLANTICA": "[[Mata Atlântica]]",
-  "enum.label.DominiosFitogeograficosEnum.CERRADO": "[[Cerrado]]",
-  "enum.label.DominiosFitogeograficosEnum.PAMPA": "[[Pampa]]",
-  "enum.label.DominiosFitogeograficosEnum.AMAZONIA": "[[Floresta Amazônica]]",
-  "Pampa": "[[Pampa]]",
-  "Pantanal": "[[Pantanal]]",
-  "Cerrado": "[[Cerrado]]",
-  "Mata Atlântica": "[[Mata Atlântica]]",
-  "Amazônia": "[[Floresta Amazônica]]",
-  "Caatinga": "[[Caatinga]]"
+    "Amazônia": "[[Floresta Amazônica]]",
+    "Caatinga": "[[Caatinga]]",
+    "Cerrado": "[[Cerrado]]",
+    "Mata Atlântica": "[[Mata Atlântica]]",
+    "Pampa": "[[Pampa]]",
+    "Pantanal": "[[Pantanal]]",
+    "enum.label.DominiosFitogeograficosEnum.AMAZONIA": "[[Floresta Amazônica]]",
+    "enum.label.DominiosFitogeograficosEnum.CERRADO": "[[Cerrado]]",
+    "enum.label.DominiosFitogeograficosEnum.MATA_ATLANTICA": "[[Mata Atlântica]]",
+    "enum.label.DominiosFitogeograficosEnum.PAMPA": "[[Pampa]]"
 }

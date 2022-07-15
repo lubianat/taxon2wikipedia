@@ -4,6 +4,7 @@ from pathlib import Path
 import json
 from bs4 import BeautifulSoup
 import re
+from .cleanup import fix_description
 
 HERE = Path(__file__).parent.resolve()
 STATES_WIKI = {
@@ -133,6 +134,8 @@ def render_free_description(data):
             text = f"""
 {data["descricaoLivrePT"]}  {get_ref_reflora(data)}            
         """
+            text = fix_description(text)
+
             return text
     except KeyError as e:
         return ""
@@ -246,6 +249,7 @@ def render_description_table(data):
                 pass
         wikitable += """
   |}"""
+        wikitable = fix_description(wikitable)
         return wikitable
 
 

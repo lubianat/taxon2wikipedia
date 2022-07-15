@@ -128,7 +128,6 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
     filepath = "wikipage.txt"
     wiki_page = merge_equal_refs(wiki_page)
     wiki_page = wiki_page.replace("\n\n", "\n")
-    wiki_page = fix_description(wiki_page)
     with open(filepath, "w+") as f:
         f.write(wiki_page)
 
