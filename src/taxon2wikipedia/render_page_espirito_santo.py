@@ -14,8 +14,9 @@ from wdcuration import search_wikidata
 @click.option("--open_url", default=False, help="Abrir ou não as páginas auxiliares")
 def main(scope_name: str, qid: str, taxon: str, taxon_name: str, reflora_id: str, open_url: bool):
 
-    if taxon:
-        taxon_name = input("Nome científico do taxon:")
+    if taxon or taxon_name:
+        if not taxon_name:
+            taxon_name = input("Nome científico do taxon:")
         taxon_result = search_wikidata(taxon_name)
         taxon_ok = input(
             f'Wikidata found {taxon_result["label"]} ({taxon_result["description"]}). Is it correct (y/n)?'
@@ -70,16 +71,20 @@ def main(scope_name: str, qid: str, taxon: str, taxon_name: str, reflora_id: str
     if "ehSinonimo" in reflora_data and "Correct name" not in set(
         reflora_data["statusQualificador"]
     ):
-        wiki_page = f"#REDIRECIONAMENTO[[{reflora_data['ehSinonimo']}"
-        wiki_page = re.sub(
+        print("Synonym!")
+        main(taxon_name=synonym_name)
+        synonym_name = reflora_data["ehSinonimo"]
+        synonym_name = re.sub(
             '<a onclick=.*?taxon">(.*?)<\/div><div class="nomeAutorSinonimo">.*',
             "\\1]]",
-            wiki_page,
+            synonym_name,
         )
-        wiki_page = wiki_page.replace("<span> <i>", "")
-        wiki_page = wiki_page.replace("</i>", "")
+        synonym_name = synonym_name.replace("<span> <i>", "")
+        synonym_name = synonym_name.replace("</i>", "")
+        main(taxon_name=synonym_name)
 
-        print("Synonym!")
+        wiki_page = f"#REDIRECIONAMENTO[[{synonym_name}"
+
         site = pywikibot.Site("pt", "wikipedia")
         if not pywikibot.Page(site, taxon_name).exists():
             pass
@@ -166,9 +171,6 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
     repo = site.data_repository()
     item = pywikibot.ItemPage(repo, qid)
 
-    data = [{"site": "ptwiki", "title": taxon_name.replace(" ", "_")}]
-    item.setSitelinks(data)
-
     webbrowser.open(
         f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?veaction=edit"""
     )
@@ -176,6 +178,11 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
     stringclaim = pywikibot.Claim(repo, "P10701")  # Else, add the value
     stringclaim.setTarget(f"FB{str(reflora_id)}")
     item.addClaim(stringclaim, summary="Adding a Reflora ID")
+    if not "ehSinonimo" in reflora_data or "Correct name" in set(
+        reflora_data["statusQualificador"]
+    ):
+        data = [{"site": "ptwiki", "title": taxon_name.replace(" ", "_")}]
+        item.setSitelinks(data)
 
 
 if __name__ == "__main__":
