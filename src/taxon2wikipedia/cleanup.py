@@ -33,6 +33,7 @@ REPLACE_DICT = json.loads(DICTS.joinpath("replace_dict_pt.json").read_text())
 RESUB_DICT = {
     "compr\n": "de comprimento\n",
     "<span(.|\n)*?>": "",
+    "<span(.|\n)*?>": "",
     "<p class(.|\n)*?>": "",
     "</p>": "",
     "</span>": "",

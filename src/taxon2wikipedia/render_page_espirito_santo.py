@@ -2,14 +2,29 @@
 
 from .helper import *
 from urllib.parse import quote
+from wdcuration import search_wikidata
 
 
 @click.command(name="render")
 @click.option("--qid")
+@click.option("--taxon", is_flag=True, help="Pedir um nome de taxon")
+@click.option("--taxon_name", help="O nome do taxon entre aspas.")
 @click.option("--scope-name", default="planta", help="O escopo do táxon alvo.")
 @click.option("--reflora-id", default="search", help="O número do taxon na base Reflora.")
 @click.option("--open_url", default=False, help="Abrir ou não as páginas auxiliares")
-def main(scope_name: str, qid: str, reflora_id: str, open_url: bool):
+def main(scope_name: str, qid: str, taxon: str, taxon_name: str, reflora_id: str, open_url: bool):
+
+    if taxon:
+        taxon_name = input("Nome científico do taxon:")
+        taxon_result = search_wikidata(taxon_name)
+        taxon_ok = input(
+            f'Wikidata found {taxon_result["label"]} ({taxon_result["description"]}). Is it correct (y/n)?'
+        )
+        if taxon_ok == "y":
+            qid = taxon_result["id"]
+        else:
+            print("quitting...")
+            quit()
 
     template_path = Path(f"{HERE}/../data/full_query_taxon.rq.jinja")
     t = Template(template_path.read_text())
@@ -61,6 +76,9 @@ def main(scope_name: str, qid: str, reflora_id: str, open_url: bool):
             "\\1]]",
             wiki_page,
         )
+        wiki_page = wiki_page.replace("<span> <i>", "")
+        wiki_page = wiki_page.replace("</i>", "")
+
         print("Synonym!")
         site = pywikibot.Site("pt", "wikipedia")
         if not pywikibot.Page(site, taxon_name).exists():
@@ -74,7 +92,7 @@ def main(scope_name: str, qid: str, reflora_id: str, open_url: bool):
         taxobox = get_taxobox(qid)
 
         free_description = render_free_description(reflora_data)
-        comment = render_comment(reflora_data)
+        comment = fix_description(render_comment(reflora_data))
         if free_description != "" or comment != "" or "descricaoCamposControlados" in reflora_data:
             notes = f"{get_cc_by_comment(reflora_data)}{get_ref_reflora(reflora_data)}"
             description_title = "== Descrição =="
@@ -103,7 +121,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 {{{{Referencias}}}}
 == Ligações externas ==
 * [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id} ''{taxon_name}'' no projeto Flora e Funga do Brasil]
-* [{f"http://cncflora.jbrj.gov.br/portal/pt-br/profile/{quote(taxon_name)}"} {taxon_name} no portal do Centro Nacional de Conservação da Flora (Brasil)]
+* [{f"http://cncflora.jbrj.gov.br/portal/pt-br/profile/{quote(taxon_name)}"} ''{taxon_name}'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 {{{{Controle de autoridade}}}}
 {{{{esboço-{scope_name}}}}}
 

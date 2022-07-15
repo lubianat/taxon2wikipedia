@@ -2,84 +2,121 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Malpighiales]]    
+| ordem                  = [[Asterales]]    
+| família                = [[Asteraceae]]    
 | divisão                = [[Tracheophyta]]    
+| subfamília             = [[Cichorioideae]]    
 | infrarreino            = [[Streptophyta]]    
+| subfamília             = [[Carduoideae]]    
+| tribo                  = [[Vernonieae]]    
 | superdivisão           = [[Embryophyta]]    
-| família                = [[Malpighiaceae]]    
 | subfilo                = [[Euphyllophyta]]    
+| género                 = [[Lepidaploa]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
-| género                 = [[Hiraea]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Hiraea bullata]]    
+| espécie                = [[Lepidaploa cotoneaster]]    
+| Q3965313               = [[Lepidaploinae]]    
 }}
-'''''Hiraea bullata''''' é uma espécie de [[planta]] do gênero ''[[Hiraea]]'' e da família [[Malpighiaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8909|titulo=Hiraea bullata W.R.Anderson|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Lepidaploa cotoneaster''''' é uma espécie de [[planta]] do gênero ''[[Lepidaploa]]'' e da família [[Asteraceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB27136|titulo=Lepidaploa cotoneaster (Willd. ex Spreng.) H.Rob.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+L. cotoneaster caracteriza-se por exibir folhas ovadas, com ápice agudo, face abaxial tomentosa, capitulescência em [[ Cimeira(botânica)| cimeira]] folhosa, sésseis, laxos, com 20-30 flores por capítulos. <ref name=":ref_0"/> 
 == Taxonomia ==
-A espécie foi descrita em [[1993]] por [[William Russell Anderson]]. <ref>{{Citar web|url=https://www.gbif.org/species/3985135|titulo=Hiraea bullata|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
-
+A espécie foi descrita em [[1990]] por [[Harold E. Robinson]]. <ref>{{Citar web|url=https://www.gbif.org/species/3099787|titulo=Lepidaploa cotoneaster|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+O seguinte sinônimo já foi catalogado:  <ref name=":ref_0"/> 
+* ''Vernonia cotoneaster''  (Willd. ex Spreng.) Less. 
 == Forma de vida ==
-É uma espécie [[terrícola]], [[arbustiva]] e [[trepadeira]]. <ref name=":ref_0"/>  
+É uma espécie [[terrícola]] e [[arbustiva]]. <ref name=":ref_0"/>  
     
 == Descrição ==
-Folhas elípticas ou menos comum ovata ou obovata, base redonda, ápice obtuso, redondo ou mucronado, margem com glândulas sésseis próximo ao ápice, glabrescente com indumento velutino, [[Pecíolo (botânica)|pecíolo]] glanduloso. Corimbos axilares e terminais (4-flores), 4 pares de glândulas nas sépalas, [[pétala]]s glabras com margem erosa ou denticulada. Frutos com alas laterais reniformes.<br>  <ref name=":ref_0"/>             
-        
+
         {| class="wikitable" 
+  |+
+  ! colspan="2" |'''Caule'''<ref name=":ref_0" />
+  |-
+  |'''tipo de caule'''
+  |ereto
+  |-
+  |'''indumento'''
+  |tomentoso/glabrescente
+  |-
+  |'''glândula ramo'''
+  |ausente
   |+
   ! colspan="2" |'''Folha'''<ref name=":ref_0" />
   |-
-  |'''formato'''
-  |elíptica/oboval/oval
-  |-
-  |'''ápice'''
-  |mucronado/agudo
-  |-
-  |'''base'''
-  |redonda
+  |'''filotaxia'''
+  |alterna dística
   |-
   |'''pecíolo'''
-  |glanduloso
+  |presente
   |-
-  |'''margem'''
-  |glandulosa
+  |'''forma'''
+  |ovado
   |-
-  |'''indumento'''
-  |glabrescente/velutino
+  |'''ápice da folha'''
+  |agudo
+  |-
+  |'''base da folha'''
+  |obtusa
+  |-
+  |'''face adaxial'''
+  |estrigosa/glabra
+  |-
+  |'''face abaxial'''
+  |tomentosa/viloso
+  |-
+  |'''glândula face'''
+  |ausente
+  |-
+  |'''posição'''
+  |caulinar
   |+
   ! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
   |-
-  |'''corimbo'''
-  |terminal/axilar
+  |'''tipo de inflorescência'''
+  |não escaposa
+  |-
+  |'''invólucro'''
+  |campanulado
+  |-
+  |'''disposição das bráctea-involucral'''
+  |eximbricada
+  |-
+  |'''ápice das bráctea-involucral interna'''
+  |agudo
   |+
   ! colspan="2" |'''Flor'''<ref name=":ref_0" />
   |-
-  |'''glândula'''
-  |8
+  |'''número'''
+  |20 a 30
   |-
-  |'''pétala'''
-  |denteada/erosa
+  |'''cor'''
+  |lilás
   |+
   ! colspan="2" |'''Fruto'''<ref name=":ref_0" />
   |-
-  |'''ala'''
-  |reniforme
+  |'''cor do pápus'''
+  |branca
+  |-
+  |'''glândula'''
+  |ausente
   |}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Bahia]] e [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[floresta estacional semidecidual]] e [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
+A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]], [[Rio de Janeiro]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
+A espécie é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de [[Cerrado]] e [[Mata Atlântica]], em regiões com vegetação de [[campos de altitude]], [[campos rupestres]], [[cerrado]] e vegetação sobre afloramentos rochosos.<ref name=":ref_0"/> 
 ==Notas==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Sebastiani, R.; Amorim, A.M.A. ''Hiraea''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Marques, D.; Castro, M.S.; Rivera, V.L.; Dematteis, M. ''Lepidaploa''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8909 ''Hiraea bullata'' no projeto Flora e Funga do Brasil]
-* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Hiraea%20bullata Hiraea bullata no portal do Centro Nacional de Conservação da Flora (Brasil)]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB27136 ''Lepidaploa cotoneaster'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Lepidaploa%20cotoneaster ''Lepidaploa cotoneaster'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Malpighiaceae]]
-[[Categoria:Hiraea]]
-    [[Categoria:Plantas descritas em 1993]]
+[[Categoria:Asteraceae]]
+[[Categoria:Lepidaploa]]
+    [[Categoria:Plantas descritas em 1990]]
     [[Categoria:Plantas]]
     [[Categoria:Flora do Brasil]]
     [[Categoria:Flora do Espírito Santo]]
