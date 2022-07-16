@@ -262,7 +262,6 @@ def render_domains(data):
     else:
         text = "A espécie é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de "
     text = text + render_list(domains, DOMAINS_WIKI)
-    print("?????????")
     text = text + ","
     vegetations = data["tipoVegetacao"]
     text = text + " em regiões com vegetação de "

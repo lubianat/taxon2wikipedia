@@ -66,7 +66,6 @@ def main(scope_name: str, qid: str, taxon: str, taxon_name: str, reflora_id: str
     if len(reflora_data["nomesVernaculos"]) > 0:
         qs = print_qs_for_names(reflora_data, qid)
         webbrowser.open(render_qs_url(qs))
-    proceed = input("Enter anything to proceed.")
 
     if "ehSinonimo" in reflora_data and "Correct name" not in set(
         reflora_data["statusQualificador"]
@@ -93,7 +92,7 @@ def main(scope_name: str, qid: str, taxon: str, taxon_name: str, reflora_id: str
             quit()
 
     else:
-        common_name_text = render_common_name(results_df)
+        common_name_text = render_common_name(results_df, reflora_data)
         taxobox = get_taxobox(qid)
 
         free_description = render_free_description(reflora_data)

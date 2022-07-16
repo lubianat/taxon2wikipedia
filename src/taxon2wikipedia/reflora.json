@@ -2,28 +2,29 @@
     "mostrarHierarquia": true,
     "distribuicaoGeograficaDuvidaNorte": "",
     "estadosCerteza": [
-        "MG",
-        "SC"
+        "BA",
+        "ES"
     ],
-    "possuiImagemVoucherHV": false,
+    "filhosSubspVar": "",
+    "possuiImagemVoucherHV": true,
     "mostrarDistribuicaoHidrografica": true,
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
-    "exibirMensagemCamposControladosIgual": true,
-    "idTaxon": 117207,
+    "exibirMensagemCamposControladosIgual": false,
+    "idTaxon": 16819,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
-    "distribuicaoGeograficaCertezaSul": "<b>Sul</b> (Santa Catarina)<br/>",
+    "distribuicaoGeograficaCertezaSul": "",
     "substrato": [
-        "Rup\u00edcola"
+        "Terr\u00edcola"
     ],
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
-    "mostrarDescricaoCamposControlados": false,
-    "id": "FB117207",
+    "mostrarDescricaoCamposControlados": true,
+    "id": "FB16819",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128472)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Bri\u00f3fitas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128466)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Musgos</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(96414)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Rhacocarpaceae</div><div class=\"nomeAutorSupraGenerico\"> Kindb.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(96415)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Rhacocarpus</i></div><div class=\"nomeAutorInfraGenerico\"> Lindb.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(117205)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Rhacocarpus inermis</i></div><div class=\"nomeAutorInfraGenerico\"> (M\u00fcll.Hal.) Lindb.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(117207)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Rhacocarpus</i></div><div class=\"taxon\"> <i>inermis</i></div><div class=\"nomeRank\"> var.</div><div class=\"taxon\"> <i>piliformis</i></div><div class=\"nomeAutorInfraGenerico\"> (Broth.) J.-P.Frahm</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiospermas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(85)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Chrysobalanaceae</div><div class=\"nomeAutorSupraGenerico\"> R.Br.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(16815)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Licania</i></div><div class=\"nomeAutorInfraGenerico\"> Aubl.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(16819)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de herb\u00e1rio \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Licania belemii</i></div><div class=\"nomeAutorInfraGenerico\"> Prance</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
     "possuiImagemVoucherINCT": false,
@@ -32,16 +33,17 @@
         "Nome correto"
     ],
     "mostrarImagensCampos": false,
+    "mostrarDescricaoLivreEN": true,
     "distribuicaoGeograficaDuvidaCentroOeste": "",
     "mostrarTipoVegetacao": true,
-    "distribuicaoGeograficaCertezaSudeste": "<b>Sudeste</b> (Minas Gerais)<br/>",
+    "distribuicaoGeograficaCertezaSudeste": "<b>Sudeste</b> (Esp\u00edrito Santo)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "Peralta, D.F. 2015. Rhacocarpaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB117207>http://floradobrasil2015.jbrj.gov.br/FB117207</a>)<br><br>Vilas B\u00f4as-Bastos, S.B. Rhacocarpaceae in Flora do Brasil 2020. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB117207\">https://floradobrasil2020.jbrj.gov.br/FB117207</a>).<br><br>COSTA, D. P.; PERALTA, D. F. Bryophytes diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1063-1071. 2015. (<a href=https://doi.org/10.1590/2175-7860201566409>https://doi.org/10.1590/2175-7860201566409</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
-    "nome": "<span><div class=\"taxon\"> <i>Rhacocarpus</i></div><div class=\"taxon\"> <i>inermis</i></div><div class=\"nomeRank\"> var.</div><div class=\"taxon\"> <i>piliformis</i></div><div class=\"nomeAutorInfraGenerico\"> (Broth.) J.-P.Frahm</div></span>",
-    "distribuicaoGeograficaCertezaNordeste": "",
+    "bibliografiaFixa": "Sothers, C.,Alves, F.M.,Prance, G.T. 2015. Chrysobalanaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB16819>http://floradobrasil2015.jbrj.gov.br/FB16819</a>)<br><br>Sothers, C.A., Prance, G.T. 2020. Licania in Flora do Brasil 2020. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB16819\">https://floradobrasil2020.jbrj.gov.br/FB16819</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+    "nome": "<span><div class=\"taxon\"> <i>Licania belemii</i></div><div class=\"nomeAutorInfraGenerico\"> Prance</div></span>",
+    "distribuicaoGeograficaCertezaNordeste": "<b>Nordeste</b> (Bahia)<br/>",
     "distribuicaoHidrograficaCerteza": "",
-    "nomeDataplamt": "Rhacocarpus inermis var. piliformis",
+    "nomeDataplamt": "Licania belemii",
     "distribuicaoIlhasPossiveis": "",
     "mostrarCitacao": true,
     "endemismo": "\u00e9 end\u00eamica do Brasil",
@@ -50,23 +52,21 @@
     "distribuicaoGeograficaCertezaNorte": "",
     "estadosDuvida": [],
     "formaVida": [
-        "Trama"
+        "\u00c1rvore"
     ],
     "tipoVegetacao": [
-        "Floresta Ombr\u00f3fila (Floresta Pluvial)",
-        "Floresta Ombr\u00f3fila Mista"
+        "Floresta Ombr\u00f3fila (Floresta Pluvial)"
     ],
     "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB117207&action=print",
+    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB16819&action=print",
     "mostrarSinopsesBrasil": false,
     "origem": "Nativa",
-    "titulo": "Flora e Funga do Brasil - Rhacocarpus inermis var. piliformis (Broth.) J.-P.Frahm",
-    "referencias": "<td>J.-P. Frahm, Cryptog. Bryol. Lich\u00e9nol., 17(1): 39-65, 1996.<br></td>",
+    "titulo": "Flora e Funga do Brasil - Licania belemii Prance",
+    "referencias": "<td>Prance, G.T., Flora Neotropica, 9: 172, 1972.<font color='red'><b> Obra Original</font color></b><br></td>",
     "verificarCitesStatus": true,
     "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
     "mostrarReferencias": true,
-    "mostrarDescricaoLivrePT": true,
     "mostrarFilhosSubFam": true,
     "dominioFitogeografico": [
         "Mata Atl\u00e2ntica"
@@ -74,13 +74,28 @@
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "Vilas B\u00f4as-Bastos, S.B. <i>Rhacocarpaceae</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB117207 target='_blank'>https://floradobrasil.jbrj.gov.br/FB117207</a>>. Acesso em:  15 jul. 2022",
+    "citacao": "Sothers, C.A.; Prance, G.T. <i>Licania</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB16819 target='_blank'>https://floradobrasil.jbrj.gov.br/FB16819</a>>. Acesso em:  16 jul. 2022",
     "mostrarFormaVida": true,
-    "sinopsesBrasil": [],
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Licania_belemii' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Licania_belemii</a>",
+    "sinopsesBrasil": [
+        {
+            "rank": "Subesp\u00e9cies",
+            "aceito": 0,
+            "endemico": 0,
+            "sinonimo": 0
+        },
+        {
+            "rank": "Variedades",
+            "aceito": 0,
+            "endemico": 0,
+            "sinonimo": 0
+        }
+    ],
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Rhacocarpus inermis var. piliformis (Broth.) J.-P.Frahm",
+    "nomeStr": "Licania belemii Prance",
     "mostrarDominioFitogeografico": true,
+    "descricaoLivreEN": "Trees to 20 m tall. Branches glabrous when young. Leaves: stipules caducous (not seen);\npetioles 10-12 mm long, puberulous when young soon becoming glabrous; lamina oblong-ovate,\ncoriaceous, 5-9.5 \u00d7 2.6-4.5 cm, with acumen 3-7 mm long, subcuneate at base, glabrous above,\nlanate-tomentose beneath; venation reticulate; midrib plane and glabrous above; primary\nveins 6-8 pairs, prominent beneath, plane above. Inflorescences of terminal and subterminal\nracemose panicles; rachis and branches sparsely tomentellous. Bracts and bracteoles 0.2-5 mm\nlong, persistent, tomentellous. Flowers 2-2.5 mm long. Receptacle campanulate, sessile,\nvelutinous-tomentellous on exterior, tomentose within. Calyx lobes acute, tomentellous on both\nsurfaces. Petals absent. Stamens 5 or 6, unilateral; filaments glabrous, free to base, shorter\nthan calyx lobes. Ovary tomentose. Style pubescent to apex. Fruit not seen.&nbsp;",
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
     "distribuicaoGeograficaDuvidaNordeste": "",
@@ -91,16 +106,37 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>Wainio, E.A., s.n., <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126357\" target=\"_blank\">HBR</a></td>",
+    "vouchers": "<td>Bel\u00e9m, R.P., 3211, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228099969' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124237\" target=\"_blank\">CEPEC</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226605613' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126320\" target=\"_blank\">UB</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a>, (BA), <font color='red'><b>Typus</b></font><br>S.A. Mori, s.n., <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 285381 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284698294' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (BA)</td>",
     "mostrarTemComoSinonimo": true,
-    "descricaoLivrePT": "<p class=\"MsoNormal\" style=\"text-align:justify\"><span style=\"font-weight: bold;\">Gamet\u00f3fitos </span>robustos;<span style=\"font-size:10.0pt;line-height:107%;font-family:&quot;Helvetica&quot;,sans-serif\"> <span style=\"font-weight: bold;\">fil\u00eddios</span>\noblongo-lanceolados; <span style=\"font-weight: bold;\">margem</span> apical inteira; <span style=\"font-weight: bold;\">\u00e1pice </span>apiculado; <b>c\u00e9lulas alares</b> quadr\u00e1ticas</span><o:p></o:p></p>",
-    "bibliografiaReferencia": "&lt;p&gt;Frahm, J.-P. Revision der gattung &lt;em&gt;Rhacocarpus&lt;/em&gt; Lindb. (Musci). Cryptogamie, Bryologique, Lich&amp;eacute;nologique 17(1): 39-65.&lt;/p&gt;",
-    "abaDefaultDescLivre": "PT",
+    "descricaoCamposControlados": "<strong>Folha: </strong><strong>formato</strong> oblonga(s) ovada(s); <strong>abaxial indumento</strong> lanosa(s) tomentosa(s); <strong>pec\u00edolo(s) gl\u00e2ndula(s)</strong> ausente(s). <strong>Infloresc\u00eancia: </strong><strong>tipo</strong> racemosa(s) pan\u00edcula(s). <strong>Flor: </strong><strong>recept\u00e1culo formato</strong> campanulado(s); <strong>pedicelo(s)</strong> s\u00e9ssil(eis); <strong>estame(s) n\u00famero</strong> 5 - 6; <strong>filete(s) comprimento</strong> incluso(s); <strong>filete(s) fus\u00e3o</strong> livre(s). <strong>Fruto: </strong><strong>epicarpo</strong> desconhecido(s). ",
+    "bibliografiaReferencia": "&lt;p&gt;&lt;span style=&quot;font-size: 12.0pt; font-family: &#39;Times New Roman&#39;,&#39;serif&#39;;&quot;&gt;Prance, G.T. 1972. Chrysobalanaceae. Flora Neotropica 9: 1-409.&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;Prance, G.T. &amp;amp; Sothers, C. A. (2003). Chrysobalanaceae 1, Chrysobalanus to Parinari. In: A. E. Orchard &amp;amp; A. J. G. Wilson (eds), Species Plantarum: Flora of the World 9. Australian Biological Resources Study, Canberra.&lt;/p&gt;\r\n&lt;p&gt;Sothers C.A., Prance G.T. &amp;amp; Chase, M.W. (2016). Towards a monophyletic &lt;em&gt;Licania&lt;/em&gt;: a new generic classification of the polyphyletic Neotropical genus &lt;em&gt;Licania&lt;/em&gt; (Chrysobalanaceae). &lt;em&gt;Kew Bull. &lt;/em&gt;71: 58.&lt;/p&gt;",
+    "abaDefaultDescLivre": "EN",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
     "mostrarChaveIdentificacao": false,
     "mostrarHospedeiroIndeterminado": false,
-    "mostrarLinkParaTaxon": false,
-    "nomesVernaculos": [],
-    "possuiImagemVoucher": false
+    "mostrarLinkParaTaxon": true,
+    "nomesVernaculos": [
+        {
+            "lingua": "Portugu\u00eas",
+            "nome": "milho-torrado",
+            "regiao": ""
+        },
+        {
+            "lingua": "Portugu\u00eas",
+            "nome": "pau-pedra",
+            "regiao": ""
+        },
+        {
+            "lingua": "Portugu\u00eas",
+            "nome": "milho-torrado-da-folha-larga",
+            "regiao": ""
+        },
+        {
+            "lingua": "Portugu\u00eas",
+            "nome": "taquip\u00e9",
+            "regiao": ""
+        }
+    ],
+    "possuiImagemVoucher": true
 }

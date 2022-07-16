@@ -2,46 +2,83 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| divisão                = [[Bryophyta]]    
+| ordem                  = [[Malpighiales]]    
+| divisão                = [[Tracheophyta]]    
 | infrarreino            = [[Streptophyta]]    
-| subclasse              = [[Bryidae]]    
+| género                 = [[Licania]]    
 | superdivisão           = [[Embryophyta]]    
-| classe                 = [[Bryopsida]]    
+| família                = [[Chrysobalanaceae]]    
+| subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
 | subreino               = [[Viridiplantae]]    
-| ordem                  = [[Hedwigiales]]    
-| espécie                = [[Rhacocarpus inermis]]    
-| família                = [[Rhacocarpaceae]]    
-| género                 = [[Rhacocarpus]]    
-| subreino               = [[Bryobiotina]]    
+| espécie                = [[Licania belemii]]    
 }}
-'''''Rhacocarpus inermis''''' é uma espécie de [[planta]] do gênero ''[[Rhacocarpus]]'' e da família [[Rhacocarpaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB117207|titulo=Rhacocarpus inermis var. piliformis (Broth.) J.-P.Frahm|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Licania belemii''''', também conhecido como '''milho-torrado''', '''pau-pedra''', '''milho-torrado-da-folha-larga''' ou '''taquipé''', é uma espécie de [[planta]] do gênero ''[[Licania]]'' e da família [[Chrysobalanaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB16819|titulo=Licania belemii Prance|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 == Taxonomia ==
+A espécie foi descrita em [[1972]] por [[Ghillean Prance]]. <ref>{{Citar web|url=https://www.gbif.org/species/2985426|titulo=Licania belemii|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
 == Forma de vida ==
-É uma espécie [[rupícola]] e em tramas. <ref name=":ref_0"/>  
+É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"/>  
     
 == Descrição ==
-Gametófitos robustos; filídios
-oblongo-lanceolados; margem apical inteira; ápice apiculado; células alares quadráticas  <ref name=":ref_0"/>             
-        
+
+        {| class="wikitable" 
+  |+
+  ! colspan="2" |'''Folha'''<ref name=":ref_0" />
+  |-
+  |'''formato'''
+  |oblonga ovada
+  |-
+  |'''abaxial indumento'''
+  |lanosa tomentosa
+  |-
+  |'''pecíolo glândula'''
+  |ausente
+  |+
+  ! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
+  |-
+  |'''tipo'''
+  |racemosa panícula
+  |+
+  ! colspan="2" |'''Flor'''<ref name=":ref_0" />
+  |-
+  |'''formato do receptáculo'''
+  |campanulado
+  |-
+  |'''pedicelo'''
+  |séssil
+  |-
+  |'''número de estames'''
+  |5 - 6
+  |-
+  |'''filete comprimento'''
+  |incluso
+  |-
+  |'''filete fusão'''
+  |livre
+  |+
+  ! colspan="2" |'''Fruto'''<ref name=":ref_0" />
+  |-
+  |'''epicarpo'''
+  |desconhecido
+  |}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Minas Gerais]] e [[Santa Catarina]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]] e [[floresta ombrófila mista|mata de araucária]].<ref name=":ref_0"/> 
+A espécie é encontrada nos estados brasileiros de [[Bahia]] e [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
 ==Notas==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Vilas Bôas-Bastos, S.B. ''Rhacocarpaceae''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Sothers, C.A.; Prance, G.T. ''Licania''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB117207 ''Rhacocarpus inermis'' no projeto Flora e Funga do Brasil]
-* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Rhacocarpus%20inermis ''Rhacocarpus inermis'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB16819 ''Licania belemii'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Licania%20belemii ''Licania belemii'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Rhacocarpaceae]]
-[[Categoria:Rhacocarpus]]
-    
+[[Categoria:Chrysobalanaceae]]
+[[Categoria:Licania]]
+    [[Categoria:Plantas descritas em 1972]]
     [[Categoria:Plantas]]
     [[Categoria:Flora do Brasil]]
     [[Categoria:Flora do Espírito Santo]]

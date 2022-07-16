@@ -55,9 +55,19 @@ def render_taxonomy(reflora_data, results_df, qid):
     return text
 
 
-def render_common_name(results_df):
+def render_common_name(results_df, reflora_data):
+
     try:
-        common_name = results_df["taxon_common_name_pt.value"][0]
-        return f""", também conhecido como '''{common_name}''',"""
+        common_names = results_df["taxon_common_name_pt.value"]
     except:
-        return ""
+        try:
+            common_names = get_common_names(reflora_data)
+        except:
+            return ""
+
+    common_names = [f"'''{a}'''" for a in common_names]
+    if len(common_names) == 1:
+        return f""", também conhecido como {common_names[0]},"""
+    else:
+        common_list = ", ".join(common_names[:-1])
+        return f""", também conhecido como {common_list} ou {common_names[-1]},"""
