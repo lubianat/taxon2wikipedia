@@ -3,7 +3,10 @@
     "distribuicaoGeograficaDuvidaNorte": "",
     "estadosCerteza": [
         "BA",
-        "ES"
+        "ES",
+        "MG",
+        "RJ",
+        "SP"
     ],
     "filhosSubspVar": "",
     "possuiImagemVoucherHV": true,
@@ -11,7 +14,7 @@
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
     "exibirMensagemCamposControladosIgual": false,
-    "idTaxon": 16819,
+    "idTaxon": 100912,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
@@ -22,9 +25,9 @@
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
     "mostrarDescricaoCamposControlados": true,
-    "id": "FB16819",
+    "id": "FB100912",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiospermas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(85)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Chrysobalanaceae</div><div class=\"nomeAutorSupraGenerico\"> R.Br.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(16815)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Licania</i></div><div class=\"nomeAutorInfraGenerico\"> Aubl.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(16819)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de herb\u00e1rio \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Licania belemii</i></div><div class=\"nomeAutorInfraGenerico\"> Prance</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiospermas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(115)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Fabaceae</div><div class=\"nomeAutorSupraGenerico\"> Lindl.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(23195)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Tachigali</i></div><div class=\"nomeAutorInfraGenerico\"> Aubl.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(100912)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de campo \" src=\"/reflora/layout/default/imagens/listaBrasil/org_img.png\" style=\" vertical-align:middle; padding-bottom: 5px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de herb\u00e1rio \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Tachigali rugosa</i></div><div class=\"nomeAutorInfraGenerico\"> (Mart. ex Benth.) Zarucchi & Pipoly</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
     "possuiImagemVoucherINCT": false,
@@ -32,18 +35,17 @@
         "Nome aceito",
         "Nome correto"
     ],
-    "mostrarImagensCampos": false,
-    "mostrarDescricaoLivreEN": true,
+    "mostrarImagensCampos": true,
     "distribuicaoGeograficaDuvidaCentroOeste": "",
     "mostrarTipoVegetacao": true,
-    "distribuicaoGeograficaCertezaSudeste": "<b>Sudeste</b> (Esp\u00edrito Santo)<br/>",
+    "distribuicaoGeograficaCertezaSudeste": "<b>Sudeste</b> (Esp\u00edrito Santo, Minas Gerais, Rio de Janeiro, S\u00e3o Paulo)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "Sothers, C.,Alves, F.M.,Prance, G.T. 2015. Chrysobalanaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB16819>http://floradobrasil2015.jbrj.gov.br/FB16819</a>)<br><br>Sothers, C.A., Prance, G.T. 2020. Licania in Flora do Brasil 2020. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB16819\">https://floradobrasil2020.jbrj.gov.br/FB16819</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
-    "nome": "<span><div class=\"taxon\"> <i>Licania belemii</i></div><div class=\"nomeAutorInfraGenerico\"> Prance</div></span>",
+    "bibliografiaFixa": "Lima, H.C. de 2015. Tachigali in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB100912>http://floradobrasil2015.jbrj.gov.br/FB100912</a>)<br><br>Huamantupa-Chuquimaco, I., Cardoso, D.B.O.S., Cardoso, L.J.T., Santana, J.C.O., Simon, M.F., Costa, J.A.S., Lima, H.C. 2020. Tachigali in Flora do Brasil 2020. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB100912\">https://floradobrasil2020.jbrj.gov.br/FB100912</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+    "nome": "<span><div class=\"taxon\"> <i>Tachigali rugosa</i></div><div class=\"nomeAutorInfraGenerico\"> (Mart. ex Benth.) Zarucchi & Pipoly</div></span>",
     "distribuicaoGeograficaCertezaNordeste": "<b>Nordeste</b> (Bahia)<br/>",
     "distribuicaoHidrograficaCerteza": "",
-    "nomeDataplamt": "Licania belemii",
+    "nomeDataplamt": "Tachigali rugosa",
     "distribuicaoIlhasPossiveis": "",
     "mostrarCitacao": true,
     "endemismo": "\u00e9 end\u00eamica do Brasil",
@@ -55,18 +57,20 @@
         "\u00c1rvore"
     ],
     "tipoVegetacao": [
+        "Floresta Estacional Semidecidual",
         "Floresta Ombr\u00f3fila (Floresta Pluvial)"
     ],
     "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB16819&action=print",
+    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB100912&action=print",
     "mostrarSinopsesBrasil": false,
     "origem": "Nativa",
-    "titulo": "Flora e Funga do Brasil - Licania belemii Prance",
-    "referencias": "<td>Prance, G.T., Flora Neotropica, 9: 172, 1972.<font color='red'><b> Obra Original</font color></b><br></td>",
+    "titulo": "Flora e Funga do Brasil - Tachigali rugosa (Mart. ex Benth.) Zarucchi & Pipoly",
+    "referencias": "<td>Pipoly, J.J., Sida, 16(3): 411, 1995.<font color='red'><b> Obra Original</font color></b><br></td>",
     "verificarCitesStatus": true,
     "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
     "mostrarReferencias": true,
+    "mostrarDescricaoLivrePT": true,
     "mostrarFilhosSubFam": true,
     "dominioFitogeografico": [
         "Mata Atl\u00e2ntica"
@@ -74,9 +78,9 @@
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "Sothers, C.A.; Prance, G.T. <i>Licania</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB16819 target='_blank'>https://floradobrasil.jbrj.gov.br/FB16819</a>>. Acesso em:  16 jul. 2022",
+    "citacao": "Huamantupa-Chuquimaco, I.; Cardoso, D.B.O.S.; Cardoso, L.J.T.; Santana, J.C.O.; Simon, M.F.; Costa, J.A.S.; Lima, H.C. <i>Tachigali</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB100912 target='_blank'>https://floradobrasil.jbrj.gov.br/FB100912</a>>. Acesso em:  17 jul. 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Licania_belemii' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Licania_belemii</a>",
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Tachigali_rugosa' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Tachigali_rugosa</a>",
     "sinopsesBrasil": [
         {
             "rank": "Subesp\u00e9cies",
@@ -91,11 +95,11 @@
             "sinonimo": 0
         }
     ],
+    "temComoSinonimo": "<span><a onclick=\"carregaTaxonGrupo(83688)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> basi\u00f4nimo</div><div class=\"sinonimo\"> <i>Sclerolobium rugosum</i></div><div class=\"nomeAutorSinonimo\"> Mart.</div></a></span><br>",
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Licania belemii Prance",
+    "nomeStr": "Tachigali rugosa (Mart. ex Benth.) Zarucchi & Pipoly",
     "mostrarDominioFitogeografico": true,
-    "descricaoLivreEN": "Trees to 20 m tall. Branches glabrous when young. Leaves: stipules caducous (not seen);\npetioles 10-12 mm long, puberulous when young soon becoming glabrous; lamina oblong-ovate,\ncoriaceous, 5-9.5 \u00d7 2.6-4.5 cm, with acumen 3-7 mm long, subcuneate at base, glabrous above,\nlanate-tomentose beneath; venation reticulate; midrib plane and glabrous above; primary\nveins 6-8 pairs, prominent beneath, plane above. Inflorescences of terminal and subterminal\nracemose panicles; rachis and branches sparsely tomentellous. Bracts and bracteoles 0.2-5 mm\nlong, persistent, tomentellous. Flowers 2-2.5 mm long. Receptacle campanulate, sessile,\nvelutinous-tomentellous on exterior, tomentose within. Calyx lobes acute, tomentellous on both\nsurfaces. Petals absent. Stamens 5 or 6, unilateral; filaments glabrous, free to base, shorter\nthan calyx lobes. Ovary tomentose. Style pubescent to apex. Fruit not seen.&nbsp;",
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
     "distribuicaoGeograficaDuvidaNordeste": "",
@@ -106,37 +110,17 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>Bel\u00e9m, R.P., 3211, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228099969' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124237\" target=\"_blank\">CEPEC</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226605613' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126320\" target=\"_blank\">UB</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a>, (BA), <font color='red'><b>Typus</b></font><br>S.A. Mori, s.n., <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 285381 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284698294' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (BA)</td>",
+    "vouchers": "<td>Lima, H.C., 4078, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 384769 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=283739102' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a></td>",
     "mostrarTemComoSinonimo": true,
-    "descricaoCamposControlados": "<strong>Folha: </strong><strong>formato</strong> oblonga(s) ovada(s); <strong>abaxial indumento</strong> lanosa(s) tomentosa(s); <strong>pec\u00edolo(s) gl\u00e2ndula(s)</strong> ausente(s). <strong>Infloresc\u00eancia: </strong><strong>tipo</strong> racemosa(s) pan\u00edcula(s). <strong>Flor: </strong><strong>recept\u00e1culo formato</strong> campanulado(s); <strong>pedicelo(s)</strong> s\u00e9ssil(eis); <strong>estame(s) n\u00famero</strong> 5 - 6; <strong>filete(s) comprimento</strong> incluso(s); <strong>filete(s) fus\u00e3o</strong> livre(s). <strong>Fruto: </strong><strong>epicarpo</strong> desconhecido(s). ",
-    "bibliografiaReferencia": "&lt;p&gt;&lt;span style=&quot;font-size: 12.0pt; font-family: &#39;Times New Roman&#39;,&#39;serif&#39;;&quot;&gt;Prance, G.T. 1972. Chrysobalanaceae. Flora Neotropica 9: 1-409.&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;Prance, G.T. &amp;amp; Sothers, C. A. (2003). Chrysobalanaceae 1, Chrysobalanus to Parinari. In: A. E. Orchard &amp;amp; A. J. G. Wilson (eds), Species Plantarum: Flora of the World 9. Australian Biological Resources Study, Canberra.&lt;/p&gt;\r\n&lt;p&gt;Sothers C.A., Prance G.T. &amp;amp; Chase, M.W. (2016). Towards a monophyletic &lt;em&gt;Licania&lt;/em&gt;: a new generic classification of the polyphyletic Neotropical genus &lt;em&gt;Licania&lt;/em&gt; (Chrysobalanaceae). &lt;em&gt;Kew Bull. &lt;/em&gt;71: 58.&lt;/p&gt;",
-    "abaDefaultDescLivre": "EN",
+    "descricaoLivrePT": "Fol\u00edolos com nervuras terci\u00e1rias consp\u00edcuas, muito proeminentes na face abaxial. Flores s\u00e9sseis a curto-pediceladas, at\u00e9 0,7 mm compr.; p\u00e9talas subuladas. S\u00e9palas creme-esverdeadas.",
+    "descricaoCamposControlados": "<strong>Folha: </strong><strong>est\u00edpula(s)</strong> presente(s); <strong>est\u00edpula(s) tipo</strong> foli\u00e1cea(s); <strong>dom\u00e1cia</strong> ausente(s); <strong>dom\u00e1cia local</strong> ausente(s); <strong>dom\u00e1cia forma</strong> ausente(s); <strong>n\u00famero de jugo(s)</strong> at\u00e9 10; <strong>fol\u00edolo(s) forma</strong> oblongo(s)/el\u00edptico(s)/falcado(s); <strong>fol\u00edolo(s) consist\u00eancia</strong> cori\u00e1ceo(s); <strong>fol\u00edolo(s) indumento face(s) abaxial</strong> tomentoso(s). <strong>Flor: </strong><strong>comprimento</strong> at\u00e9 10 mm; <strong>simetria</strong> radial(ais); <strong>bract\u00e9ola(s)</strong> caduca(s); <strong>hipanto forma</strong> sim\u00e9trico(s); <strong>hipanto tipo</strong> cupulado(s); <strong>p\u00e9tala(s) largura</strong> menor(es) 1 mm; <strong>p\u00e9tala(s) indumento</strong> esparso(s); <strong>estame(s) tipo</strong> monom\u00f3rfico(s); <strong>estame(s) n\u00famero</strong> 10. <strong>Fruto: </strong><strong>forma</strong> el\u00edptico(s) - oblongo(s). ",
+    "bibliografiaReferencia": "",
+    "abaDefaultDescLivre": "PT",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
     "mostrarChaveIdentificacao": false,
     "mostrarHospedeiroIndeterminado": false,
     "mostrarLinkParaTaxon": true,
-    "nomesVernaculos": [
-        {
-            "lingua": "Portugu\u00eas",
-            "nome": "milho-torrado",
-            "regiao": ""
-        },
-        {
-            "lingua": "Portugu\u00eas",
-            "nome": "pau-pedra",
-            "regiao": ""
-        },
-        {
-            "lingua": "Portugu\u00eas",
-            "nome": "milho-torrado-da-folha-larga",
-            "regiao": ""
-        },
-        {
-            "lingua": "Portugu\u00eas",
-            "nome": "taquip\u00e9",
-            "regiao": ""
-        }
-    ],
+    "nomesVernaculos": [],
     "possuiImagemVoucher": true
 }

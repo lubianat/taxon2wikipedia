@@ -2,83 +2,111 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Malpighiales]]    
+| ordem                  = [[Fabales]]    
 | divisão                = [[Tracheophyta]]    
+| família                = [[Fabaceae]]    
 | infrarreino            = [[Streptophyta]]    
-| género                 = [[Licania]]    
+| subfamília             = [[Caesalpinioideae]]    
 | superdivisão           = [[Embryophyta]]    
-| família                = [[Chrysobalanaceae]]    
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
+| género                 = [[Tachigali]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Licania belemii]]    
+| espécie                = [[Tachigali rugosa]]    
 }}
-'''''Licania belemii''''', também conhecido como '''milho-torrado''', '''pau-pedra''', '''milho-torrado-da-folha-larga''' ou '''taquipé''', é uma espécie de [[planta]] do gênero ''[[Licania]]'' e da família [[Chrysobalanaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB16819|titulo=Licania belemii Prance|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Tachigali rugosa''''' é uma espécie de [[planta]] do gênero ''[[Tachigali]]'' e da família [[Fabaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB100912|titulo=Tachigali rugosa (Mart. ex Benth.) Zarucchi & Pipoly|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 == Taxonomia ==
-A espécie foi descrita em [[1972]] por [[Ghillean Prance]]. <ref>{{Citar web|url=https://www.gbif.org/species/2985426|titulo=Licania belemii|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
-
+A espécie foi descrita em [[1995]] por [[George Bentham]]. <ref>{{Citar web|url=https://www.gbif.org/species/3932203|titulo=Tachigali rugosa|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+O seguinte sinônimo já foi catalogado:  <ref name=":ref_0"/> 
+* ''Sclerolobium rugosum''  Mart. 
 == Forma de vida ==
 É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"/>  
     
 == Descrição ==
-
+Folíolos com nervuras terciárias conspícuas, muito proeminentes na face abaxial. Ela tem [[flores]] sésseis a curto-pediceladas, até 0,7 milímetros de comprimento; [[pétala]]s subuladas. Sépalas creme-esverdeadas.  <ref name=":ref_0"/>             
+        
         {| class="wikitable" 
   |+
   ! colspan="2" |'''Folha'''<ref name=":ref_0" />
   |-
-  |'''formato'''
-  |oblonga ovada
+  |'''estípula'''
+  |presente
   |-
-  |'''abaxial indumento'''
-  |lanosa tomentosa
+  |'''estípula tipo'''
+  |foliácea
   |-
-  |'''pecíolo glândula'''
+  |'''domácia'''
   |ausente
-  |+
-  ! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
   |-
-  |'''tipo'''
-  |racemosa panícula
+  |'''domácia local'''
+  |ausente
+  |-
+  |'''domácia forma'''
+  |ausente
+  |-
+  |'''número de jugo'''
+  |até 10
+  |-
+  |'''folíolo forma'''
+  |oblongo/elíptico/falcado
+  |-
+  |'''folíolo consistência'''
+  |coriáceo
+  |-
+  |'''folíolo indumento face abaxial'''
+  |tomentoso
   |+
   ! colspan="2" |'''Flor'''<ref name=":ref_0" />
   |-
-  |'''formato do receptáculo'''
-  |campanulado
+  |'''comprimento'''
+  |até 10 mm
   |-
-  |'''pedicelo'''
-  |séssil
+  |'''simetria'''
+  |radial
+  |-
+  |'''bractéola'''
+  |caduca
+  |-
+  |'''hipanto forma'''
+  |simétrico
+  |-
+  |'''hipanto tipo'''
+  |cupulado
+  |-
+  |'''pétala largura'''
+  |menor 1 mm
+  |-
+  |'''pétala indumento'''
+  |esparso
+  |-
+  |'''estame tipo'''
+  |monomórfico
   |-
   |'''número de estames'''
-  |5 - 6
-  |-
-  |'''filete comprimento'''
-  |incluso
-  |-
-  |'''filete fusão'''
-  |livre
+  |10
   |+
   ! colspan="2" |'''Fruto'''<ref name=":ref_0" />
   |-
-  |'''epicarpo'''
-  |desconhecido
+  |'''forma'''
+  |elíptico - oblongo
   |}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Bahia]] e [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
+A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]], [[Rio de Janeiro]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[floresta estacional semidecidual]] e [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
 ==Notas==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Sothers, C.A.; Prance, G.T. ''Licania''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Huamantupa-Chuquimaco, I.; Cardoso, D.B.O.S.; Cardoso, L.J.T.; Santana, J.C.O.; Simon, M.F.; Costa, J.A.S.; Lima, H.C. ''Tachigali''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB16819 ''Licania belemii'' no projeto Flora e Funga do Brasil]
-* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Licania%20belemii ''Licania belemii'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB100912 ''Tachigali rugosa'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Tachigali%20rugosa ''Tachigali rugosa'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Chrysobalanaceae]]
-[[Categoria:Licania]]
-    [[Categoria:Plantas descritas em 1972]]
+[[Categoria:Fabaceae]]
+[[Categoria:Tachigali]]
+    [[Categoria:Plantas descritas em 1995]]
     [[Categoria:Plantas]]
     [[Categoria:Flora do Brasil]]
     [[Categoria:Flora do Espírito Santo]]

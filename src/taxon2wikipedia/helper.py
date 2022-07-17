@@ -21,6 +21,24 @@ disable_warnings(InsecureRequestWarning)
 HERE = Path(__file__).parent.resolve()
 
 
+def render_additional_reading(qid):
+    query = f"""
+    SELECT * WHERE {{ 
+        ?article wdt:P921 wd:{qid}  .
+    }}
+    """
+    df = get_rough_df_from_wikidata(query)
+    if "?article.value" not in df:
+        return ""
+    article_ids = list(df["article.value"])
+
+    additional_reading = """== Leitura adicional =="""
+    for id in article_ids:
+        additional_reading += f"""
+      * {{{{ Citar Q | {qid} }}}}"""
+    return additional_reading
+
+
 def get_gbif_ref(qid):
     query = f"""
     SELECT * WHERE {{ 
@@ -66,7 +84,10 @@ def render_common_name(results_df, reflora_data):
             return ""
 
     common_names = [f"'''{a}'''" for a in common_names]
-    if len(common_names) == 1:
+
+    if len(common_names) == 0:
+        return ""
+    elif len(common_names) == 1:
         return f""", também conhecido como {common_names[0]},"""
     else:
         common_list = ", ".join(common_names[:-1])

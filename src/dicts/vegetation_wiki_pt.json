@@ -22,6 +22,7 @@
   "Restinga": "[[restinga]]",
   "Savana Amazônica": "savana amazônica",
   "Vegetação Sobre Afloramentos Rochosos": "vegetação sobre afloramentos rochosos",
+  "Vegetação Aquática": "vegetação aquática",
   "enum.label.DistribuicaoTipoVegetacaoEnum.CAMPO_LIMPO": "campos limpos",
   "enum.label.DistribuicaoTipoVegetacaoEnum.CAMPO_RUPESTRE": "[[campos rupestres]]",
   "enum.label.DistribuicaoTipoVegetacaoEnum.FLORESTA_CILIAR_GALERIA": "[[Vegetação ripária|mata ciliar]]",
