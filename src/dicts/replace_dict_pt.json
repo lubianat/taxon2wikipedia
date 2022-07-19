@@ -31,6 +31,7 @@
   "lâmina ápice": "ápice da lâmina",
   "lâmina base": "base da lâmina",
   "lâmina margem": "margem da lâmina",
+  "lâmina inserção": "inserção da lâmina",
   "lâmina indumento da face abaxial": "indumento da face abaxial da lâmina",
   "lacínia do cálice formato": "formato da lacínia do cálice",
   "lacínia do cálice indumento": "indumento da lacínia do cálice",
@@ -41,5 +42,11 @@
   "pétala indumento": "indumento da pétala",
   "pétala largura": "largura da pétala",
   "hipanto tipo": "tipo de hipanto",
-  "hipanto forma": "forma do hipanto"
+  "hipanto forma": "forma do hipanto",
+  "nervação das lâmina": "nervação das lâminas",
+  "forma das estípula": "forma das estípulas",
+  "cor dos lobo lateral do labelo": "cor dos lobos laterais do labelo",
+  "cor das pétala e sépala": "cor das pétalas e sépalas",
+  "pecíolo tricoma tipo": "tipo de tricoma do pecíolo",
+  "ornamentação ápice pecíolo": "ornamentação do ápice do pecíolo"
 }

@@ -1,18 +1,8 @@
 #!/usr/bin/env python3
-
-from SPARQLWrapper import SPARQLWrapper, JSON
-import pandas as pd
-from jinja2 import Template
-import sys
 from .qid2taxobox import *
 from .cleanup import *
-import pywikibot
 from pathlib import Path
 from .process_reflora import *
-import click
-import webbrowser
-from wdcuration import render_qs_url
-from pywikibot.page import Page
 from urllib3.exceptions import InsecureRequestWarning
 from urllib3 import disable_warnings
 
@@ -21,7 +11,11 @@ disable_warnings(InsecureRequestWarning)
 HERE = Path(__file__).parent.resolve()
 
 
+# Wikidata-based session rendering
 def render_additional_reading(qid):
+    """
+    Renders an "additional readings" session based on Wikidata main subjects
+    """
     query = f"""
     SELECT * WHERE {{ 
         ?article wdt:P921 wd:{qid}  .
@@ -40,6 +34,7 @@ def render_additional_reading(qid):
 
 
 def get_gbif_ref(qid):
+    "Renders the GBIF reference for this QID."
     query = f"""
     SELECT * WHERE {{ 
         wd:{qid} wdt:P846 ?gbif_id .
@@ -55,6 +50,9 @@ def get_gbif_ref(qid):
 
 
 def render_taxonomy(reflora_data, results_df, qid):
+    """
+    Renders the taxonomy session  for the taxon.
+    """
 
     if "taxon_authorLabel.value" not in results_df:
         description = ""
@@ -73,7 +71,12 @@ def render_taxonomy(reflora_data, results_df, qid):
     return text
 
 
+# Mixed Wikida and Reflora
 def render_common_name(results_df, reflora_data):
+    """
+    Renders the common name for the taxon using either Wikidata (if available)
+    or data from Reflora
+    """
 
     try:
         common_names = results_df["taxon_common_name_pt.value"]

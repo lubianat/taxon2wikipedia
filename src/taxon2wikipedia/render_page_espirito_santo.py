@@ -3,6 +3,7 @@
 from .helper import *
 from urllib.parse import quote
 from wdcuration import search_wikidata
+import os
 
 
 @click.command(name="render")
@@ -74,16 +75,17 @@ def main(scope_name: str, qid: str, taxon: str, taxon_name: str, reflora_id: str
         synonym_name = reflora_data["ehSinonimo"]
         synonym_name = re.sub(
             '<a onclick=.*?taxon">(.*?)<\/div><div class="nomeAutorSinonimo">.*',
-            "\\1]]",
+            "\\1",
             synonym_name,
         )
         synonym_name = synonym_name.replace("<span> <i>", "")
         synonym_name = synonym_name.replace("</i>", "")
 
-        wiki_page = f"#REDIRECIONAMENTO[[{synonym_name}"
+        wiki_page = f"#REDIRECIONAMENTO[[{synonym_name}]]"
 
         site = pywikibot.Site("pt", "wikipedia")
-        main(taxon_name=synonym_name)
+        print(synonym_name)
+        os.system(f'taxon2wikipedia render --taxon_name="{synonym_name}"')
 
         if not pywikibot.Page(site, taxon_name).exists():
             pass

@@ -2,111 +2,120 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Fabales]]    
 | divisão                = [[Tracheophyta]]    
-| família                = [[Fabaceae]]    
 | infrarreino            = [[Streptophyta]]    
-| subfamília             = [[Caesalpinioideae]]    
 | superdivisão           = [[Embryophyta]]    
+| ordem                  = [[Zingiberales]]    
+| família                = [[Marantaceae]]    
+| género                 = [[Saranthe]]    
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
-| género                 = [[Tachigali]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Tachigali rugosa]]    
+| espécie                = [[Saranthe composita]]    
 }}
-'''''Tachigali rugosa''''' é uma espécie de [[planta]] do gênero ''[[Tachigali]]'' e da família [[Fabaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB100912|titulo=Tachigali rugosa (Mart. ex Benth.) Zarucchi & Pipoly|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Saranthe composita''''' é uma espécie de [[planta]] do gênero ''[[Saranthe]]'' e da família [[Marantaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB9372|titulo=Saranthe composita (Link) K. Schum.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 == Taxonomia ==
-A espécie foi descrita em [[1995]] por [[George Bentham]]. <ref>{{Citar web|url=https://www.gbif.org/species/3932203|titulo=Tachigali rugosa|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
-O seguinte sinônimo já foi catalogado:  <ref name=":ref_0"/> 
-* ''Sclerolobium rugosum''  Mart. 
+A espécie foi descrita em [[1902]] por [[Karl Moritz Schumann]]. <ref>{{Citar web|url=https://www.gbif.org/species/2762120|titulo=Saranthe composita|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"/>  
+É uma espécie [[terrícola]] e [[herbácea]]. <ref name=":ref_0"/>  
     
 == Descrição ==
-Folíolos com nervuras terciárias conspícuas, muito proeminentes na face abaxial. Ela tem [[flores]] sésseis a curto-pediceladas, até 0,7 milímetros de comprimento; [[pétala]]s subuladas. Sépalas creme-esverdeadas.  <ref name=":ref_0"/>             
+Erva rosulada, ereta. Inflorescência em sinflorescência 1-2 nodal, com 2-4 florescências por nó. Florescência composta. Componentes da Florescência com [[bráctea]]s espatáceas vermelhas.   <ref name=":ref_0"/>             
         
         {| class="wikitable" 
   |+
+  ! colspan="2" |'''Raiz'''<ref name=":ref_0" />
+  |-
+  |'''do tipo'''
+  |filiforme
+  |+
+  ! colspan="2" |'''Caule'''<ref name=":ref_0" />
+  |-
+  |'''subterrâneo'''
+  |rizomatoso/alongado
+  |-
+  |'''eixo aéreo'''
+  |rosulado/ereto/100 à 250 cm
+  |-
+  |'''catafilo'''
+  |lanceolada-lineares/glabro/paleáceo
+  |+
   ! colspan="2" |'''Folha'''<ref name=":ref_0" />
   |-
-  |'''estípula'''
-  |presente
+  |'''bainha foliar'''
+  |pubérula/serícea/margem ciliada/papirácea
   |-
-  |'''estípula tipo'''
-  |foliácea
+  |'''pecíolo'''
+  |presente/glabro
   |-
-  |'''domácia'''
-  |ausente
+  |'''pulvino'''
+  |cilíndrico/face adaxial com linha tricoma/face abaxial glabra
   |-
-  |'''domácia local'''
-  |ausente
+  |'''lâmina foliar'''
+  |oblonga/elíptica/ápice acuminado/base redonda/verde concolor/margem glabra/nervura-central glabrescente/papirácea
+  |+
+  ! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
   |-
-  |'''domácia forma'''
-  |ausente
+  |'''sinflorescência'''
+  |compressa/1 à 2 nodal/com 1 florescência por nó/com 2 florescência por nó/axilar/composta/bráctea principal espatacea decídua/pedúnculo cilíndrico glabro/profilo cimbiforme/lanceolado/papiráceo/verde amarelado/bráctea-involucral espatacea/18 à 32/persistente/sobreposta até a metade do comprimento/glabrescente
   |-
-  |'''número de jugo'''
-  |até 10
-  |-
-  |'''folíolo forma'''
-  |oblongo/elíptico/falcado
-  |-
-  |'''folíolo consistência'''
-  |coriáceo
-  |-
-  |'''folíolo indumento face abaxial'''
-  |tomentoso
+  |'''címula'''
+  |de 2 flor/1 por bráctea-involucral/bractéola ausente/bráctea externa/estreito ovada/ápice agudo/amarelada/vermelha/fibrosa
   |+
   ! colspan="2" |'''Flor'''<ref name=":ref_0" />
   |-
-  |'''comprimento'''
-  |até 10 mm
+  |'''pedicelo'''
+  |de comprimento desigual
   |-
-  |'''simetria'''
-  |radial
+  |'''tubo floral'''
+  |curto e amplo/trilobado/lobo elíptico/ápice acuminado/cuculado/cimbiforme/com mancha marrom/membranáceo/glabro/hialino
   |-
-  |'''bractéola'''
-  |caduca
+  |'''sépala'''
+  |3/livre/ovada/reta/membranácea/glabra/hialina
   |-
-  |'''hipanto forma'''
-  |simétrico
+  |'''estaminódio externo'''
+  |2/petaloide/subiguais/clavado
   |-
-  |'''hipanto tipo'''
-  |cupulado
+  |'''estaminódio com calo'''
+  |distalmente petaloide/estreito obovado/ápice irregular/calo basal/apêndice agudo/glabro/hialino/membranáceo
   |-
-  |'''pétala largura'''
-  |menor 1 mm
+  |'''estaminódio cuculado'''
+  |glabro/membranáceo/hialino/apêndice lobado/patente
   |-
-  |'''pétala indumento'''
-  |esparso
+  |'''estame'''
+  |solitário/antera monoteca/apêndice petaloide espatulado/maior que a antera
   |-
-  |'''estame tipo'''
-  |monomórfico
-  |-
-  |'''número de estames'''
-  |10
+  |'''ovário'''
+  |trilocular , 1 lóculo fértil/cilíndrico/esparsamente seríceo/sem ornamentação
   |+
   ! colspan="2" |'''Fruto'''<ref name=":ref_0" />
   |-
-  |'''forma'''
-  |elíptico - oblongo
+  |'''cápsula'''
+  |não observada
+  |+
+  ! colspan="2" |'''Semente'''<ref name=":ref_0" />
+  |-
+  |'''semente'''
+  |não observada
   |}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]], [[Rio de Janeiro]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[floresta estacional semidecidual]] e [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
+A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Paraíba]] , [[Pernambuco]] e [[Rio de Janeiro]].<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[floresta estacional semidecidual]].<ref name=":ref_0"/> 
 ==Notas==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Huamantupa-Chuquimaco, I.; Cardoso, D.B.O.S.; Cardoso, L.J.T.; Santana, J.C.O.; Simon, M.F.; Costa, J.A.S.; Lima, H.C. ''Tachigali''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Fraga, F.R.M. ''Saranthe''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB100912 ''Tachigali rugosa'' no projeto Flora e Funga do Brasil]
-* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Tachigali%20rugosa ''Tachigali rugosa'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9372 ''Saranthe composita'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Saranthe%20composita ''Saranthe composita'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Fabaceae]]
-[[Categoria:Tachigali]]
-    [[Categoria:Plantas descritas em 1995]]
+[[Categoria:Marantaceae]]
+[[Categoria:Saranthe]]
+    [[Categoria:Plantas descritas em 1902]]
     [[Categoria:Plantas]]
     [[Categoria:Flora do Brasil]]
     [[Categoria:Flora do Espírito Santo]]
