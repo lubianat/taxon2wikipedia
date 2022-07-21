@@ -1,7 +1,7 @@
 {
     "orcid-identifier": {
-        "uri": "http://orcid.org/0000-0002-6245-3553",
-        "path": "0000-0002-6245-3553",
+        "uri": "http://orcid.org/0000-0001-6763-7055",
+        "path": "0000-0001-6763-7055",
         "host": "orcid.org"
     },
     "preferences": {
@@ -11,10 +11,10 @@
         "creation-method": "DIRECT",
         "completion-date": null,
         "submission-date": {
-            "value": 1553013148819
+            "value": 1552553500326
         },
         "last-modified-date": {
-            "value": 1651514666978
+            "value": 1615882261233
         },
         "claimed": true,
         "source": null,
@@ -23,86 +23,487 @@
         "verified-primary-email": true
     },
     "person": {
-        "last-modified-date": null,
+        "last-modified-date": {
+            "value": 1583613877266
+        },
         "name": {
             "created-date": {
-                "value": 1553013148819
+                "value": 1552553500326
             },
             "last-modified-date": {
-                "value": 1553013149054
+                "value": 1552553500559
             },
             "given-names": {
-                "value": "Armita"
+                "value": "Sara"
             },
             "family-name": {
-                "value": "Nourmohammad"
+                "value": "El Kennani"
             },
             "credit-name": null,
             "source": null,
             "visibility": "PUBLIC",
-            "path": "0000-0002-6245-3553"
+            "path": "0000-0001-6763-7055"
         },
         "other-names": {
             "last-modified-date": null,
             "other-name": [],
-            "path": "/0000-0002-6245-3553/other-names"
+            "path": "/0000-0001-6763-7055/other-names"
         },
         "biography": null,
         "researcher-urls": {
             "last-modified-date": null,
             "researcher-url": [],
-            "path": "/0000-0002-6245-3553/researcher-urls"
+            "path": "/0000-0001-6763-7055/researcher-urls"
         },
         "emails": {
             "last-modified-date": null,
             "email": [],
-            "path": "/0000-0002-6245-3553/email"
+            "path": "/0000-0001-6763-7055/email"
         },
         "addresses": {
             "last-modified-date": null,
             "address": [],
-            "path": "/0000-0002-6245-3553/address"
+            "path": "/0000-0001-6763-7055/address"
         },
         "keywords": {
             "last-modified-date": null,
             "keyword": [],
-            "path": "/0000-0002-6245-3553/keywords"
+            "path": "/0000-0001-6763-7055/keywords"
         },
         "external-identifiers": {
-            "last-modified-date": null,
-            "external-identifier": [],
-            "path": "/0000-0002-6245-3553/external-identifiers"
+            "last-modified-date": {
+                "value": 1583613877266
+            },
+            "external-identifier": [
+                {
+                    "created-date": {
+                        "value": 1583613877266
+                    },
+                    "last-modified-date": {
+                        "value": 1583613877266
+                    },
+                    "source": {
+                        "source-orcid": null,
+                        "source-client-id": {
+                            "uri": "http://orcid.org/client/APP-4DPEW6SVSNQHKC8G",
+                            "path": "APP-4DPEW6SVSNQHKC8G",
+                            "host": "orcid.org"
+                        },
+                        "source-name": {
+                            "value": "Loop"
+                        }
+                    },
+                    "external-id-type": "Loop profile",
+                    "external-id-value": "926024",
+                    "external-id-url": {
+                        "value": "http://loop.frontiersin.org/people/926024/overview?referrer=orcid_profile"
+                    },
+                    "external-id-relationship": "SELF",
+                    "visibility": "PUBLIC",
+                    "path": "/0000-0001-6763-7055/external-identifiers/1627006",
+                    "put-code": 1627006,
+                    "display-index": 0
+                }
+            ],
+            "path": "/0000-0001-6763-7055/external-identifiers"
         },
-        "path": "/0000-0002-6245-3553/person"
+        "path": "/0000-0001-6763-7055/person"
     },
     "activities-summary": {
-        "last-modified-date": null,
+        "last-modified-date": {
+            "value": 1615882237195
+        },
         "educations": {
             "last-modified-date": null,
             "education-summary": [],
-            "path": "/0000-0002-6245-3553/educations"
+            "path": "/0000-0001-6763-7055/educations"
         },
         "employments": {
             "last-modified-date": null,
             "employment-summary": [],
-            "path": "/0000-0002-6245-3553/employments"
+            "path": "/0000-0001-6763-7055/employments"
         },
         "fundings": {
             "last-modified-date": null,
             "group": [],
-            "path": "/0000-0002-6245-3553/fundings"
+            "path": "/0000-0001-6763-7055/fundings"
         },
         "peer-reviews": {
             "last-modified-date": null,
             "group": [],
-            "path": "/0000-0002-6245-3553/peer-reviews"
+            "path": "/0000-0001-6763-7055/peer-reviews"
         },
         "works": {
-            "last-modified-date": null,
-            "group": [],
-            "path": "/0000-0002-6245-3553/works"
+            "last-modified-date": {
+                "value": 1615882237195
+            },
+            "group": [
+                {
+                    "last-modified-date": {
+                        "value": 1615882237152
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "32694869",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1038/s41436-020-0898-y",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 90663279,
+                            "created-date": {
+                                "value": 1615882237152
+                            },
+                            "last-modified-date": {
+                                "value": 1615882237152
+                            },
+                            "source": {
+                                "source-orcid": {
+                                    "uri": "http://orcid.org/0000-0001-6763-7055",
+                                    "path": "0000-0001-6763-7055",
+                                    "host": "orcid.org"
+                                },
+                                "source-client-id": null,
+                                "source-name": {
+                                    "value": "Sara El Kennani"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "De novo SMARCA2 variants clustered outside the helicase domain cause a new  recognizable syndrome with intellectual disability and blepharophimosis distinct from Nicolaides-Baraitser syndrome."
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "issn",
+                                        "external-id-value": "1530-0366 (Electronic)",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "PART_OF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1038/s41436-020-0898-y",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "32694869",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2020"
+                                },
+                                "month": {
+                                    "value": "11"
+                                },
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0001-6763-7055/work/90663279",
+                            "display-index": "1"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1615882237174
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "32182340",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1093/nar/gkaa163",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 90663280,
+                            "created-date": {
+                                "value": 1615882237174
+                            },
+                            "last-modified-date": {
+                                "value": 1615882237174
+                            },
+                            "source": {
+                                "source-orcid": {
+                                    "uri": "http://orcid.org/0000-0001-6763-7055",
+                                    "path": "0000-0001-6763-7055",
+                                    "host": "orcid.org"
+                                },
+                                "source-client-id": null,
+                                "source-name": {
+                                    "value": "Sara El Kennani"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Multi-omic analysis of gametogenesis reveals a novel signature at the promoters and  distal enhancers of active genes."
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "issn",
+                                        "external-id-value": "1362-4962 (Electronic)",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "PART_OF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1093/nar/gkaa163",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "32182340",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2020"
+                                },
+                                "month": {
+                                    "value": "05"
+                                },
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0001-6763-7055/work/90663280",
+                            "display-index": "1"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1615882237195
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.3390/proteomes6030029",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 90663281,
+                            "created-date": {
+                                "value": 1615882237195
+                            },
+                            "last-modified-date": {
+                                "value": 1615882237195
+                            },
+                            "source": {
+                                "source-orcid": {
+                                    "uri": "http://orcid.org/0000-0001-6763-7055",
+                                    "path": "0000-0001-6763-7055",
+                                    "host": "orcid.org"
+                                },
+                                "source-client-id": null,
+                                "source-name": {
+                                    "value": "Sara El Kennani"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Proteomic Analysis of Histone Variants and Their PTMs: Strategies and Pitfalls"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.3390/proteomes6030029",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2018"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0001-6763-7055/work/90663281",
+                            "display-index": "1"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1615882236807
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1186/s13072-017-0172-y",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 90663278,
+                            "created-date": {
+                                "value": 1615882236807
+                            },
+                            "last-modified-date": {
+                                "value": 1615882236807
+                            },
+                            "source": {
+                                "source-orcid": {
+                                    "uri": "http://orcid.org/0000-0001-6763-7055",
+                                    "path": "0000-0001-6763-7055",
+                                    "host": "orcid.org"
+                                },
+                                "source-client-id": null,
+                                "source-name": {
+                                    "value": "Sara El Kennani"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Systematic quantitative analysis of H2A and H2B variants by targeted proteomics"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "issn",
+                                        "external-id-value": "1756-8935",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "PART_OF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1186/s13072-017-0172-y",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2018"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0001-6763-7055/work/90663278",
+                            "display-index": "1"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1615882236781
+                    },
+                    "external-ids": {
+                        "external-id": []
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 90663277,
+                            "created-date": {
+                                "value": 1615882236781
+                            },
+                            "last-modified-date": {
+                                "value": 1615882236781
+                            },
+                            "source": {
+                                "source-orcid": {
+                                    "uri": "http://orcid.org/0000-0001-6763-7055",
+                                    "path": "0000-0001-6763-7055",
+                                    "host": "orcid.org"
+                                },
+                                "source-client-id": null,
+                                "source-name": {
+                                    "value": "Sara El Kennani"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "MS_HistoneDB, a manually curated resource for proteomic analysis of human and mouse histones"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": []
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2017"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0001-6763-7055/work/90663277",
+                            "display-index": "1"
+                        }
+                    ]
+                }
+            ],
+            "path": "/0000-0001-6763-7055/works"
         },
-        "path": "/0000-0002-6245-3553/activities"
+        "path": "/0000-0001-6763-7055/activities"
     },
-    "path": "/0000-0002-6245-3553"
+    "path": "/0000-0001-6763-7055"
 }

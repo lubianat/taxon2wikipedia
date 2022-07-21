@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 
 from .helper import *
+from .process_reflora import *
 from urllib.parse import quote
-from wdcuration import search_wikidata
+from wdcuration import search_wikidata, render_qs_url
+from jinja2 import Template
 import os
+import webbrowser
+import pywikibot
 
 
 @click.command(name="render")
@@ -162,7 +166,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
     create = input("Create page with pywikibot? (y/n)")
     if create == "y":
         site = pywikibot.Site("pt", "wikipedia")
-        newPage = Page(site, taxon_name)
+        newPage = pywikibot.Page(site, taxon_name)
         newPage.text = wiki_page
         newPage.save("Esboço criado com código de https://github.com/lubianat/taxon2wikipedia")
     else:
