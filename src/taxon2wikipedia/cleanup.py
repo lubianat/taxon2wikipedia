@@ -22,6 +22,9 @@ DESCRIPTION_DICT = OrderedDict(
         ". Pedicelo ": ". Tem [[pedicelo]] ",
         ". Labelo ": ". Possui [[labelo]] ",
         ". Pecíolo ": ". Possui pecíolo ",
+        "Árvore ": "A espécie tem árvore ",
+        "Inflorescência": "Sua inflorescência é ",
+        ". Cápsula": "Possui cápsula",
     }
 )
 

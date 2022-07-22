@@ -2,94 +2,68 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
+| ordem                  = [[Myrtales]]    
+| divisão                = [[Tracheophyta]]    
 | infrarreino            = [[Streptophyta]]    
-| divisão                = [[Pteridophyta]]    
 | superdivisão           = [[Embryophyta]]    
-| classe                 = [[Polypodiopsida]]    
-| ordem                  = [[Polypodiales]]    
-| família                = [[Polypodiaceae]]    
+| subfilo                = [[Euphyllophyta]]    
+| família                = [[Melastomataceae]]    
 | superdomínio           = [[Biota]]    
-| subfamília             = [[Polypodioideae]]    
-| subclasse              = [[Polypodiidae]]    
-| género                 = [[Pleopeltis]]    
 | subdomínio             = [[Diaphoretickes]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Pleopeltis bradei]]    
-| Subordem               = [[Polypodiineae]]    
+| subfamília             = [[Melastomatoideae]]    
+| tribo                  = [[Melastomeae]]    
+| género                 = [[Pleroma]]    
+| espécie                = [[Pleroma boudetii]]    
 }}
-'''''Pleopeltis bradei''''' é uma espécie de [[planta]] do gênero ''[[Pleopeltis]]'' e da família [[Polypodiaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB111499|titulo=Pleopeltis bradei (de la Sota) Salino|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Pleroma boudetii''''' é uma espécie de [[planta]] do gênero ''[[Pleroma]]'' e da família [[Melastomataceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB606899|titulo=Pleroma boudetii (P.J.F.Guim.& R.Goldenb.) P.J.F.Guim. & Michelang.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+O hábito arbóreo e a presença de [[tricoma]] dentrítico revestindo as folhas, ramos, [[bráctea]]s externamente e hipanto, prontamente identificam esta espécie. <ref name=":ref_0"/> 
 == Taxonomia ==
-A espécie foi descrita em [[2009]] por [[Alexandre Salino]]. 
+A espécie foi descrita em [[2019]] por [[Paulo José Fernandes Guimarães]] e [[Fabián A. Michelangeli]]. 
 O seguinte sinônimo já foi catalogado:  <ref name=":ref_0"/> 
-* ''Polypodium bradei''  de la Sota 
+* ''Tibouchina boudetii''  P.J.F.Guim. &amp; R.Goldenb. 
 == Forma de vida ==
-É uma espécie [[rupícola]] e [[herbácea]]. <ref name=":ref_0"/>  
+É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"/>  
     
 == Descrição ==
- Planta rupícola. Caule reptante com escamas castanho-escuras, deltoide a lanceoladas com ápice acuminado e margem denteada. Ela tem [[folhas]] com com cerca de 33cm de comprimento, pinada. Possui [[Pecíolo (botânica)|pecíolo]] longo com escamas castanho-escuras, deltoide a lanceoladas com ápice acuminado e margem denteada. Lâmina ovado-lanceolada com base gradualmente reduzida. Raque escamosa, escamas com base orbicular profundamente denteada, e ápice acuminado a capilar com dentes esparsos. Pinas com 32 pares com aurícula e aeróforo, linear-lanceolada com ápice arredondado a acuminado, margem verde e inteira. Face adaxial com escamas esparsas, com base orbicular profundamente denteada, e ápice acuminado a capilar com dentes esparsos. Face abaxial densamente escamosa, escamas com base orbicular profundamente denteada, e ápice acuminado a capilar com dentes esparsos. Soros com 12 pares superficiais e medianos.  <ref name=":ref_0"/>                      
+ Árvore 6–12 m; ramos quadrangulares, densamente revestidos por [[tricoma]]s dendríticos, assim como sobre o pecíolo, ambas as faces da lâmina foliar, nas [[bráctea]]s externamente, [[hipanto]] e lacínias. Ela tem [[folhas]] opostas; [[Pecíolo (botânica)|pecíolo]] 1,1–1,8 cm; lâmina 4,2–7 x 1,2–1,6 cm, lanceolada, ápice agudo, base atenuada, nervuras 5, com um par de nervuras marginais tênue. Inflorescência botrióide (5-7 flores) ou tríade; flor pentâmera, [[pedicelo]] 3–6 mm; brácteas 2, com cerca de 5,5 x 3mm, ovada, ápice obtuso, côncavas; hipanto 7–9 x 7–8 mm; lacínias 12–18 x 4- 5 mm, lanceoladas, agudas, caducas no fruto; [[pétala]]s roxas; estames 10, filetes com tricomas glandulares, apêndices do conectivo bituberculados, glabros, [[antera]]s subuladas; estames antepétalos filetes 13–16 mm, anteras 9,5–10 mm, conectivo 0,4–0,6 milímetros prolongado abaixo das tecas; estames antessépalos filetes com cerca de 18 mm, anteras com cerca de 11 mm, conectivo com cerca de 0.6 milímetros prolongado abaixo das tecas; ovário com tricomas dendríticos no ápice, estilete com cerca de 21 mm, sigmoidal, glabro. Cápsula com cerca de 12 x 10 mm.  <ref name=":ref_0"/>                      
         {| class="wikitable" 
-  |+
-  ! colspan="2" |'''Caule'''<ref name=":ref_0" />
-  |-
-  |'''tipo reptante'''
-  |curto
-  |-
-  |'''indumento escama tipo'''
-  |não clatrada
-  |-
-  |'''indumento escama cor'''
-  |concolor
-  |-
-  |'''indumento escama forma'''
-  |deltoide/lanceolada
-  |-
-  |'''indumento escama ápice'''
-  |acuminado
-  |-
-  |'''indumento escama margem'''
-  |denteada
   |+
   ! colspan="2" |'''Folha'''<ref name=":ref_0" />
   |-
-  |'''divisão'''
-  |pinatifida/pinada
+  |'''nervura'''
+  |5
   |-
-  |'''peciolada'''
-  |pecíolo longo
-  |-
-  |'''forma lâmina'''
-  |lanceolada
-  |-
-  |'''ápice lâmina'''
-  |pinatifida
-  |-
-  |'''venação'''
-  |areolada
+  |'''pecíolo'''
+  |peciolada
   |+
-  ! colspan="2" |'''Tipo de esporângio'''<ref name=":ref_0" />
+  ! colspan="2" |'''Flor'''<ref name=":ref_0" />
   |-
-  |'''soro posição'''
-  |mediano
+  |'''bráctea'''
+  |2
   |-
-  |'''soro forma'''
-  |arredondada
+  |'''estame filete'''
+  |piloso
+  |-
+  |'''estame pilosidade conectivo'''
+  |glabro
   |}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 == Distribuição ==
 A espécie é encontrada no estado brasileiro de [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[campos de altitude]] e vegetação sobre afloramentos rochosos.<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
 ==Notas==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Souza, F.S.; Salino, A. ''Pleopeltis''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Guimarães, P.J.F. ''Pleroma''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB111499 ''Pleopeltis bradei'' no projeto Flora e Funga do Brasil]
-* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Pleopeltis%20bradei ''Pleopeltis bradei'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB606899 ''Pleroma boudetii'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Pleroma%20boudetii ''Pleroma boudetii'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Polypodiaceae]]
-[[Categoria:Pleopeltis]]
-    [[Categoria:Plantas descritas em 2009]]
+[[Categoria:Melastomataceae]]
+[[Categoria:Pleroma]]
+    [[Categoria:Plantas descritas em 2019]]
     [[Categoria:Plantas]]
     [[Categoria:Flora do Brasil]]
     [[Categoria:Flora do Espírito Santo]]
