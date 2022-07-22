@@ -2,11 +2,7 @@
     "mostrarHierarquia": true,
     "distribuicaoGeograficaDuvidaNorte": "",
     "estadosCerteza": [
-        "BA",
-        "CE",
-        "ES",
-        "MG",
-        "PE"
+        "ES"
     ],
     "filhosSubspVar": "",
     "possuiImagemVoucherHV": true,
@@ -14,20 +10,20 @@
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
     "exibirMensagemCamposControladosIgual": false,
-    "idTaxon": 6920,
+    "idTaxon": 111499,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
     "distribuicaoGeograficaCertezaSul": "",
     "substrato": [
-        "Terr\u00edcola"
+        "Rup\u00edcola"
     ],
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
     "mostrarDescricaoCamposControlados": true,
-    "id": "FB6920",
+    "id": "FB111499",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiospermas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(90)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Combretaceae</div><div class=\"nomeAutorSupraGenerico\"> R.Br.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(6913)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Terminalia</i></div><div class=\"nomeAutorInfraGenerico\"> L.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(6920)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de campo \" src=\"/reflora/layout/default/imagens/listaBrasil/org_img.png\" style=\" vertical-align:middle; padding-bottom: 5px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de herb\u00e1rio \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Terminalia mameluco</i></div><div class=\"nomeAutorInfraGenerico\"> Pickel</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128483)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Samambaias e Lic\u00f3fitas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(91537)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Polypodiaceae</div><div class=\"nomeAutorSupraGenerico\"> J.Presl</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(91721)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Pleopeltis</i></div><div class=\"nomeAutorInfraGenerico\"> Humb.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(111499)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de herb\u00e1rio \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Pleopeltis bradei</i></div><div class=\"nomeAutorInfraGenerico\"> (de la Sota) Salino</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
     "possuiImagemVoucherINCT": false,
@@ -35,57 +31,51 @@
         "Nome aceito",
         "Nome correto"
     ],
-    "mostrarImagensCampos": true,
+    "mostrarImagensCampos": false,
     "distribuicaoGeograficaDuvidaCentroOeste": "",
     "mostrarTipoVegetacao": true,
-    "distribuicaoGeograficaCertezaSudeste": "<b>Sudeste</b> (Esp\u00edrito Santo, Minas Gerais)<br/>",
+    "distribuicaoGeograficaCertezaSudeste": "<b>Sudeste</b> (Esp\u00edrito Santo)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "Marquete, N.,Loiola, M.I.B. 2015. Combretaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB6920>http://floradobrasil2015.jbrj.gov.br/FB6920</a>)<br><br>Ribeiro, R.T.M., Marquet, N., Loiola, M.I.B. Combretaceae in Flora do Brasil 2020. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB6920\">https://floradobrasil2020.jbrj.gov.br/FB6920</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
-    "nome": "<span><div class=\"taxon\"> <i>Terminalia mameluco</i></div><div class=\"nomeAutorInfraGenerico\"> Pickel</div></span>",
-    "distribuicaoGeograficaCertezaNordeste": "<b>Nordeste</b> (Bahia, Cear\u00e1, Pernambuco)<br/>",
+    "bibliografiaFixa": "Labiak, P.H.,Hirai, R.Y. 2015. Pleopeltis in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB111499>http://floradobrasil2015.jbrj.gov.br/FB111499</a>)<br><br>Souza, F.S., Salino, A. 2020. Pleopeltis in Flora do Brasil 2020. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB111499\">https://floradobrasil2020.jbrj.gov.br/FB111499</a>).<br><br>PRADO, J. et al. Diversity of ferns and lycophytes in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1073-1083. 2015. (<a href=https://doi.org/10.1590/2175-7860201566410>https://doi.org/10.1590/2175-7860201566410</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+    "nome": "<span><div class=\"taxon\"> <i>Pleopeltis bradei</i></div><div class=\"nomeAutorInfraGenerico\"> (de la Sota) Salino</div></span>",
+    "distribuicaoGeograficaCertezaNordeste": "",
     "distribuicaoHidrograficaCerteza": "",
-    "nomeDataplamt": "Terminalia mameluco",
+    "nomeDataplamt": "Pleopeltis bradei",
     "distribuicaoIlhasPossiveis": "",
-    "comentarioPublicoPT": "<p class=\"MsoNormal\" style=\"margin-bottom:0cm;margin-bottom:.0001pt;line-height:\nnormal\"><i><span style=\"font-size:10.0pt;\nfont-family:&quot;Arial&quot;,&quot;sans-serif&quot;\">Terminalia mameluco</span></i><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;\"> \u00e9 estreitamente relacionada\n\u00e0 <i>T. guyanensis</i> e <i>T. januariensis</i>, diferindo destas pelo\nfruto pequeno e pubescente e infloresc\u00eancia alongada.<o:p></o:p></span></p>",
     "mostrarCitacao": true,
     "endemismo": "\u00e9 end\u00eamica do Brasil",
     "distribuicaoHidrograficaDuvida": "",
-    "mostrarComentarioPublicoPT": true,
     "mostrarVouchers": true,
     "distribuicaoGeograficaCertezaNorte": "",
     "estadosDuvida": [],
     "formaVida": [
-        "\u00c1rvore"
+        "Erva"
     ],
     "tipoVegetacao": [
-        "Caatinga (stricto sensu)",
-        "Floresta Estacional Semidecidual",
-        "Floresta Ombr\u00f3fila (Floresta Pluvial)"
+        "Campo de Altitude",
+        "Vegeta\u00e7\u00e3o Sobre Afloramentos Rochosos"
     ],
     "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB6920&action=print",
+    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB111499&action=print",
     "mostrarSinopsesBrasil": false,
     "origem": "Nativa",
-    "titulo": "Flora e Funga do Brasil - Terminalia mameluco Pickel",
-    "referencias": "<td>Pickel, B.J., Arq. Bot. Estado S\u00e3o Paulo, 3(4): 199-203, 1958.<font color='red'><b> Obra Original</font color></b><br></td>",
+    "titulo": "Flora e Funga do Brasil - Pleopeltis bradei (de la Sota) Salino",
     "verificarCitesStatus": true,
     "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
-    "abaDefaultComentarioPublico": "PT",
     "mostrarReferencias": true,
     "mostrarDescricaoLivrePT": true,
     "mostrarFilhosSubFam": true,
     "dominioFitogeografico": [
-        "Caatinga",
         "Mata Atl\u00e2ntica"
     ],
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "Ribeiro, R.T.M.; Marquet, N.; Loiola, M.I.B. <i>Combretaceae</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB6920 target='_blank'>https://floradobrasil.jbrj.gov.br/FB6920</a>>. Acesso em:  21 jul. 2022",
+    "citacao": "Souza, F.S.; Salino, A. <i>Pleopeltis</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB111499 target='_blank'>https://floradobrasil.jbrj.gov.br/FB111499</a>>. Acesso em:  22 jul. 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Terminalia_mameluco' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Terminalia_mameluco</a>",
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Pleopeltis_bradei' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Pleopeltis_bradei</a>",
     "sinopsesBrasil": [
         {
             "rank": "Subesp\u00e9cies",
@@ -100,10 +90,10 @@
             "sinonimo": 0
         }
     ],
-    "temComoSinonimo": "<span><a onclick=\"carregaTaxonGrupo(6919)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterot\u00edpico</div><div class=\"sinonimo\"> <i>Terminalia kuhlmannii</i></div><div class=\"nomeAutorSinonimo\"> Alwan & Stace</div></a></span><br>",
+    "temComoSinonimo": "<span><a onclick=\"carregaTaxonGrupo(117470)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> basi\u00f4nimo</div><div class=\"sinonimo\"> <i>Polypodium bradei</i></div><div class=\"nomeAutorSinonimo\"> de la Sota</div></a></span><br>",
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Terminalia mameluco Pickel",
+    "nomeStr": "Pleopeltis bradei (de la Sota) Salino",
     "mostrarDominioFitogeografico": true,
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
@@ -115,43 +105,17 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>Ganev, W., 1128, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126336\" target=\"_blank\">HUEFS</a>, (BA)<br>G. Hatschbach, 71472, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124237\" target=\"_blank\">CEPEC</a>, (ES)<br>G. Hatschbach, 71472, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124237\" target=\"_blank\">CEPEC</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226454381' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (ES)<br>J.C. de Moraes, 1338, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a>, (PE)<br>A.S.F. Castro, 1621, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126362\" target=\"_blank\">EAC</a>, (CE)<br>Fernandes, A., s.n., <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126362\" target=\"_blank\">EAC</a>, (CE)</td>",
+    "vouchers": "<td>A.C. Brade, 19791b, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 117900 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284404916' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (ES), <font color='red'><b>Typus</b></font></td>",
     "mostrarTemComoSinonimo": true,
-    "descricaoLivrePT": "<p class=\"MsoNormal\" style=\"text-align: justify; margin-bottom: 0.0001pt; line-height: normal;\"><span style=\"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;\">\u00c1rvore\n5\u221235 m. Folha 5\u221212,9 \u00d7 2,5\u22126 cm, cart\u00e1cea, l\u00e2mina el\u00edptica ou oboval, \u00e1pice\nagudo a acuminado, base cuneada, face adaxial e abaxial ser\u00edcea a glabrescente;\ntricomas hialinos; nerva\u00e7\u00e3o broquid\u00f3droma, 5\u22128 pares de nervuras secund\u00e1rias;\npec\u00edolo 1\u22122,6 cm compr., esparso-pubescente a glabrescente, gl\u00e2ndulas ausentes.\nInfloresc\u00eancia 3,5\u22128 cm compr., espiga alongada, axilar ou terminal, bissexual.\nFlor bissexual 5\u22126 mm compr.; hipanto inferior 2,8\u22123,5 mm compr., claviforme;\nhipanto superior 2\u22122,5 mm compr., campanulado; lobos do c\u00e1lice 1\u22121,6 mm compr.,\nreflexos; filetes do verticilo externo 3\u22124,5 mm compr.; filetes do verticilo\ninterno 3\u22124 mm compr.; disco nectar\u00edfero ca. 1,2 mm diam.; estilete 4\u22125 mm\ncompr. Fruto betul\u00eddeo 1,4\u22123,5 \u00d7 1,6\u22125,6 cm, 2-alado, membran\u00e1ceo ou cori\u00e1ceo;\nalas 0,9\u22121,2 \u00d7 1,4\u22122,1 cm, el\u00edptica-oblongas, iguais; corpo 0,8\u22121,2 \u00d7 0,3\u22120,5\ncm.<o:p></o:p></span></p>",
-    "descricaoCamposControlados": "<strong>Caule: </strong><strong>ramo(s) superior(es)</strong> glabro(s). <strong>Folha: </strong><strong>forma</strong> el\u00edptica(s)/obovada(s); <strong>\u00e1pice(s)</strong> acuminado(s)/agudo(s); <strong>base</strong> cuneada(s); <strong>consist\u00eancia</strong> cart\u00e1cea(s); <strong>nerva\u00e7\u00e3o</strong> broquid\u00f3droma(s)/5 a(s) 8 pares de nervura(s) secund\u00e1ria(s) 5; <strong>indumento</strong> ser\u00edceo(s)/glabrescente(s); <strong>dom\u00e1cia</strong> ausente(s); <strong>gl\u00e2ndula(s)</strong> ausente(s). <strong>Infloresc\u00eancia: </strong><strong>tipo</strong> espiga(s); <strong>forma</strong> alongada(s); <strong>posi\u00e7\u00e3o</strong> axilar(es) ou terminal(ais); <strong>padr\u00e3o das flor(es) na(s) infloresc\u00eancia(s)</strong> hermafrod\u00edtica(s). <strong>Flor: </strong><strong>hipanto inferior(es)</strong> claviforme(s); <strong>hipanto superior(es)</strong> campanulado(s)/lobo(s) do c\u00e1lice(s) 5; <strong>lobo(s) do c\u00e1lice(s)</strong> consp\u00edcuo(s); <strong>androceu</strong> estame(s) 10 inserido(s) em 2 verticilo(s)/antera(s) cordiforme(s); <strong>indumento do estilete(s)</strong> viloso(s) da por\u00e7\u00e3o mediana(s) a(s) \u00e1pice(s). <strong>Fruto: </strong><strong>forma das ala(s) do fruto(s)</strong> el\u00edptico(s); <strong>n\u00famero de ala(s)</strong> 2. ",
-    "bibliografiaReferencia": "&lt;p&gt;&lt;span style=&quot;font-size: 10pt; font-family: arial, helvetica, sans-serif;&quot;&gt;Pickel, B. J. &lt;strong&gt;Arquivos de Bot&amp;acirc;nica do Estado de S&amp;atilde;o Paulo&lt;/strong&gt;, v. 3, p. 200. 1958. (OBRA ORIGINAL)&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-size: 10pt; font-family: arial, helvetica, sans-serif;&quot;&gt;Soares Neto, R. L.; Cordeiro, L. S.; Loiola, M. I. B. Flora do Cear&amp;aacute;, Brasil: Combretaceae.&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;Rodrigu&amp;eacute;sia&lt;/strong&gt;, v. 65,&amp;nbsp;n. 3,&amp;nbsp;p. 685-700, 2014.&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-size: 10pt; font-family: arial, helvetica, sans-serif;&quot;&gt;Ribeiro, R. T. M.; Loiola, M. I. B.; Sales, M. F. de. Flora do Esp&amp;iacute;rito Santo: Subtribo Terminaliinae (Combretaceae).&amp;nbsp;&lt;strong&gt;Rodrigu&amp;eacute;sia&lt;/strong&gt;, v. 68, p. 1547-1557, 2017.&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&lt;span style=&quot;font-size: 10pt; font-family: arial, helvetica, sans-serif;&quot;&gt;Ribeiro, R. de T. M.; Loiola, M. I. B.; Sales, M. F. de. &lt;em&gt;Terminalia&lt;/em&gt; L. (Combretaceae) do Estado de Pernambuco, Brasil. &lt;strong&gt;Hoehnea&lt;/strong&gt;, v. 45, n. 2, p. 307-313, 2018. &lt;a href=&quot;https://dx.doi.org/10.1590/2236-8906-63/2017&quot;&gt;https://dx.doi.org/10.1590/2236-8906-63/2017&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;\r\n&lt;p style=&quot;margin-bottom: .0001pt;&quot;&gt;&lt;span style=&quot;font-family: arial, helvetica, sans-serif;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;Stace, C. A.&amp;nbsp;Combretaceae.&amp;nbsp;&lt;strong&gt;Flora Neotropica&amp;nbsp;107&lt;/strong&gt;,&amp;nbsp;New York: The New York Botanical Garden Press, 2010. Pp. 208-210&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+    "descricaoLivrePT": "<p class=\"MsoNormal\" style=\"text-align:justify\"><span style=\"font-size:12.0pt;\nline-height:107%;font-family:&quot;Times New Roman&quot;,serif;mso-ansi-language:PT-BR\">Planta\nrup\u00edcola. Caule reptante com escamas castanho-escuras, deltoide a lanceoladas\ncom \u00e1pice acuminado e margem denteada. Folhas com ca. 33cm de comprimento,\npinada. Pec\u00edolo longo com escamas castanho-escuras, deltoide a lanceoladas com\n\u00e1pice acuminado e margem denteada. L\u00e2mina ovado-lanceolada com base\ngradualmente reduzida. Raque escamosa, escamas com base orbicular profundamente\ndenteada, e \u00e1pice acuminado a capilar com dentes esparsos. Pinas com 32 pares com\naur\u00edcula e aer\u00f3foro, linear-lanceolada com \u00e1pice arredondado a acuminado,\nmargem verde e inteira. Face adaxial com escamas esparsas, com base orbicular\nprofundamente denteada, e \u00e1pice acuminado a capilar com dentes esparsos. Face\nabaxial densamente escamosa, escamas com base orbicular profundamente denteada,\ne \u00e1pice acuminado a capilar com dentes esparsos. Soros com 12 pares\nsuperficiais e medianos.<o:p></o:p></span></p>",
+    "descricaoCamposControlados": "<strong>Caule: </strong><strong>tipo reptante(s)</strong> curto(s); <strong>indumento escama(s) tipo</strong> n\u00e3o clatrada(s); <strong>indumento escama(s) cor</strong> concolor(es); <strong>indumento escama(s) forma</strong> deltoide(s)/lanceolada(s); <strong>indumento escama(s) \u00e1pice(s)</strong> acuminado(s); <strong>indumento escama(s) margem(ns)</strong> denteada(s). <strong>Folha: </strong><strong>divis\u00e3o</strong> pinatifida(s)/pinada(s); <strong>peciolada(s)</strong> pec\u00edolo(s) longo(s); <strong>forma l\u00e2mina(s)</strong> lanceolada(s); <strong>\u00e1pice(s) l\u00e2mina(s)</strong> pinatifida(s); <strong>vena\u00e7\u00e3o</strong> areolada(s). <strong>Tipo de espor\u00e2ngio: </strong><strong>soro(s) posi\u00e7\u00e3o</strong> mediano(s); <strong>soro(s) forma</strong> arredondada(s). ",
+    "bibliografiaReferencia": "&lt;p&gt;Smith, AR, Tejero-Diez D. 2014.&amp;nbsp;&lt;em&gt;Pleopeltis&lt;/em&gt;&amp;nbsp;(Polypodiaceae), a redefinition of the genus&amp;nbsp;and nomenclatural novelties. Botanical Sciences 92: 43&amp;ndash;58.&lt;/p&gt;\r\n&lt;p&gt;Sota, E.R. de la. 1965. Las especies escamosas del Genero&amp;nbsp;&lt;em&gt;Polypodium&amp;nbsp;&lt;/em&gt;L. (S.Str.) en Brasil. Revista del Museo de La Plata (nueva serie) 42: 243-271.&lt;/p&gt;",
     "abaDefaultDescLivre": "PT",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
     "mostrarChaveIdentificacao": false,
     "mostrarHospedeiroIndeterminado": false,
     "mostrarLinkParaTaxon": true,
-    "nomesVernaculos": [
-        {
-            "lingua": "Portugu\u00eas",
-            "nome": "pequi-doce",
-            "regiao": "Esp\u00edrirto Santo (Sudeste), Minas Gerais (Sudeste)"
-        },
-        {
-            "lingua": "Portugu\u00eas",
-            "nome": "pelada",
-            "regiao": "Esp\u00edrirto Santo (Sudeste), Minas Gerais (Sudeste)"
-        },
-        {
-            "lingua": "Portugu\u00eas",
-            "nome": "capit\u00e3o-do-campo",
-            "regiao": "Bahia"
-        },
-        {
-            "lingua": "Portugu\u00eas",
-            "nome": "ara\u00e7\u00e1-d\u2018\u00e1gua",
-            "regiao": "Bahia"
-        },
-        {
-            "lingua": "Portugu\u00eas",
-            "nome": "mameluco",
-            "regiao": "Pernambuco"
-        }
-    ],
+    "nomesVernaculos": [],
     "possuiImagemVoucher": true
 }

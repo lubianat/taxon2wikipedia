@@ -135,6 +135,7 @@ def render_free_description(data):
 {data["descricaoLivrePT"]}  {get_ref_reflora(data)}            
         """
             text = fix_description(text)
+            text = text.replace("\n", " ")
 
             return text
     except KeyError as e:
