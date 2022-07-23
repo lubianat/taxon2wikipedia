@@ -105,7 +105,8 @@ def main(scope_name: str, qid: str, taxon: str, taxon_name: str, reflora_id: str
         comment = fix_description(render_comment(reflora_data))
         if free_description != "" or comment != "" or "descricaoCamposControlados" in reflora_data:
             notes = f"{get_cc_by_comment(reflora_data)}{get_ref_reflora(reflora_data)}"
-            description_title = "== Descrição =="
+            description_title = """
+== Descrição =="""
         else:
             description_title = ""
             notes = ""
@@ -123,22 +124,31 @@ def main(scope_name: str, qid: str, taxon: str, taxon_name: str, reflora_id: str
 {description_title}
 {render_free_description(reflora_data)}
 {render_description_table(reflora_data)}
+
+
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
 {render_distribution_from_reflora(reflora_data)}
 {render_domains(reflora_data)}
+
+
 {notes}
+
+
 {{{{Referencias}}}}
+
+
 == Ligações externas ==
 * [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id} ''{taxon_name}'' no projeto Flora e Funga do Brasil]
 * [{f"http://cncflora.jbrj.gov.br/portal/pt-br/profile/{quote(taxon_name)}"} ''{taxon_name}'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+
 {render_additional_reading(qid)}
+
 {{{{Controle de autoridade}}}}
+
 {{{{esboço-{scope_name}}}}}
 
-[[Categoria:{family}]]
-[[Categoria:{genus}]]
-    {year_cat}"""
+[[Categoria:{family}]][[Categoria:{genus}]]{year_cat}"""
         )
 
         categories = [
@@ -149,11 +159,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
         ]
 
         for cat in categories:
-            wiki_page = (
-                wiki_page
-                + f"""
-    [[Categoria:{cat}]]"""
-            )
+            wiki_page = wiki_page + f"""[[Categoria:{cat}]]"""
 
     print("===== Saving wikipage =====")
     filepath = "wikipage.txt"

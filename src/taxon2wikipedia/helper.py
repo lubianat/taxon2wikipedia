@@ -63,7 +63,8 @@ def render_taxonomy(reflora_data, results_df, qid):
         taxon_author_labels = [f"[[{name}]]" for name in taxon_author_labels]
         description = f"A espécie foi descrita em [[{description_year}]] por {render_list_without_dict(taxon_author_labels)}. {get_gbif_ref(qid)}"
 
-    text = f"""== Taxonomia ==
+    text = f"""
+== Taxonomia ==
 {description}
 {get_subspecies_from_reflora(reflora_data)}
 {get_synonyms_from_reflora(reflora_data)}"""

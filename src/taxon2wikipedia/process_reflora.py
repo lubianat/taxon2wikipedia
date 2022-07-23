@@ -150,7 +150,8 @@ def render_ecology(data):
     substrate.extend(life_form)
     if len(substrate) == 0:
         return ""
-    text = f"""== Forma de vida ==
+    text = f"""
+== Forma de vida ==
 É uma espécie {render_list(substrate, ECOLOGY_WIKI)}. {get_ref_reflora(data)} 
     """
     return text
@@ -183,7 +184,8 @@ def get_common_names(data):
 
 def get_cc_by_comment(data):
     text = data["citacao"].split("Jardim Bot")[0].replace("<i>", "''").replace("</i>", "''")
-    wiki_text = f"""==Notas==
+    wiki_text = f"""
+== Notas ==
 Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de {text}"""
     return wiki_text
 
@@ -300,6 +302,7 @@ def render_distribution_from_reflora(data):
         endemic_text = ""
 
     text = f"""
+
 == Distribuição ==
 A espécie é {endemic_text}"""
 
