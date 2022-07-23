@@ -11,7 +11,7 @@
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
     "exibirMensagemCamposControladosIgual": false,
-    "idTaxon": 4201,
+    "idTaxon": 8867,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
@@ -22,12 +22,12 @@
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
     "mostrarDescricaoCamposControlados": true,
-    "id": "FB4201",
+    "id": "FB8867",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiospermas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(33)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Acanthaceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(4195)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Ruellia</i></div><div class=\"nomeAutorInfraGenerico\"> L.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(4201)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de campo \" src=\"/reflora/layout/default/imagens/listaBrasil/org_img.png\" style=\" vertical-align:middle; padding-bottom: 5px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de herb\u00e1rio \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Ruellia curviflora</i></div><div class=\"nomeAutorInfraGenerico\"> Nees & Mart.</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiospermas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(155)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Malpighiaceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(8865)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Heteropterys</i></div><div class=\"nomeAutorInfraGenerico\"> Kunth</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(8867)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de campo \" src=\"/reflora/layout/default/imagens/listaBrasil/org_img.png\" style=\" vertical-align:middle; padding-bottom: 5px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de herb\u00e1rio \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Heteropterys alternifolia</i></div><div class=\"nomeAutorInfraGenerico\"> W.R.Anderson</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
-    "possuiImagemVoucherINCT": false,
+    "possuiImagemVoucherINCT": true,
     "statusQualificador": [
         "Nome aceito",
         "Nome correto"
@@ -38,11 +38,11 @@
     "distribuicaoGeograficaCertezaSudeste": "<b>Sudeste</b> (Esp\u00edrito Santo)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "Profice, S.R.,Kameyama, C.,C\u00f4rtes, A.L.A.,Braz, D.M.,Indriunas, A.,Vilar, T.,Pessoa, C.,Ezcurra, C.,Wasshausen, D. 2015. Acanthaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB4201>http://floradobrasil2015.jbrj.gov.br/FB4201</a>)<br><br>Fernandes, U.G., Kameyama, C., Ezcurra, C., Indriunas, A., Pessoa, C.S. 2020. Ruellia in Flora do Brasil 2020. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB4201\">https://floradobrasil2020.jbrj.gov.br/FB4201</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
-    "nome": "<span><div class=\"taxon\"> <i>Ruellia curviflora</i></div><div class=\"nomeAutorInfraGenerico\"> Nees & Mart.</div></span>",
+    "bibliografiaFixa": "Amorim, A.M.A. 2015. Heteropterys in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB8867>http://floradobrasil2015.jbrj.gov.br/FB8867</a>)<br><br>Pessoa, C., Almeida, R.F., Amorim, A.M.A. 2020. Heteropterys in Flora do Brasil 2020. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB8867\">https://floradobrasil2020.jbrj.gov.br/FB8867</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+    "nome": "<span><div class=\"taxon\"> <i>Heteropterys alternifolia</i></div><div class=\"nomeAutorInfraGenerico\"> W.R.Anderson</div></span>",
     "distribuicaoGeograficaCertezaNordeste": "<b>Nordeste</b> (Bahia)<br/>",
     "distribuicaoHidrograficaCerteza": "",
-    "nomeDataplamt": "Ruellia curviflora",
+    "nomeDataplamt": "Heteropterys alternifolia",
     "distribuicaoIlhasPossiveis": "",
     "mostrarCitacao": true,
     "endemismo": "\u00e9 end\u00eamica do Brasil",
@@ -51,20 +51,23 @@
     "distribuicaoGeograficaCertezaNorte": "",
     "estadosDuvida": [],
     "formaVida": [
-        "Arbusto"
+        "Liana/vol\u00favel/trepadeira"
     ],
     "tipoVegetacao": [
-        "Floresta Ombr\u00f3fila (Floresta Pluvial)"
+        "Floresta Ombr\u00f3fila (Floresta Pluvial)",
+        "Restinga"
     ],
     "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB4201&action=print",
+    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB8867&action=print",
     "mostrarSinopsesBrasil": false,
     "origem": "Nativa",
-    "titulo": "Flora e Funga do Brasil - Ruellia curviflora Nees & Mart.",
+    "titulo": "Flora e Funga do Brasil - Heteropterys alternifolia W.R.Anderson",
+    "referencias": "<td>Anderson, W.R., Contr. Univ. Michigan Herb., 19/368, 1993.<font color='red'><b> Obra Original</font color></b><br></td>",
     "verificarCitesStatus": true,
     "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
     "mostrarReferencias": true,
+    "mostrarDescricaoLivrePT": true,
     "mostrarFilhosSubFam": true,
     "dominioFitogeografico": [
         "Mata Atl\u00e2ntica"
@@ -72,9 +75,9 @@
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "Fernandes, U.G.; Kameyama, C.; Ezcurra, C.; Indriunas, A.; Pessoa, C.S. <i>Ruellia</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB4201 target='_blank'>https://floradobrasil.jbrj.gov.br/FB4201</a>>. Acesso em:  23 jul. 2022",
+    "citacao": "Pessoa, C.; Almeida, R.F.; Amorim, A.M.A. <i>Heteropterys</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB8867 target='_blank'>https://floradobrasil.jbrj.gov.br/FB8867</a>>. Acesso em:  23 jul. 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Ruellia_curviflora' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Ruellia_curviflora</a>",
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Heteropterys_alternifolia' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Heteropterys_alternifolia</a>",
     "sinopsesBrasil": [
         {
             "rank": "Subesp\u00e9cies",
@@ -89,10 +92,10 @@
             "sinonimo": 0
         }
     ],
-    "temComoSinonimo": "<span><a onclick=\"carregaTaxonGrupo(594506)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> basi\u00f4nimo</div><div class=\"sinonimo\"> <i>Arrhostoxylum curviflorum</i></div><div class=\"nomeAutorSinonimo\"> (Nees & Mart.) Nees</div></a></span><br>",
+    "temComoSinonimo": "<span><a onclick=\"carregaTaxonGrupo(621569)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> basi\u00f4nimo</div><div class=\"sinonimo\"> <i>Banisteria alternifolia</i></div><div class=\"nomeAutorSinonimo\"> Steyerm.</div></a></span><br>",
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Ruellia curviflora Nees & Mart.",
+    "nomeStr": "Heteropterys alternifolia W.R.Anderson",
     "mostrarDominioFitogeografico": true,
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
@@ -104,10 +107,12 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>G. Hatschbach, 63299, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124237\" target=\"_blank\">CEPEC</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226407777' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (BA)<br>Amorim, A. M., 7599, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124237\" target=\"_blank\">CEPEC</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=226407935' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (ES)</td>",
+    "vouchers": "<td>T.C. Plowman, 13952, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 249031 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284412112' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (BA), <font color='red'><b>Typus</b></font><br>Queir\u00f3z, L.P., 1398, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124893\" target=\"_blank\">SP</a> 329052, (BA)</td>",
     "mostrarTemComoSinonimo": true,
-    "descricaoCamposControlados": "<strong>Raiz: </strong><strong>forma</strong> axial(ais). <strong>Caule: </strong><strong>conforma\u00e7\u00e3o</strong> ereto(s)/decumbente(s). <strong>Folha: </strong><strong>compr. (mm) do pec\u00edolo(s)</strong> 10 mm a(s) 50 mm; <strong>forma da l\u00e2mina(s)</strong> ovada(s)/el\u00edptica(s)/lanceolada(s); <strong>\u00e1pice(s)</strong> agudo(s)/acuminado(s); <strong>base</strong> atenuada(s)/decorrente(s); <strong>indumento</strong> glabra(s). <strong>Infloresc\u00eancia: </strong><strong>tipo</strong> cimeira(s) axilar(es); <strong>br\u00e1ctea(s) e bract\u00e9ola(s)</strong> presente(s). <strong>Flor: </strong><strong>segmento(s) do c\u00e1lice(s)</strong> subigual; <strong>forma dos segmento(s) do c\u00e1lice(s)</strong> espatulado(s)/linear(es); <strong>cor da corola</strong> lil\u00e1s claro/lil\u00e1s; <strong>por\u00e7\u00e3o mais expandida(s) da corola</strong> mais longa que a(s) por\u00e7\u00e3o mais estreita(s); <strong>forma da por\u00e7\u00e3o expandida(s) da corola</strong> obc\u00f4nica(s)/curvada(s); <strong>lobo(s) da corola</strong> patente(s)/n\u00e3o revoluto(s); <strong>posi\u00e7\u00e3o dos estame(s)</strong> incluso(s). <strong>Fruto: </strong><strong>forma da c\u00e1psula(s)</strong> el\u00edptica(s)/oblonga(s); <strong>placenta(s) unida(s) c\u00e1psula(s) rompente(s)</strong> n\u00e3o. <strong>Semente: </strong><strong>n\u00famero de semente(s) por fruto(s)</strong> mais de 8; <strong>tricoma(s) higrosc\u00f3pico(s)</strong> desconhecida(s). ",
-    "bibliografiaReferencia": "",
+    "descricaoLivrePT": "<div><span style=\"font-style: italic;\">Heteropterys alternifolia </span>\u00e9 caracterizada pelas folhas alternas a subopostas, raro opostas e l\u00e2mina foliar com margem fortemente revoluta.</div>",
+    "descricaoCamposControlados": "<strong>Caule: </strong><strong>ramo(s) presen\u00e7a de folha(s) e indumento</strong> frondoso(s)/glabrescente(s). <strong>Folha: </strong><strong>filotaxia e postura da l\u00e2mina(s)</strong> alterna(s)/suboposta(s); <strong>pec\u00edolo(s) indumento e gl\u00e2ndula(s)</strong> glabrescente(s)/ser\u00edceo(s)/glanduloso(s) no ter\u00e7o(s) m\u00e9dio; <strong>l\u00e2mina(s) forma , consist\u00eancia e cor</strong> cart\u00e1cea(s)/el\u00edptica(s)/oval(ais)/oboval(ais); <strong>l\u00e2mina(s) base forma</strong> cuneada(s); <strong>l\u00e2mina(s) \u00e1pice(s) forma</strong> arredondado(s)/obtuso(s)/apiculado(s); <strong>l\u00e2mina(s) indumento face(s) , tipo e cor</strong> amba(s) \u00e0s face(s)/glabrescente(s)/ser\u00edceo(s); <strong>l\u00e2mina(s) gl\u00e2ndula(s) presen\u00e7a , forma e cor</strong> consp\u00edcua(s)/impressa(s)/marginal(ais); <strong>l\u00e2mina(s) margem(ns)</strong> fortemente revoluta(s); <strong>l\u00e2mina(s) arquitetura</strong> plana(s). <strong>Infloresc\u00eancia: </strong><strong>infloresc\u00eancia(s) postura</strong> ereta(s); <strong>br\u00e1ctea(s) bract\u00e9ola(s) forma e e gl\u00e2ndula(s)</strong> persistente(s)/oval(ais); <strong>pedicelo(s) desenvolvimento</strong> pedunculado(s). <strong>Flor: </strong><strong>s\u00e9pala(s) postura , gl\u00e2ndula(s) e indumento</strong> com \u00e1pice(s) plano(s)/somente anterior(es) eglandulosa(s)/todo(s) glandulosa(s)/gl\u00e2ndula(s) n\u00e3o decurrente(s)/pilosa(s)/ferrug\u00ednea(s); <strong>p\u00e9tala(s) tamanho , postura , carena(s) , arom\u00e1tica(s) , ungu\u00edculo(s) , consist\u00eancia , cor e margem(ns)</strong> reflexa(s)/ereta(s)/sem carena(s)/n\u00e3o odor\u00edfera(s)/unguiculada(s)/crassa(s)/amarela/com margem(ns)/glandulosa(s)/denticulada(s); <strong>antera(s) postura e indumento</strong> ereta(s)/glabra(s); <strong>estilete(s) tamanho , postura , indumento e \u00e1pice(s)</strong> todo(s) do mesmo tamanho/n\u00e3o arqueado(s)/reto(s)/divergente(s) distalmente/glabro(s)/com \u00e1pice(s)/arredondado(s). <strong>Fruto: </strong><strong>n\u00facleo semin\u00edfero  tamanho , ornamenta\u00e7\u00e3o e ala(s) lateral(ais)</strong> liso(s). ",
+    "bibliografiaReferencia": "&lt;p&gt;Pessoa, C.; Costa, J.A.S. &amp;amp; Amorim, A.M. 2014. Flora da Bahia: Malpighiaceae 2 &amp;ndash; &lt;em&gt;Heteropterys&lt;/em&gt;. Sitientibus, s&amp;eacute;r. Ci&amp;ecirc;ncias Biol&amp;oacute;gicas 14, 41 pp.&lt;/p&gt;",
+    "abaDefaultDescLivre": "PT",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
     "mostrarChaveIdentificacao": false,

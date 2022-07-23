@@ -1,7 +1,5 @@
 import click
-
 from taxon2wikipedia import qid2taxobox
-
 from . import pop_new_qid, render_page_espirito_santo, qid2taxobox
 
 

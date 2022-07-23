@@ -15,18 +15,7 @@ def main():
     wikipage_path.write_text(wikipage)
 
 
-DESCRIPTION_DICT = OrderedDict(
-    {
-        ". Folhas ": ". Ela tem [[folhas]] ",
-        ". Flores ": ". Ela tem [[flores]] ",
-        ". Pedicelo ": ". Tem [[pedicelo]] ",
-        ". Labelo ": ". Possui [[labelo]] ",
-        ". Pecíolo ": ". Possui pecíolo ",
-        "Árvore ": "A espécie tem árvore ",
-        "Inflorescência": "Sua inflorescência é ",
-        ". Cápsula": "Possui cápsula",
-    }
-)
+DESCRIPTION_DICT = json.loads(DICTS.joinpath("phrase_start.json").read_text())
 
 BOTANICAL_DICT = json.loads(DICTS.joinpath("botanical_terms_wiki_pt.json").read_text())
 
@@ -58,6 +47,10 @@ RESUB_DICT = {
 
 
 def fix_description(wikipage):
+    """
+    Substitutes parts of description to comply with Wikimedia guidelines.
+
+    """
     for key, value in REPLACE_DICT.items():
         wikipage = wikipage.replace(key, value)
 

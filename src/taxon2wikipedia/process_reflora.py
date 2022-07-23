@@ -7,113 +7,9 @@ import re
 from .cleanup import fix_description
 
 HERE = Path(__file__).parent.resolve()
-STATES_WIKI = {
-    "BA": "[[Bahia]]",
-    "ES": "[[Espírito Santo (estado)|Espírito Santo]]",
-    "AM": "[[Amazonas]]",
-    "MT": "[[Mato Grosso]]",
-    "PA": "[[Pará]]",
-    "PB": "[[Paraíba]] ",
-    "PE": "[[Pernambuco]]",
-    "SE": "[[Sergipe]]",
-    "AL": "[[Alagoas]]",
-    "RJ": "[[Rio de Janeiro]]",
-    "RR": "[[Roraima]]",
-    "RN": "[[Rio Grande do Norte]]",
-    "MG": "[[Minas Gerais]]",
-    "SP": "[[São Paulo (estado)|São Paulo]]",
-    "CE": "[[Ceará]]",
-    "PI": "[[Piauí]]",
-    "DF": "[[Distrito Federal]]",
-    "GO": "[[Goiás]]",
-    "PR": "[[Paraná]]",
-    "RS": "[[Rio Grande do Sul]]",
-    "SC": "[[Santa Catarina]]",
-    "AP": "[[Amapá]]",
-    "RO": "[[Rondônia]]",
-    "RR": "[[Roraima]]",
-    "MS": "[[Mato Grosso do Sul]]",
-    "AC": "[[Acre]]",
-    "MA": "[[Maranhão]]",
-    "TO": "[[Tocantins]]",
-}
-
-DOMAINS_WIKI = {
-    "enum.label.DominiosFitogeograficosEnum.MATA_ATLANTICA": "[[Mata Atlântica]]",
-    "enum.label.DominiosFitogeograficosEnum.CERRADO": "[[Cerrado]]",
-    "enum.label.DominiosFitogeograficosEnum.PAMPA": "[[Pampa]]",
-    "enum.label.DominiosFitogeograficosEnum.AMAZONIA": "[[Floresta Amazônica]]",
-    "Pampa": "[[Pampa]]",
-    "Pantanal": "[[Pantanal]]",
-    "Central Brazilian Savanna": "[[Cerrado]]",
-    "Atlantic Rainforest": "[[Mata Atlântica]]",
-    "Amazon Rainforest": "[[Floresta Amazônica]]",
-    "Caatinga": "[[Caatinga]]",
-}
-
-VEGETATION_WIKI = {
-    "enum.label.DistribuicaoTipoVegetacaoEnum.FLORESTA_OMBROFILA": "[[Floresta húmida|floresta ombrófila pluvial]]",
-    "enum.label.DistribuicaoTipoVegetacaoEnum.RESTINGA": "[[restinga]]",
-    "enum.label.DistribuicaoTipoVegetacaoEnum.FLORESTA_CILIAR_GALERIA": "[[Vegetação ripária|mata ciliar]]",
-    "enum.label.DistribuicaoTipoVegetacaoEnum.FLORESTA_ESTACIONAL_SEMIDECIDUAL": "[[floresta estacional semidecidual]]",
-    "enum.label.DistribuicaoTipoVegetacaoEnum.FLORESTA_OMBROFILA_MISTA": "[[floresta ombrófila mista|mata de araucária]]",
-    "enum.label.DistribuicaoTipoVegetacaoEnum.CAMPO_RUPESTRE": "[[campos rupestres]]",
-    "enum.label.DistribuicaoTipoVegetacaoEnum.CAMPO_LIMPO": "campos limpos",
-    "Highland Rocky Field": "[[campos rupestres]]",
-    "Riverine Forest and/or Gallery Forest": "[[Vegetação ripária|mata ciliar]]",
-    "Ombrophyllous Forest (Tropical Rain Forest)": "[[Floresta húmida|floresta ombrófila pluvial]]",
-    "Coastal Forest (Restinga)": "[[restinga]]",
-    "Rock outcrop vegetation": "vegetação sobre afloramentos rochosos",
-    "Terra Firme Forest": "[[floresta de terra firme]]",
-    "Inundated Forest (V\u00e1rzea)": "floresta de [[Planície de inundação|inundação]]",
-    "Seasonally Semideciduous Forest": "[[floresta estacional semidecidual]]",
-    "Inundated Forest (Igapó)": "[[mata de igapó]]",
-    "Cerrado (lato sensu)": "[[cerrado]]",
-    "Caatinga (stricto sensu)": "[[caatinga]]",
-    "Grassland": "[[pradaria]]",
-    "High Altitude Grassland": "[[campos de altitude]]",
-    "Anthropic area": "[[áreas antrópicas]]",
-    "Mixed Ombrophyllous Forest": "[[floresta ombrófila mista|mata de araucária]]",
-    "Seasonally Deciduous Forest": "floresta estacional decidual",
-    "Amazonian Campinarana": "[[Campinarana]]",
-    "Seasonal Evergreen Forest": "Floresta Estacional Perenifólia",
-    "Amazonian Savanna": "savana amazônica",
-    "Mangrove": "[[mangue]]",
-    "Carrasco Vegetation": "[[vegetação de carrasco]]",
-    "Palm Grove": "[[palmeiral]]",
-}
-
-ECOLOGY_WIKI = {
-    "Epiphytic": "[[epífita]]",
-    "Rupicolous": "[[rupícola]]",
-    "Shrub": "[[arbustiva]]",
-    "Subshrub": "[[subarbustiva]]",
-    "Herb": "[[herbácea]]",
-    "Terrestrial": "[[terrícola]]",
-    "Tree": "[[arbórea]]",
-    "Saprophyte": "[[saprófita]]",
-    "Liana/scandent/vine": "[[trepadeira]]",
-    "Corticicolous": "corticícola",
-    "Hemiepiphytes": "[[hemiepífita]]",
-    "Tufts": "presente em tufos",
-    "Tuft": "presente em tufos",
-    "Hemiparasites": "[[hemiparasitas]]",
-    "Thallose": "talosa",
-    "foliose": "folhosa",
-    "Mat": "formadora de tapete",
-    "Flabellate": "flabelada",
-    "Epixilous": "epixila",
-    "Weft": "formadora de tramas",
-    "Palm Tree": "de [[palmeira]]",
-    "Saxicolous": "[[litófita]]",
-}
-
-# New dicts created after source was changed to portuguese
-
+STATES_WIKI = json.loads(HERE.parent.joinpath("dicts/states_dict_pt.json").read_text())
 VEGETATION_WIKI = json.loads(HERE.parent.joinpath("dicts/vegetation_wiki_pt.json").read_text())
-
 DOMAINS_WIKI = json.loads(HERE.parent.joinpath("dicts/domain_wiki_pt.json").read_text())
-
 ECOLOGY_WIKI = json.loads(HERE.parent.joinpath("dicts/ecology_wiki_pt.json").read_text())
 
 
@@ -145,6 +41,9 @@ def render_free_description(data):
 
 
 def render_ecology(data):
+    """
+    Renders a session related to the ecology of the plant.
+    """
     substrate = data["substrato"]
     life_form = data["formaVida"]
     substrate.extend(life_form)
@@ -158,6 +57,9 @@ def render_ecology(data):
 
 
 def print_qs_for_names(data, qid):
+    """
+    Returns a string with Quickstatements commands to update common names.
+    """
     names = get_common_names(data)
     qs = ""
     for name in names:
@@ -168,9 +70,10 @@ def print_qs_for_names(data, qid):
 
 
 def get_common_names(data):
-
+    """
+    Gets the common names from Reflora in portuguese.
+    """
     common_names = data["nomesVernaculos"]
-
     name_strings = []
     for name in common_names:
         if (

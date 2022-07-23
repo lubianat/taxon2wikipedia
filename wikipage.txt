@@ -2,92 +2,94 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Lamiales]]    
+| ordem                  = [[Malpighiales]]    
 | divisão                = [[Tracheophyta]]    
-| família                = [[Acanthaceae]]    
 | infrarreino            = [[Streptophyta]]    
 | superdivisão           = [[Embryophyta]]    
+| família                = [[Malpighiaceae]]    
 | subfilo                = [[Euphyllophyta]]    
-| género                 = [[Ruellia]]    
 | superdomínio           = [[Biota]]    
+| género                 = [[Heteropterys]]    
 | subdomínio             = [[Diaphoretickes]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Ruellia curviflora]]    
+| espécie                = [[Heteropterys alternifolia]]    
 }}
-'''''Ruellia curviflora''''' é uma espécie de [[planta]] do gênero ''[[Ruellia]]'' e da família [[Acanthaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB4201|titulo=Ruellia curviflora Nees & Mart.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Heteropterys alternifolia''''' é uma espécie de [[planta]] do gênero ''[[Heteropterys]]'' e da família [[Malpighiaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8867|titulo=Heteropterys alternifolia W.R.Anderson|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 
 == Taxonomia ==
-A espécie foi descrita em [[1823]] por [[Carl Friedrich Philipp von Martius]] e [[Christian Gottfried Daniel Nees von Esenbeck]]. <ref>{{Citar web|url=https://www.gbif.org/species/5574824|titulo=Ruellia curviflora|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi descrita em [[1993]] por [[William Russell Anderson]]. <ref>{{Citar web|url=https://www.gbif.org/species/3984640|titulo=Heteropterys alternifolia|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 O seguinte sinônimo já foi catalogado:  <ref name=":ref_0"/> 
-* ''Arrhostoxylum curviflorum''  (Nees &amp; Mart.) Nees 
+* ''Banisteria alternifolia''  Steyerm. 
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[arbustiva]]. <ref name=":ref_0"/>  
+É uma espécie [[terrícola]] e [[trepadeira]]. <ref name=":ref_0"/>  
     
 == Descrição ==
-
+ <div>Heteropterys alternifolia é caracterizada pelas folhas alternas a subopostas, raro opostas e [[lâmina foliar]] com margem fortemente revoluta.</div>  <ref name=":ref_0"/>                      
         {| class="wikitable" 
-  |+
-  ! colspan="2" |'''Raiz'''<ref name=":ref_0" />
-  |-
-  |'''forma'''
-  |axial
   |+
   ! colspan="2" |'''Caule'''<ref name=":ref_0" />
   |-
-  |'''conformação'''
-  |ereto/decumbente
+  |'''ramo presença de folha e indumento'''
+  |frondoso/glabrescente
   |+
   ! colspan="2" |'''Folha'''<ref name=":ref_0" />
   |-
-  |''''''
-  |de comprimento
+  |'''filotaxia e postura da lâmina'''
+  |alterna/suboposta
+  |-
+  |'''pecíolo indumento e glândula'''
+  |glabrescente/seríceo/glanduloso no terço médio
+  |-
+  |'''lâmina forma , consistência e cor'''
+  |cartácea/elíptica/oval/oboval
+  |-
+  |'''base da lâmina forma'''
+  |cuneada
+  |-
+  |'''ápice da lâmina forma'''
+  |arredondado/obtuso/apiculado
+  |-
+  |'''lâmina indumento face , tipo e cor'''
+  |amba às face/glabrescente/seríceo
+  |-
+  |'''lâmina glândula presença , forma e cor'''
+  |conspícua/impressa/marginal
+  |-
+  |'''margem da lâmina'''
+  |fortemente revoluta
+  |-
+  |'''lâmina arquitetura'''
+  |plana
   |+
   ! colspan="2" |'''Sua inflorescência é '''<ref name=":ref_0" />
   |-
-  |'''tipo'''
-  |cimeira axilar
+  |'''inflorescência postura'''
+  |ereta
   |-
-  |'''bráctea e bractéola'''
-  |presente
+  |'''bráctea [[bractéola]] forma e e glândula'''
+  |persistente/oval
+  |-
+  |'''pedicelo desenvolvimento'''
+  |pedunculado
   |+
   ! colspan="2" |'''Flor'''<ref name=":ref_0" />
   |-
-  |'''segmento do cálice'''
-  |subigual
+  |'''sépala postura , glândula e indumento'''
+  |com ápice plano/somente anterior eglandulosa/todo glandulosa/glândula não decurrente/pilosa/ferrugínea
   |-
-  |'''forma dos segmento do cálice'''
-  |espatulado/linear
+  |'''pétala tamanho , postura , carena , aromática , unguículo , consistência , cor e margem'''
+  |reflexa/ereta/sem carena/não odorífera/unguiculada/crassa/amarela/com margem/glandulosa/denticulada
   |-
-  |'''cor da corola'''
-  |lilás claro/lilás
+  |'''antera postura e indumento'''
+  |ereta/glabra
   |-
-  |'''porção mais expandida da corola'''
-  |mais longa que a porção mais estreita
-  |-
-  |'''forma da porção expandida da corola'''
-  |obcônica/curvada
-  |-
-  |'''lobo da corola'''
-  |patente/não revoluto
-  |-
-  |'''posição dos estame'''
-  |incluso
+  |'''estilete tamanho , postura , indumento e ápice'''
+  |todo do mesmo tamanho/não arqueado/reto/divergente distalmente/glabro/com ápice/arredondado
   |+
   ! colspan="2" |'''Fruto'''<ref name=":ref_0" />
   |-
-  |'''forma da cápsula'''
-  |elíptica/oblonga
-  |-
-  |'''placenta unida [[Cápsula (fruto)|cápsula]] rompente'''
-  |não
-  |+
-  ! colspan="2" |'''Semente'''<ref name=":ref_0" />
-  |-
-  |'''número de semente por fruto'''
-  |mais de 8
-  |-
-  |'''tricoma higroscópico'''
-  |desconhecida
+  |'''núcleo seminífero  tamanho , ornamentação e ala lateral'''
+  |liso
   |}
 
 == Conservação ==
@@ -95,17 +97,17 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 
 == Distribuição ==
 A espécie é encontrada nos estados brasileiros de [[Bahia]] e [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]] e [[restinga]].<ref name=":ref_0"/> 
 
 == Notas ==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Fernandes, U.G.; Kameyama, C.; Ezcurra, C.; Indriunas, A.; Pessoa, C.S. ''Ruellia''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Pessoa, C.; Almeida, R.F.; Amorim, A.M.A. ''Heteropterys''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 
 {{Referencias}}
 
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB4201 ''Ruellia curviflora'' no projeto Flora e Funga do Brasil]
-* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Ruellia%20curviflora ''Ruellia curviflora'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8867 ''Heteropterys alternifolia'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Heteropterys%20alternifolia ''Heteropterys alternifolia'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Acanthaceae]][[Categoria:Ruellia]][[Categoria:Plantas descritas em 1823]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
+[[Categoria:Malpighiaceae]][[Categoria:Heteropterys]][[Categoria:Plantas descritas em 1993]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]

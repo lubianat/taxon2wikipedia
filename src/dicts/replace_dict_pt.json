@@ -10,6 +10,7 @@
   "esp.": "de espessura",
   "larg.": "de largura",
   " vs. >": " contra menos de",
+  " , ": ", ",
   "forma dos lobo do cálice": "forma dos lobos do cálice",
   "forma das sépala": "forma das sépalas",
   "formato das folha": "formato das folhas",
@@ -48,5 +49,7 @@
   "cor dos lobo lateral do labelo": "cor dos lobos laterais do labelo",
   "cor das pétala e sépala": "cor das pétalas e sépalas",
   "pecíolo tricoma tipo": "tipo de tricoma do pecíolo",
-  "ornamentação ápice pecíolo": "ornamentação do ápice do pecíolo"
+  "ornamentação ápice pecíolo": "ornamentação do ápice do pecíolo",
+  "posição dos estame": "posição dos estames",
+  "número de semente por fruto": "número de sementes por fruto"
 }
