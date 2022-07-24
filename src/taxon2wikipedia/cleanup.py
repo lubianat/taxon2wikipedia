@@ -15,12 +15,14 @@ def main():
     wikipage_path.write_text(wikipage)
 
 
-DESCRIPTION_DICT = json.loads(DICTS.joinpath("phrase_start.json").read_text())
-
+DESCRIPTION_DICT = json.loads(DICTS.joinpath("phrase_start_dict.json").read_text())
 BOTANICAL_DICT = json.loads(DICTS.joinpath("botanical_terms_wiki_pt.json").read_text())
-
 REPLACE_DICT = json.loads(DICTS.joinpath("replace_dict_pt.json").read_text())
+TABLE_REPLACE_DICT = json.loads(
+    DICTS.joinpath("description_table_replace_dict_pt.json").read_text()
+)
 
+REPLACE_DICT.update(TABLE_REPLACE_DICT)
 # Cannot be factored out into json due to different quote styling
 RESUB_DICT = {
     "compr\n": "de comprimento\n",

@@ -2,112 +2,83 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Malpighiales]]    
+| família                = [[Orchidaceae]]    
+| ordem                  = [[Asparagales]]    
 | divisão                = [[Tracheophyta]]    
+| subfamília             = [[Orchidoideae]]    
 | infrarreino            = [[Streptophyta]]    
+| tribo                  = [[Cranichideae]]    
 | superdivisão           = [[Embryophyta]]    
-| família                = [[Malpighiaceae]]    
+| género                 = [[Pelexia]]    
+| Q3965313               = [[Spiranthinae]]    
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
-| género                 = [[Heteropterys]]    
 | subdomínio             = [[Diaphoretickes]]    
+| espécie                = [[Pelexia laxa]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Heteropterys alternifolia]]    
 }}
-'''''Heteropterys alternifolia''''' é uma espécie de [[planta]] do gênero ''[[Heteropterys]]'' e da família [[Malpighiaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8867|titulo=Heteropterys alternifolia W.R.Anderson|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Pelexia laxa''''' é uma espécie de [[planta]] do gênero ''[[Pelexia]]'' e da família [[Orchidaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB24112|titulo=Pelexia laxa (Poepp. & Endl.) Lindl.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 
 == Taxonomia ==
-A espécie foi descrita em [[1993]] por [[William Russell Anderson]]. <ref>{{Citar web|url=https://www.gbif.org/species/3984640|titulo=Heteropterys alternifolia|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
-O seguinte sinônimo já foi catalogado:  <ref name=":ref_0"/> 
-* ''Banisteria alternifolia''  Steyerm. 
+A espécie foi descrita em [[1840]] por [[John Lindley]]. <ref>{{Citar web|url=https://www.gbif.org/species/2818014|titulo=Pelexia laxa|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/> 
+* ''Stenorrhynchos laxum''  Poepp. &amp; Endl. 
+* ''Gyrostachys longipetiolata''  (Rchb.f.) Kuntze 
+* ''Pelexia curvicalcarata''  (C.Schweinf.) Garay 
+* ''Pelexia lindmaniana''  (Kraenzl.) Schltr. 
+* ''Pelexia longipetiolata''  (Rchb.f.) Schltr. 
+* ''Pelexia maculata''  Rolfe 
+* ''Pelexia weirii''  (Rchb.f.) Schltr. 
+* ''Spiranthes curvicalcarata''  C.Schweinf. 
+* ''Spiranthes longipetiolata''  Rchb.f. 
+* ''Spiranthes maculata''  (Rolfe) C.Schweinf. 
+* ''Spiranthes weirii''  Rchb.f. 
+* ''Stenorrhynchos lindmanianum''  Kraenzl. 
+* ''Stenorrhynchos weirii''  (Rchb.f.) Cogn. 
+* ''Spiranthes laxa''  (Poepp. &amp; Endl.) C.Schweinf. 
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[trepadeira]]. <ref name=":ref_0"/>  
+É uma espécie [[terrícola]] e [[herbácea]]. <ref name=":ref_0"/>  
     
 == Descrição ==
- <div>Heteropterys alternifolia é caracterizada pelas folhas alternas a subopostas, raro opostas e [[lâmina foliar]] com margem fortemente revoluta.</div>  <ref name=":ref_0"/>                      
+
         {| class="wikitable" 
-  |+
-  ! colspan="2" |'''Caule'''<ref name=":ref_0" />
-  |-
-  |'''ramo presença de folha e indumento'''
-  |frondoso/glabrescente
   |+
   ! colspan="2" |'''Folha'''<ref name=":ref_0" />
   |-
-  |'''filotaxia e postura da lâmina'''
-  |alterna/suboposta
+  |'''presença na antese'''
+  |presente
   |-
-  |'''pecíolo indumento e glândula'''
-  |glabrescente/seríceo/glanduloso no terço médio
-  |-
-  |'''lâmina forma , consistência e cor'''
-  |cartácea/elíptica/oval/oboval
-  |-
-  |'''base da lâmina forma'''
-  |cuneada
-  |-
-  |'''ápice da lâmina forma'''
-  |arredondado/obtuso/apiculado
-  |-
-  |'''lâmina indumento face , tipo e cor'''
-  |amba às face/glabrescente/seríceo
-  |-
-  |'''lâmina glândula presença , forma e cor'''
-  |conspícua/impressa/marginal
-  |-
-  |'''margem da lâmina'''
-  |fortemente revoluta
-  |-
-  |'''lâmina arquitetura'''
-  |plana
-  |+
-  ! colspan="2" |'''Sua inflorescência é '''<ref name=":ref_0" />
-  |-
-  |'''inflorescência postura'''
-  |ereta
-  |-
-  |'''bráctea [[bractéola]] forma e e glândula'''
-  |persistente/oval
-  |-
-  |'''pedicelo desenvolvimento'''
-  |pedunculado
+  |'''comprimento do limbo em relação ao pseudopecíolo'''
+  |mais longo
   |+
   ! colspan="2" |'''Flor'''<ref name=":ref_0" />
   |-
-  |'''sépala postura , glândula e indumento'''
-  |com ápice plano/somente anterior eglandulosa/todo glandulosa/glândula não decurrente/pilosa/ferrugínea
+  |'''cálcar forma'''
+  |cônico
   |-
-  |'''pétala tamanho , postura , carena , aromática , unguículo , consistência , cor e margem'''
-  |reflexa/ereta/sem carena/não odorífera/unguiculada/crassa/amarela/com margem/glandulosa/denticulada
+  |'''cálcar ápice'''
+  |arredondado
   |-
-  |'''antera postura e indumento'''
-  |ereta/glabra
-  |-
-  |'''estilete tamanho , postura , indumento e ápice'''
-  |todo do mesmo tamanho/não arqueado/reto/divergente distalmente/glabro/com ápice/arredondado
-  |+
-  ! colspan="2" |'''Fruto'''<ref name=":ref_0" />
-  |-
-  |'''núcleo seminífero  tamanho , ornamentação e ala lateral'''
-  |liso
+  |'''labelo epichilo'''
+  |transversalmente ovado ápice obtuso
   |}
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Bahia]] e [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]] e [[restinga]].<ref name=":ref_0"/> 
+A espécie é encontrada nos estados brasileiros de [[Acre]], [[Amazonas]] e [[Pará]].<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Floresta Amazônica]], em regiões com vegetação de [[floresta estacional semidecidual]] e [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
 
 == Notas ==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Pessoa, C.; Almeida, R.F.; Amorim, A.M.A. ''Heteropterys''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Meneguzzo, T.E.C. ''Pelexia''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 
 {{Referencias}}
 
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8867 ''Heteropterys alternifolia'' no projeto Flora e Funga do Brasil]
-* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Heteropterys%20alternifolia ''Heteropterys alternifolia'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB24112 ''Pelexia laxa'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Pelexia%20laxa ''Pelexia laxa'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Malpighiaceae]][[Categoria:Heteropterys]][[Categoria:Plantas descritas em 1993]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
+[[Categoria:Orchidaceae]][[Categoria:Pelexia]][[Categoria:Plantas descritas em 1840]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
