@@ -51,8 +51,7 @@ def render_ecology(data):
         return ""
     text = f"""
 == Forma de vida ==
-É uma espécie {render_list(substrate, ECOLOGY_WIKI)}. {get_ref_reflora(data)} 
-    """
+É uma espécie {render_list(substrate, ECOLOGY_WIKI)}. {get_ref_reflora(data)} """
     return text
 
 

@@ -5,80 +5,97 @@
 | família                = [[Orchidaceae]]    
 | ordem                  = [[Asparagales]]    
 | divisão                = [[Tracheophyta]]    
-| subfamília             = [[Orchidoideae]]    
+| subfamília             = [[Epidendroideae]]    
 | infrarreino            = [[Streptophyta]]    
-| tribo                  = [[Cranichideae]]    
+| género                 = [[Cattleya]]    
+| Q3965313               = [[Laeliinae]]    
 | superdivisão           = [[Embryophyta]]    
-| género                 = [[Pelexia]]    
-| Q3965313               = [[Spiranthinae]]    
 | subfilo                = [[Euphyllophyta]]    
+| tribo                  = [[Epidendreae]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
-| espécie                = [[Pelexia laxa]]    
+| espécie                = [[Cattleya guttata]]    
 | subreino               = [[Viridiplantae]]    
 }}
-'''''Pelexia laxa''''' é uma espécie de [[planta]] do gênero ''[[Pelexia]]'' e da família [[Orchidaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB24112|titulo=Pelexia laxa (Poepp. & Endl.) Lindl.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-
+'''''Cattleya guttata''''' é uma espécie de [[planta]] do gênero ''[[Cattleya]]'' e da família [[Orchidaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB11336|titulo=Cattleya guttata Lindl.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+Cattleya guttata pertence ao subgênero Intermediae. Ocorre desde Santa Catarina até a Bahia, geralmente na planície costeira, mas penetra para o interior no Paraná, e leste de Minas Gerais. Pode ser separada da espécie mais similar, C. tigrina, por ter flores com diâmetro bem menor (tipicamente 5-6cm), e istmo do [[labelo]] estreito 1-2 (3) mm, e floração em abril/maio (março).  <ref name=":ref_0"/> 
 == Taxonomia ==
-A espécie foi descrita em [[1840]] por [[John Lindley]]. <ref>{{Citar web|url=https://www.gbif.org/species/2818014|titulo=Pelexia laxa|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi descrita em [[1831]] por [[John Lindley]]. <ref>{{Citar web|url=https://www.gbif.org/species/2800942|titulo=Cattleya guttata|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/> 
-* ''Stenorrhynchos laxum''  Poepp. &amp; Endl. 
-* ''Gyrostachys longipetiolata''  (Rchb.f.) Kuntze 
-* ''Pelexia curvicalcarata''  (C.Schweinf.) Garay 
-* ''Pelexia lindmaniana''  (Kraenzl.) Schltr. 
-* ''Pelexia longipetiolata''  (Rchb.f.) Schltr. 
-* ''Pelexia maculata''  Rolfe 
-* ''Pelexia weirii''  (Rchb.f.) Schltr. 
-* ''Spiranthes curvicalcarata''  C.Schweinf. 
-* ''Spiranthes longipetiolata''  Rchb.f. 
-* ''Spiranthes maculata''  (Rolfe) C.Schweinf. 
-* ''Spiranthes weirii''  Rchb.f. 
-* ''Stenorrhynchos lindmanianum''  Kraenzl. 
-* ''Stenorrhynchos weirii''  (Rchb.f.) Cogn. 
-* ''Spiranthes laxa''  (Poepp. &amp; Endl.) C.Schweinf. 
+* ''Cattleya elatior''  Lindl. 
+* ''Cattleya guttata caerulea''  L.C.Menezes 
+* ''Cattleya guttata elatior''  (Lindl.) Fowlie 
+* ''Cattleya guttata munda''  Rchb.f. 
+* ''Cattleya guttata pernambucensis''  Rodigas 
+* ''Cattleya guttata russelliana''  Hook. 
+* ''Cattleya leopoldii pernambucensis''  Brieger 
+* ''Cattleya sphenophora''  C.Morren 
+* ''Epidendrum amethystoglossum''  Rchb.f. 
+* ''Epidendrum elatius''  (Lindl.) Rchb.f. 
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[herbácea]]. <ref name=":ref_0"/>  
-    
+É uma espécie [[epífita]], [[terrícola]] e [[herbácea]]. <ref name=":ref_0"/>  
 == Descrição ==
 
         {| class="wikitable" 
   |+
+  ! colspan="2" |'''Caule'''<ref name=":ref_0" />
+  |-
+  |'''planta'''
+  |rizomatosa
+  |-
+  |'''número de [[entrenó]] do rizoma'''
+  |2
+  |+
   ! colspan="2" |'''Folha'''<ref name=":ref_0" />
   |-
-  |'''presença na antese'''
-  |presente
+  |'''número'''
+  |2/3
   |-
-  |'''comprimento do limbo em relação ao pseudopecíolo'''
-  |mais longo
+  |'''forma'''
+  |elíptico oblonga
+  |+
+  ! colspan="2" |'''Sua inflorescência é '''<ref name=":ref_0" />
+  |-
+  |'''inflorescência em [[pseudobulbo]] diferenciado sem folha'''
+  |não
+  |-
+  |'''bráctea espataceo'''
+  |simples
+  |-
+  |'''número de flores'''
+  |1/2/3/4/5/6/7/8/9/10/mais de 10
   |+
   ! colspan="2" |'''Flor'''<ref name=":ref_0" />
   |-
-  |'''cálcar forma'''
-  |cônico
+  |'''cor das [[pétala]]s e sépalas'''
+  |verde/verde amarelado/esverdeado/castanho/acastanhado/ocre/pintada de castanho
   |-
-  |'''cálcar ápice'''
-  |arredondado
+  |'''forma do labelo'''
+  |trilobado
   |-
-  |'''labelo epichilo'''
-  |transversalmente ovado ápice obtuso
+  |'''cor do lobo mediano do labelo'''
+  |rosa claro/rosa escuro/com verruga purpúrea
+  |-
+  |'''cor dos lobos laterais do labelo'''
+  |branco
   |}
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Acre]], [[Amazonas]] e [[Pará]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Floresta Amazônica]], em regiões com vegetação de [[floresta estacional semidecidual]] e [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
+A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]], [[Pernambuco]], [[Paraná]], [[Rio de Janeiro]], [[Santa Catarina]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]] e [[restinga]].<ref name=":ref_0"/> 
 
 == Notas ==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Meneguzzo, T.E.C. ''Pelexia''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de van den Berg, C. ''Cattleya''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 
 {{Referencias}}
 
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB24112 ''Pelexia laxa'' no projeto Flora e Funga do Brasil]
-* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Pelexia%20laxa ''Pelexia laxa'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB11336 ''Cattleya guttata'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Cattleya%20guttata ''Cattleya guttata'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Orchidaceae]][[Categoria:Pelexia]][[Categoria:Plantas descritas em 1840]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
+[[Categoria:Orchidaceae]][[Categoria:Cattleya]][[Categoria:Plantas descritas em 1831]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
