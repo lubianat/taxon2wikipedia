@@ -1,20 +1,20 @@
 {
     "orcid-identifier": {
-        "uri": "http://orcid.org/0000-0001-6763-7055",
-        "path": "0000-0001-6763-7055",
+        "uri": "http://orcid.org/0000-0003-1737-7085",
+        "path": "0000-0003-1737-7085",
         "host": "orcid.org"
     },
     "preferences": {
         "locale": "EN"
     },
     "history": {
-        "creation-method": "DIRECT",
+        "creation-method": "MEMBER_REFERRED",
         "completion-date": null,
         "submission-date": {
-            "value": 1552553500326
+            "value": 1578672186337
         },
         "last-modified-date": {
-            "value": 1615882261233
+            "value": 1658775431207
         },
         "claimed": true,
         "source": null,
@@ -23,164 +23,402 @@
         "verified-primary-email": true
     },
     "person": {
-        "last-modified-date": {
-            "value": 1583613877266
-        },
+        "last-modified-date": null,
         "name": {
             "created-date": {
-                "value": 1552553500326
+                "value": 1578672186570
             },
             "last-modified-date": {
-                "value": 1552553500559
+                "value": 1578672186570
             },
             "given-names": {
-                "value": "Sara"
+                "value": "Samantha"
             },
             "family-name": {
-                "value": "El Kennani"
+                "value": "Golomb"
             },
             "credit-name": null,
             "source": null,
             "visibility": "PUBLIC",
-            "path": "0000-0001-6763-7055"
+            "path": "0000-0003-1737-7085"
         },
         "other-names": {
             "last-modified-date": null,
             "other-name": [],
-            "path": "/0000-0001-6763-7055/other-names"
+            "path": "/0000-0003-1737-7085/other-names"
         },
         "biography": null,
         "researcher-urls": {
             "last-modified-date": null,
             "researcher-url": [],
-            "path": "/0000-0001-6763-7055/researcher-urls"
+            "path": "/0000-0003-1737-7085/researcher-urls"
         },
         "emails": {
             "last-modified-date": null,
             "email": [],
-            "path": "/0000-0001-6763-7055/email"
+            "path": "/0000-0003-1737-7085/email"
         },
         "addresses": {
             "last-modified-date": null,
             "address": [],
-            "path": "/0000-0001-6763-7055/address"
+            "path": "/0000-0003-1737-7085/address"
         },
         "keywords": {
             "last-modified-date": null,
             "keyword": [],
-            "path": "/0000-0001-6763-7055/keywords"
+            "path": "/0000-0003-1737-7085/keywords"
         },
         "external-identifiers": {
-            "last-modified-date": {
-                "value": 1583613877266
-            },
-            "external-identifier": [
-                {
-                    "created-date": {
-                        "value": 1583613877266
-                    },
-                    "last-modified-date": {
-                        "value": 1583613877266
-                    },
-                    "source": {
-                        "source-orcid": null,
-                        "source-client-id": {
-                            "uri": "http://orcid.org/client/APP-4DPEW6SVSNQHKC8G",
-                            "path": "APP-4DPEW6SVSNQHKC8G",
-                            "host": "orcid.org"
-                        },
-                        "source-name": {
-                            "value": "Loop"
-                        }
-                    },
-                    "external-id-type": "Loop profile",
-                    "external-id-value": "926024",
-                    "external-id-url": {
-                        "value": "http://loop.frontiersin.org/people/926024/overview?referrer=orcid_profile"
-                    },
-                    "external-id-relationship": "SELF",
-                    "visibility": "PUBLIC",
-                    "path": "/0000-0001-6763-7055/external-identifiers/1627006",
-                    "put-code": 1627006,
-                    "display-index": 0
-                }
-            ],
-            "path": "/0000-0001-6763-7055/external-identifiers"
+            "last-modified-date": null,
+            "external-identifier": [],
+            "path": "/0000-0003-1737-7085/external-identifiers"
         },
-        "path": "/0000-0001-6763-7055/person"
+        "path": "/0000-0003-1737-7085/person"
     },
     "activities-summary": {
         "last-modified-date": {
-            "value": 1615882237195
+            "value": 1658775431202
         },
         "educations": {
-            "last-modified-date": null,
-            "education-summary": [],
-            "path": "/0000-0001-6763-7055/educations"
+            "last-modified-date": {
+                "value": 1658775372626
+            },
+            "education-summary": [
+                {
+                    "created-date": {
+                        "value": 1658775372626
+                    },
+                    "last-modified-date": {
+                        "value": 1658775372626
+                    },
+                    "source": {
+                        "source-orcid": {
+                            "uri": "http://orcid.org/0000-0003-1737-7085",
+                            "path": "0000-0003-1737-7085",
+                            "host": "orcid.org"
+                        },
+                        "source-client-id": null,
+                        "source-name": {
+                            "value": "Samantha Golomb"
+                        }
+                    },
+                    "department-name": "Pathology",
+                    "role-title": "PhD",
+                    "start-date": {
+                        "year": {
+                            "value": "2022"
+                        },
+                        "month": {
+                            "value": "06"
+                        },
+                        "day": {
+                            "value": "01"
+                        }
+                    },
+                    "end-date": null,
+                    "organization": {
+                        "name": "The University of Texas Southwestern Medical Center Medical School",
+                        "address": {
+                            "city": "Dallas",
+                            "region": "TX",
+                            "country": "US"
+                        },
+                        "disambiguated-organization": {
+                            "disambiguated-organization-identifier": "25989",
+                            "disambiguation-source": "RINGGOLD"
+                        }
+                    },
+                    "visibility": "PUBLIC",
+                    "put-code": 18133683,
+                    "path": "/0000-0003-1737-7085/education/18133683"
+                },
+                {
+                    "created-date": {
+                        "value": 1578672468345
+                    },
+                    "last-modified-date": {
+                        "value": 1658775339335
+                    },
+                    "source": {
+                        "source-orcid": {
+                            "uri": "http://orcid.org/0000-0003-1737-7085",
+                            "path": "0000-0003-1737-7085",
+                            "host": "orcid.org"
+                        },
+                        "source-client-id": null,
+                        "source-name": {
+                            "value": "Samantha Golomb"
+                        }
+                    },
+                    "department-name": "Biological Sciences",
+                    "role-title": "MS in Biological Sciences",
+                    "start-date": {
+                        "year": {
+                            "value": "2018"
+                        },
+                        "month": {
+                            "value": "08"
+                        },
+                        "day": {
+                            "value": "01"
+                        }
+                    },
+                    "end-date": {
+                        "year": {
+                            "value": "2022"
+                        },
+                        "month": {
+                            "value": "05"
+                        },
+                        "day": {
+                            "value": "15"
+                        }
+                    },
+                    "organization": {
+                        "name": "University of Notre Dame",
+                        "address": {
+                            "city": "Notre Dame",
+                            "region": "IN",
+                            "country": "US"
+                        },
+                        "disambiguated-organization": {
+                            "disambiguated-organization-identifier": "6111",
+                            "disambiguation-source": "RINGGOLD"
+                        }
+                    },
+                    "visibility": "PUBLIC",
+                    "put-code": 9523791,
+                    "path": "/0000-0003-1737-7085/education/9523791"
+                },
+                {
+                    "created-date": {
+                        "value": 1578672411160
+                    },
+                    "last-modified-date": {
+                        "value": 1578672411160
+                    },
+                    "source": {
+                        "source-orcid": {
+                            "uri": "http://orcid.org/0000-0003-1737-7085",
+                            "path": "0000-0003-1737-7085",
+                            "host": "orcid.org"
+                        },
+                        "source-client-id": null,
+                        "source-name": {
+                            "value": "Samantha Golomb"
+                        }
+                    },
+                    "department-name": null,
+                    "role-title": "Bachelor of Science in Microbiology",
+                    "start-date": {
+                        "year": {
+                            "value": "2011"
+                        },
+                        "month": {
+                            "value": "08"
+                        },
+                        "day": {
+                            "value": "01"
+                        }
+                    },
+                    "end-date": {
+                        "year": {
+                            "value": "2015"
+                        },
+                        "month": {
+                            "value": "05"
+                        },
+                        "day": {
+                            "value": "01"
+                        }
+                    },
+                    "organization": {
+                        "name": "Ohio State University",
+                        "address": {
+                            "city": "Columbus",
+                            "region": "OH",
+                            "country": "US"
+                        },
+                        "disambiguated-organization": {
+                            "disambiguated-organization-identifier": "2647",
+                            "disambiguation-source": "RINGGOLD"
+                        }
+                    },
+                    "visibility": "PUBLIC",
+                    "put-code": 9523785,
+                    "path": "/0000-0003-1737-7085/education/9523785"
+                }
+            ],
+            "path": "/0000-0003-1737-7085/educations"
         },
         "employments": {
-            "last-modified-date": null,
-            "employment-summary": [],
-            "path": "/0000-0001-6763-7055/employments"
+            "last-modified-date": {
+                "value": 1658775431202
+            },
+            "employment-summary": [
+                {
+                    "created-date": {
+                        "value": 1658775431202
+                    },
+                    "last-modified-date": {
+                        "value": 1658775431202
+                    },
+                    "source": {
+                        "source-orcid": {
+                            "uri": "http://orcid.org/0000-0003-1737-7085",
+                            "path": "0000-0003-1737-7085",
+                            "host": "orcid.org"
+                        },
+                        "source-client-id": null,
+                        "source-name": {
+                            "value": "Samantha Golomb"
+                        }
+                    },
+                    "department-name": "Pathology",
+                    "role-title": "Graduate Student",
+                    "start-date": {
+                        "year": {
+                            "value": "2022"
+                        },
+                        "month": {
+                            "value": "06"
+                        },
+                        "day": {
+                            "value": "01"
+                        }
+                    },
+                    "end-date": null,
+                    "organization": {
+                        "name": "The University of Texas Southwestern Medical Center Medical School",
+                        "address": {
+                            "city": "Dallas",
+                            "region": "TX",
+                            "country": "US"
+                        },
+                        "disambiguated-organization": {
+                            "disambiguated-organization-identifier": "25989",
+                            "disambiguation-source": "RINGGOLD"
+                        }
+                    },
+                    "visibility": "PUBLIC",
+                    "put-code": 18133687,
+                    "path": "/0000-0003-1737-7085/employment/18133687"
+                },
+                {
+                    "created-date": {
+                        "value": 1578672353607
+                    },
+                    "last-modified-date": {
+                        "value": 1658775400691
+                    },
+                    "source": {
+                        "source-orcid": {
+                            "uri": "http://orcid.org/0000-0003-1737-7085",
+                            "path": "0000-0003-1737-7085",
+                            "host": "orcid.org"
+                        },
+                        "source-client-id": null,
+                        "source-name": {
+                            "value": "Samantha Golomb"
+                        }
+                    },
+                    "department-name": "Biological Sciences",
+                    "role-title": "Graduate Student",
+                    "start-date": {
+                        "year": {
+                            "value": "2018"
+                        },
+                        "month": {
+                            "value": "08"
+                        },
+                        "day": {
+                            "value": "01"
+                        }
+                    },
+                    "end-date": {
+                        "year": {
+                            "value": "2022"
+                        },
+                        "month": {
+                            "value": "05"
+                        },
+                        "day": {
+                            "value": "31"
+                        }
+                    },
+                    "organization": {
+                        "name": "University of Notre Dame",
+                        "address": {
+                            "city": "Notre Dame",
+                            "region": "IN",
+                            "country": "US"
+                        },
+                        "disambiguated-organization": {
+                            "disambiguated-organization-identifier": "6111",
+                            "disambiguation-source": "RINGGOLD"
+                        }
+                    },
+                    "visibility": "PUBLIC",
+                    "put-code": 9523779,
+                    "path": "/0000-0003-1737-7085/employment/9523779"
+                }
+            ],
+            "path": "/0000-0003-1737-7085/employments"
         },
         "fundings": {
             "last-modified-date": null,
             "group": [],
-            "path": "/0000-0001-6763-7055/fundings"
+            "path": "/0000-0003-1737-7085/fundings"
         },
         "peer-reviews": {
             "last-modified-date": null,
             "group": [],
-            "path": "/0000-0001-6763-7055/peer-reviews"
+            "path": "/0000-0003-1737-7085/peer-reviews"
         },
         "works": {
             "last-modified-date": {
-                "value": 1615882237195
+                "value": 1658667692110
             },
             "group": [
                 {
                     "last-modified-date": {
-                        "value": 1615882237152
+                        "value": 1654525924309
                     },
                     "external-ids": {
                         "external-id": [
                             {
-                                "external-id-type": "pmid",
-                                "external-id-value": "32694869",
-                                "external-id-url": null,
-                                "external-id-relationship": "SELF"
-                            },
-                            {
                                 "external-id-type": "doi",
-                                "external-id-value": "10.1038/s41436-020-0898-y",
-                                "external-id-url": null,
+                                "external-id-value": "10.1101/2022.03.28.485781",
+                                "external-id-url": {
+                                    "value": "https://doi.org/10.1101/2022.03.28.485781"
+                                },
                                 "external-id-relationship": "SELF"
                             }
                         ]
                     },
                     "work-summary": [
                         {
-                            "put-code": 90663279,
+                            "put-code": 110789644,
                             "created-date": {
-                                "value": 1615882237152
+                                "value": 1648755958540
                             },
                             "last-modified-date": {
-                                "value": 1615882237152
+                                "value": 1654525924309
                             },
                             "source": {
-                                "source-orcid": {
-                                    "uri": "http://orcid.org/0000-0001-6763-7055",
-                                    "path": "0000-0001-6763-7055",
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0001-9884-1913",
+                                    "path": "0000-0001-9884-1913",
                                     "host": "orcid.org"
                                 },
-                                "source-client-id": null,
                                 "source-name": {
-                                    "value": "Sara El Kennani"
+                                    "value": "Crossref"
                                 }
                             },
                             "title": {
                                 "title": {
-                                    "value": "De novo SMARCA2 variants clustered outside the helicase domain cause a new  recognizable syndrome with intellectual disability and blepharophimosis distinct from Nicolaides-Baraitser syndrome."
+                                    "value": "Maximizing the Anti-tumor Potential of Immune Checkpoint Blockade through Modulation of Myeloid-specific CXCL16 and STAT1 Signaling"
                                 },
                                 "subtitle": null,
                                 "translated-title": null
@@ -188,322 +426,184 @@
                             "external-ids": {
                                 "external-id": [
                                     {
-                                        "external-id-type": "issn",
-                                        "external-id-value": "1530-0366 (Electronic)",
-                                        "external-id-url": null,
-                                        "external-id-relationship": "PART_OF"
-                                    },
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1101/2022.03.28.485781",
+                                        "external-id-url": {
+                                            "value": "https://doi.org/10.1101/2022.03.28.485781"
+                                        },
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "OTHER",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2022"
+                                },
+                                "month": {
+                                    "value": "03"
+                                },
+                                "day": {
+                                    "value": "28"
+                                },
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-1737-7085/work/110789644",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1658667692110
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1016/j.xpro.2021.100537",
+                                "external-id-url": {
+                                    "value": "https://doi.org/10.1016/j.xpro.2021.100537"
+                                },
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 93775778,
+                            "created-date": {
+                                "value": 1620925333538
+                            },
+                            "last-modified-date": {
+                                "value": 1658667692110
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0001-9884-1913",
+                                    "path": "0000-0001-9884-1913",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Crossref"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Isolation of mouse brain-infiltrating leukocytes for single cell profiling of epitopes and transcriptomes"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
                                     {
                                         "external-id-type": "doi",
-                                        "external-id-value": "10.1038/s41436-020-0898-y",
-                                        "external-id-url": null,
-                                        "external-id-relationship": "SELF"
-                                    },
-                                    {
-                                        "external-id-type": "pmid",
-                                        "external-id-value": "32694869",
-                                        "external-id-url": null,
+                                        "external-id-value": "10.1016/j.xpro.2021.100537",
+                                        "external-id-url": {
+                                            "value": "https://doi.org/10.1016/j.xpro.2021.100537"
+                                        },
                                         "external-id-relationship": "SELF"
                                     }
                                 ]
                             },
                             "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2021"
+                                },
+                                "month": {
+                                    "value": "06"
+                                },
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-1737-7085/work/93775778",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654005417679
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1101/2020.07.15.205377",
+                                "external-id-url": {
+                                    "value": "https://doi.org/10.1101/2020.07.15.205377"
+                                },
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 86855903,
+                            "created-date": {
+                                "value": 1610657201652
+                            },
+                            "last-modified-date": {
+                                "value": 1654005417679
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0001-9884-1913",
+                                    "path": "0000-0001-9884-1913",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Crossref"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Multi-modal single cell analysis reveals brain immune landscape plasticity during aging and gut microbiota dysbiosis"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1101/2020.07.15.205377",
+                                        "external-id-url": {
+                                            "value": "https://doi.org/10.1101/2020.07.15.205377"
+                                        },
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "OTHER",
                             "publication-date": {
                                 "year": {
                                     "value": "2020"
                                 },
                                 "month": {
-                                    "value": "11"
+                                    "value": "07"
                                 },
-                                "day": null,
+                                "day": {
+                                    "value": "16"
+                                },
                                 "media-type": null
                             },
                             "visibility": "PUBLIC",
-                            "path": "/0000-0001-6763-7055/work/90663279",
-                            "display-index": "1"
-                        }
-                    ]
-                },
-                {
-                    "last-modified-date": {
-                        "value": 1615882237174
-                    },
-                    "external-ids": {
-                        "external-id": [
-                            {
-                                "external-id-type": "pmid",
-                                "external-id-value": "32182340",
-                                "external-id-url": null,
-                                "external-id-relationship": "SELF"
-                            },
-                            {
-                                "external-id-type": "doi",
-                                "external-id-value": "10.1093/nar/gkaa163",
-                                "external-id-url": null,
-                                "external-id-relationship": "SELF"
-                            }
-                        ]
-                    },
-                    "work-summary": [
-                        {
-                            "put-code": 90663280,
-                            "created-date": {
-                                "value": 1615882237174
-                            },
-                            "last-modified-date": {
-                                "value": 1615882237174
-                            },
-                            "source": {
-                                "source-orcid": {
-                                    "uri": "http://orcid.org/0000-0001-6763-7055",
-                                    "path": "0000-0001-6763-7055",
-                                    "host": "orcid.org"
-                                },
-                                "source-client-id": null,
-                                "source-name": {
-                                    "value": "Sara El Kennani"
-                                }
-                            },
-                            "title": {
-                                "title": {
-                                    "value": "Multi-omic analysis of gametogenesis reveals a novel signature at the promoters and  distal enhancers of active genes."
-                                },
-                                "subtitle": null,
-                                "translated-title": null
-                            },
-                            "external-ids": {
-                                "external-id": [
-                                    {
-                                        "external-id-type": "issn",
-                                        "external-id-value": "1362-4962 (Electronic)",
-                                        "external-id-url": null,
-                                        "external-id-relationship": "PART_OF"
-                                    },
-                                    {
-                                        "external-id-type": "doi",
-                                        "external-id-value": "10.1093/nar/gkaa163",
-                                        "external-id-url": null,
-                                        "external-id-relationship": "SELF"
-                                    },
-                                    {
-                                        "external-id-type": "pmid",
-                                        "external-id-value": "32182340",
-                                        "external-id-url": null,
-                                        "external-id-relationship": "SELF"
-                                    }
-                                ]
-                            },
-                            "type": "JOURNAL_ARTICLE",
-                            "publication-date": {
-                                "year": {
-                                    "value": "2020"
-                                },
-                                "month": {
-                                    "value": "05"
-                                },
-                                "day": null,
-                                "media-type": null
-                            },
-                            "visibility": "PUBLIC",
-                            "path": "/0000-0001-6763-7055/work/90663280",
-                            "display-index": "1"
-                        }
-                    ]
-                },
-                {
-                    "last-modified-date": {
-                        "value": 1615882237195
-                    },
-                    "external-ids": {
-                        "external-id": [
-                            {
-                                "external-id-type": "doi",
-                                "external-id-value": "10.3390/proteomes6030029",
-                                "external-id-url": null,
-                                "external-id-relationship": "SELF"
-                            }
-                        ]
-                    },
-                    "work-summary": [
-                        {
-                            "put-code": 90663281,
-                            "created-date": {
-                                "value": 1615882237195
-                            },
-                            "last-modified-date": {
-                                "value": 1615882237195
-                            },
-                            "source": {
-                                "source-orcid": {
-                                    "uri": "http://orcid.org/0000-0001-6763-7055",
-                                    "path": "0000-0001-6763-7055",
-                                    "host": "orcid.org"
-                                },
-                                "source-client-id": null,
-                                "source-name": {
-                                    "value": "Sara El Kennani"
-                                }
-                            },
-                            "title": {
-                                "title": {
-                                    "value": "Proteomic Analysis of Histone Variants and Their PTMs: Strategies and Pitfalls"
-                                },
-                                "subtitle": null,
-                                "translated-title": null
-                            },
-                            "external-ids": {
-                                "external-id": [
-                                    {
-                                        "external-id-type": "doi",
-                                        "external-id-value": "10.3390/proteomes6030029",
-                                        "external-id-url": null,
-                                        "external-id-relationship": "SELF"
-                                    }
-                                ]
-                            },
-                            "type": "JOURNAL_ARTICLE",
-                            "publication-date": {
-                                "year": {
-                                    "value": "2018"
-                                },
-                                "month": null,
-                                "day": null,
-                                "media-type": null
-                            },
-                            "visibility": "PUBLIC",
-                            "path": "/0000-0001-6763-7055/work/90663281",
-                            "display-index": "1"
-                        }
-                    ]
-                },
-                {
-                    "last-modified-date": {
-                        "value": 1615882236807
-                    },
-                    "external-ids": {
-                        "external-id": [
-                            {
-                                "external-id-type": "doi",
-                                "external-id-value": "10.1186/s13072-017-0172-y",
-                                "external-id-url": null,
-                                "external-id-relationship": "SELF"
-                            }
-                        ]
-                    },
-                    "work-summary": [
-                        {
-                            "put-code": 90663278,
-                            "created-date": {
-                                "value": 1615882236807
-                            },
-                            "last-modified-date": {
-                                "value": 1615882236807
-                            },
-                            "source": {
-                                "source-orcid": {
-                                    "uri": "http://orcid.org/0000-0001-6763-7055",
-                                    "path": "0000-0001-6763-7055",
-                                    "host": "orcid.org"
-                                },
-                                "source-client-id": null,
-                                "source-name": {
-                                    "value": "Sara El Kennani"
-                                }
-                            },
-                            "title": {
-                                "title": {
-                                    "value": "Systematic quantitative analysis of H2A and H2B variants by targeted proteomics"
-                                },
-                                "subtitle": null,
-                                "translated-title": null
-                            },
-                            "external-ids": {
-                                "external-id": [
-                                    {
-                                        "external-id-type": "issn",
-                                        "external-id-value": "1756-8935",
-                                        "external-id-url": null,
-                                        "external-id-relationship": "PART_OF"
-                                    },
-                                    {
-                                        "external-id-type": "doi",
-                                        "external-id-value": "10.1186/s13072-017-0172-y",
-                                        "external-id-url": null,
-                                        "external-id-relationship": "SELF"
-                                    }
-                                ]
-                            },
-                            "type": "JOURNAL_ARTICLE",
-                            "publication-date": {
-                                "year": {
-                                    "value": "2018"
-                                },
-                                "month": null,
-                                "day": null,
-                                "media-type": null
-                            },
-                            "visibility": "PUBLIC",
-                            "path": "/0000-0001-6763-7055/work/90663278",
-                            "display-index": "1"
-                        }
-                    ]
-                },
-                {
-                    "last-modified-date": {
-                        "value": 1615882236781
-                    },
-                    "external-ids": {
-                        "external-id": []
-                    },
-                    "work-summary": [
-                        {
-                            "put-code": 90663277,
-                            "created-date": {
-                                "value": 1615882236781
-                            },
-                            "last-modified-date": {
-                                "value": 1615882236781
-                            },
-                            "source": {
-                                "source-orcid": {
-                                    "uri": "http://orcid.org/0000-0001-6763-7055",
-                                    "path": "0000-0001-6763-7055",
-                                    "host": "orcid.org"
-                                },
-                                "source-client-id": null,
-                                "source-name": {
-                                    "value": "Sara El Kennani"
-                                }
-                            },
-                            "title": {
-                                "title": {
-                                    "value": "MS_HistoneDB, a manually curated resource for proteomic analysis of human and mouse histones"
-                                },
-                                "subtitle": null,
-                                "translated-title": null
-                            },
-                            "external-ids": {
-                                "external-id": []
-                            },
-                            "type": "JOURNAL_ARTICLE",
-                            "publication-date": {
-                                "year": {
-                                    "value": "2017"
-                                },
-                                "month": null,
-                                "day": null,
-                                "media-type": null
-                            },
-                            "visibility": "PUBLIC",
-                            "path": "/0000-0001-6763-7055/work/90663277",
-                            "display-index": "1"
+                            "path": "/0000-0003-1737-7085/work/86855903",
+                            "display-index": "0"
                         }
                     ]
                 }
             ],
-            "path": "/0000-0001-6763-7055/works"
+            "path": "/0000-0003-1737-7085/works"
         },
-        "path": "/0000-0001-6763-7055/activities"
+        "path": "/0000-0003-1737-7085/activities"
     },
-    "path": "/0000-0001-6763-7055"
+    "path": "/0000-0003-1737-7085"
 }

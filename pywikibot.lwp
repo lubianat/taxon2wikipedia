@@ -1,39 +1,39 @@
 #LWP-Cookies-2.0
 Set-Cookie3: GeoIP="BR:RJ:Rio_de_Janeiro:-22.95:-43.34:v4"; path="/"; domain=".wikidata.org"; path_spec; domain_dot; secure; discard; version=0
-Set-Cookie3: WMF-Last-Access-Global="20-Jul-2022"; path="/"; domain=".wikidata.org"; path_spec; domain_dot; secure; expires="2022-08-21 00:00:00Z"; HttpOnly=None; version=0
+Set-Cookie3: WMF-Last-Access-Global="27-Jul-2022"; path="/"; domain=".wikidata.org"; path_spec; domain_dot; secure; expires="2022-08-28 12:00:00Z"; HttpOnly=None; version=0
 Set-Cookie3: GeoIP="BR:SP:S__o_Paulo:-23.53:-46.64:v4"; path="/"; domain=".wikipedia.org"; path_spec; domain_dot; secure; discard; version=0
-Set-Cookie3: WMF-Last-Access-Global="20-Jul-2022"; path="/"; domain=".wikipedia.org"; path_spec; domain_dot; secure; expires="2022-08-21 00:00:00Z"; HttpOnly=None; version=0
-Set-Cookie3: centralauth_Session=870c5752b993fdee01dd2eaf45de8f58; path="/"; domain=".wikipedia.org"; path_spec; domain_dot; secure; discard; HttpOnly=None; SameSite=None; version=0
-Set-Cookie3: centralauth_Token=fd551e05005067f5a67202531a6804fd; path="/"; domain=".wikipedia.org"; path_spec; domain_dot; secure; expires="2023-07-20 11:57:57Z"; HttpOnly=None; SameSite=None; version=0
-Set-Cookie3: centralauth_User=TiagoLubiana; path="/"; domain=".wikipedia.org"; path_spec; domain_dot; secure; expires="2023-07-20 11:57:57Z"; HttpOnly=None; SameSite=None; version=0
-Set-Cookie3: centralauth_ss0-Token=fd551e05005067f5a67202531a6804fd; path="/"; domain=".wikipedia.org"; path_spec; domain_dot; secure; expires="2023-07-20 11:57:57Z"; HttpOnly=None; version=0
-Set-Cookie3: centralauth_ss0-User=TiagoLubiana; path="/"; domain=".wikipedia.org"; path_spec; domain_dot; secure; expires="2023-07-20 11:57:57Z"; HttpOnly=None; version=0
-Set-Cookie3: ss0-centralauth_Session=870c5752b993fdee01dd2eaf45de8f58; path="/"; domain=".wikipedia.org"; path_spec; domain_dot; secure; discard; HttpOnly=None; version=0
-Set-Cookie3: UseCDNCache=false; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2022-07-20 11:58:10Z"; HttpOnly=None; version=0
-Set-Cookie3: UseDC=master; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2022-07-20 11:58:10Z"; HttpOnly=None; version=0
-Set-Cookie3: WMF-Last-Access="20-Jul-2022"; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2022-08-21 00:00:00Z"; HttpOnly=None; version=0
-Set-Cookie3: cpPosIndex="2%401658318280%23d6daee3763b6a614abd072963bf6c276"; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2022-07-20 11:58:10Z"; HttpOnly=None; version=0
-Set-Cookie3: loginnotify_prevlogins="2022-1cgy5pu-rnloif8ldu4v714x4vvo9qyk0t05gce"; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2023-01-16 11:57:57Z"; HttpOnly=None; version=0
-Set-Cookie3: ptwikiSession=pegdqpa58obdi2s3gv77nfi7qh7dq03h; path="/"; domain="pt.wikipedia.org"; path_spec; secure; discard; HttpOnly=None; SameSite=None; version=0
-Set-Cookie3: ptwikiUserID=1309685; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2023-07-20 11:57:57Z"; HttpOnly=None; SameSite=None; version=0
-Set-Cookie3: ptwikiUserName=TiagoLubiana; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2023-07-20 11:57:57Z"; HttpOnly=None; SameSite=None; version=0
-Set-Cookie3: ptwikiss0-UserID=1309685; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2023-07-20 11:57:57Z"; HttpOnly=None; version=0
-Set-Cookie3: ptwikiss0-UserName=TiagoLubiana; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2023-07-20 11:57:57Z"; HttpOnly=None; version=0
-Set-Cookie3: ss0-ptwikiSession=pegdqpa58obdi2s3gv77nfi7qh7dq03h; path="/"; domain="pt.wikipedia.org"; path_spec; secure; discard; HttpOnly=None; version=0
-Set-Cookie3: UseCDNCache=false; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2022-07-20 11:58:19Z"; HttpOnly=None; version=0
-Set-Cookie3: UseDC=master; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2022-07-20 11:58:19Z"; HttpOnly=None; version=0
-Set-Cookie3: WMF-Last-Access="20-Jul-2022"; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2022-08-21 00:00:00Z"; HttpOnly=None; version=0
-Set-Cookie3: centralauth_Session=27278ffc9bddae93f59a774eaa192471; path="/"; domain="www.wikidata.org"; path_spec; secure; discard; HttpOnly=None; SameSite=None; version=0
-Set-Cookie3: centralauth_Token=fd551e05005067f5a67202531a6804fd; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-07-20 11:58:09Z"; HttpOnly=None; SameSite=None; version=0
-Set-Cookie3: centralauth_User=TiagoLubiana; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-07-20 11:58:09Z"; HttpOnly=None; SameSite=None; version=0
-Set-Cookie3: centralauth_ss0-Token=fd551e05005067f5a67202531a6804fd; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-07-20 11:58:09Z"; HttpOnly=None; version=0
-Set-Cookie3: centralauth_ss0-User=TiagoLubiana; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-07-20 11:58:09Z"; HttpOnly=None; version=0
-Set-Cookie3: cpPosIndex="1%401658318289%23c624124d61b2e55e16b768948e763bd1"; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2022-07-20 11:58:19Z"; HttpOnly=None; version=0
-Set-Cookie3: loginnotify_prevlogins="2022-19tolsx-exnh17m5f0pq37wsimdff8c1h959gln"; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-01-16 11:58:09Z"; HttpOnly=None; version=0
-Set-Cookie3: ss0-centralauth_Session=27278ffc9bddae93f59a774eaa192471; path="/"; domain="www.wikidata.org"; path_spec; secure; discard; HttpOnly=None; version=0
-Set-Cookie3: ss0-wikidatawikiSession=i61g4nqtnb425pdl1fvfl8rbl6s685mh; path="/"; domain="www.wikidata.org"; path_spec; secure; discard; HttpOnly=None; version=0
-Set-Cookie3: wikidatawikiSession=i61g4nqtnb425pdl1fvfl8rbl6s685mh; path="/"; domain="www.wikidata.org"; path_spec; secure; discard; HttpOnly=None; SameSite=None; version=0
-Set-Cookie3: wikidatawikiUserID=1095821; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-07-20 11:58:09Z"; HttpOnly=None; SameSite=None; version=0
-Set-Cookie3: wikidatawikiUserName=TiagoLubiana; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-07-20 11:58:09Z"; HttpOnly=None; SameSite=None; version=0
-Set-Cookie3: wikidatawikiss0-UserID=1095821; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-07-20 11:58:09Z"; HttpOnly=None; version=0
-Set-Cookie3: wikidatawikiss0-UserName=TiagoLubiana; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-07-20 11:58:09Z"; HttpOnly=None; version=0
+Set-Cookie3: WMF-Last-Access-Global="27-Jul-2022"; path="/"; domain=".wikipedia.org"; path_spec; domain_dot; secure; expires="2022-08-28 12:00:00Z"; HttpOnly=None; version=0
+Set-Cookie3: centralauth_Session=4b895f6cbfd36da6338a45b11469c3db; path="/"; domain=".wikipedia.org"; path_spec; domain_dot; secure; discard; HttpOnly=None; SameSite=None; version=0
+Set-Cookie3: centralauth_Token=1ce44f640de3ca0c6e2fea93ad299aa4; path="/"; domain=".wikipedia.org"; path_spec; domain_dot; secure; expires="2023-07-27 13:09:30Z"; HttpOnly=None; SameSite=None; version=0
+Set-Cookie3: centralauth_User=TiagoLubiana; path="/"; domain=".wikipedia.org"; path_spec; domain_dot; secure; expires="2023-07-27 13:09:30Z"; HttpOnly=None; SameSite=None; version=0
+Set-Cookie3: centralauth_ss0-Token=1ce44f640de3ca0c6e2fea93ad299aa4; path="/"; domain=".wikipedia.org"; path_spec; domain_dot; secure; expires="2023-07-27 13:09:30Z"; HttpOnly=None; version=0
+Set-Cookie3: centralauth_ss0-User=TiagoLubiana; path="/"; domain=".wikipedia.org"; path_spec; domain_dot; secure; expires="2023-07-27 13:09:30Z"; HttpOnly=None; version=0
+Set-Cookie3: ss0-centralauth_Session=4b895f6cbfd36da6338a45b11469c3db; path="/"; domain=".wikipedia.org"; path_spec; domain_dot; secure; discard; HttpOnly=None; version=0
+Set-Cookie3: UseCDNCache=false; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2022-07-27 13:09:41Z"; HttpOnly=None; version=0
+Set-Cookie3: UseDC=master; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2022-07-27 13:09:41Z"; HttpOnly=None; version=0
+Set-Cookie3: WMF-Last-Access="27-Jul-2022"; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2022-08-28 12:00:00Z"; HttpOnly=None; version=0
+Set-Cookie3: cpPosIndex="2%401658927371%23d6daee3763b6a614abd072963bf6c276"; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2022-07-27 13:09:41Z"; HttpOnly=None; version=0
+Set-Cookie3: loginnotify_prevlogins="2022-15qcplw-95sgxt2qg0tjv2ilg9bwj4uirjnd12v"; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2023-01-23 13:09:30Z"; HttpOnly=None; version=0
+Set-Cookie3: ptwikiSession=k16r5snrqdjdn87k12tdeab93fjhbimc; path="/"; domain="pt.wikipedia.org"; path_spec; secure; discard; HttpOnly=None; SameSite=None; version=0
+Set-Cookie3: ptwikiUserID=1309685; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2023-07-27 13:09:30Z"; HttpOnly=None; SameSite=None; version=0
+Set-Cookie3: ptwikiUserName=TiagoLubiana; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2023-07-27 13:09:30Z"; HttpOnly=None; SameSite=None; version=0
+Set-Cookie3: ptwikiss0-UserID=1309685; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2023-07-27 13:09:30Z"; HttpOnly=None; version=0
+Set-Cookie3: ptwikiss0-UserName=TiagoLubiana; path="/"; domain="pt.wikipedia.org"; path_spec; secure; expires="2023-07-27 13:09:30Z"; HttpOnly=None; version=0
+Set-Cookie3: ss0-ptwikiSession=k16r5snrqdjdn87k12tdeab93fjhbimc; path="/"; domain="pt.wikipedia.org"; path_spec; secure; discard; HttpOnly=None; version=0
+Set-Cookie3: UseCDNCache=false; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2022-07-27 13:09:50Z"; HttpOnly=None; version=0
+Set-Cookie3: UseDC=master; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2022-07-27 13:09:50Z"; HttpOnly=None; version=0
+Set-Cookie3: WMF-Last-Access="27-Jul-2022"; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2022-08-28 12:00:00Z"; HttpOnly=None; version=0
+Set-Cookie3: centralauth_Session=a7b4b9926323e4d13e4ec57d7696323f; path="/"; domain="www.wikidata.org"; path_spec; secure; discard; HttpOnly=None; SameSite=None; version=0
+Set-Cookie3: centralauth_Token=1ce44f640de3ca0c6e2fea93ad299aa4; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-07-27 13:09:40Z"; HttpOnly=None; SameSite=None; version=0
+Set-Cookie3: centralauth_User=TiagoLubiana; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-07-27 13:09:40Z"; HttpOnly=None; SameSite=None; version=0
+Set-Cookie3: centralauth_ss0-Token=1ce44f640de3ca0c6e2fea93ad299aa4; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-07-27 13:09:40Z"; HttpOnly=None; version=0
+Set-Cookie3: centralauth_ss0-User=TiagoLubiana; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-07-27 13:09:40Z"; HttpOnly=None; version=0
+Set-Cookie3: cpPosIndex="1%401658927379%23c624124d61b2e55e16b768948e763bd1"; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2022-07-27 13:09:50Z"; HttpOnly=None; version=0
+Set-Cookie3: loginnotify_prevlogins="2022-cu4aum-kbvdw1x4vmjz02itgqsdxyygsjyb3wm"; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-01-23 13:09:40Z"; HttpOnly=None; version=0
+Set-Cookie3: ss0-centralauth_Session=a7b4b9926323e4d13e4ec57d7696323f; path="/"; domain="www.wikidata.org"; path_spec; secure; discard; HttpOnly=None; version=0
+Set-Cookie3: ss0-wikidatawikiSession=5trvg0u57940svp0a4euhg13rbbgpnn7; path="/"; domain="www.wikidata.org"; path_spec; secure; discard; HttpOnly=None; version=0
+Set-Cookie3: wikidatawikiSession=5trvg0u57940svp0a4euhg13rbbgpnn7; path="/"; domain="www.wikidata.org"; path_spec; secure; discard; HttpOnly=None; SameSite=None; version=0
+Set-Cookie3: wikidatawikiUserID=1095821; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-07-27 13:09:40Z"; HttpOnly=None; SameSite=None; version=0
+Set-Cookie3: wikidatawikiUserName=TiagoLubiana; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-07-27 13:09:40Z"; HttpOnly=None; SameSite=None; version=0
+Set-Cookie3: wikidatawikiss0-UserID=1095821; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-07-27 13:09:40Z"; HttpOnly=None; version=0
+Set-Cookie3: wikidatawikiss0-UserName=TiagoLubiana; path="/"; domain="www.wikidata.org"; path_spec; secure; expires="2023-07-27 13:09:40Z"; HttpOnly=None; version=0
