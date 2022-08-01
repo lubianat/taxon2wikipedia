@@ -54,8 +54,8 @@ def fix_description(wikipage):
 
     """
     for key, value in REPLACE_DICT.items():
-        wikipage = wikipage.replace(key, value)
-
+        wikipage = re.sub(f"([^a-zA-Z]+){key}([^a-zA-Z]+)", f"\\1 {value}\\2", wikipage)
+        wikipage = wikipage.replace("  ", " ")
     for key, value in RESUB_DICT.items():
         wikipage = re.sub(key, value, wikipage)
 
@@ -63,8 +63,8 @@ def fix_description(wikipage):
         wikipage = re.sub(key, value, wikipage, 1)
 
     for key, value in BOTANICAL_DICT.items():
-        wikipage = re.sub(f"( |'){key}( |,|\.|')", f"\\1{value}\\2", wikipage, 1)
-        wikipage = re.sub(f"( |'){key}s( |,|\.|')", f"\\1{value}s\\2", wikipage, 1)
+        wikipage = re.sub(f"([^a-zA-Z]+){key}([^a-zA-Z]+)", f"\\1{value}\\2", wikipage, 1)
+        wikipage = re.sub(f"([^a-zA-Z]+){key}s([^a-zA-Z]+)", f"\\1{value}s\\2", wikipage, 1)
         wikipage = re.sub(f" {key.capitalize} ", f" {value} ", wikipage, 1)
         wikipage = re.sub(f" {key.capitalize}s ", f" {value}s ", wikipage, 1)
 

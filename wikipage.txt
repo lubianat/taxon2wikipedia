@@ -2,62 +2,52 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
+| ordem                  = [[Malpighiales]]    
 | divisão                = [[Tracheophyta]]    
-| ordem                  = [[Alismatales]]    
-| família                = [[Araceae]]    
+| família                = [[Trigoniaceae]]    
 | infrarreino            = [[Streptophyta]]    
 | superdivisão           = [[Embryophyta]]    
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
-| género                 = [[Dracontioides]]    
+| género                 = [[Trigoniodendron]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Dracontioides desciscens]]    
+| espécie                = [[Trigoniodendron spiritusanctense]]    
 }}
-'''''Dracontioides desciscens''''' é uma espécie de [[planta]] do gênero ''[[Dracontioides]]'' e da família [[Araceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB4998|titulo=Dracontioides desciscens (Schott) Engl.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-Espécie helófita que ocorre entre o Sergipe e o Espírito Santo, em áreas úmidas costeiras (brejosas). Frequentemente ocorre formando densos agrupamentos de indivíduos. <ref name=":ref_0"/> 
+'''''Trigoniodendron spiritusanctense''''', também conhecido como '''torradinho-branco''', '''torradinho''', '''torradinho-branco''' ou '''torradinho''', é uma espécie de [[planta]] do gênero ''[[Trigoniodendron]]'' e da família [[Trigoniaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB14974|titulo=Trigoniodendron spiritusanctense E.F.Guim. & Miguel|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+Tipo: Brasil, ESPÍRITO
+SANTO, Reserva Florestal de Linhares Est. 154, talhão 507, 11.XI.1978, J. Spada
+015/77 fl (holótipo RB).
+<h1 style="line-height:150%">Nome
+vulgar: Torradinho, Torradinho branco.</h1>
+<h1 style="line-height:150%">Etimologia: Nome derivado do local onde foi coletado o holótipo</h1>
+Fenologia: Espécie coletada
+com flores nos meses de setembro, outubro e novembro. Com frutos em abril e
+setembro. <ref name=":ref_0"/> 
 == Taxonomia ==
-A espécie foi descrita em [[1911]] por [[Adolf Engler]]. <ref>{{Citar web|url=https://www.gbif.org/species/2866757|titulo=Dracontioides desciscens|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
-O seguinte sinônimo já foi catalogado:  <ref name=":ref_0"/> 
-* ''Urospatha desciscens''  Schott 
-== Forma de vida ==
-É uma espécie aquática e [[herbácea]]. <ref name=":ref_0"/>  
-== Descrição ==
+A espécie foi descrita em [[1987]] por [[J.R. Miguel]], [[J.R. Miguel]], [[Elsie Franklin Guimarães]] e [[Elsie Franklin Guimarães]]. <ref>{{Citar web|url=https://www.gbif.org/species/4196574|titulo=Trigoniodendron spiritusanctense|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
-        {| class="wikitable" 
-  |+
-  ! colspan="2" |'''Folha'''<ref name=":ref_0" />
-  |-
-  |''''''
-  |de comprimento
-  |+
-  ! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
-  |-
-  |''''''
-  |de comprimento
-  |+
-  ! colspan="2" |'''Flor'''<ref name=":ref_0" />
-  |-
-  |'''número de lóculo'''
-  |2
-  |}
+== Forma de vida ==
+É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"/>  
+== Descrição ==
+ Árvores de fuste cilíndrico, estriado, lenticelado, ritidoma castanho escuro, glabros mesmo quando jovens, esfoliante, com ritidoma castanho escuro, 12-15 metros de altura [[estípula]] inteira, caduca, glabra, ovado-lanceolada, aguda, 5-5,5 milímetros de comprimento 0,7–1,3 milímetros de largura [[Pecíolo (botânica)|pecíolo]] cilíndrico, acanalado, glabrescente, 5-6 milímetros de comprimento 0,8–1,2 milímetros diâ metros. Folha alterna, elítica, bicolores, adaxial verde, abaxial cinéreo-tomentosa, ápice agudo ou acuminado, base atenuada a acunheada, margem inteira e ondulada, 3,5-5 centímetros de comprimento 1,3-2,5 centímetros  de largura Sua inflorescência é em [[panícula]] terminal 6,5-8 centímetros de comprimento pedúnculo cilíndrico, glabro, 4-5 milímetros de comprimento 0,5 – 0,8 milímetros diâ metros; [[bráctea]] ovado-lanceolada, pilosa, assimétrica, não glandulosas, 8-9 milímetros de comprimento 2–3 milímetros de largura flores pediceladas, [[Cálice (botânica)|cálice]] com [[sépala]]s ovado-lanceoladas, cano tomentosas, margem galndulosas, 3,5-4 milímetros de comprimento 1,3-1,5 milímetros de largura [[pétala]] externa glabra, reflexa no ápice, giba arredondada, glabra 5-5,5 milímetros de de comprimento espatuladas glabras, 5,5-6 milímetros de comprimento 1,5-2 milímetros de largura carenadas glabras, 5-5,8 milímetros de comprimento 1,2-1,5 milímetros de largura estames 7; [[antera]]s oblongas, 0,6-0,8 milímetros diâ metros; [[estaminódio]]s ausentes; glândulas  2 bilobadas; ovário trilocular, arredondado, piloso, estilete glabro, 1,5-1,8 milímetros de comprimento estigma capituladoPossui [[Cápsula (fruto)|cápsula]] arredondada, trilocular, trivalvar, septicida, 2-4 milímetros de comprimento 1,5-3 milímetros de largura epicarpo com [[tricoma]]s caducos, reticulado internamente; mesocarpo marfim, coriáceo, sulcado; endocarpo livre, marfim, glabro; replum imperceptível; valvas arredondadas, bífidas no ápice, base arredondada, com abertura 2-4,5 milímetros; sementes 4-5 por valvas, envolvidas por pêlos eretos; embrião reto, cotilédones crassos e planos. <ref name=":ref_0"/>   
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]] e [[Sergipe]].<ref name=":ref_0"/> 
-A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]] e [[restinga]].<ref name=":ref_0"/> 
+A espécie é encontrada nos estados brasileiros de [[Espírito Santo (estado)|Espírito Santo]] e [[Rio de Janeiro]].<ref name=":ref_0"/> 
+A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
 
 == Notas ==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Calazans, L.S.B. ''Dracontioides''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Miguel, J.R.; Guimarães, E.F. ''Trigoniaceae''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 
 {{Referencias}}
 
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB4998 ''Dracontioides desciscens'' no projeto Flora e Funga do Brasil]
-* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Dracontioides%20desciscens ''Dracontioides desciscens'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB14974 ''Trigoniodendron spiritusanctense'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Trigoniodendron%20spiritusanctense ''Trigoniodendron spiritusanctense'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Araceae]][[Categoria:Dracontioides]][[Categoria:Plantas descritas em 1911]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
+[[Categoria:Trigoniaceae]][[Categoria:Trigoniodendron]][[Categoria:Plantas descritas em 1987]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
