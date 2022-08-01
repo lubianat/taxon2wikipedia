@@ -163,9 +163,9 @@ def render_domains(data):
     if len(domains) == 0:
         return ""
     elif len(domains) == 1:
-        text = "A espécie é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de "
+        text = "Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de "
     else:
-        text = "A espécie é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de "
+        text = "Em termos ecológicos, é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de "
     text = text + render_list(domains, DOMAINS_WIKI)
     text = text + ","
     vegetations = data["tipoVegetacao"]
