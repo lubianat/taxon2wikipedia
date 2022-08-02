@@ -171,6 +171,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
     print(f"The length of the current page will be {len(wiki_page.encode('utf-8'))}")
     create = input("Create page with pywikibot? (y/n)")
     if create == "y":
+        print("===== Creating Wikipedia page =====")
         site = pywikibot.Site("pt", "wikipedia")
         newPage = pywikibot.Page(site, taxon_name)
         newPage.text = wiki_page
@@ -179,22 +180,36 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
         print("quitting...")
         quit()
 
+    print("===== Setting sitelinks on Wikidata ===== ")
     site = pywikibot.Site("wikidata", "wikidata")
     repo = site.data_repository()
     item = pywikibot.ItemPage(repo, qid)
-
-    webbrowser.open(
-        f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?veaction=edit"""
-    )
-
-    stringclaim = pywikibot.Claim(repo, "P10701")  # Else, add the value
-    stringclaim.setTarget(f"FB{str(reflora_id)}")
-    item.addClaim(stringclaim, summary="Adding a Reflora ID")
     if not "ehSinonimo" in reflora_data or "Correct name" in set(
         reflora_data["statusQualificador"]
     ):
         data = [{"site": "ptwiki", "title": taxon_name.replace(" ", "_")}]
         item.setSitelinks(data)
+
+    webbrowser.open(
+        f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?veaction=edit"""
+    )
+
+    print("===== Adding reflora ID to Wikidata ===== ")
+    stringclaim = pywikibot.Claim(repo, "P10701")
+    stringclaim.setTarget(f"FB{str(reflora_id)}")
+    item.addClaim(stringclaim, summary="Adding a Reflora ID")
+
+    if reflora_data["endemismo"] == "\u00e9 end\u00eamica do Brasil":
+        print("===== Adding endemic status to Wikidata =====")
+        claim = pywikibot.Claim(repo, "P183")
+        target = pywikibot.ItemPage(repo, "Q155")
+        claim.setTarget(target)
+        item.addClaim(claim, summary="Adding endemic status")
+        ref = pywikibot.Claim(repo, "P854")
+        ref.setTarget(
+            f"http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id}"
+        )
+        claim.addSources([ref], summary="Adding sources.")
 
 
 if __name__ == "__main__":
