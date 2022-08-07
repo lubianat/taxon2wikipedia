@@ -49,6 +49,8 @@
   "pétala cor": "cor da pétala",
   "sépala cor": "cor da sépala",
   "sépala forma": "forma da sépala",
+  "sépala formato": "formato da sépala",
+  "pétala formato": "formato da pétala",
   "pétala forma": "forma da pétala",
   "labelo base cor": "cor da base do labelo",
   "labelo forma": "forma do labelo",
@@ -63,5 +65,6 @@
   "perigínia cerda": "cerda da perigínia",
   "lâmina comprimento": "comprimento da lâmina",
   "lâmina largura": "largura da lâmina",
-  "planta base": "base da planta"
+  "planta base": "base da planta",
+  "labelo principal cor e padrão": "cor e padrão do labelo principal"
 }
