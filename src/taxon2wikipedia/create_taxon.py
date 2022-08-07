@@ -23,9 +23,10 @@ def main(taxon_name: str):
         quit()
     qs = f"""
     CREATE
-    LAST|Len|{taxon_name}
-    LAST|Lpt|{taxon_name}
+    LAST|Len|"{taxon_name}"
+    LAST|Lpt|"{taxon_name}"
     LAST|Den|"species"
+    LAST|Den|"espécie"
     LAST|P31|Q16521|S854|"https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Wikiconcurso_Wiki_Loves_Esp%C3%ADrito_Santo/Artigos"
     LAST|P225|"{taxon_name}"
     LAST|P105|Q7432
