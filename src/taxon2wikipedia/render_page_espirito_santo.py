@@ -20,23 +20,10 @@ import pywikibot
 def main(scope_name: str, qid: str, taxon: str, taxon_name: str, reflora_id: str, open_url: bool):
 
     if taxon or taxon_name:
-        if not taxon_name:
-            taxon_name = input("Nome científico do taxon:")
-        taxon_result = search_wikidata(taxon_name)
-        taxon_ok = input(
-            f'Wikidata found {taxon_result["label"]} ({taxon_result["description"]}). Is it correct (y/n)?'
-        )
-        if taxon_ok == "y":
-            qid = taxon_result["id"]
-        else:
-            print("quitting...")
-            quit()
+        qid = get_qid_from_name(taxon_name)
 
-    template_path = Path(f"{HERE}/../data/full_query_taxon.rq.jinja")
-    t = Template(template_path.read_text())
-    query = t.render(taxon=qid)
+    results_df = get_results_dataframe_from_wikidata(qid)
 
-    results_df = get_rough_df_from_wikidata(query)
     parent_taxon_df = get_parent_taxon_df(qid)
 
     family = parent_taxon_df["taxonName.value"][
@@ -65,8 +52,14 @@ def main(scope_name: str, qid: str, taxon: str, taxon_name: str, reflora_id: str
         r = requests.get(reflora_url, verify=False)
         webbrowser.open(reflora_url)
         reflora_id = r.url.split("FB")[-1]
-    reflora_data = get_reflora_data(reflora_id)
-    HERE.joinpath("reflora.json").write_text(json.dumps(reflora_data, indent=4))
+
+    try:
+        reflora_data = get_reflora_data(reflora_id)
+        HERE.joinpath("reflora.json").write_text(json.dumps(reflora_data, indent=4))
+
+        reflora_ok = True
+    except:
+        reflora_ok = False
 
     if len(reflora_data["nomesVernaculos"]) > 0:
         qs = print_qs_for_names(reflora_data, qid)
@@ -76,20 +69,7 @@ def main(scope_name: str, qid: str, taxon: str, taxon_name: str, reflora_id: str
         reflora_data["statusQualificador"]
     ):
         print("Synonym!")
-        synonym_name = reflora_data["ehSinonimo"]
-        synonym_name = re.sub(
-            '<a onclick=.*?taxon">(.*?)<\/div><div class="nomeAutorSinonimo">.*',
-            "\\1",
-            synonym_name,
-        )
-        synonym_name = synonym_name.replace("<span> <i>", "")
-        synonym_name = synonym_name.replace("</i>", "")
-
-        wiki_page = f"#REDIRECIONAMENTO[[{synonym_name}]]"
-
-        site = pywikibot.Site("pt", "wikipedia")
-        print(synonym_name)
-        os.system(f'taxon2wikipedia render --taxon_name="{synonym_name}"')
+        site = render_page_for_synonym(reflora_data)
 
         if not pywikibot.Page(site, taxon_name).exists():
             pass
@@ -212,6 +192,47 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
             f"http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id}"
         )
         claim.addSources([ref], summary="Adding sources.")
+
+
+def render_page_for_synonym(reflora_data):
+    synonym_name = reflora_data["ehSinonimo"]
+    synonym_name = re.sub(
+        '<a onclick=.*?taxon">(.*?)<\/div><div class="nomeAutorSinonimo">.*',
+        "\\1",
+        synonym_name,
+    )
+    synonym_name = synonym_name.replace("<span> <i>", "")
+    synonym_name = synonym_name.replace("</i>", "")
+
+    wiki_page = f"#REDIRECIONAMENTO[[{synonym_name}]]"
+
+    site = pywikibot.Site("pt", "wikipedia")
+    print(synonym_name)
+    os.system(f'taxon2wikipedia render --taxon_name="{synonym_name}"')
+    return site
+
+
+def get_results_dataframe_from_wikidata(qid):
+    template_path = Path(f"{HERE}/../data/full_query_taxon.rq.jinja")
+    t = Template(template_path.read_text())
+    query = t.render(taxon=qid)
+    results_df = get_rough_df_from_wikidata(query)
+    return results_df
+
+
+def get_qid_from_name(taxon_name):
+    if not taxon_name:
+        taxon_name = input("Nome científico do taxon:")
+    taxon_result = search_wikidata(taxon_name)
+    taxon_ok = input(
+        f'Wikidata found {taxon_result["label"]} ({taxon_result["description"]}). Is it correct (y/n)?'
+    )
+    if taxon_ok == "y":
+        qid = taxon_result["id"]
+    else:
+        print("quitting...")
+        quit()
+    return qid
 
 
 if __name__ == "__main__":
