@@ -1,1 +1,130 @@
-#REDIRECIONAMENTO[[Maxillaria parviflora]]
+
+{{Info/Taxonomia
+| imagem                = 
+| reino                  = [[Plantae]]    
+| ordem                  = [[Laurales]]    
+| divisão                = [[Tracheophyta]]    
+| infrarreino            = [[Streptophyta]]    
+| superdivisão           = [[Embryophyta]]    
+| subfilo                = [[Euphyllophyta]]    
+| família                = [[Monimiaceae]]    
+| superdomínio           = [[Biota]]    
+| subdomínio             = [[Diaphoretickes]]    
+| espécie                = [[Mollinedia glabra]]    
+| género                 = [[Mollinedia]]    
+| subreino               = [[Viridiplantae]]    
+}}
+'''''Mollinedia glabra''''' é uma espécie de [[planta]] do gênero ''[[Mollinedia]]'' e da família [[Monimiaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB10085|titulo=Mollinedia glabra (Spreng.) Perkins|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+Endêmica da Floresta Atlântica, nos estados do Espírito Santo e Rio de
+Janeiro, ocorrendo tanto na planície quaternária, em áreas de restinga,
+principalmente na Mata Seca, como na floresta de tabuleiros, de baixada,
+submontana e montana. Aqui tem sua distribuição ampliada para a Bahia e Minas Gerais.
+Infere-se que suas populações eram bem distribuídas nas restingas, restando
+hoje poucas populações, principalmente em unidades de conservação. Mollinedia glabra se diferencia das demais
+espécies do gênero pelas folhas nítidas, glabras, quando secas castanhas, mais
+raro oliváceas, flores com receptáculo urceolado, estames basais com filetes mais
+curtos que os apicais. Mollinedia elliptica Perkins,  Mollinedia viridiflora Tolm. e Mollinedia leiantha Perkins (ex descr.) sao aqui consideradas como novos sinonimos sob M. glabra.  <ref name=":ref_0"/> 
+== Taxonomia ==
+A espécie foi descrita em [[1900]] por [[Janet Russell Perkins]]. <ref>{{Citar web|url=https://www.gbif.org/species/3782658|titulo=Mollinedia glabra|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/> 
+* ''Mollinedia elliptica''  (Gardner) A.DC. 
+* ''Mollinedia leiantha''  Perkins 
+* ''Mollinedia nitida''  Tul. 
+* ''Mollinedia pellucens''  tul. 
+* ''Mollinedia viridiflora''  Tolm. 
+== Forma de vida ==
+É uma espécie [[terrícola]], [[arbustiva]] e [[arbórea]]. <ref name=":ref_0"/>  
+== Descrição ==
+<br> <ref name=":ref_0"/>   
+{| class="wikitable" 
+|+
+! colspan="2" |'''Caule'''<ref name=":ref_0" />
+|-
+|'''superfície da casca externa'''
+|lisa
+|+
+! colspan="2" |'''Folha'''<ref name=":ref_0" />
+|-
+|'''[[filotaxia]]'''
+|oposta
+|-
+|'''forma da lâmina'''
+|elíptica/ovada/estreito elíptica
+|-
+|'''ápice'''
+|acuminado/agudo
+|-
+|'''base'''
+|cuneada/arredondada
+|-
+|'''margem'''
+|inteira/dentada
+|-
+|'''pilosidade da face adaxial'''
+|glabra
+|-
+|'''pilosidade da face abaxial'''
+|glabra
+|-
+|'''cor da folha seca'''
+|verde oliva/castanha
+|-
+|'''consistência'''
+|papirácea/cartácea/coriácea
+|+
+! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
+|-
+|'''tipo da inflorescência estaminada'''
+|[[ Cimeira (botânica)| cimeira]] triflora/cimeira triflora fasciculada
+|+
+! colspan="2" |'''Flor'''<ref name=":ref_0" />
+|-
+|'''pilosidade'''
+|glabro
+|-
+|'''forma do receptáculo da flor estaminada'''
+|urceolado
+|-
+|'''[[tépala]] interna'''
+|não apendiculada
+|-
+|'''forma da [[antera]]'''
+|hipocrepiforme
+|-
+|'''cor dos [[tricoma]]'''
+|glabra
+|+
+! colspan="2" |'''Fruto'''<ref name=":ref_0" />
+|-
+|'''forma da drupéola'''
+|elíptico
+|-
+|'''indumento da drupéola madura'''
+|glabra
+|-
+|'''protuberância no receptáculo frutífero'''
+|presente/ausente
+|-
+|'''superfície da drupéola'''
+|rugosa
+|}
+
+== Conservação ==
+A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
+
+== Distribuição ==
+A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]] e [[Rio de Janeiro]].<ref name=":ref_0"/> 
+Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]] e [[restinga]].<ref name=":ref_0"/> 
+
+== Notas ==
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de ''Monimiaceae''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+
+{{Referencias}}
+
+== Ligações externas ==
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB10085 ''Mollinedia glabra'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Mollinedia%20glabra ''Mollinedia glabra'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+
+{{Controle de autoridade}}
+{{esboço-planta}}
+[[Categoria:Monimiaceae]][[Categoria:Mollinedia]][[Categoria:Plantas descritas em 1900]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]

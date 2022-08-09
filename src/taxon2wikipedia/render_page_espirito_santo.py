@@ -230,6 +230,9 @@ def get_qid_from_name(taxon_name):
     if taxon_ok == "y":
         qid = taxon_result["id"]
     else:
+        create_ok = input("Do you want to create the taxon? (y/n)")
+        if create_ok == "y":
+            os.system(f"taxon2wikipedia create --taxon_name '{taxon_name}'")
         print("quitting...")
         quit()
     return qid
