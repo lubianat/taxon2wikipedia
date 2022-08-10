@@ -45,6 +45,7 @@ RESUB_DICT = {
     " ca. ": " com cerca de ",
     '<p style="margin-bottom: 0px; font-size: 11px; line-height: normal; font-family: Times; color: rgb\(47, 42, 43\);">': "",
     '<i style="font-size: 13px;">': "",
+    "(?<!de) ([1-9]–)": " de \\1",
 }
 
 

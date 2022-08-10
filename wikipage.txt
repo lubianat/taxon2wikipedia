@@ -2,129 +2,75 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Laurales]]    
 | divisão                = [[Tracheophyta]]    
+| ordem                  = [[Magnoliales]]    
 | infrarreino            = [[Streptophyta]]    
 | superdivisão           = [[Embryophyta]]    
+| família                = [[Annonaceae]]    
 | subfilo                = [[Euphyllophyta]]    
-| família                = [[Monimiaceae]]    
+| género                 = [[Oxandra]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
-| espécie                = [[Mollinedia glabra]]    
-| género                 = [[Mollinedia]]    
 | subreino               = [[Viridiplantae]]    
+| espécie                = [[Oxandra reticulata]]    
 }}
-'''''Mollinedia glabra''''' é uma espécie de [[planta]] do gênero ''[[Mollinedia]]'' e da família [[Monimiaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB10085|titulo=Mollinedia glabra (Spreng.) Perkins|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-Endêmica da Floresta Atlântica, nos estados do Espírito Santo e Rio de
-Janeiro, ocorrendo tanto na planície quaternária, em áreas de restinga,
-principalmente na Mata Seca, como na floresta de tabuleiros, de baixada,
-submontana e montana. Aqui tem sua distribuição ampliada para a Bahia e Minas Gerais.
-Infere-se que suas populações eram bem distribuídas nas restingas, restando
-hoje poucas populações, principalmente em unidades de conservação. Mollinedia glabra se diferencia das demais
-espécies do gênero pelas folhas nítidas, glabras, quando secas castanhas, mais
-raro oliváceas, flores com receptáculo urceolado, estames basais com filetes mais
-curtos que os apicais. Mollinedia elliptica Perkins,  Mollinedia viridiflora Tolm. e Mollinedia leiantha Perkins (ex descr.) sao aqui consideradas como novos sinonimos sob M. glabra.  <ref name=":ref_0"/> 
+'''''Oxandra reticulata''''', também conhecido como '''imbiú-mineiro''' ou '''atinha''', é uma espécie de [[planta]] do gênero ''[[Oxandra]]'' e da família [[Annonaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB110501|titulo=Oxandra reticulata Maas|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+
 == Taxonomia ==
-A espécie foi descrita em [[1900]] por [[Janet Russell Perkins]]. <ref>{{Citar web|url=https://www.gbif.org/species/3782658|titulo=Mollinedia glabra|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
-Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/> 
-* ''Mollinedia elliptica''  (Gardner) A.DC. 
-* ''Mollinedia leiantha''  Perkins 
-* ''Mollinedia nitida''  Tul. 
-* ''Mollinedia pellucens''  tul. 
-* ''Mollinedia viridiflora''  Tolm. 
+A espécie foi descrita em [[1986]] por [[Paul Maas]] e [[Paul Maas]]. <ref>{{Citar web|url=https://www.gbif.org/species/3154768|titulo=Oxandra reticulata|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+
 == Forma de vida ==
 É uma espécie [[terrícola]], [[arbustiva]] e [[arbórea]]. <ref name=":ref_0"/>  
 == Descrição ==
-<br> <ref name=":ref_0"/>   
+Arbusto a árvore de 1–12 metros de altura Folha [[Pecíolo (botânica)|pecíolo]] de 2–5 milímetros de comprimento, de 3–10 X de 1–5 centímetros, glabra, nervura primária levemente proeminente a plana na face adaxial, nervuras secundárias de 7–12, ângulo entre a nervura primária e secundárias 45–70°, nervuras terciárias reticuladas em ambas as faces. Ela tem [[flores]] solitárias; [[pedicelo]]s de 3–4 milímetros de comprimento, pedúnculos de 5–7 milímetros de comprimento; [[bráctea]]s de 1–2; [[sépala]]s amplamente ovado-triangulares, de 1–3 X 1,5–3 milímetros; [[pétala]]s elípticas ou obovadas a estreitamente obovadas, de 5–8 X de 2–3 milímetros; estames c. 10, 2,5–3 milímetros de comprimento; carpelos 5 ou menos. Carpídios de 1–4, 13–28 X de 8–17 milímetros, [[estipe]]s de 1–4 milímetros de comprimento Sementes 13–19 X de 7–13 milímetros. <ref name=":ref_0"/>   
 {| class="wikitable" 
-|+
-! colspan="2" |'''Caule'''<ref name=":ref_0" />
-|-
-|'''superfície da casca externa'''
-|lisa
 |+
 ! colspan="2" |'''Folha'''<ref name=":ref_0" />
 |-
-|'''[[filotaxia]]'''
-|oposta
-|-
-|'''forma da lâmina'''
-|elíptica/ovada/estreito elíptica
-|-
 |'''ápice'''
-|acuminado/agudo
+|agudo/emarginado
 |-
 |'''base'''
-|cuneada/arredondada
-|-
-|'''margem'''
-|inteira/dentada
-|-
-|'''pilosidade da face adaxial'''
-|glabra
-|-
-|'''pilosidade da face abaxial'''
-|glabra
-|-
-|'''cor da folha seca'''
-|verde oliva/castanha
+|obtusa/cordada
 |-
 |'''consistência'''
-|papirácea/cartácea/coriácea
-|+
-! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
+|coriácea
 |-
-|'''tipo da inflorescência estaminada'''
-|[[ Cimeira (botânica)| cimeira]] triflora/cimeira triflora fasciculada
+|'''forma'''
+|estreitamente elíptica/elíptica
 |+
 ! colspan="2" |'''Flor'''<ref name=":ref_0" />
 |-
-|'''pilosidade'''
-|glabro
-|-
-|'''forma do receptáculo da flor estaminada'''
-|urceolado
-|-
-|'''[[tépala]] interna'''
-|não apendiculada
-|-
-|'''forma da [[antera]]'''
-|hipocrepiforme
-|-
-|'''cor dos [[tricoma]]'''
-|glabra
+|'''botão-floral'''
+|globoso/elipsoide
 |+
 ! colspan="2" |'''Fruto'''<ref name=":ref_0" />
 |-
-|'''forma da drupéola'''
-|elíptico
+|'''carpídio'''
+|elipsoide/amplamente elipsoide
+|+
+! colspan="2" |'''Semente'''<ref name=":ref_0" />
 |-
-|'''indumento da drupéola madura'''
-|glabra
-|-
-|'''protuberância no receptáculo frutífero'''
-|presente/ausente
-|-
-|'''superfície da drupéola'''
-|rugosa
+|'''forma'''
+|elipsoide
 |}
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]] e [[Rio de Janeiro]].<ref name=":ref_0"/> 
-Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]] e [[restinga]].<ref name=":ref_0"/> 
+A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Goiás]], [[Maranhão]], [[Minas Gerais]], [[Mato Grosso]], [[Pará]], [[Piauí]] e [[Tocantins]].<ref name=":ref_0"/> 
+Em termos ecológicos, é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de [[Caatinga]], [[Cerrado]] e [[Mata Atlântica]], em regiões com vegetação de [[caatinga]], [[cerrado]] e [[floresta estacional semidecidual]].<ref name=":ref_0"/> 
 
 == Notas ==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de ''Monimiaceae''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Lopes, J.C.; Mello-Silva, R. (in memoriam) ''Oxandra''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 
 {{Referencias}}
 
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB10085 ''Mollinedia glabra'' no projeto Flora e Funga do Brasil]
-* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Mollinedia%20glabra ''Mollinedia glabra'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB110501 ''Oxandra reticulata'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Oxandra%20reticulata ''Oxandra reticulata'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Monimiaceae]][[Categoria:Mollinedia]][[Categoria:Plantas descritas em 1900]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
+[[Categoria:Annonaceae]][[Categoria:Oxandra]][[Categoria:Plantas descritas em 1986]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
