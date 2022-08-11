@@ -2,75 +2,75 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
+| ordem                  = [[Malpighiales]]    
 | divisão                = [[Tracheophyta]]    
-| ordem                  = [[Magnoliales]]    
 | infrarreino            = [[Streptophyta]]    
 | superdivisão           = [[Embryophyta]]    
-| família                = [[Annonaceae]]    
+| família                = [[Chrysobalanaceae]]    
 | subfilo                = [[Euphyllophyta]]    
-| género                 = [[Oxandra]]    
 | superdomínio           = [[Biota]]    
+| género                 = [[Couepia]]    
 | subdomínio             = [[Diaphoretickes]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Oxandra reticulata]]    
+| espécie                = [[Couepia carautae]]    
 }}
-'''''Oxandra reticulata''''', também conhecido como '''imbiú-mineiro''' ou '''atinha''', é uma espécie de [[planta]] do gênero ''[[Oxandra]]'' e da família [[Annonaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB110501|titulo=Oxandra reticulata Maas|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Couepia carautae''''', também conhecido como '''milho-torrado''', é uma espécie de [[planta]] do gênero ''[[Couepia]]'' e da família [[Chrysobalanaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB34628|titulo=Couepia carautae Prance|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 
 == Taxonomia ==
-A espécie foi descrita em [[1986]] por [[Paul Maas]] e [[Paul Maas]]. <ref>{{Citar web|url=https://www.gbif.org/species/3154768|titulo=Oxandra reticulata|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi descrita em [[1989]] por [[Ghillean Prance]]. <ref>{{Citar web|url=https://www.gbif.org/species/2984830|titulo=Couepia carautae|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
 == Forma de vida ==
-É uma espécie [[terrícola]], [[arbustiva]] e [[arbórea]]. <ref name=":ref_0"/>  
+É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"/>  
 == Descrição ==
-Arbusto a árvore de 1–12 metros de altura Folha [[Pecíolo (botânica)|pecíolo]] de 2–5 milímetros de comprimento, de 3–10 X de 1–5 centímetros, glabra, nervura primária levemente proeminente a plana na face adaxial, nervuras secundárias de 7–12, ângulo entre a nervura primária e secundárias 45–70°, nervuras terciárias reticuladas em ambas as faces. Ela tem [[flores]] solitárias; [[pedicelo]]s de 3–4 milímetros de comprimento, pedúnculos de 5–7 milímetros de comprimento; [[bráctea]]s de 1–2; [[sépala]]s amplamente ovado-triangulares, de 1–3 X 1,5–3 milímetros; [[pétala]]s elípticas ou obovadas a estreitamente obovadas, de 5–8 X de 2–3 milímetros; estames c. 10, 2,5–3 milímetros de comprimento; carpelos 5 ou menos. Carpídios de 1–4, 13–28 X de 8–17 milímetros, [[estipe]]s de 1–4 milímetros de comprimento Sementes 13–19 X de 7–13 milímetros. <ref name=":ref_0"/>   
+
 {| class="wikitable" 
 |+
 ! colspan="2" |'''Folha'''<ref name=":ref_0" />
 |-
-|'''ápice'''
-|agudo/emarginado
+|'''formato'''
+|oblonga
 |-
-|'''base'''
-|obtusa/cordada
+|'''pilosidade'''
+|glabro
+|+
+! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
 |-
-|'''consistência'''
-|coriácea
-|-
-|'''forma'''
-|estreitamente elíptica/elíptica
+|'''tipo'''
+|racemo
 |+
 ! colspan="2" |'''Flor'''<ref name=":ref_0" />
 |-
-|'''botão-floral'''
-|globoso/elipsoide
+|'''formato do receptáculo'''
+|subcilíndrica
+|-
+|'''número de estames'''
+|25 - 45
+|-
+|'''filete fusão'''
+|livre
 |+
 ! colspan="2" |'''Fruto'''<ref name=":ref_0" />
 |-
-|'''carpídio'''
-|elipsoide/amplamente elipsoide
-|+
-! colspan="2" |'''Semente'''<ref name=":ref_0" />
-|-
-|'''forma'''
-|elipsoide
+|'''epicarpo'''
+|desconhecido
 |}
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Goiás]], [[Maranhão]], [[Minas Gerais]], [[Mato Grosso]], [[Pará]], [[Piauí]] e [[Tocantins]].<ref name=":ref_0"/> 
-Em termos ecológicos, é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de [[Caatinga]], [[Cerrado]] e [[Mata Atlântica]], em regiões com vegetação de [[caatinga]], [[cerrado]] e [[floresta estacional semidecidual]].<ref name=":ref_0"/> 
+A espécie é encontrada no estado brasileiro de [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
+Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
 
 == Notas ==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Lopes, J.C.; Mello-Silva, R. (in memoriam) ''Oxandra''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Sothers, C.A.; Prance, G.T. ''Couepia''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 
 {{Referencias}}
 
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB110501 ''Oxandra reticulata'' no projeto Flora e Funga do Brasil]
-* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Oxandra%20reticulata ''Oxandra reticulata'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34628 ''Couepia carautae'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Couepia%20carautae ''Couepia carautae'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Annonaceae]][[Categoria:Oxandra]][[Categoria:Plantas descritas em 1986]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
+[[Categoria:Chrysobalanaceae]][[Categoria:Couepia]][[Categoria:Plantas descritas em 1989]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
