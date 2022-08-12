@@ -2,7 +2,9 @@
     "mostrarHierarquia": true,
     "distribuicaoGeograficaDuvidaNorte": "",
     "estadosCerteza": [
-        "ES"
+        "ES",
+        "MG",
+        "RJ"
     ],
     "filhosSubspVar": "",
     "possuiImagemVoucherHV": true,
@@ -10,72 +12,76 @@
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
     "exibirMensagemCamposControladosIgual": false,
-    "idTaxon": 34628,
+    "idTaxon": 6314,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
     "distribuicaoGeograficaCertezaSul": "",
     "substrato": [
-        "Terr\u00edcola"
+        "Rup\u00edcola"
     ],
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
     "mostrarDescricaoCamposControlados": true,
-    "id": "FB34628",
+    "id": "FB6314",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiospermas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(85)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Chrysobalanaceae</div><div class=\"nomeAutorSupraGenerico\"> R.Br.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(16761)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Couepia</i></div><div class=\"nomeAutorInfraGenerico\"> Aubl.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(34628)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de herb\u00e1rio \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Couepia carautae</i></div><div class=\"nomeAutorInfraGenerico\"> Prance</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiospermas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(66)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Bromeliaceae</div><div class=\"nomeAutorSupraGenerico\"> A.Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(6307)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Pitcairnia</i></div><div class=\"nomeAutorInfraGenerico\"> L'H\u00e9r.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(6314)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de campo \" src=\"/reflora/layout/default/imagens/listaBrasil/org_img.png\" style=\" vertical-align:middle; padding-bottom: 5px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de herb\u00e1rio \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Pitcairnia decidua</i></div><div class=\"nomeAutorInfraGenerico\"> L.B.Sm.</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
-    "possuiImagemVoucherINCT": true,
+    "possuiImagemVoucherINCT": false,
     "statusQualificador": [
         "Nome aceito",
         "Nome correto"
     ],
-    "mostrarImagensCampos": false,
-    "mostrarDescricaoLivreEN": true,
+    "mostrarImagensCampos": true,
     "distribuicaoGeograficaDuvidaCentroOeste": "",
     "mostrarTipoVegetacao": true,
-    "distribuicaoGeograficaCertezaSudeste": "<b>Sudeste</b> (Esp\u00edrito Santo)<br/>",
+    "distribuicaoGeograficaCertezaSudeste": "<b>Sudeste</b> (Esp\u00edrito Santo, Minas Gerais, Rio de Janeiro)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "Sothers, C.,Alves, F.M.,Prance, G.T. 2015. Chrysobalanaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB34628>http://floradobrasil2015.jbrj.gov.br/FB34628</a>)<br><br>Sothers, C.A., Prance, G.T. 2020. Couepia in Flora do Brasil 2020. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB34628\">https://floradobrasil2020.jbrj.gov.br/FB34628</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
-    "nome": "<span><div class=\"taxon\"> <i>Couepia carautae</i></div><div class=\"nomeAutorInfraGenerico\"> Prance</div></span>",
+    "bibliografiaFixa": "Forzza, R.C.,Costa, A.,Siqueira Filho, J.A.,Martinelli, G.,Monteiro, R.F.,Santos-Silva, F.,Saraiva, D. P.,Paix\u00e3o-Souza, B.,Louzada, R.B.,Versieux, L. 2015. Bromeliaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB6314>http://floradobrasil2015.jbrj.gov.br/FB6314</a>)<br><br>Saraiva, D.P., Forzza, R.C. 2020. Pitcairnia in Flora do Brasil 2020. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB6314\">https://floradobrasil2020.jbrj.gov.br/FB6314</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+    "nome": "<span><div class=\"taxon\"> <i>Pitcairnia decidua</i></div><div class=\"nomeAutorInfraGenerico\"> L.B.Sm.</div></span>",
     "distribuicaoGeograficaCertezaNordeste": "",
     "distribuicaoHidrograficaCerteza": "",
-    "nomeDataplamt": "Couepia carautae",
+    "nomeDataplamt": "Pitcairnia decidua",
     "distribuicaoIlhasPossiveis": "",
+    "comentarioPublicoPT": "<span style=\"font-size: 14pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-style: italic; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Pitcairnia decidua</span><span style=\"font-size: 14pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"> pode ser&nbsp; diferenciada das demais esp\u00e9cies de <span style=\"font-style: italic;\">Pitcairnia</span> de flores vermelhas da Floresta Atl\u00e2ntica por suas l\u00e2minas foliares dec\u00edduas,  com at\u00e9 1 cm larg. e s\u00e9palas ecarenadas. Destaca-se nesta esp\u00e9cie tamb\u00e9m a presen\u00e7a das bases foliares marcescentes.</span><div><span style=\"font-size: 14pt; font-family: Calibri, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Ocorre nos estados de Minas Gerais, Esp\u00edrito Santo e Rio de Janeiro, preferencialmente com campos de altitude. Poucos exemplares s\u00e3o provenientes dos campos rupestres. </span></div>",
     "mostrarCitacao": true,
     "endemismo": "\u00e9 end\u00eamica do Brasil",
     "distribuicaoHidrograficaDuvida": "",
+    "mostrarComentarioPublicoPT": true,
     "mostrarVouchers": true,
     "distribuicaoGeograficaCertezaNorte": "",
     "estadosDuvida": [],
     "formaVida": [
-        "\u00c1rvore"
+        "Erva"
     ],
     "tipoVegetacao": [
-        "Floresta Ombr\u00f3fila (Floresta Pluvial)"
+        "Campo de Altitude",
+        "Vegeta\u00e7\u00e3o Sobre Afloramentos Rochosos"
     ],
     "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB34628&action=print",
+    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB6314&action=print",
     "mostrarSinopsesBrasil": false,
     "origem": "Nativa",
-    "titulo": "Flora e Funga do Brasil - Couepia carautae Prance",
-    "referencias": "<td>Prance, G.T., Flora Neotropica, 9S: 70, 1989.<font color='red'><b> Obra Original</font color></b><br></td>",
+    "titulo": "Flora e Funga do Brasil - Pitcairnia decidua L.B.Sm.",
+    "referencias": "<td>Smith, L.B., Arq. Bot. Estado Sao Paulo, II, 1: 110, 1943.<font color='red'><b> Obra Original</font color></b><br></td>",
     "verificarCitesStatus": true,
     "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
+    "abaDefaultComentarioPublico": "PT",
     "mostrarReferencias": true,
     "mostrarFilhosSubFam": true,
     "dominioFitogeografico": [
+        "Cerrado",
         "Mata Atl\u00e2ntica"
     ],
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "Sothers, C.A.; Prance, G.T. <i>Couepia</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB34628 target='_blank'>https://floradobrasil.jbrj.gov.br/FB34628</a>>. Acesso em:  11 ago. 2022",
+    "citacao": "Saraiva, D.P.; Forzza, R.C. <i>Pitcairnia</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB6314 target='_blank'>https://floradobrasil.jbrj.gov.br/FB6314</a>>. Acesso em:  12 ago. 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Couepia_carautae' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Couepia_carautae</a>",
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Pitcairnia_decidua' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Pitcairnia_decidua</a>",
     "sinopsesBrasil": [
         {
             "rank": "Subesp\u00e9cies",
@@ -92,9 +98,8 @@
     ],
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Couepia carautae Prance",
+    "nomeStr": "Pitcairnia decidua L.B.Sm.",
     "mostrarDominioFitogeografico": true,
-    "descricaoLivreEN": "<div>Trees to 22 m tall. Branches glabrous when young. Leaves: stipules linear, to 1 mm long,</div><div>subpersistent; petioles 6-10 mm long, glabrous, rugulose, terete; lamina narrowly oblong,</div><div>coriaceous, 7-10 \u00d7 2-3.3 cm, subcuneate at base, acuminate at apex with acumen 4-7 mm</div><div>long, finely pointed, glabrous above, glabrous and waxy beneath; midrib prominulous above,</div><div>prominent and almost glabrous beneath, with only a few short stiff hairs; primary veins 16-20</div><div>pairs, plane above, prominent beneath. Inflorescences terminal and subterminal racemes;</div><div>rachis densely yellow-brown sericeous-tomentose. Bracteoles ovate, 6-7 mm long, tomentose</div><div>on exterior, caducous. Receptacle subcylindrical, 7-8 mm long, yellow-brown sericeous on</div><div>exterior, glabrous within; pedicels 0.5 mm long. Calyx lobes 5, acute. Petals 5, glabrous on</div><div>exterior; margins ciliate. Stamens c. 35, inserted around complete circle, filaments exserted.</div><div>Ovary pilose. Style densely hirsute to apex. Fruit not seen.</div>",
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
     "distribuicaoGeograficaDuvidaNordeste": "",
@@ -105,22 +110,15 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>Spada, J.S., 031-78, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125525\" target=\"_blank\">NY</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=228179885' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 239061 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284392984' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124921\" target=\"_blank\">INPA</a> 95325, (ES), <font color='red'><b>Typus</b></font></td>",
+    "vouchers": "<td>Foster, 893, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124713\" target=\"_blank\">GH</a> <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=97116563' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (ES), <font color='red'><b>Typus</b></font><br>Gounelle, s.n., <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125382\" target=\"_blank\">P</a><br>R.M. Castro, 928, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 436915 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284332234' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a><br>R.C. Forzza, 5450, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 476062 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284415966' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, (ES)<br>J.M.L. Gomes, 2054, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=155561\" target=\"_blank\">VIES</a>, (ES)<br>A.P. Fontana, 1996, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125354\" target=\"_blank\">MBML</a>, (ES)<br>R.C. Forzza, 4977, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124237\" target=\"_blank\">CEPEC</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125354\" target=\"_blank\">MBML</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126365\" target=\"_blank\">UPCB</a>, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 473277 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284415046' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a></td>",
     "mostrarTemComoSinonimo": true,
-    "descricaoCamposControlados": "<strong>Folha: </strong><strong>formato</strong> oblonga(s); <strong>pilosidade</strong> glabro(s). <strong>Infloresc\u00eancia: </strong><strong>tipo</strong> racemo(s). <strong>Flor: </strong><strong>recept\u00e1culo formato</strong> subcil\u00edndrica(s); <strong>estame(s) n\u00famero</strong> 25 - 45; <strong>filete(s) fus\u00e3o</strong> livre(s). <strong>Fruto: </strong><strong>epicarpo</strong> desconhecido(s). ",
-    "bibliografiaReferencia": "&lt;p&gt;Prance, G.T. 1989. Chrysobalanaceae (Supplement). Flora Neotropica 9: 1-267&lt;/p&gt;\r\n&lt;p&gt;Prance, G.T. &amp;amp; Sothers, C. A. (2003). Chrysobalanaceae 2, Acioa to Magnistipula. In: A. E. Orchard &amp;amp; A. J. G. Wilson (eds), Species Plantarum: Flora of the World 10. Australian Biological Resources Study, Canberra.&lt;/p&gt;",
-    "abaDefaultDescLivre": "EN",
+    "descricaoCamposControlados": "<strong>Folha: </strong><strong>folha(s)</strong> dim\u00f3rfica(s) com folha(s) externa(s) lanceada(s) e inteira; <strong>folha(s) interna(s)</strong> n\u00e3o constrita(s) entre bainha(s) e limbo; <strong>folha(s) interna(s) dec\u00eddua(s) linha(s) transversal(ais)</strong> presente(s); <strong>folha(s) interna(s) nervura(s) central(ais)</strong> ausente(s) \u00e0 inconsp\u00edcua(s); <strong>l\u00e2mina(s) interna(s)</strong> linear(es) triangular(es) menor(es) que 15 mm de larg.; <strong>folha(s) interna(s) com margem(ns) da</strong> l\u00e2mina(s) inteira; <strong>folha(s) interna(s) indumento</strong> denso(s) lepidoto(s)/flocoso(s). <strong>Infloresc\u00eancia: </strong><strong>tipo</strong> simples racemo(s). <strong>Flor: </strong><strong>br\u00e1ctea(s) floral(ais) compr.</strong> maior(es) que pedicelo(s); <strong>br\u00e1ctea(s) floral(ais) indumento</strong> flocoso(s); <strong>simetria</strong> zigomorfa(s); <strong>pedicelo(s) proximal(ais)</strong> entre 12 e 20 compr. (mm); <strong>s\u00e9pala(s) cor</strong> vermelha; <strong>s\u00e9pala(s) indumento</strong> glabrescente(s); <strong>s\u00e9pala(s) forma</strong> sem carena(s); <strong>p\u00e9tala(s) cor</strong> vermelha; <strong>p\u00e9tala(s) ap\u00eandice(s)</strong> ausente(s); <strong>\u00e1pice(s) p\u00e9tala(s) posi\u00e7\u00e3o</strong> ereta(s) \u00e0 pouco falcada(s); <strong>p\u00e9tala(s) compr. (mm)</strong> entre 40 e 80 compr. (mm). <strong>Semente: </strong><strong>ap\u00eandice(s) forma</strong> caudada(s). ",
+    "bibliografiaReferencia": "",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
     "mostrarChaveIdentificacao": false,
     "mostrarHospedeiroIndeterminado": false,
     "mostrarLinkParaTaxon": true,
-    "nomesVernaculos": [
-        {
-            "lingua": "Portugu\u00eas",
-            "nome": "milho-torrado",
-            "regiao": "sudeste"
-        }
-    ],
+    "nomesVernaculos": [],
     "possuiImagemVoucher": true
 }

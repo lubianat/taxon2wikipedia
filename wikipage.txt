@@ -2,75 +2,79 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Malpighiales]]    
 | divisão                = [[Tracheophyta]]    
+| ordem                  = [[Poales]]    
 | infrarreino            = [[Streptophyta]]    
+| subfamília             = [[Pitcairnioideae]]    
+| género                 = [[Pitcairnia]]    
+| família                = [[Bromeliaceae]]    
 | superdivisão           = [[Embryophyta]]    
-| família                = [[Chrysobalanaceae]]    
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
-| género                 = [[Couepia]]    
 | subdomínio             = [[Diaphoretickes]]    
+| espécie                = [[Pitcairnia decidua]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Couepia carautae]]    
 }}
-'''''Couepia carautae''''', também conhecido como '''milho-torrado''', é uma espécie de [[planta]] do gênero ''[[Couepia]]'' e da família [[Chrysobalanaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB34628|titulo=Couepia carautae Prance|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-
+'''''Pitcairnia decidua''''' é uma espécie de [[planta]] do gênero ''[[Pitcairnia]]'' e da família [[Bromeliaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB6314|titulo=Pitcairnia decidua L.B.Sm.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+Pitcairnia decidua pode ser  diferenciada das demais espécies de Pitcairnia de flores vermelhas da Floresta Atlântica por suas lâminas foliares decíduas, com até 1 centímetros de largura e [[sépala]]s ecarenadas. Destaca-se nesta espécie també metros a presença das bases foliares marcescentes.<div>Ocorre nos estados de Minas Gerais, Espírito Santo e Rio de Janeiro, preferencialmente com campos de altitude. Poucos exemplares são provenientes dos campos rupestres. </div> <ref name=":ref_0"/> 
 == Taxonomia ==
-A espécie foi descrita em [[1989]] por [[Ghillean Prance]]. <ref>{{Citar web|url=https://www.gbif.org/species/2984830|titulo=Couepia carautae|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi descrita em [[1943]] por [[Lyman Bradford Smith]]. <ref>{{Citar web|url=https://www.gbif.org/species/5288191|titulo=Pitcairnia decidua|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"/>  
+É uma espécie [[rupícola]] e [[herbácea]]. <ref name=":ref_0"/>  
 == Descrição ==
 
 {| class="wikitable" 
 |+
 ! colspan="2" |'''Folha'''<ref name=":ref_0" />
 |-
-|'''formato'''
-|oblonga
+|'''folha'''
+|dimórfica com folha externa lanceada e inteira
 |-
-|'''pilosidade'''
-|glabro
+|'''folha interna'''
+|não constrita entre bainha e limbo
+|-
+|'''folha interna decídua linha transversal'''
+|presente
+|-
+|'''folha interna nervura central'''
+|ausente à inconspícua
+|-
+|'''lâmina interna'''
+|linear triangular menor que 15 milímetros de larg
 |+
 ! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
 |-
 |'''tipo'''
-|racemo
+|simples racemo
 |+
 ! colspan="2" |'''Flor'''<ref name=":ref_0" />
 |-
-|'''formato do receptáculo'''
-|subcilíndrica
-|-
-|'''número de estames'''
-|25 - 45
-|-
-|'''filete fusão'''
-|livre
+|''''''
+|[[bráctea]] floral de comprimento
 |+
-! colspan="2" |'''Fruto'''<ref name=":ref_0" />
+! colspan="2" |'''Semente'''<ref name=":ref_0" />
 |-
-|'''epicarpo'''
-|desconhecido
+|'''apêndice forma'''
+|caudada
 |}
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é encontrada no estado brasileiro de [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
-Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
+A espécie é encontrada nos estados brasileiros de [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]] e [[Rio de Janeiro]].<ref name=":ref_0"/> 
+Em termos ecológicos, é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de [[Cerrado]] e [[Mata Atlântica]], em regiões com vegetação de [[campos de altitude]] e vegetação sobre afloramentos rochosos.<ref name=":ref_0"/> 
 
 == Notas ==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Sothers, C.A.; Prance, G.T. ''Couepia''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Saraiva, D.P.; Forzza, R.C. ''Pitcairnia''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 
 {{Referencias}}
 
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34628 ''Couepia carautae'' no projeto Flora e Funga do Brasil]
-* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Couepia%20carautae ''Couepia carautae'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB6314 ''Pitcairnia decidua'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Pitcairnia%20decidua ''Pitcairnia decidua'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Chrysobalanaceae]][[Categoria:Couepia]][[Categoria:Plantas descritas em 1989]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
+[[Categoria:Bromeliaceae]][[Categoria:Pitcairnia]][[Categoria:Plantas descritas em 1943]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
