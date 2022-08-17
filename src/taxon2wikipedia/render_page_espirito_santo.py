@@ -120,8 +120,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 
 == Ligações externas ==
 * [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id} ''{taxon_name}'' no projeto Flora e Funga do Brasil]
-* [{f"http://cncflora.jbrj.gov.br/portal/pt-br/profile/{quote(taxon_name)}"} ''{taxon_name}'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
-
+{render_cnc_flora(taxon_name)}
 {render_additional_reading(qid)}
 
 {{{{Controle de autoridade}}}}

@@ -1,14 +1,30 @@
 #!/usr/bin/env python3
+from cgi import test
 from .qid2taxobox import *
 from .cleanup import *
 from pathlib import Path
 from .process_reflora import *
 from urllib3.exceptions import InsecureRequestWarning
 from urllib3 import disable_warnings
+import requests
+
 
 disable_warnings(InsecureRequestWarning)
 
 HERE = Path(__file__).parent.resolve()
+
+
+def render_cnc_flora(taxon_name):
+    if test_cnc_flora(taxon_name):
+        return f"* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/{quote(taxon_name)} ''{taxon_name}'' no portal do Centro Nacional de Conservação da Flora (Brasil)]"
+    else:
+        return ""
+
+
+def test_cnc_flora(name):
+    url = f"http://cncflora.jbrj.gov.br/portal/pt-br/profile/{name}"
+    response = requests.get(url)
+    return "Avaliador" in response.text
 
 
 # Wikidata-based session rendering
