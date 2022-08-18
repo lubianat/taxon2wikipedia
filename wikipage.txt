@@ -2,45 +2,100 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| família                = [[Orchidaceae]]    
-| ordem                  = [[Asparagales]]    
+| ordem                  = [[Apiales]]    
 | divisão                = [[Tracheophyta]]    
 | infrarreino            = [[Streptophyta]]    
 | superdivisão           = [[Embryophyta]]    
+| família                = [[Araliaceae]]    
 | subfilo                = [[Euphyllophyta]]    
+| subfamília             = [[Aralioideae]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
-| género                 = [[Pabstiella]]    
-| espécie                = [[Pabstiella henrique-aragonii]]    
 | subreino               = [[Viridiplantae]]    
+| género                 = [[Crepinella]]    
+| espécie                = [[Crepinella varisiana]]    
 }}
-'''''Pabstiella henrique-aragonii''''' é uma espécie de [[planta]] do gênero ''[[Pabstiella]]'' e da família [[Orchidaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB127237|titulo=Pabstiella henrique-aragonii (Pabst) Chiron & Xim.Bols.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Crepinella varisiana''''' é uma espécie de [[planta]] do gênero ''[[Crepinella]]'' e da família [[Araliaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB606841|titulo=Crepinella varisiana (Frodin) G.M. Plunkett. Lowry & D.A. Neill|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 
 == Taxonomia ==
-A espécie foi descrita em [[2010]] por [[Ludovic Jean Charles Kollmann]]. <ref>{{Citar web|url=https://www.gbif.org/species/6314826|titulo=Pabstiella henrique-aragonii|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
-Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/> 
-* ''Pleurothallis henrique-aragonii''  Porto ex Pabst 
-* ''Effusiella henrique-aragonii''  (Pabst) Baptista 
-* ''Specklinia henrique-aragonii''  (Pabst) Luer 
-== Forma de vida ==
-É uma espécie [[epífita]] e [[herbácea]]. <ref name=":ref_0"/>  
+A espécie foi descrita em [[2019]] por [[David Neill]], [[Gregory M. Plunkett]] e [[Porter Peter Lowry]]. 
+O seguinte sinônimo já foi catalogado:  <ref name=":ref_0"/> 
+* ''Schefflera varisiana''  Frodin 
 
+== Descrição ==
+
+{| class="wikitable" 
+|+
+! colspan="2" |'''Folha'''<ref name=":ref_0" />
+|-
+|'''número de folíolo'''
+|6/7
+|-
+|'''forma das lâminas'''
+|obovada
+|-
+|'''base das lâmina'''
+|atenuada/cuneada
+|-
+|'''ápice das lâminas'''
+|obtuso/arredondado
+|-
+|'''face abaxial'''
+|serícea
+|-
+|'''nervura primária na face adaxial'''
+|saliente/canaliculada
+|-
+|'''nervura secundária na face adaxial'''
+|impressa
+|-
+|'''nervura terciária na face adaxial'''
+|impressa
+|+
+! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
+|-
+|'''número de ramo primário'''
+|4/5/6
+|-
+|'''ramo secundário'''
+|presente
+|-
+|'''verticilo acessório de ramo secundário'''
+|1
+|-
+|'''número de ramo no verticilo secundário'''
+|5 ou mais
+|-
+|'''número de ramo secundário terminal'''
+|16 ou mais
+|-
+|'''ramo terciário'''
+|ausente
+|-
+|'''umbela terminal'''
+|com 10 - 15 flor
+|+
+! colspan="2" |'''Flor'''<ref name=":ref_0" />
+|-
+|'''[[pedicelo]] floral'''
+|com 4 - 10 milímetros de comprimento
+|}
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Espírito Santo (estado)|Espírito Santo]] e [[Rio de Janeiro]].<ref name=":ref_0"/> 
-Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
+A espécie é .<ref name=":ref_0"/> 
+
 
 == Notas ==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de ''Pabstiella''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Fiaschi, P.; Nery, E.K. ''Araliaceae''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 
 {{Referencias}}
 
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB127237 ''Pabstiella henrique-aragonii'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB606841 ''Crepinella varisiana'' no projeto Flora e Funga do Brasil]
 
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Orchidaceae]][[Categoria:Pabstiella]][[Categoria:Plantas descritas em 2010]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
+[[Categoria:Araliaceae]][[Categoria:Crepinella]][[Categoria:Plantas descritas em 2019]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
