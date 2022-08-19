@@ -15,22 +15,18 @@
 | género                 = [[Phymatidium]]    
 | subdomínio             = [[Diaphoretickes]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Phymatidium falcifolium]]    
+| espécie                = [[Phymatidium geiselii]]    
 }}
-'''''Phymatidium falcifolium''''' é uma espécie de [[planta]] do gênero ''[[Phymatidium]]'' e da família [[Orchidaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB11993|titulo=Phymatidium falcifolium Lindl.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-A forma vegetativa de Phymatidium falcifolium, principalmente pelas folhas conduplicadas, longas e caudadas,
-distribuídas em espiral densa ao longo do caule relativamente alongado, lembram
-em seu conjunto pequenas Tillandsias (Bromeliaceae)
-e de imediato o distinguem das outras espécies de Phymatidium. <ref name=":ref_0"/> 
+'''''Phymatidium geiselii''''' é uma espécie de [[planta]] do gênero ''[[Phymatidium]]'' e da família [[Orchidaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB38067|titulo=Phymatidium geiselii Ruschi|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+Phymatidium geiselii é reconhecida pelas folhas unifaciais alongadas, as [[sépala]]s laterais e [[pétala]]s curvadas para cima, o [[labelo]] rômbico e a tábula infraestigmática pequena.  <ref name=":ref_0"/> 
 == Taxonomia ==
-A espécie foi descrita em [[1833]] por [[John Lindley]]. <ref>{{Citar web|url=https://www.gbif.org/species/2806979|titulo=Phymatidium falcifolium|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
-Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/> 
-* ''Phymatidium lopesii''  Ruschi 
-* ''Phymatidium tillandsioides''  Barb.Rodr. 
+
+O seguinte sinônimo já foi catalogado:  <ref name=":ref_0"/> 
+* ''Phymatidium glaziovii''  Toscano 
 == Forma de vida ==
 É uma espécie [[epífita]] e [[herbácea]]. <ref name=":ref_0"/>  
 == Descrição ==
-<div style="text-align: justify;">Planta com c. 50 milímetros de altura Raízes glabras. Ela tem [[folhas]] bifaciais, acuminadas. Sua inflorescência é glabra. Ela tem [[flores]] com [[pedicelo]] glabro e ovário angular. Sépala dorsal oblongo-lanceolada ou elíptica, patente, aguda a obtusa. Sépalas laterais ovado a oblongo-lanceoladas ou elípticas, patentes, agudas a obtusas. Pétalas oblongas, ovadas ou ovado-lanceoladas, patentes, agudas a obtusas. Labelo inteiro, oblongo, ovado ou obovado, obtuso; margens laterais deflexas, eroso-laceradas, margem frontal inteira, ondulada; disco provido de calosidade branca, ovada, cobrindo cerca de ¾ do [[labelo]]. Coluna levemente arqueada, desprovida de aurículas no ápice; rostelo curto, curvado para frente; cavidade estigmática pequena, ovado-lanceolada; tábula infraestigmática crassa, trilobada em vista dorsal, a porção central verde reluzente, os lóbulos laterais mais claros, voltados para cima em forma de aurículas grandes intumescidas; [[antera]] prolongada em bico muito curto, sem dentes laterais próximo ao ápice emarginado; polinário com [[estipe]] cuneado, truncado na região de inserção das polínias, viscídio oblongo.</div> <ref name=":ref_0"/>   
+<div style="text-align: justify;">Planta com c. de 60 milímetros de altura Raizes glabras. Ela tem [[folhas]] unifaciais ápice agudo. Sua inflorescência é glabra. Ela tem [[flores]] com [[pedicelo]] glabro, ovário angular. Sépala dorsal lanceolada, ápice agudo. Sépalas laterais lanceoladas, curvadas para cima, ápice agudo. Pétalas lanceolada, curvadas para cima, ápice agudo. Possui [[[[labelo]]]]  trilobado, rômbico; ápice agudo, margens irregulares, sobretudo na região mediana; disco provido de calosidade verde com as margens mais claras, ligulada. Coluna patente a levemente recurvada, auriculada na região apical, as aurículas ovadas quando explanadas, distintamente papilosas; rostelo curto, curvado para cima; cavidade estigmática pequena, ovada; tábula infraestigmática relativamente pequena, obovada; [[antera]] prolongada em um bico curto, levemente emarginado e flanqueado por um par de pequeníssimos dentes; [[polinário]] com [[estipe]] ovado-cuneado, não bifurcado, subtruncado na área de inserção das [[polínia]]s, [[viscídio]] ovado à côncavo.</div> <ref name=":ref_0"/>   
 {| class="wikitable" 
 |+
 ! colspan="2" |'''Raiz'''<ref name=":ref_0" />
@@ -41,49 +37,49 @@ Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/>
 ! colspan="2" |'''Caule'''<ref name=":ref_0" />
 |-
 |'''caule'''
-|conspícuo
+|inconspícuo
 |+
 ! colspan="2" |'''Folha'''<ref name=":ref_0" />
 |-
 |'''folha'''
-|bifacial
+|unifacial
 |-
 |'''forma'''
-|lanceolada
+|linear
 |+
 ! colspan="2" |'''Flor'''<ref name=":ref_0" />
 |-
 |'''coluna aurícula'''
-|ausente
+|presente
 |-
 |'''coluna aurícula ornamentação'''
-|não
+|papilosa
 |-
 |'''coluna tábula infraestigmática'''
 |presente
 |-
 |'''forma do [[labelo]]'''
-|oblongo
+|rômbico
 |-
 |'''labelo margem'''
 |irregular
 |-
 |'''[[pétala]]'''
-|perpendicular
+|inflexa
 |-
 |'''[[sépala]] dorsal'''
-|perpendicular
+|inflexa
 |-
 |'''sépala lateral'''
-|perpendicular
+|inflexa
 |}
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Paraná]], [[Rio de Janeiro]], [[Santa Catarina]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
-Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Vegetação ripária|mata ciliar]], [[Floresta húmida|floresta ombrófila pluvial]] e [[floresta ombrófila mista|mata de araucária]].<ref name=":ref_0"/> 
+A espécie é encontrada nos estados brasileiros de [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]], [[Rio de Janeiro]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
+Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[campos de altitude]] e [[Vegetação ripária|mata ciliar]].<ref name=":ref_0"/> 
 
 == Notas ==
 Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Royer, C.A.; Smidt, E.C.; Brito, A.L.V.T. ''Phymatidium''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
@@ -91,9 +87,9 @@ Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Royer, C.A.; Smi
 {{Referencias}}
 
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB11993 ''Phymatidium falcifolium'' no projeto Flora e Funga do Brasil]
-* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Phymatidium%20falcifolium ''Phymatidium falcifolium'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB38067 ''Phymatidium geiselii'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Phymatidium%20geiselii ''Phymatidium geiselii'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Orchidaceae]][[Categoria:Phymatidium]][[Categoria:Plantas descritas em 1833]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
+[[Categoria:Orchidaceae]][[Categoria:Phymatidium]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
