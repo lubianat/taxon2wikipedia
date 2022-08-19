@@ -1,7 +1,3483 @@
 {
-    "response-code": 404,
-    "developer-message": "404 Not Found: The resource was not found. Full validation error: ORCID iD 000-0001-7309-1300 not found",
-    "user-message": "The resource was not found.",
-    "error-code": 9016,
-    "more-info": "https://members.orcid.org/api/resources/troubleshooting"
+    "orcid-identifier": {
+        "uri": "http://orcid.org/0000-0003-4425-1189",
+        "path": "0000-0003-4425-1189",
+        "host": "orcid.org"
+    },
+    "preferences": {
+        "locale": "EN"
+    },
+    "history": {
+        "creation-method": "DIRECT",
+        "completion-date": null,
+        "submission-date": {
+            "value": 1593790259943
+        },
+        "last-modified-date": {
+            "value": 1654616357576
+        },
+        "claimed": true,
+        "source": null,
+        "deactivation-date": null,
+        "verified-email": true,
+        "verified-primary-email": true
+    },
+    "person": {
+        "last-modified-date": null,
+        "name": {
+            "created-date": {
+                "value": 1593790260179
+            },
+            "last-modified-date": {
+                "value": 1593790260179
+            },
+            "given-names": {
+                "value": "Anastasios"
+            },
+            "family-name": {
+                "value": "Damdimopoulos"
+            },
+            "credit-name": null,
+            "source": null,
+            "visibility": "PUBLIC",
+            "path": "0000-0003-4425-1189"
+        },
+        "other-names": {
+            "last-modified-date": null,
+            "other-name": [],
+            "path": "/0000-0003-4425-1189/other-names"
+        },
+        "biography": null,
+        "researcher-urls": {
+            "last-modified-date": null,
+            "researcher-url": [],
+            "path": "/0000-0003-4425-1189/researcher-urls"
+        },
+        "emails": {
+            "last-modified-date": null,
+            "email": [],
+            "path": "/0000-0003-4425-1189/email"
+        },
+        "addresses": {
+            "last-modified-date": null,
+            "address": [],
+            "path": "/0000-0003-4425-1189/address"
+        },
+        "keywords": {
+            "last-modified-date": null,
+            "keyword": [],
+            "path": "/0000-0003-4425-1189/keywords"
+        },
+        "external-identifiers": {
+            "last-modified-date": null,
+            "external-identifier": [],
+            "path": "/0000-0003-4425-1189/external-identifiers"
+        },
+        "path": "/0000-0003-4425-1189/person"
+    },
+    "activities-summary": {
+        "last-modified-date": {
+            "value": 1654616357574
+        },
+        "educations": {
+            "last-modified-date": null,
+            "education-summary": [],
+            "path": "/0000-0003-4425-1189/educations"
+        },
+        "employments": {
+            "last-modified-date": {
+                "value": 1649695865578
+            },
+            "employment-summary": [
+                {
+                    "created-date": {
+                        "value": 1649695865578
+                    },
+                    "last-modified-date": {
+                        "value": 1649695865578
+                    },
+                    "source": {
+                        "source-orcid": null,
+                        "source-client-id": {
+                            "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                            "path": "0000-0002-7539-5209",
+                            "host": "orcid.org"
+                        },
+                        "source-name": {
+                            "value": "Karolinska Institutet"
+                        }
+                    },
+                    "department-name": "Department of Biosciences and Nutrition",
+                    "role-title": null,
+                    "start-date": null,
+                    "end-date": null,
+                    "organization": {
+                        "name": "Karolinska Institutet",
+                        "address": {
+                            "city": "Stockholm",
+                            "region": "",
+                            "country": "SE"
+                        },
+                        "disambiguated-organization": null
+                    },
+                    "visibility": "PUBLIC",
+                    "put-code": 17431078,
+                    "path": "/0000-0003-4425-1189/employment/17431078"
+                }
+            ],
+            "path": "/0000-0003-4425-1189/employments"
+        },
+        "fundings": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0003-4425-1189/fundings"
+        },
+        "peer-reviews": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0003-4425-1189/peer-reviews"
+        },
+        "works": {
+            "last-modified-date": {
+                "value": 1654616357574
+            },
+            "group": [
+                {
+                    "last-modified-date": {
+                        "value": 1654148539284
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1101/2021.10.05.463166",
+                                "external-id-url": {
+                                    "value": "https://doi.org/10.1101/2021.10.05.463166"
+                                },
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 101445993,
+                            "created-date": {
+                                "value": 1634191297536
+                            },
+                            "last-modified-date": {
+                                "value": 1654148539284
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0001-9884-1913",
+                                    "path": "0000-0001-9884-1913",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Crossref"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Chromatin binding of survivin regulates glucose metabolism in the IFN-\u03b3 producing CD4+ T cells"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1101/2021.10.05.463166",
+                                        "external-id-url": {
+                                            "value": "https://doi.org/10.1101/2021.10.05.463166"
+                                        },
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "OTHER",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2021"
+                                },
+                                "month": {
+                                    "value": "10"
+                                },
+                                "day": {
+                                    "value": "05"
+                                },
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/101445993",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357536
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1038/nm.4114",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "27270589",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "133875034",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258371,
+                            "created-date": {
+                                "value": 1649695882190
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357536
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Loss of the co-repressor GPS2 sensitizes macrophage activation upon metabolic stress induced by obesity and type 2 diabetes"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "27270589",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1038/nm.4114",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "133875034",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2016"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258371",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357542
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "27490311",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "134450540",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1210/en.2016-1252",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258372,
+                            "created-date": {
+                                "value": 1649695882690
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357542
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "The Hydroxysteroid (17\u03b2) Dehydrogenase Family Gene HSD17B12 Is Involved in the Prostaglandin Synthesis Pathway, the Ovarian Function, and Regulation of Fertility"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "27490311",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1210/en.2016-1252",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "134450540",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2016"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258372",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357549
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "26464515",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1042/BSR20150236",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "132760464",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258373,
+                            "created-date": {
+                                "value": 1649695883032
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357549
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "The expression and activity of thioredoxin reductase 1 splice variants v1 and v2 regulate the expression of genes associated with differentiation and adhesion"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "26464515",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1042/BSR20150236",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "132760464",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2015"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258373",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357498
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "123165619",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.3945/jn.111.140277",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "21753063",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258365,
+                            "created-date": {
+                                "value": 1649695879759
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357498
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "A Single Dose of Enterolactone Activates Estrogen Signaling and Regulates Expression of Circadian Clock Genes in Mice"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "21753063",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.3945/jn.111.140277",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "123165619",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2011"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258365",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357517
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1186/1477-7827-9-128",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "123355547",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "21942998",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258368,
+                            "created-date": {
+                                "value": 1649695880864
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357517
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Members of the murine Pate family are predominantly expressed in the epididymis in a segment-specific fashion and regulated by androgens and other testicular factors"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "21942998",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1186/1477-7827-9-128",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "123355547",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2011"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258368",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357504
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1101/gad.545110",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "20159957",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "120027649",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258366,
+                            "created-date": {
+                                "value": 1649695880239
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357504
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "GPS2-dependent corepressor/SUMO pathways govern anti-inflammatory actions of LRH-1 and LXR beta in the hepatic acute phase response"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "20159957",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1101/gad.545110",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "120027649",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2010"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258366",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357568
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "19237537",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "118514197",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1128/MCB.00743-08",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258376,
+                            "created-date": {
+                                "value": 1649695884398
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357568
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "E3 Ubiquitin Ligase RNF31 Cooperates with DAX-1 in Transcriptional Repression of Steroidogenesis"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "19237537",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1128/MCB.00743-08",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "118514197",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2009"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258376",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357469
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "118870788",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "19481530",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1016/j.molcel.2009.05.006",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258360,
+                            "created-date": {
+                                "value": 1649695877361
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357469
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "GPS2 Is Required for Cholesterol Efflux by Triggering Histone Demethylation, LXR Recruitment, and Coregulator Assembly at the ABCG1 Locus"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "19481530",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1016/j.molcel.2009.05.006",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "118870788",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2009"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258360",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357410
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "19654027",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "119410919",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1016/j.bbamcr.2009.07.007",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258348,
+                            "created-date": {
+                                "value": 1649695872041
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357410
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "The human thioredoxin reductase-1 splice variant TXNRD1_v3 is an atypical inducer of cytoplasmic filaments and cell membrane filopodia"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "19654027",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1016/j.bbamcr.2009.07.007",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "119410919",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2009"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258348",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357389
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "18042542",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "116509892",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1074/jbc.M708939200",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258344,
+                            "created-date": {
+                                "value": 1649695869929
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357389
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Induction of cell membrane protrusions by the N-terminal glutaredoxin domain of a rare splice variant of human thioredoxin reductase 1"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "18042542",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1074/jbc.M708939200",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "116509892",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2008"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258344",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357395
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1210/en.2007-0198",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "116340747",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "17884941",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258345,
+                            "created-date": {
+                                "value": 1649695870498
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357395
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Ligands differentially modify the nuclear mobility of estrogen receptors alpha and beta"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "17884941",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1210/en.2007-0198",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "116340747",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2008"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258345",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357523
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "17412810",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "115580001",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1210/en.2007-0018",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258369,
+                            "created-date": {
+                                "value": 1649695881483
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357523
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Bfk, a novel member of the Bcl2 gene family, is highly expressed in principal cells of the mouse epididymis and demonstrates a predominant nuclear localization"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "17412810",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1210/en.2007-0018",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "115580001",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2007"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258369",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357383
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "17628008",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1210/en.2007-0289",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "115922400",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258343,
+                            "created-date": {
+                                "value": 1649695869286
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357383
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Diet-derived polyphenol metabolite enterolactone is a tissue-specific estrogen receptor activator"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "17628008",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1210/en.2007-0289",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "115922400",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2007"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258343",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357450
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1016/j.bbamcr.2007.03.022",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "17493694",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "115617299",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258356,
+                            "created-date": {
+                                "value": 1649695875543
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357450
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Nuclear immobilization of DsRed1 tagged proteins: A novel tool for studying DNA-protein interactions?"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "17493694",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1016/j.bbamcr.2007.03.022",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "115617299",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2007"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258356",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357400
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "14012275",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "17220299",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1074/jbc.M608289200",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258346,
+                            "created-date": {
+                                "value": 1649695871388
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357400
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Thioredoxin 1 and thioredoxin 2 have opposed regulatory functions on hypoxia-inducible factor-1 alpha"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "17220299",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1074/jbc.M608289200",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "14012275",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2007"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258346",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357486
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "15935149",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "1961869",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1016/j.bcp.2005.02.023",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258363,
+                            "created-date": {
+                                "value": 1649695878646
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357486
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "The role of thioredoxin reductase activity in selenium-induced cytotoxicity"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "15935149",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1016/j.bcp.2005.02.023",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "1961869",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2005"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258363",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357356
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "1930264",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "15199063",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1074/jbc.M402753200",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258339,
+                            "created-date": {
+                                "value": 1649695866495
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357356
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "An alternative splicing variant of the selenoprotein thioredoxin reductase is a modulator of estrogen signaling"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "15199063",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1074/jbc.M402753200",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "1930264",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2004"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258339",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357456
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "1957793",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1016/j.freeradbiomed.2004.02.072",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "15110392",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258357,
+                            "created-date": {
+                                "value": 1649695876196
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357456
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Human mitochondrial thioredoxin reductase reduces cytochrome c and confers resistance to complex III inhibition"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "15110392",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1016/j.freeradbiomed.2004.02.072",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "1957793",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2004"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258357",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357529
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "12538309",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258370,
+                            "created-date": {
+                                "value": 1649695881735
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357529
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Novel functions of the mammalian thioredoxin systems"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "12538309",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "CONFERENCE_ABSTRACT",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2004"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258370",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357555
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "1959129",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1074/jbc.M408494200",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "15471857",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258374,
+                            "created-date": {
+                                "value": 1649695883541
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357555
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Overexpression of enzymatically active human cytosolic and mitochondrial thioredoxin reductase in HEK-293 cells - Effect on cell growth and differentiation"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "15471857",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1074/jbc.M408494200",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "1959129",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2004"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258374",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357376
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "13321833",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258342,
+                            "created-date": {
+                                "value": 1649695868515
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357376
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "The human selenoprotein mitochondrial thioredoxin reductase reduces cytochrome c and confers resistance to complex III inhibition"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "13321833",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "CONFERENCE_ABSTRACT",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2004"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258342",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357561
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1074/jbc.M300369200",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "12569107",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "1960571",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258375,
+                            "created-date": {
+                                "value": 1649695884029
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357561
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Characterization of human thioredoxin-like 2 - A novel microtubule-binding thioredoxin expressed predominantly in the cilia of lung airway epithelium and spermatid manchette and axoneme"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "12569107",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1074/jbc.M300369200",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "1960571",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2003"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258375",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357369
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1074/jbc.M206995200",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "18929591",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "12411443",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258341,
+                            "created-date": {
+                                "value": 1649695867767
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357369
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "ERdJ5, an endoplasmic reticulum (ER)-resident protein containing DnaJ and thioredoxin domains, is expressed in secretory cells or following ER stress"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "12411443",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1074/jbc.M206995200",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "18929591",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2003"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258341",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357510
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "13218569",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258367,
+                            "created-date": {
+                                "value": 1649695880519
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357510
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Novel functions of the mammalian thioredoxin systems"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "13218569",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "CONFERENCE_ABSTRACT",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2003"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258367",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357492
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "14695919",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "1959089",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1002/biof.5520180206",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258364,
+                            "created-date": {
+                                "value": 1649695879065
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357492
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Regeneration of the antioxidant ubiquinol by lipoamide dehydrogenase, thioredoxin reductase and glutathione reductase"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "14695919",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1002/biof.5520180206",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "1959089",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2003"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258364",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357475
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1074/jbc.M210456200",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "1936220",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "12435734",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258361,
+                            "created-date": {
+                                "value": 1649695877883
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357475
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "The mammalian cytosolic selenoenzyme thioredoxin reductase reduces ubiquinone - A novel mechanism for defense against oxidative stress"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "12435734",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1074/jbc.M210456200",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "1936220",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2003"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258361",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357429
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "1962025",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "12080052",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1074/jbc.M203036200",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258352,
+                            "created-date": {
+                                "value": 1649695873303
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357429
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Human mitochondrial thioredoxin - Involvement in mitochondrial membrane potential and cell death"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "12080052",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1074/jbc.M203036200",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "1962025",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2002"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258352",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357481
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "11399755",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1074/jbc.M101760200",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "1951714",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258362,
+                            "created-date": {
+                                "value": 1649695878323
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357481
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Characterization of Sptrx, a novel member of the thioredoxin family specifically expressed in human spermatozoa"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "11399755",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1074/jbc.M101760200",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "1951714",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2001"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258362",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357422
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "11737268",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1046/j.1365-2443.2001.00484.x",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "1929303",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258350,
+                            "created-date": {
+                                "value": 1649695872910
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357422
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Sptrx-2, a fusion protein composed of one thioredoxin and three tandemly repeated NDP-kinase domains is expressed in human testis germ cells"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "11737268",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1046/j.1365-2443.2001.00484.x",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "1929303",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2001"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258350",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357574
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1046/j.1460-9568.2000.00059.x",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "10792444",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "1947465",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258377,
+                            "created-date": {
+                                "value": 1649695884801
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357574
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Expression of novel antioxidant thioredoxin-2 in the rat brain"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "10792444",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1046/j.1460-9568.2000.00059.x",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "1947465",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2000"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258377",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357416
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "1933269",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "11025203",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1016/s0925-4773(00)00415-9",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258349,
+                            "created-date": {
+                                "value": 1649695872448
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357416
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Isolation and characterization of AINT: a novel ARNT interacting protein expressed during murine embryonic development"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "11025203",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1016/s0925-4773(00)00415-9",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "1933269",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2000"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258349",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357363
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "11213484",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1089/ars.2000.2.4-801",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "120135877",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258340,
+                            "created-date": {
+                                "value": 1649695866947
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357363
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "The Mitochondrial Thioredoxin System"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "11213484",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1089/ars.2000.2.4-801",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "120135877",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2000"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258340",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357434
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.3109/10425179909033944",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "10647820",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "1953932",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258353,
+                            "created-date": {
+                                "value": 1649695873762
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357434
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Cloning and sequencing of mouse glutaredoxin (grx) cDNA"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "10647820",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.3109/10425179909033944",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "1953932",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "1999"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258353",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357405
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "10215850",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "15732385",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1046/j.1432-1327.1999.00286.x",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258347,
+                            "created-date": {
+                                "value": 1649695871715
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357405
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Human mitochondrial thioredoxin reductase - cDNA cloning, expression and genomic organization"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "10215850",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1046/j.1432-1327.1999.00286.x",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "15732385",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "1999"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258347",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357440
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "9867849",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1074/jbc.274.1.345",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "1951545",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258354,
+                            "created-date": {
+                                "value": 1649695874268
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357440
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "The orphan nuclear receptor SHP inhibits agonist-dependent transcriptional activity of estrogen receptors ER alpha and ER beta"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "9867849",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1074/jbc.274.1.345",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "1951545",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "1999"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258354",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357462
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1016/s0167-4781(99)00129-3",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "1930853",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "10500251",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258358,
+                            "created-date": {
+                                "value": 1649695876835
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357462
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "cDNA cloning, expression and chromosomal localization of the mouse mitochondrial thioredoxin reductase gene"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "10500251",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1016/s0167-4781(99)00129-3",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "1930853",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "1999"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258358",
+                            "display-index": "0"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1654616357445
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "pmid",
+                                "external-id-value": "9388228",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "source-work-id",
+                                "external-id-value": "1931697",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            },
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1074/jbc.272.49.30841",
+                                "external-id-url": null,
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 111258355,
+                            "created-date": {
+                                "value": 1649695875099
+                            },
+                            "last-modified-date": {
+                                "value": 1654616357445
+                            },
+                            "source": {
+                                "source-orcid": null,
+                                "source-client-id": {
+                                    "uri": "http://orcid.org/client/0000-0002-7539-5209",
+                                    "path": "0000-0002-7539-5209",
+                                    "host": "orcid.org"
+                                },
+                                "source-name": {
+                                    "value": "Karolinska Institutet"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Cloning, expression, and characterization of a novel Escherichia coli thioredoxin"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "pmid",
+                                        "external-id-value": "9388228",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1074/jbc.272.49.30841",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "source-work-id",
+                                        "external-id-value": "1931697",
+                                        "external-id-url": null,
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "1997"
+                                },
+                                "month": null,
+                                "day": null,
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-4425-1189/work/111258355",
+                            "display-index": "0"
+                        }
+                    ]
+                }
+            ],
+            "path": "/0000-0003-4425-1189/works"
+        },
+        "path": "/0000-0003-4425-1189/activities"
+    },
+    "path": "/0000-0003-4425-1189"
 }

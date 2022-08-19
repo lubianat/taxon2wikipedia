@@ -7,6 +7,7 @@ from .process_reflora import *
 from urllib3.exceptions import InsecureRequestWarning
 from urllib3 import disable_warnings
 import requests
+from urllib.parse import quote
 
 
 disable_warnings(InsecureRequestWarning)

@@ -2,100 +2,98 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Apiales]]    
+| família                = [[Orchidaceae]]    
+| ordem                  = [[Asparagales]]    
 | divisão                = [[Tracheophyta]]    
+| subfamília             = [[Epidendroideae]]    
 | infrarreino            = [[Streptophyta]]    
 | superdivisão           = [[Embryophyta]]    
-| família                = [[Araliaceae]]    
 | subfilo                = [[Euphyllophyta]]    
-| subfamília             = [[Aralioideae]]    
+| Q3965313               = [[Oncidiinae]]    
+| tribo                  = [[Cymbidieae]]    
 | superdomínio           = [[Biota]]    
+| género                 = [[Phymatidium]]    
 | subdomínio             = [[Diaphoretickes]]    
 | subreino               = [[Viridiplantae]]    
-| género                 = [[Crepinella]]    
-| espécie                = [[Crepinella varisiana]]    
+| espécie                = [[Phymatidium falcifolium]]    
 }}
-'''''Crepinella varisiana''''' é uma espécie de [[planta]] do gênero ''[[Crepinella]]'' e da família [[Araliaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB606841|titulo=Crepinella varisiana (Frodin) G.M. Plunkett. Lowry & D.A. Neill|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-
+'''''Phymatidium falcifolium''''' é uma espécie de [[planta]] do gênero ''[[Phymatidium]]'' e da família [[Orchidaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB11993|titulo=Phymatidium falcifolium Lindl.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+A forma vegetativa de Phymatidium falcifolium, principalmente pelas folhas conduplicadas, longas e caudadas,
+distribuídas em espiral densa ao longo do caule relativamente alongado, lembram
+em seu conjunto pequenas Tillandsias (Bromeliaceae)
+e de imediato o distinguem das outras espécies de Phymatidium. <ref name=":ref_0"/> 
 == Taxonomia ==
-A espécie foi descrita em [[2019]] por [[David Neill]], [[Gregory M. Plunkett]] e [[Porter Peter Lowry]]. 
-O seguinte sinônimo já foi catalogado:  <ref name=":ref_0"/> 
-* ''Schefflera varisiana''  Frodin 
-
+A espécie foi descrita em [[1833]] por [[John Lindley]]. <ref>{{Citar web|url=https://www.gbif.org/species/2806979|titulo=Phymatidium falcifolium|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/> 
+* ''Phymatidium lopesii''  Ruschi 
+* ''Phymatidium tillandsioides''  Barb.Rodr. 
+== Forma de vida ==
+É uma espécie [[epífita]] e [[herbácea]]. <ref name=":ref_0"/>  
 == Descrição ==
-
+<div style="text-align: justify;">Planta com c. 50 milímetros de altura Raízes glabras. Ela tem [[folhas]] bifaciais, acuminadas. Sua inflorescência é glabra. Ela tem [[flores]] com [[pedicelo]] glabro e ovário angular. Sépala dorsal oblongo-lanceolada ou elíptica, patente, aguda a obtusa. Sépalas laterais ovado a oblongo-lanceoladas ou elípticas, patentes, agudas a obtusas. Pétalas oblongas, ovadas ou ovado-lanceoladas, patentes, agudas a obtusas. Labelo inteiro, oblongo, ovado ou obovado, obtuso; margens laterais deflexas, eroso-laceradas, margem frontal inteira, ondulada; disco provido de calosidade branca, ovada, cobrindo cerca de ¾ do [[labelo]]. Coluna levemente arqueada, desprovida de aurículas no ápice; rostelo curto, curvado para frente; cavidade estigmática pequena, ovado-lanceolada; tábula infraestigmática crassa, trilobada em vista dorsal, a porção central verde reluzente, os lóbulos laterais mais claros, voltados para cima em forma de aurículas grandes intumescidas; [[antera]] prolongada em bico muito curto, sem dentes laterais próximo ao ápice emarginado; polinário com [[estipe]] cuneado, truncado na região de inserção das polínias, viscídio oblongo.</div> <ref name=":ref_0"/>   
 {| class="wikitable" 
+|+
+! colspan="2" |'''Raiz'''<ref name=":ref_0" />
+|-
+|'''superfície'''
+|glabra
+|+
+! colspan="2" |'''Caule'''<ref name=":ref_0" />
+|-
+|'''caule'''
+|conspícuo
 |+
 ! colspan="2" |'''Folha'''<ref name=":ref_0" />
 |-
-|'''número de folíolo'''
-|6/7
+|'''folha'''
+|bifacial
 |-
-|'''forma das lâminas'''
-|obovada
-|-
-|'''base das lâmina'''
-|atenuada/cuneada
-|-
-|'''ápice das lâminas'''
-|obtuso/arredondado
-|-
-|'''face abaxial'''
-|serícea
-|-
-|'''nervura primária na face adaxial'''
-|saliente/canaliculada
-|-
-|'''nervura secundária na face adaxial'''
-|impressa
-|-
-|'''nervura terciária na face adaxial'''
-|impressa
-|+
-! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
-|-
-|'''número de ramo primário'''
-|4/5/6
-|-
-|'''ramo secundário'''
-|presente
-|-
-|'''verticilo acessório de ramo secundário'''
-|1
-|-
-|'''número de ramo no verticilo secundário'''
-|5 ou mais
-|-
-|'''número de ramo secundário terminal'''
-|16 ou mais
-|-
-|'''ramo terciário'''
-|ausente
-|-
-|'''umbela terminal'''
-|com 10 - 15 flor
+|'''forma'''
+|lanceolada
 |+
 ! colspan="2" |'''Flor'''<ref name=":ref_0" />
 |-
-|'''[[pedicelo]] floral'''
-|com 4 - 10 milímetros de comprimento
+|'''coluna aurícula'''
+|ausente
+|-
+|'''coluna aurícula ornamentação'''
+|não
+|-
+|'''coluna tábula infraestigmática'''
+|presente
+|-
+|'''forma do [[labelo]]'''
+|oblongo
+|-
+|'''labelo margem'''
+|irregular
+|-
+|'''[[pétala]]'''
+|perpendicular
+|-
+|'''[[sépala]] dorsal'''
+|perpendicular
+|-
+|'''sépala lateral'''
+|perpendicular
 |}
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é .<ref name=":ref_0"/> 
-
+A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Paraná]], [[Rio de Janeiro]], [[Santa Catarina]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
+Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Vegetação ripária|mata ciliar]], [[Floresta húmida|floresta ombrófila pluvial]] e [[floresta ombrófila mista|mata de araucária]].<ref name=":ref_0"/> 
 
 == Notas ==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Fiaschi, P.; Nery, E.K. ''Araliaceae''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Royer, C.A.; Smidt, E.C.; Brito, A.L.V.T. ''Phymatidium''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 
 {{Referencias}}
 
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB606841 ''Crepinella varisiana'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB11993 ''Phymatidium falcifolium'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Phymatidium%20falcifolium ''Phymatidium falcifolium'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Araliaceae]][[Categoria:Crepinella]][[Categoria:Plantas descritas em 2019]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
+[[Categoria:Orchidaceae]][[Categoria:Phymatidium]][[Categoria:Plantas descritas em 1833]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
