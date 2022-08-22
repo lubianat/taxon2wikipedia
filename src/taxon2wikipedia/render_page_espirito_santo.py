@@ -2,7 +2,6 @@
 
 from .helper import *
 from .process_reflora import *
-from urllib.parse import quote
 from wdcuration import search_wikidata, render_qs_url
 from jinja2 import Template
 import os
