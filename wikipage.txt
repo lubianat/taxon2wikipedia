@@ -2,83 +2,110 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
+| ordem                  = [[Malpighiales]]    
+| divisão                = [[Tracheophyta]]    
 | infrarreino            = [[Streptophyta]]    
-| divisão                = [[Pteridophyta]]    
 | superdivisão           = [[Embryophyta]]    
-| classe                 = [[Polypodiopsida]]    
-| ordem                  = [[Polypodiales]]    
-| família                = [[Pteridaceae]]    
+| família                = [[Malpighiaceae]]    
+| subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
-| género                 = [[Pteris]]    
-| subclasse              = [[Polypodiidae]]    
+| género                 = [[Heteropterys]]    
 | subdomínio             = [[Diaphoretickes]]    
-| subfamília             = [[Pteridoideae]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Pteris limae]]    
-| Subordem               = [[Pteridineae]]    
-| ordem                  = [[Parkeriales]]    
+| espécie                = [[Heteropterys capixaba]]    
 }}
-'''''Pteris limae''''' é uma espécie de [[planta]] do gênero ''[[Pteris]]'' e da família [[Pteridaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB91995|titulo=Pteris limae Brade|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Heteropterys capixaba''''' é uma espécie de [[planta]] do gênero ''[[Heteropterys]]'' e da família [[Malpighiaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8874|titulo=Heteropterys capixaba Amorim|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 
 == Taxonomia ==
-A espécie foi descrita em [[1932]] por [[Alexander Curt Brade]]. <ref>{{Citar web|url=https://www.gbif.org/species/5614070|titulo=Pteris limae|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi descrita em [[2003]] por [[André M. Amorim]]. <ref>{{Citar web|url=https://www.gbif.org/species/3984100|titulo=Heteropterys capixaba|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[herbácea]]. <ref name=":ref_0"/>  
+É uma espécie [[terrícola]] e [[trepadeira]]. <ref name=":ref_0"/>  
 == Descrição ==
 
 {| class="wikitable" 
 |+
+! colspan="2" |'''Caule'''<ref name=":ref_0" />
+|-
+|'''ramo presença de folha e indumento'''
+|frondoso/tomentoso
+|+
 ! colspan="2" |'''Folha'''<ref name=":ref_0" />
 |-
-|'''base da cóstula adaxial'''
-|sem/apêndice
+|'''[[filotaxia]] e postura da lâmina'''
+|oposta
 |-
-|'''lâmina'''
-|1 ou 2 pinado pinatifida à pinatissecta
+|'''[[Pecíolo (botânica)|pecíolo]] indumento e glândula'''
+|tomentoso/glanduloso no ápice
 |-
-|'''número de aréola entre 2 cóstula adjacente'''
-|3/4
+|'''lâmina forma , consistência e cor'''
+|fortemente discolor/coriácea/oval/lanceolada
 |-
-|'''pinas basal'''
-|furcada
+|'''base da lâmina forma'''
+|cordada
 |-
-|'''pinas mediana'''
-|pinatifida
+|'''ápice da lâmina forma'''
+|apiculado
 |-
-|'''raque'''
-|não/alada
+|'''face, tipo e cor do indumento na lâmina'''
+|face abaxial/tomentoso/ferrugíneo
 |-
-|'''[[venação]]'''
-|areolada
+|'''presença, forma e cor de glândulas na lâmina'''
+|ausente
+|-
+|'''margem da lâmina'''
+|fortemente revoluta
+|-
+|'''arquitetura da lâmina'''
+|bulada
 |+
-! colspan="2" |'''Esporângio'''<ref name=":ref_0" />
+! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
 |-
-|'''[[indúsio]]'''
-|presente/falso
+|'''postura da inflorescência'''
+|pêndula
+|-
+|'''[[bráctea]] [[bractéola]] forma e e glândula'''
+|oval/eglandulosa
+|-
+|'''desenvolvimento do [[pedicelo]]'''
+|séssil
 |+
-! colspan="2" |'''Esporo'''<ref name=":ref_0" />
+! colspan="2" |'''Flor'''<ref name=":ref_0" />
 |-
-|'''tipo'''
-|trilete
+|'''postura, glândula e indumento da [[sépala]]'''
+|com ápice plano/todo eglandulosa/glabra
+|-
+|'''[[pétala]] tamanho, postura, [[carena (anatomia vegetal)| carena]], aromaticidade, unguículo, consistência, cor e margem da pétala'''
+|patente/carenada/unguiculada/amarela/com margem/inteira
+|-
+|'''postura e indumento da [[antera]]'''
+|glabra
+|-
+|'''tamanho, postura, indumento e ápice do estilete'''
+|todo do mesmo tamanho/curvado/glabro/com ápice/truncado
+|+
+! colspan="2" |'''Fruto'''<ref name=":ref_0" />
+|-
+|'''tamanho, ornamentação e ala lateral do núcleo seminífero'''
+|liso
 |}
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]] e [[Rio de Janeiro]].<ref name=":ref_0"/> 
+A espécie é encontrada no estado brasileiro de [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
 Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
 
 == Notas ==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Prado, J.; Hirai, R.Y. ''Pteris''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Pessoa, C.; Almeida, R.F.; Amorim, A.M.A. ''Heteropterys''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 
 {{Referencias}}
 
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB91995 ''Pteris limae'' no projeto Flora e Funga do Brasil]
-* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Pteris%20limae ''Pteris limae'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8874 ''Heteropterys capixaba'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Heteropterys%20capixaba ''Heteropterys capixaba'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Pteridaceae]][[Categoria:Pteris]][[Categoria:Plantas descritas em 1932]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
+[[Categoria:Malpighiaceae]][[Categoria:Heteropterys]][[Categoria:Plantas descritas em 2003]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
