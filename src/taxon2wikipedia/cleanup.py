@@ -57,7 +57,7 @@ def fix_description(wikipage):
 
     """
     for key, value in REPLACE_DICT.items():
-        wikipage = re.sub(f"([^a-zA-Z]+){key}([^a-zA-Z]+)", f"\\1 {value}\\2", wikipage)
+        wikipage = re.sub(f"([^a-zA-ZÀ-ÿ]+){key}([^a-zA-ZÀ-ÿ]+)", f"\\1 {value}\\2", wikipage)
         wikipage = wikipage.replace("  ", " ")
         wikipage = wikipage.replace("' ", "'")
 

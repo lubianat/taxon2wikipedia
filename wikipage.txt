@@ -2,110 +2,106 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Malpighiales]]    
+| ordem                  = [[Oxalidales]]    
 | divisão                = [[Tracheophyta]]    
+| família                = [[Elaeocarpaceae]]    
 | infrarreino            = [[Streptophyta]]    
 | superdivisão           = [[Embryophyta]]    
-| família                = [[Malpighiaceae]]    
 | subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
-| género                 = [[Heteropterys]]    
 | subdomínio             = [[Diaphoretickes]]    
+| género                 = [[Sloanea]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Heteropterys capixaba]]    
+| espécie                = [[Sloanea lasiocoma]]    
 }}
-'''''Heteropterys capixaba''''' é uma espécie de [[planta]] do gênero ''[[Heteropterys]]'' e da família [[Malpighiaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8874|titulo=Heteropterys capixaba Amorim|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Sloanea lasiocoma''''' é uma espécie de [[planta]] do gênero ''[[Sloanea]]'' e da família [[Elaeocarpaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB7448|titulo=Sloanea lasiocoma K.Schum.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 
 == Taxonomia ==
-A espécie foi descrita em [[2003]] por [[André M. Amorim]]. <ref>{{Citar web|url=https://www.gbif.org/species/3984100|titulo=Heteropterys capixaba|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
-
+A espécie foi descrita em [[1886]] por [[Karl Moritz Schumann]]. <ref>{{Citar web|url=https://www.gbif.org/species/5651133|titulo=Sloanea lasiocoma|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+O seguinte sinônimo já foi catalogado:  <ref name=":ref_0"/> 
+* ''Sloanea hirsuta australis''  T.D.Penn. 
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[trepadeira]]. <ref name=":ref_0"/>  
+É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"/>  
 == Descrição ==
-
+Árvore, 5 – 26 metros de altura Ramos jovens estriados, lenticelados, puberulentos a pubescentes; gema apical coberta por diminutos catáfilos, pubescente a tomentosa; gema axilar pubescente. Ela tem [[folhas]] alternas a subopostas e verticiladas no ápice dos ramos, distribuídas ao longo dos ramos; [[estípula]]s persistentes ou caducas, 2 – 4 milímetros de comprimento, com cerca de  0,5 milímetros de largura, filiformes, pubescentes; [[Pecíolo (botânica)|pecíolo]]s (-0,4) 1 – 3,2 centímetros de comprimento, estriados, levemente canaliculados na porção superior, glabros ou pubescentes a tomentosos nesta região; limbo obovado, oblanceolado, elíptico ou estreito-elíptico, 2,3 – 15 centímetros de comprimento, 0,8 – 5 centímetros de largura, base aguda ou cuneada, ápice arredondado, emarginado, agudo ou acuminado, margem inteira, glabro na face adaxial, glabro a puberulento na face abaxial; [[venação]] broquidódroma, nervura principal sulcada na face adaxial, saliente na face abaxial; [[domácia]]s presentes ou não na axila da nervura principal com as secundárias. Sua inflorescência é axilar ou terminal; do tipo racemo bracteoso, racemo frondo-bracteoso ou tirso indeterminado; pedúnculo 1 – 4,5 centímetros de comprimento, levemente lenticelado, pubérulo; [[bráctea]]s caducas, não observadas; [[bractéola]]s persistentes, ovadas ou lanceoladas, inteiras, com cerca de 2 milímetros de comprimento, com cerca de 0,5 milímetros de largura, pubescentes; [[pedicelo]] 5 – 12 milímetros de comprimento, estriado, pubescente. Ela tem [[flores]] com 4-6 (-8) [[sépala]]s, unisseriadas ou bisseriadas, inteiras, iguais, 3 – 5 milímetros de comprimento, 2 – 4 milímetros de largura, ovadas ou lanceoladas, ápice acuminado, margem revoluta e alvo-tomentosa na face interna, pubérulo a pubescente em ambas as faces, cobrindo os órgãos reprodutivos no botão floral, próximo à [[antese]]; filete 1 – 3 milímetros de comprimento, denso-pubescente; [[antera]]s 2 – 3 milímetros de comprimento, elípticas, pubescentes; prolongamento do conectivo agudo, com cerca de 0,5 milímetros de de comprimento, pubérulo; ovário 1,5 – 2 milímetros de comprimento, oval, denso-pubescente, séssil; estilete 2,5 – 4 milímetros de comprimento, reto ou contorcido, 4-partido no ápice ou 4- profundamente partido até a base, denso-pubescente na porção basal, glabro na porção apical; [[receptáculo]] floral pubescente. Frutos elípticos ou globosos, 3-4-valvares, 1 – 2 centímetros de comprimento, 0,5 – 1 centímetros de largura; pubescente, externamente coberto por cerdas setulosas, frequentemente caducas, 1,5 – 8 milímetros de de comprimento Semente- 1, obovadas ou elípticas, 8 – 10 milímetros de de comprimento, com cerca de  5 milímetros de de largura, cobertas por [[arilo]] vináceo ou alaranjado. <ref name=":ref_0"/>   
 {| class="wikitable" 
 |+
-! colspan="2" |'''Caule'''<ref name=":ref_0" />
+! colspan="2" |'''Raiz'''<ref name=":ref_0" />
 |-
-|'''ramo presença de folha e indumento'''
-|frondoso/tomentoso
+|'''forma'''
+|tabular
 |+
 ! colspan="2" |'''Folha'''<ref name=":ref_0" />
 |-
-|'''[[filotaxia]] e postura da lâmina'''
-|oposta
+|'''[[filotaxia]]'''
+|alterna ou oposta
 |-
-|'''[[Pecíolo (botânica)|pecíolo]] indumento e glândula'''
-|tomentoso/glanduloso no ápice
+|'''[[estípula]]'''
+|presente
 |-
-|'''lâmina forma , consistência e cor'''
-|fortemente discolor/coriácea/oval/lanceolada
+|'''limbo'''
+|obovado/elíptico/oblanceolado
 |-
-|'''base da lâmina forma'''
-|cordada
+|'''margem do limbo'''
+|inteira
 |-
-|'''ápice da lâmina forma'''
-|apiculado
-|-
-|'''face, tipo e cor do indumento na lâmina'''
-|face abaxial/tomentoso/ferrugíneo
-|-
-|'''presença, forma e cor de glândulas na lâmina'''
-|ausente
-|-
-|'''margem da lâmina'''
-|fortemente revoluta
-|-
-|'''arquitetura da lâmina'''
-|bulada
+|'''[[venação]]'''
+|broquidódroma
 |+
 ! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
 |-
-|'''postura da inflorescência'''
-|pêndula
+|'''posição'''
+|axilar/terminal
 |-
-|'''[[bráctea]] [[bractéola]] forma e e glândula'''
-|oval/eglandulosa
-|-
-|'''desenvolvimento do [[pedicelo]]'''
-|séssil
+|'''tipo'''
+|tirso indeterminado/racemo bracteado/racemo frondoso bracteado
 |+
 ! colspan="2" |'''Flor'''<ref name=":ref_0" />
 |-
-|'''postura, glândula e indumento da [[sépala]]'''
-|com ápice plano/todo eglandulosa/glabra
+|'''[[sépala]]'''
+|presente
 |-
-|'''[[pétala]] tamanho, postura, [[carena (anatomia vegetal)| carena]], aromaticidade, unguículo, consistência, cor e margem da pétala'''
-|patente/carenada/unguiculada/amarela/com margem/inteira
+|'''[[pétala]]'''
+|ausente
 |-
-|'''postura e indumento da [[antera]]'''
-|glabra
+|'''conectivo'''
+|agudo
 |-
-|'''tamanho, postura, indumento e ápice do estilete'''
-|todo do mesmo tamanho/curvado/glabro/com ápice/truncado
+|'''ovário'''
+|séssil
+|-
+|'''sépala na [[antese]]'''
+|cobre órgão reprodutivo
 |+
 ! colspan="2" |'''Fruto'''<ref name=":ref_0" />
 |-
-|'''tamanho, ornamentação e ala lateral do núcleo seminífero'''
-|liso
+|'''[[Cápsula (fruto)|cápsula]] loculicida'''
+|coberto por cerda
+|+
+! colspan="2" |'''Semente'''<ref name=":ref_0" />
+|-
+|'''[[arilo]]'''
+|presente
+|-
+|'''número de semente'''
+|1
 |}
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é encontrada no estado brasileiro de [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
-Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
+A espécie é encontrada nos estados brasileiros de [[Distrito Federal]], [[Goiás]], [[Minas Gerais]], [[Paraná]], [[Rio Grande do Sul]], [[Santa Catarina]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
+Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Vegetação ripária|mata ciliar]], [[Floresta húmida|floresta ombrófila pluvial]] e [[floresta ombrófila mista|mata de araucária]].<ref name=":ref_0"/> 
 
 == Notas ==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Pessoa, C.; Almeida, R.F.; Amorim, A.M.A. ''Heteropterys''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Sampaio, D. ''Elaeocarpaceae''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 
 {{Referencias}}
 
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8874 ''Heteropterys capixaba'' no projeto Flora e Funga do Brasil]
-* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Heteropterys%20capixaba ''Heteropterys capixaba'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7448 ''Sloanea lasiocoma'' no projeto Flora e Funga do Brasil]
 
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Malpighiaceae]][[Categoria:Heteropterys]][[Categoria:Plantas descritas em 2003]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
+[[Categoria:Elaeocarpaceae]][[Categoria:Sloanea]][[Categoria:Plantas descritas em 1886]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
