@@ -2,106 +2,86 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Oxalidales]]    
+| família                = [[Orchidaceae]]    
+| ordem                  = [[Asparagales]]    
 | divisão                = [[Tracheophyta]]    
-| família                = [[Elaeocarpaceae]]    
+| subfamília             = [[Epidendroideae]]    
 | infrarreino            = [[Streptophyta]]    
 | superdivisão           = [[Embryophyta]]    
 | subfilo                = [[Euphyllophyta]]    
+| tribo                  = [[Cymbidieae]]    
 | superdomínio           = [[Biota]]    
+| género                 = [[Xylobium]]    
 | subdomínio             = [[Diaphoretickes]]    
-| género                 = [[Sloanea]]    
+| Q3965313               = [[Maxillariinae]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Sloanea lasiocoma]]    
+| espécie                = [[Xylobium pallidiflorum]]    
 }}
-'''''Sloanea lasiocoma''''' é uma espécie de [[planta]] do gênero ''[[Sloanea]]'' e da família [[Elaeocarpaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB7448|titulo=Sloanea lasiocoma K.Schum.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-
+'''''Xylobium pallidiflorum''''' é uma espécie de [[planta]] do gênero ''[[Xylobium]]'' e da família [[Orchidaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB582235|titulo=Xylobium pallidiflorum (Hook.) G.Nicholson|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+         Xylobium pallidiflorum foi descrito por Hook em 1828 como Maxillaria pallidiflora através de coleta de L. Guilding s.n. (K), sem localidade ou data especificada, que floresceu em cultivo no jardim botânico de Glasgow. Posteriormente, foi transferida para o gênero Xylobium por G. Nicholson em 1887.<br>          Xylobium pallidiflorum pode ser reconhecido pelo [[pseudobulbo]] oblongo e bastante alongado, característica que compartilha com Xylobium elongatum (Lindl. &amp; Paxt.) Hemsl., espécie não registrada em território nacional. <ref name=":ref_0"/> 
 == Taxonomia ==
-A espécie foi descrita em [[1886]] por [[Karl Moritz Schumann]]. <ref>{{Citar web|url=https://www.gbif.org/species/5651133|titulo=Sloanea lasiocoma|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
-O seguinte sinônimo já foi catalogado:  <ref name=":ref_0"/> 
-* ''Sloanea hirsuta australis''  T.D.Penn. 
+A espécie foi descrita em [[1887]] por [[George Nicholson]]. <ref>{{Citar web|url=https://www.gbif.org/species/2850807|titulo=Xylobium pallidiflorum|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/> 
+* ''Maxillaria stenobulbon''  Klotzsch 
+* ''Onkeripus pallidus''  Raf. 
+* ''Xylobium gracile''  Schltr. 
+* ''Xylobium latifolium''  Schltr. 
+* ''Xylobium squalens gracile''  (Schltr.) C.Schweinf. 
+* ''Colax pallidiflorus''  (Hook.) A.Spreng. 
+* ''Maxillaria pallidiflora''  Hook. 
 == Forma de vida ==
-É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"/>  
+É uma espécie [[epífita]] e [[herbácea]]. <ref name=":ref_0"/>  
 == Descrição ==
-Árvore, 5 – 26 metros de altura Ramos jovens estriados, lenticelados, puberulentos a pubescentes; gema apical coberta por diminutos catáfilos, pubescente a tomentosa; gema axilar pubescente. Ela tem [[folhas]] alternas a subopostas e verticiladas no ápice dos ramos, distribuídas ao longo dos ramos; [[estípula]]s persistentes ou caducas, 2 – 4 milímetros de comprimento, com cerca de  0,5 milímetros de largura, filiformes, pubescentes; [[Pecíolo (botânica)|pecíolo]]s (-0,4) 1 – 3,2 centímetros de comprimento, estriados, levemente canaliculados na porção superior, glabros ou pubescentes a tomentosos nesta região; limbo obovado, oblanceolado, elíptico ou estreito-elíptico, 2,3 – 15 centímetros de comprimento, 0,8 – 5 centímetros de largura, base aguda ou cuneada, ápice arredondado, emarginado, agudo ou acuminado, margem inteira, glabro na face adaxial, glabro a puberulento na face abaxial; [[venação]] broquidódroma, nervura principal sulcada na face adaxial, saliente na face abaxial; [[domácia]]s presentes ou não na axila da nervura principal com as secundárias. Sua inflorescência é axilar ou terminal; do tipo racemo bracteoso, racemo frondo-bracteoso ou tirso indeterminado; pedúnculo 1 – 4,5 centímetros de comprimento, levemente lenticelado, pubérulo; [[bráctea]]s caducas, não observadas; [[bractéola]]s persistentes, ovadas ou lanceoladas, inteiras, com cerca de 2 milímetros de comprimento, com cerca de 0,5 milímetros de largura, pubescentes; [[pedicelo]] 5 – 12 milímetros de comprimento, estriado, pubescente. Ela tem [[flores]] com 4-6 (-8) [[sépala]]s, unisseriadas ou bisseriadas, inteiras, iguais, 3 – 5 milímetros de comprimento, 2 – 4 milímetros de largura, ovadas ou lanceoladas, ápice acuminado, margem revoluta e alvo-tomentosa na face interna, pubérulo a pubescente em ambas as faces, cobrindo os órgãos reprodutivos no botão floral, próximo à [[antese]]; filete 1 – 3 milímetros de comprimento, denso-pubescente; [[antera]]s 2 – 3 milímetros de comprimento, elípticas, pubescentes; prolongamento do conectivo agudo, com cerca de 0,5 milímetros de de comprimento, pubérulo; ovário 1,5 – 2 milímetros de comprimento, oval, denso-pubescente, séssil; estilete 2,5 – 4 milímetros de comprimento, reto ou contorcido, 4-partido no ápice ou 4- profundamente partido até a base, denso-pubescente na porção basal, glabro na porção apical; [[receptáculo]] floral pubescente. Frutos elípticos ou globosos, 3-4-valvares, 1 – 2 centímetros de comprimento, 0,5 – 1 centímetros de largura; pubescente, externamente coberto por cerdas setulosas, frequentemente caducas, 1,5 – 8 milímetros de de comprimento Semente- 1, obovadas ou elípticas, 8 – 10 milímetros de de comprimento, com cerca de  5 milímetros de de largura, cobertas por [[arilo]] vináceo ou alaranjado. <ref name=":ref_0"/>   
+Planta epífita. Pseudobulbo oblongo e alongado, levemente arqueado. Ela tem [[folhas]] oblongas a elíptico-lanceoladas, ápice obtuso a levemente agudo. Inflorescências paucifloras, geralmente com uma inflorescência. Sépalas amarelas a esverdeadas; a dorsal oblonga a lanceolada, ápice agudo; as laterais semelhantes a dorsal. Pétalas amarelas a esverdeadas, oblongas, ápice agudo. Possui [[labelo]] branco; levemente trilobado, lobo mediano oblongo, disco com 3-5 calos longitudinais; lobos laterais arredondados. Coluna branca, arqueada. <ref name=":ref_0"/>   
 {| class="wikitable" 
 |+
 ! colspan="2" |'''Raiz'''<ref name=":ref_0" />
 |-
-|'''forma'''
-|tabular
+|'''fasciculada'''
+|presente
+|+
+! colspan="2" |'''Caule'''<ref name=":ref_0" />
+|-
+|'''[[pseudobulbo]]'''
+|presente
 |+
 ! colspan="2" |'''Folha'''<ref name=":ref_0" />
 |-
-|'''[[filotaxia]]'''
-|alterna ou oposta
-|-
-|'''[[estípula]]'''
-|presente
-|-
-|'''limbo'''
-|obovado/elíptico/oblanceolado
-|-
-|'''margem do limbo'''
-|inteira
-|-
-|'''[[venação]]'''
-|broquidódroma
+|'''folha'''
+|1/2
 |+
 ! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
 |-
-|'''posição'''
-|axilar/terminal
-|-
 |'''tipo'''
-|tirso indeterminado/racemo bracteado/racemo frondoso bracteado
+|pauciflora
 |+
 ! colspan="2" |'''Flor'''<ref name=":ref_0" />
 |-
-|'''[[sépala]]'''
-|presente
-|-
-|'''[[pétala]]'''
-|ausente
-|-
-|'''conectivo'''
-|agudo
-|-
-|'''ovário'''
-|séssil
-|-
-|'''sépala na [[antese]]'''
-|cobre órgão reprodutivo
+|'''[[labelo]]'''
+|trilobado
 |+
 ! colspan="2" |'''Fruto'''<ref name=":ref_0" />
 |-
-|'''[[Cápsula (fruto)|cápsula]] loculicida'''
-|coberto por cerda
+|'''tipo'''
+|[[Cápsula (fruto)|cápsula]]
 |+
 ! colspan="2" |'''Semente'''<ref name=":ref_0" />
 |-
-|'''[[arilo]]'''
+|'''muitas'''
 |presente
-|-
-|'''número de semente'''
-|1
 |}
-
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Distrito Federal]], [[Goiás]], [[Minas Gerais]], [[Paraná]], [[Rio Grande do Sul]], [[Santa Catarina]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
-Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Vegetação ripária|mata ciliar]], [[Floresta húmida|floresta ombrófila pluvial]] e [[floresta ombrófila mista|mata de araucária]].<ref name=":ref_0"/> 
-
+A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]] e [[Mato Grosso]].<ref name=":ref_0"/> 
+Em termos ecológicos, é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de [[Cerrado]] e [[Mata Atlântica]], em regiões com vegetação de [[Vegetação ripária|mata ciliar]] e [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
 == Notas ==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Sampaio, D. ''Elaeocarpaceae''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
-
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Santos, T.F.; Smidt, E.C. ''Xylobium''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 {{Referencias}}
-
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB7448 ''Sloanea lasiocoma'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB582235 ''Xylobium pallidiflorum'' no projeto Flora e Funga do Brasil]
 
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Elaeocarpaceae]][[Categoria:Sloanea]][[Categoria:Plantas descritas em 1886]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
+[[Categoria:Orchidaceae]][[Categoria:Xylobium]][[Categoria:Plantas descritas em 1887]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]

@@ -36,7 +36,8 @@ RESUB_DICT = {
     "</b>": "",
     "<b>": "",
     "<span>": "",
-    "<w:.*?>": "",
+    "<w:(.|\n)*?>": "",
+    "<xml>(.|\n)*?</xml>": "",
     "</w.*?>": "",
     "<div.*?>": "",
     "</div*?>": "",
@@ -68,8 +69,8 @@ def fix_description(wikipage):
         wikipage = re.sub(key, value, wikipage, 1)
 
     for key, value in BOTANICAL_DICT.items():
-        wikipage = re.sub(f"([^a-zA-Z]+){key}([^a-zA-Z]+)", f"\\1{value}\\2", wikipage, 1)
-        wikipage = re.sub(f"([^a-zA-Z]+){key}s([^a-zA-Z]+)", f"\\1{value}s\\2", wikipage, 1)
+        wikipage = re.sub(f"([^a-zA-Z\[]+){key}([^a-zA-Z]+)", f"\\1{value}\\2", wikipage, 1)
+        wikipage = re.sub(f"([^a-zA-Z\[]+){key}s([^a-zA-Z]+)", f"\\1{value}s\\2", wikipage, 1)
         wikipage = re.sub(f" {key.capitalize} ", f" {value} ", wikipage, 1)
         wikipage = re.sub(f" {key.capitalize}s ", f" {value}s ", wikipage, 1)
 

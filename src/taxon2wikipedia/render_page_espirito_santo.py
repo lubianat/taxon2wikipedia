@@ -64,11 +64,66 @@ def main(scope_name: str, qid: str, taxon: str, taxon_name: str, reflora_id: str
         qs = print_qs_for_names(reflora_data, qid)
         webbrowser.open(render_qs_url(qs))
 
+    wiki_page = get_wiki_page(
+        scope_name, qid, taxon_name, reflora_id, results_df, family, genus, year_cat, reflora_data
+    )
+    filepath = "wikipage.txt"
+
+    with open(filepath, "w+") as f:
+        f.write(wiki_page)
+
+    print(f"The length of the current page will be {len(wiki_page.encode('utf-8'))}")
+    create = input("Create page with pywikibot? (y/n)")
+    if create == "y":
+        print("===== Creating Wikipedia page =====")
+        site = pywikibot.Site("pt", "wikipedia")
+        newPage = pywikibot.Page(site, taxon_name)
+        newPage.text = wiki_page
+        newPage.save("Esboço criado com código de https://github.com/lubianat/taxon2wikipedia")
+    else:
+        print("quitting...")
+        quit()
+
+    print("===== Setting sitelinks on Wikidata ===== ")
+    site = pywikibot.Site("wikidata", "wikidata")
+    repo = site.data_repository()
+    item = pywikibot.ItemPage(repo, qid)
+    if not "ehSinonimo" in reflora_data or "Correct name" in set(
+        reflora_data["statusQualificador"]
+    ):
+        data = [{"site": "ptwiki", "title": taxon_name.replace(" ", "_")}]
+        item.setSitelinks(data)
+
+    webbrowser.open(
+        f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?veaction=edit"""
+    )
+
+    print("===== Adding reflora ID to Wikidata ===== ")
+    stringclaim = pywikibot.Claim(repo, "P10701")
+    stringclaim.setTarget(f"FB{str(reflora_id)}")
+    item.addClaim(stringclaim, summary="Adding a Reflora ID")
+
+    if reflora_data["endemismo"] == "\u00e9 end\u00eamica do Brasil":
+        print("===== Adding endemic status to Wikidata =====")
+        claim = pywikibot.Claim(repo, "P183")
+        target = pywikibot.ItemPage(repo, "Q155")
+        claim.setTarget(target)
+        item.addClaim(claim, summary="Adding endemic status")
+        ref = pywikibot.Claim(repo, "P854")
+        ref.setTarget(
+            f"http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id}"
+        )
+        claim.addSources([ref], summary="Adding sources.")
+
+
+def get_wiki_page(
+    scope_name, qid, taxon_name, reflora_id, results_df, family, genus, year_cat, reflora_data
+):
     if "ehSinonimo" in reflora_data and "Correct name" not in set(
         reflora_data["statusQualificador"]
     ):
         print("Synonym!")
-        site = render_page_for_synonym(reflora_data)
+        site, wiki_page = render_page_for_synonym(reflora_data)
 
         if not pywikibot.Page(site, taxon_name).exists():
             pass
@@ -103,29 +158,18 @@ def main(scope_name: str, qid: str, taxon: str, taxon_name: str, reflora_id: str
 {description_title}
 {render_free_description(reflora_data)}
 {render_description_table(reflora_data)}
-
-
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
 {render_distribution_from_reflora(reflora_data)}
 {render_domains(reflora_data)}
-
-
 {notes}
-
-
 {{{{Referencias}}}}
-
-
 == Ligações externas ==
 * [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id} ''{taxon_name}'' no projeto Flora e Funga do Brasil]
 {render_cnc_flora(taxon_name)}
 {render_additional_reading(qid)}
-
 {{{{Controle de autoridade}}}}
-
 {{{{esboço-{scope_name}}}}}
-
 [[Categoria:{family}]][[Categoria:{genus}]]{year_cat}"""
         )
 
@@ -140,100 +184,10 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
             wiki_page = wiki_page + f"""[[Categoria:{cat}]]"""
 
         print("===== Saving wikipage =====")
-        filepath = "wikipage.txt"
         wiki_page = merge_equal_refs(wiki_page)
         wiki_page = wiki_page.replace("\n\n", "\n")
         wiki_page = re.sub("^ ", "", wiki_page, flags=re.M)
-
-        with open(filepath, "w+") as f:
-            f.write(wiki_page)
-
-        print(f"The length of the current page will be {len(wiki_page.encode('utf-8'))}")
-        create = input("Create page with pywikibot? (y/n)")
-        if create == "y":
-            print("===== Creating Wikipedia page =====")
-            site = pywikibot.Site("pt", "wikipedia")
-            newPage = pywikibot.Page(site, taxon_name)
-            newPage.text = wiki_page
-            newPage.save("Esboço criado com código de https://github.com/lubianat/taxon2wikipedia")
-        else:
-            print("quitting...")
-            quit()
-
-        print("===== Setting sitelinks on Wikidata ===== ")
-        site = pywikibot.Site("wikidata", "wikidata")
-        repo = site.data_repository()
-        item = pywikibot.ItemPage(repo, qid)
-        if not "ehSinonimo" in reflora_data or "Correct name" in set(
-            reflora_data["statusQualificador"]
-        ):
-            data = [{"site": "ptwiki", "title": taxon_name.replace(" ", "_")}]
-            item.setSitelinks(data)
-
-        webbrowser.open(
-            f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?veaction=edit"""
-        )
-
-        print("===== Adding reflora ID to Wikidata ===== ")
-        stringclaim = pywikibot.Claim(repo, "P10701")
-        stringclaim.setTarget(f"FB{str(reflora_id)}")
-        item.addClaim(stringclaim, summary="Adding a Reflora ID")
-
-        if reflora_data["endemismo"] == "\u00e9 end\u00eamica do Brasil":
-            print("===== Adding endemic status to Wikidata =====")
-            claim = pywikibot.Claim(repo, "P183")
-            target = pywikibot.ItemPage(repo, "Q155")
-            claim.setTarget(target)
-            item.addClaim(claim, summary="Adding endemic status")
-            ref = pywikibot.Claim(repo, "P854")
-            ref.setTarget(
-                f"http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id}"
-            )
-            claim.addSources([ref], summary="Adding sources.")
-
-
-def render_page_for_synonym(reflora_data):
-    synonym_name = reflora_data["ehSinonimo"]
-    synonym_name = re.sub(
-        '<a onclick=.*?taxon">(.*?)<\/div><div class="nomeAutorSinonimo">.*',
-        "\\1",
-        synonym_name,
-    )
-    synonym_name = synonym_name.replace("<span> <i>", "")
-    synonym_name = synonym_name.replace("</i>", "")
-
-    wiki_page = f"#REDIRECIONAMENTO[[{synonym_name}]]"
-
-    site = pywikibot.Site("pt", "wikipedia")
-    print(synonym_name)
-    os.system(f'taxon2wikipedia render --taxon_name="{synonym_name}"')
-    return site
-
-
-def get_results_dataframe_from_wikidata(qid):
-    template_path = Path(f"{HERE}/../data/full_query_taxon.rq.jinja")
-    t = Template(template_path.read_text())
-    query = t.render(taxon=qid)
-    results_df = get_rough_df_from_wikidata(query)
-    return results_df
-
-
-def get_qid_from_name(taxon_name):
-    if not taxon_name:
-        taxon_name = input("Nome científico do taxon:")
-    taxon_result = search_wikidata(taxon_name)
-    taxon_ok = input(
-        f'Wikidata found {taxon_result["label"]} ({taxon_result["description"]}). Is it correct (y/n)?'
-    )
-    if taxon_ok == "y":
-        qid = taxon_result["id"]
-    else:
-        create_ok = input("Do you want to create the taxon? (y/n)")
-        if create_ok == "y":
-            os.system(f"taxon2wikipedia create --taxon_name '{taxon_name}'")
-        print("quitting...")
-        quit()
-    return qid
+    return wiki_page
 
 
 if __name__ == "__main__":

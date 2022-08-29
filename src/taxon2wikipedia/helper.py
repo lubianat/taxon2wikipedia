@@ -8,11 +8,61 @@ from urllib3.exceptions import InsecureRequestWarning
 from urllib3 import disable_warnings
 import requests
 from urllib.parse import quote
+from .process_reflora import *
+from wdcuration import search_wikidata, render_qs_url
+from jinja2 import Template
+import os
+import webbrowser
+import pywikibot
 
 
 disable_warnings(InsecureRequestWarning)
 
 HERE = Path(__file__).parent.resolve()
+
+
+def render_page_for_synonym(reflora_data):
+    synonym_name = reflora_data["ehSinonimo"]
+    synonym_name = re.sub(
+        '<a onclick=.*?taxon">(.*?)<\/div><div class="nomeAutorSinonimo">.*',
+        "\\1",
+        synonym_name,
+    )
+    synonym_name = synonym_name.replace("<span> <i>", "")
+    synonym_name = synonym_name.replace("</i>", "")
+
+    wiki_page = f"#REDIRECIONAMENTO[[{synonym_name}]]"
+
+    site = pywikibot.Site("pt", "wikipedia")
+    print(synonym_name)
+    os.system(f'taxon2wikipedia render --taxon_name="{synonym_name}"')
+    return site, wiki_page
+
+
+def get_results_dataframe_from_wikidata(qid):
+    template_path = Path(f"{HERE}/../data/full_query_taxon.rq.jinja")
+    t = Template(template_path.read_text())
+    query = t.render(taxon=qid)
+    results_df = get_rough_df_from_wikidata(query)
+    return results_df
+
+
+def get_qid_from_name(taxon_name):
+    if not taxon_name:
+        taxon_name = input("Nome científico do taxon:")
+    taxon_result = search_wikidata(taxon_name)
+    taxon_ok = input(
+        f'Wikidata found {taxon_result["label"]} ({taxon_result["description"]}). Is it correct (y/n)?'
+    )
+    if taxon_ok == "y":
+        qid = taxon_result["id"]
+    else:
+        create_ok = input("Do you want to create the taxon? (y/n)")
+        if create_ok == "y":
+            os.system(f"taxon2wikipedia create --taxon_name '{taxon_name}'")
+        print("quitting...")
+        quit()
+    return qid
 
 
 def render_cnc_flora(taxon_name):
