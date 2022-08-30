@@ -1,9 +1,9 @@
-from wikidata2df import wikidata2df
-
-from pathlib import Path
 import os
+from pathlib import Path
 from random import randint
+
 import click
+from wikidata2df import wikidata2df
 
 HERE = Path(__file__).parent.resolve()
 

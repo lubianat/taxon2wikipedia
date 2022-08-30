@@ -1,7 +1,7 @@
 {
     "orcid-identifier": {
-        "uri": "http://orcid.org/0000-0002-7104-7418",
-        "path": "0000-0002-7104-7418",
+        "uri": "http://orcid.org/0000-0003-1881-7396",
+        "path": "0000-0003-1881-7396",
         "host": "orcid.org"
     },
     "preferences": {
@@ -11,10 +11,10 @@
         "creation-method": "MEMBER_REFERRED",
         "completion-date": null,
         "submission-date": {
-            "value": 1408698291961
+            "value": 1450215101064
         },
         "last-modified-date": {
-            "value": 1653796672085
+            "value": 1659379347556
         },
         "claimed": true,
         "source": null,
@@ -23,180 +23,556 @@
         "verified-primary-email": true
     },
     "person": {
-        "last-modified-date": null,
+        "last-modified-date": {
+            "value": 1610474764998
+        },
         "name": {
             "created-date": {
-                "value": 1460761070294
+                "value": 1460763955115
             },
             "last-modified-date": {
-                "value": 1460761070294
+                "value": 1460763955115
             },
             "given-names": {
-                "value": "Marie"
+                "value": "Jos\u00e9 Leonel"
             },
             "family-name": {
-                "value": "Flamand"
+                "value": "Lemos Buzzo"
             },
             "credit-name": null,
             "source": null,
             "visibility": "PUBLIC",
-            "path": "0000-0002-7104-7418"
+            "path": "0000-0003-1881-7396"
         },
         "other-names": {
             "last-modified-date": null,
             "other-name": [],
-            "path": "/0000-0002-7104-7418/other-names"
+            "path": "/0000-0003-1881-7396/other-names"
         },
         "biography": null,
         "researcher-urls": {
-            "last-modified-date": null,
-            "researcher-url": [],
-            "path": "/0000-0002-7104-7418/researcher-urls"
+            "last-modified-date": {
+                "value": 1610474764998
+            },
+            "researcher-url": [
+                {
+                    "created-date": {
+                        "value": 1610474764998
+                    },
+                    "last-modified-date": {
+                        "value": 1610474764998
+                    },
+                    "source": {
+                        "source-orcid": {
+                            "uri": "http://orcid.org/0000-0003-1881-7396",
+                            "path": "0000-0003-1881-7396",
+                            "host": "orcid.org"
+                        },
+                        "source-client-id": null,
+                        "source-name": {
+                            "value": "Jos\u00e9 Leonel Lemos Buzzo"
+                        }
+                    },
+                    "url-name": "Bioinformatics Lab of S\u00edrio-Liban\u00eas Hospital - Brazil",
+                    "url": {
+                        "value": "https://www.bioinfo.mochsl.org.br/"
+                    },
+                    "visibility": "PUBLIC",
+                    "path": "/0000-0003-1881-7396/researcher-urls/2383306",
+                    "put-code": 2383306,
+                    "display-index": 1
+                }
+            ],
+            "path": "/0000-0003-1881-7396/researcher-urls"
         },
         "emails": {
             "last-modified-date": null,
             "email": [],
-            "path": "/0000-0002-7104-7418/email"
+            "path": "/0000-0003-1881-7396/email"
         },
         "addresses": {
-            "last-modified-date": null,
-            "address": [],
-            "path": "/0000-0002-7104-7418/address"
+            "last-modified-date": {
+                "value": 1465226976952
+            },
+            "address": [
+                {
+                    "created-date": {
+                        "value": 1453660139509
+                    },
+                    "last-modified-date": {
+                        "value": 1465226976952
+                    },
+                    "source": {
+                        "source-orcid": {
+                            "uri": "http://orcid.org/0000-0003-1881-7396",
+                            "path": "0000-0003-1881-7396",
+                            "host": "orcid.org"
+                        },
+                        "source-client-id": null,
+                        "source-name": {
+                            "value": "Jos\u00e9 Leonel Lemos Buzzo"
+                        }
+                    },
+                    "country": {
+                        "value": "BR"
+                    },
+                    "visibility": "PUBLIC",
+                    "path": "/0000-0003-1881-7396/address/291401",
+                    "put-code": 291401,
+                    "display-index": 0
+                }
+            ],
+            "path": "/0000-0003-1881-7396/address"
         },
         "keywords": {
-            "last-modified-date": null,
-            "keyword": [],
-            "path": "/0000-0002-7104-7418/keywords"
+            "last-modified-date": {
+                "value": 1610474665084
+            },
+            "keyword": [
+                {
+                    "created-date": {
+                        "value": 1450216197873
+                    },
+                    "last-modified-date": {
+                        "value": 1610474665084
+                    },
+                    "source": {
+                        "source-orcid": {
+                            "uri": "http://orcid.org/0000-0003-1881-7396",
+                            "path": "0000-0003-1881-7396",
+                            "host": "orcid.org"
+                        },
+                        "source-client-id": null,
+                        "source-name": {
+                            "value": "Jos\u00e9 Leonel Lemos Buzzo"
+                        }
+                    },
+                    "content": "Bioinformatics, Machine Learning, Statistics, Genomics",
+                    "visibility": "PUBLIC",
+                    "path": "/0000-0003-1881-7396/keywords/213750",
+                    "put-code": 213750,
+                    "display-index": 1
+                }
+            ],
+            "path": "/0000-0003-1881-7396/keywords"
         },
         "external-identifiers": {
             "last-modified-date": null,
             "external-identifier": [],
-            "path": "/0000-0002-7104-7418/external-identifiers"
+            "path": "/0000-0003-1881-7396/external-identifiers"
         },
-        "path": "/0000-0002-7104-7418/person"
+        "path": "/0000-0003-1881-7396/person"
     },
     "activities-summary": {
         "last-modified-date": {
-            "value": 1653796672082
+            "value": 1657686966557
         },
         "educations": {
             "last-modified-date": {
-                "value": 1408698473930
+                "value": 1610478435366
             },
             "education-summary": [
                 {
                     "created-date": {
-                        "value": 1408698473930
+                        "value": 1610478401102
                     },
                     "last-modified-date": {
-                        "value": 1408698473930
+                        "value": 1610478401102
                     },
                     "source": {
                         "source-orcid": {
-                            "uri": "http://orcid.org/0000-0002-7104-7418",
-                            "path": "0000-0002-7104-7418",
+                            "uri": "http://orcid.org/0000-0003-1881-7396",
+                            "path": "0000-0003-1881-7396",
                             "host": "orcid.org"
                         },
                         "source-client-id": null,
                         "source-name": {
-                            "value": "Marie Flamand"
+                            "value": "Jos\u00e9 Leonel Lemos Buzzo"
                         }
                     },
-                    "department-name": null,
-                    "role-title": "Habilitation \u00e0 Diriger des Recherches",
-                    "start-date": null,
+                    "department-name": "Biochemistry",
+                    "role-title": "PhD",
+                    "start-date": {
+                        "year": {
+                            "value": "2017"
+                        },
+                        "month": {
+                            "value": "11"
+                        },
+                        "day": {
+                            "value": "15"
+                        }
+                    },
                     "end-date": null,
                     "organization": {
-                        "name": "Universit\u00e9 Paris Descartes",
+                        "name": "Universidade de S\u00e3o Paulo",
                         "address": {
-                            "city": "Paris",
-                            "region": "\u00cele-de-France",
-                            "country": "FR"
+                            "city": "S\u00e3o Paulo",
+                            "region": "SP",
+                            "country": "BR"
                         },
                         "disambiguated-organization": {
-                            "disambiguated-organization-identifier": "26907",
+                            "disambiguated-organization-identifier": "http://dx.doi.org/10.13039/501100005639",
+                            "disambiguation-source": "FUNDREF"
+                        }
+                    },
+                    "visibility": "PUBLIC",
+                    "put-code": 13711833,
+                    "path": "/0000-0003-1881-7396/education/13711833"
+                },
+                {
+                    "created-date": {
+                        "value": 1450215876964
+                    },
+                    "last-modified-date": {
+                        "value": 1610478435366
+                    },
+                    "source": {
+                        "source-orcid": {
+                            "uri": "http://orcid.org/0000-0003-1881-7396",
+                            "path": "0000-0003-1881-7396",
+                            "host": "orcid.org"
+                        },
+                        "source-client-id": null,
+                        "source-name": {
+                            "value": "Jos\u00e9 Leonel Lemos Buzzo"
+                        }
+                    },
+                    "department-name": "Biotecnologia",
+                    "role-title": "Bachelor in Biotechnological Engineering",
+                    "start-date": {
+                        "year": {
+                            "value": "2011"
+                        },
+                        "month": {
+                            "value": "02"
+                        },
+                        "day": {
+                            "value": "06"
+                        }
+                    },
+                    "end-date": {
+                        "year": {
+                            "value": "2017"
+                        },
+                        "month": {
+                            "value": "06"
+                        },
+                        "day": {
+                            "value": "01"
+                        }
+                    },
+                    "organization": {
+                        "name": "Universidade Estadual Paulista J\u00falio de Mesquita Filho",
+                        "address": {
+                            "city": "Assis",
+                            "region": "SP",
+                            "country": "BR"
+                        },
+                        "disambiguated-organization": {
+                            "disambiguated-organization-identifier": "28108",
                             "disambiguation-source": "RINGGOLD"
                         }
                     },
                     "visibility": "PUBLIC",
-                    "put-code": 413091,
-                    "path": "/0000-0002-7104-7418/education/413091"
+                    "put-code": 1411636,
+                    "path": "/0000-0003-1881-7396/education/1411636"
                 }
             ],
-            "path": "/0000-0002-7104-7418/educations"
+            "path": "/0000-0003-1881-7396/educations"
         },
         "employments": {
             "last-modified-date": {
-                "value": 1576013186622
+                "value": 1657686966557
             },
             "employment-summary": [
                 {
                     "created-date": {
-                        "value": 1408698494837
+                        "value": 1657686966557
                     },
                     "last-modified-date": {
-                        "value": 1576013186622
+                        "value": 1657686966557
                     },
                     "source": {
                         "source-orcid": {
-                            "uri": "http://orcid.org/0000-0002-7104-7418",
-                            "path": "0000-0002-7104-7418",
+                            "uri": "http://orcid.org/0000-0003-1881-7396",
+                            "path": "0000-0003-1881-7396",
                             "host": "orcid.org"
                         },
                         "source-client-id": null,
                         "source-name": {
-                            "value": "Marie Flamand"
+                            "value": "Jos\u00e9 Leonel Lemos Buzzo"
                         }
                     },
-                    "department-name": null,
-                    "role-title": null,
-                    "start-date": null,
+                    "department-name": "IPD Bioinformatics",
+                    "role-title": "Technical Advisor",
+                    "start-date": {
+                        "year": {
+                            "value": "2022"
+                        },
+                        "month": {
+                            "value": "01"
+                        },
+                        "day": {
+                            "value": "03"
+                        }
+                    },
                     "end-date": null,
                     "organization": {
-                        "name": "Institut Pasteur",
+                        "name": "Grupo Fleury",
                         "address": {
-                            "city": "Paris",
-                            "region": "",
-                            "country": "FR"
+                            "city": "Sao Paulo",
+                            "region": "S\u00e3o Paulo",
+                            "country": "BR"
                         },
                         "disambiguated-organization": {
-                            "disambiguated-organization-identifier": "27058",
+                            "disambiguated-organization-identifier": "89577",
                             "disambiguation-source": "RINGGOLD"
                         }
                     },
                     "visibility": "PUBLIC",
-                    "put-code": 413093,
-                    "path": "/0000-0002-7104-7418/employment/413093"
+                    "put-code": 18051854,
+                    "path": "/0000-0003-1881-7396/employment/18051854"
+                },
+                {
+                    "created-date": {
+                        "value": 1461720705012
+                    },
+                    "last-modified-date": {
+                        "value": 1623370819839
+                    },
+                    "source": {
+                        "source-orcid": {
+                            "uri": "http://orcid.org/0000-0003-1881-7396",
+                            "path": "0000-0003-1881-7396",
+                            "host": "orcid.org"
+                        },
+                        "source-client-id": null,
+                        "source-name": {
+                            "value": "Jos\u00e9 Leonel Lemos Buzzo"
+                        }
+                    },
+                    "department-name": "Educa\u00e7\u00e3o",
+                    "role-title": "Professor de F\u00edsica em projeto de extens\u00e3o de um curso pr\u00e9 vestibular.",
+                    "start-date": {
+                        "year": {
+                            "value": "2011"
+                        },
+                        "month": {
+                            "value": "11"
+                        },
+                        "day": {
+                            "value": "18"
+                        }
+                    },
+                    "end-date": {
+                        "year": {
+                            "value": "2017"
+                        },
+                        "month": {
+                            "value": "06"
+                        },
+                        "day": {
+                            "value": "01"
+                        }
+                    },
+                    "organization": {
+                        "name": "Universidade Estadual Paulista J\u00falio de Mesquita Filho",
+                        "address": {
+                            "city": "Assis",
+                            "region": "SP",
+                            "country": "BR"
+                        },
+                        "disambiguated-organization": {
+                            "disambiguated-organization-identifier": "162370",
+                            "disambiguation-source": "RINGGOLD"
+                        }
+                    },
+                    "visibility": "PUBLIC",
+                    "put-code": 1782197,
+                    "path": "/0000-0003-1881-7396/employment/1782197"
+                },
+                {
+                    "created-date": {
+                        "value": 1450216018824
+                    },
+                    "last-modified-date": {
+                        "value": 1610478215346
+                    },
+                    "source": {
+                        "source-orcid": {
+                            "uri": "http://orcid.org/0000-0003-1881-7396",
+                            "path": "0000-0003-1881-7396",
+                            "host": "orcid.org"
+                        },
+                        "source-client-id": null,
+                        "source-name": {
+                            "value": "Jos\u00e9 Leonel Lemos Buzzo"
+                        }
+                    },
+                    "department-name": "Ci\u00eancias Biol\u00f3gicas",
+                    "role-title": "Estagi\u00e1rio de inicia\u00e7\u00e3o cient\u00edfica em M\u00e9todos Computacionais e Matem\u00e1tica Aplicada.",
+                    "start-date": {
+                        "year": {
+                            "value": "2012"
+                        },
+                        "month": {
+                            "value": "02"
+                        },
+                        "day": {
+                            "value": "01"
+                        }
+                    },
+                    "end-date": {
+                        "year": {
+                            "value": "2016"
+                        },
+                        "month": {
+                            "value": "12"
+                        },
+                        "day": {
+                            "value": "31"
+                        }
+                    },
+                    "organization": {
+                        "name": "Universidade Estadual Paulista J\u00falio de Mesquita Filho",
+                        "address": {
+                            "city": "Assis",
+                            "region": "SP",
+                            "country": "BR"
+                        },
+                        "disambiguated-organization": {
+                            "disambiguated-organization-identifier": "28108",
+                            "disambiguation-source": "RINGGOLD"
+                        }
+                    },
+                    "visibility": "PUBLIC",
+                    "put-code": 1411638,
+                    "path": "/0000-0003-1881-7396/employment/1411638"
                 }
             ],
-            "path": "/0000-0002-7104-7418/employments"
+            "path": "/0000-0003-1881-7396/employments"
         },
         "fundings": {
-            "last-modified-date": null,
-            "group": [],
-            "path": "/0000-0002-7104-7418/fundings"
-        },
-        "peer-reviews": {
-            "last-modified-date": null,
-            "group": [],
-            "path": "/0000-0002-7104-7418/peer-reviews"
-        },
-        "works": {
             "last-modified-date": {
-                "value": 1653796672082
+                "value": 1623371728933
             },
             "group": [
                 {
                     "last-modified-date": {
-                        "value": 1653796672082
+                        "value": 1623371728933
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "grant_number",
+                                "external-id-value": "140042/2018-0",
+                                "external-id-url": {
+                                    "value": "http://efomento.cnpq.br/efomento/contrato/confirmarDadosBancarios.do"
+                                },
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "funding-summary": [
+                        {
+                            "created-date": {
+                                "value": 1623371728933
+                            },
+                            "last-modified-date": {
+                                "value": 1623371728933
+                            },
+                            "source": {
+                                "source-orcid": {
+                                    "uri": "http://orcid.org/0000-0003-1881-7396",
+                                    "path": "0000-0003-1881-7396",
+                                    "host": "orcid.org"
+                                },
+                                "source-client-id": null,
+                                "source-name": {
+                                    "value": "Jos\u00e9 Leonel Lemos Buzzo"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "Computational Learning Model for the Study of Transposable Elements in Normal and Tumoral Genomes"
+                                },
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "grant_number",
+                                        "external-id-value": "140042/2018-0",
+                                        "external-id-url": {
+                                            "value": "http://efomento.cnpq.br/efomento/contrato/confirmarDadosBancarios.do"
+                                        },
+                                        "external-id-relationship": "SELF"
+                                    }
+                                ]
+                            },
+                            "type": "CONTRACT",
+                            "start-date": {
+                                "year": {
+                                    "value": "2018"
+                                },
+                                "month": {
+                                    "value": "01"
+                                },
+                                "day": null
+                            },
+                            "end-date": {
+                                "year": {
+                                    "value": "2021"
+                                },
+                                "month": {
+                                    "value": "12"
+                                },
+                                "day": null
+                            },
+                            "organization": {
+                                "name": "Conselho Nacional de Desenvolvimento Cient\u00edfico e Tecnol\u00f3gico",
+                                "address": {
+                                    "city": "S\u00e3o Paulo",
+                                    "region": "SP",
+                                    "country": "BR"
+                                },
+                                "disambiguated-organization": {
+                                    "disambiguated-organization-identifier": "http://dx.doi.org/10.13039/501100003593",
+                                    "disambiguation-source": "FUNDREF"
+                                }
+                            },
+                            "visibility": "PUBLIC",
+                            "put-code": 1146622,
+                            "path": "/0000-0003-1881-7396/funding/1146622",
+                            "display-index": "1"
+                        }
+                    ]
+                }
+            ],
+            "path": "/0000-0003-1881-7396/fundings"
+        },
+        "peer-reviews": {
+            "last-modified-date": null,
+            "group": [],
+            "path": "/0000-0003-1881-7396/peer-reviews"
+        },
+        "works": {
+            "last-modified-date": {
+                "value": 1610476498783
+            },
+            "group": [
+                {
+                    "last-modified-date": {
+                        "value": 1610476498783
                     },
                     "external-ids": {
                         "external-id": [
                             {
                                 "external-id-type": "doi",
-                                "external-id-value": "10.1101/545129",
+                                "external-id-value": "10.1101/2020.09.15.298026",
                                 "external-id-url": {
-                                    "value": "https://doi.org/10.1101/545129"
+                                    "value": "https://doi.org/10.1101/2020.09.15.298026"
                                 },
                                 "external-id-relationship": "SELF"
                             }
@@ -204,27 +580,27 @@
                     },
                     "work-summary": [
                         {
-                            "put-code": 62831508,
+                            "put-code": 86691640,
                             "created-date": {
-                                "value": 1570612032634
+                                "value": 1610476450731
                             },
                             "last-modified-date": {
-                                "value": 1653796672082
+                                "value": 1610476498783
                             },
                             "source": {
-                                "source-orcid": null,
-                                "source-client-id": {
-                                    "uri": "http://orcid.org/client/0000-0001-9884-1913",
-                                    "path": "0000-0001-9884-1913",
+                                "source-orcid": {
+                                    "uri": "http://orcid.org/0000-0003-1881-7396",
+                                    "path": "0000-0003-1881-7396",
                                     "host": "orcid.org"
                                 },
+                                "source-client-id": null,
                                 "source-name": {
-                                    "value": "Crossref"
+                                    "value": "Jos\u00e9 Leonel Lemos Buzzo"
                                 }
                             },
                             "title": {
                                 "title": {
-                                    "value": "Genetic dissection of Rift Valley fever pathogenesis: Rfvs2 on mouse chromosome 11 enables survival to acute-onset hepatitis"
+                                    "value": "Whole-genome sequencing of 1,171 elderly admixed individuals from the largest Latin American metropolis (S\u00e3o Paulo, Brazil)"
                                 },
                                 "subtitle": null,
                                 "translated-title": null
@@ -233,9 +609,9 @@
                                 "external-id": [
                                     {
                                         "external-id-type": "doi",
-                                        "external-id-value": "10.1101/545129",
+                                        "external-id-value": "10.1101/2020.09.15.298026",
                                         "external-id-url": {
-                                            "value": "https://doi.org/10.1101/545129"
+                                            "value": "https://doi.org/10.1101/2020.09.15.298026"
                                         },
                                         "external-id-relationship": "SELF"
                                     }
@@ -244,26 +620,116 @@
                             "type": "OTHER",
                             "publication-date": {
                                 "year": {
-                                    "value": "2019"
+                                    "value": "2020"
                                 },
                                 "month": {
-                                    "value": "02"
+                                    "value": "09"
                                 },
                                 "day": {
-                                    "value": "08"
+                                    "value": "16"
                                 },
                                 "media-type": null
                             },
                             "visibility": "PUBLIC",
-                            "path": "/0000-0002-7104-7418/work/62831508",
-                            "display-index": "0"
+                            "path": "/0000-0003-1881-7396/work/86691640",
+                            "display-index": "1"
+                        }
+                    ]
+                },
+                {
+                    "last-modified-date": {
+                        "value": 1610475319606
+                    },
+                    "external-ids": {
+                        "external-id": [
+                            {
+                                "external-id-type": "doi",
+                                "external-id-value": "10.1093/bioinformatics/btaa689",
+                                "external-id-url": {
+                                    "value": "https://doi.org/10.1093/bioinformatics/btaa689"
+                                },
+                                "external-id-relationship": "SELF"
+                            }
+                        ]
+                    },
+                    "work-summary": [
+                        {
+                            "put-code": 86690886,
+                            "created-date": {
+                                "value": 1610475319606
+                            },
+                            "last-modified-date": {
+                                "value": 1610475319606
+                            },
+                            "source": {
+                                "source-orcid": {
+                                    "uri": "http://orcid.org/0000-0003-1881-7396",
+                                    "path": "0000-0003-1881-7396",
+                                    "host": "orcid.org"
+                                },
+                                "source-client-id": null,
+                                "source-name": {
+                                    "value": "Jos\u00e9 Leonel Lemos Buzzo"
+                                }
+                            },
+                            "title": {
+                                "title": {
+                                    "value": "sideRETRO: a pipeline for identifying somatic and polymorphic insertions of processed pseudogenes or retrocopies"
+                                },
+                                "subtitle": null,
+                                "translated-title": null
+                            },
+                            "external-ids": {
+                                "external-id": [
+                                    {
+                                        "external-id-type": "doi",
+                                        "external-id-value": "10.1093/bioinformatics/btaa689",
+                                        "external-id-url": {
+                                            "value": "https://doi.org/10.1093/bioinformatics/btaa689"
+                                        },
+                                        "external-id-relationship": "SELF"
+                                    },
+                                    {
+                                        "external-id-type": "issn",
+                                        "external-id-value": "1367-4803",
+                                        "external-id-url": {
+                                            "value": "https://portal.issn.org/resource/ISSN/1367-4803"
+                                        },
+                                        "external-id-relationship": "PART_OF"
+                                    },
+                                    {
+                                        "external-id-type": "issn",
+                                        "external-id-value": "1460-2059",
+                                        "external-id-url": {
+                                            "value": "https://portal.issn.org/resource/ISSN/1460-2059"
+                                        },
+                                        "external-id-relationship": "PART_OF"
+                                    }
+                                ]
+                            },
+                            "type": "JOURNAL_ARTICLE",
+                            "publication-date": {
+                                "year": {
+                                    "value": "2020"
+                                },
+                                "month": {
+                                    "value": "07"
+                                },
+                                "day": {
+                                    "value": "27"
+                                },
+                                "media-type": null
+                            },
+                            "visibility": "PUBLIC",
+                            "path": "/0000-0003-1881-7396/work/86690886",
+                            "display-index": "1"
                         }
                     ]
                 }
             ],
-            "path": "/0000-0002-7104-7418/works"
+            "path": "/0000-0003-1881-7396/works"
         },
-        "path": "/0000-0002-7104-7418/activities"
+        "path": "/0000-0003-1881-7396/activities"
     },
-    "path": "/0000-0002-7104-7418"
+    "path": "/0000-0003-1881-7396"
 }

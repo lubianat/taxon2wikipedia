@@ -1,8 +1,8 @@
-from pathlib import Path
 import collections
-import re
-from typing import OrderedDict
 import json
+import re
+from pathlib import Path
+from typing import OrderedDict
 
 HERE = Path(__file__).parent.resolve()
 DICTS = HERE.parent.joinpath("dicts")
@@ -34,9 +34,12 @@ RESUB_DICT = {
     "</i.*?>": "",
     "<i.*?>": "",
     "</b>": "",
-    "<b>": "",
+    "<br>": "\n",
+    "<b(.|\n)*?>": "",
     "<span>": "",
     "<w:(.|\n)*?>": "",
+    "<font(.|\n)*?>": "",
+    "</font(.|\n)*?>": "",
     "<xml>(.|\n)*?</xml>": "",
     "</w.*?>": "",
     "<div.*?>": "",

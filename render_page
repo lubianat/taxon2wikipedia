@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 
-from SPARQLWrapper import SPARQLWrapper, JSON
-import pandas as pd
-from jinja2 import Template
 import sys
-import requests
-from src.qid2taxobox import *
+
+import pandas as pd
 import pywikibot
+import requests
+from jinja2 import Template
+from SPARQLWrapper import JSON, SPARQLWrapper
+from src.qid2taxobox import *
 
 template_path = "data/full_query_taxon.rq.jinja"
 taxon_qid = sys.argv[1]

@@ -1,6 +1,8 @@
 import click
+
 from taxon2wikipedia import qid2taxobox
-from . import pop_new_qid, render_page_espirito_santo, qid2taxobox, create_taxon
+
+from . import create_taxon, pop_new_qid, qid2taxobox, render_page_espirito_santo
 
 
 @click.group()

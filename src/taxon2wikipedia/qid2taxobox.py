@@ -1,6 +1,6 @@
-from SPARQLWrapper import SPARQLWrapper, JSON
-import pandas as pd
 import click
+import pandas as pd
+from SPARQLWrapper import JSON, SPARQLWrapper
 
 
 def get_parent_taxon_df(qid):

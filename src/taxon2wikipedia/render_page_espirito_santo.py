@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 
-from .helper import *
-from .process_reflora import *
-from wdcuration import search_wikidata, render_qs_url
-from jinja2 import Template
 import os
 import webbrowser
+
 import pywikibot
+from jinja2 import Template
+from wdcuration import render_qs_url, search_wikidata
+
+from .helper import *
+from .process_reflora import *
 
 
 @click.command(name="render")
@@ -181,7 +183,11 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
         ]
 
         for cat in categories:
-            wiki_page = wiki_page + f"""[[Categoria:{cat}]]"""
+            wiki_page = (
+                wiki_page
+                + f"""[[Categoria:{cat}]]
+"""
+            )
 
         print("===== Saving wikipage =====")
         wiki_page = merge_equal_refs(wiki_page)

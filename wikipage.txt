@@ -7,81 +7,89 @@
 | divisão                = [[Tracheophyta]]    
 | subfamília             = [[Epidendroideae]]    
 | infrarreino            = [[Streptophyta]]    
+| género                 = [[Zygopetalum]]    
 | superdivisão           = [[Embryophyta]]    
 | subfilo                = [[Euphyllophyta]]    
 | tribo                  = [[Cymbidieae]]    
 | superdomínio           = [[Biota]]    
-| género                 = [[Xylobium]]    
 | subdomínio             = [[Diaphoretickes]]    
-| Q3965313               = [[Maxillariinae]]    
+| espécie                = [[Zygopetalum crinitum]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Xylobium pallidiflorum]]    
 }}
-'''''Xylobium pallidiflorum''''' é uma espécie de [[planta]] do gênero ''[[Xylobium]]'' e da família [[Orchidaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB582235|titulo=Xylobium pallidiflorum (Hook.) G.Nicholson|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-         Xylobium pallidiflorum foi descrito por Hook em 1828 como Maxillaria pallidiflora através de coleta de L. Guilding s.n. (K), sem localidade ou data especificada, que floresceu em cultivo no jardim botânico de Glasgow. Posteriormente, foi transferida para o gênero Xylobium por G. Nicholson em 1887.<br>          Xylobium pallidiflorum pode ser reconhecido pelo [[pseudobulbo]] oblongo e bastante alongado, característica que compartilha com Xylobium elongatum (Lindl. &amp; Paxt.) Hemsl., espécie não registrada em território nacional. <ref name=":ref_0"/> 
+'''''Zygopetalum crinitum''''' é uma espécie de [[planta]] do gênero ''[[Zygopetalum]]'' e da família [[Orchidaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB12381|titulo=Zygopetalum crinitum Lodd.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+
 == Taxonomia ==
-A espécie foi descrita em [[1887]] por [[George Nicholson]]. <ref>{{Citar web|url=https://www.gbif.org/species/2850807|titulo=Xylobium pallidiflorum|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+A espécie foi descrita em [[1831]] por [[George Loddiges]]. <ref>{{Citar web|url=https://www.gbif.org/species/2837020|titulo=Zygopetalum crinitum|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/> 
-* ''Maxillaria stenobulbon''  Klotzsch 
-* ''Onkeripus pallidus''  Raf. 
-* ''Xylobium gracile''  Schltr. 
-* ''Xylobium latifolium''  Schltr. 
-* ''Xylobium squalens gracile''  (Schltr.) C.Schweinf. 
-* ''Colax pallidiflorus''  (Hook.) A.Spreng. 
-* ''Maxillaria pallidiflora''  Hook. 
+* ''Zygopetalum crepeauxii''  Carrière 
+* ''Zygopetalum crinitum coeruleum''  B.S.Williams 
+* ''Zygopetalum crinitum rubellum''  Regel 
+* ''Zygopetalum ghillanyi''  Pabst 
+* ''Zygopetalum mackaii coeruleum''  (B.S.Williams) Rollisson 
+* ''Zygopetalum mackaii nanum''  J.Harrison 
+* ''Zygopetalum mackaii roseum''  Rollisson ex Stein 
+* ''Zygopetalum mackaii velutinum''  (Hoffmanns.) Rollisson 
+* ''Zygopetalum pubescens''  Hoffmanns. 
+* ''Zygopetalum reginae''  Pabst 
+* ''Zygopetalum stenochilum''  Lodd. ex Drapiez 
+* ''Zygopetalum stenochilum''  Lodd. 
+* ''Zygopetalum velutinum''  Hoffmanns. 
+* ''Zygopetalum mackaii convexum''  Mutel 
+* ''Zygopetalum mackaii crinitum''  (Lodd.) Lindl. 
+* ''Zygopetalum microtus''  Hoffmanns. 
 == Forma de vida ==
-É uma espécie [[epífita]] e [[herbácea]]. <ref name=":ref_0"/>  
+É uma espécie [[epífita]], [[rupícola]], [[terrícola]] e [[herbácea]]. <ref name=":ref_0"/>  
 == Descrição ==
-Planta epífita. Pseudobulbo oblongo e alongado, levemente arqueado. Ela tem [[folhas]] oblongas a elíptico-lanceoladas, ápice obtuso a levemente agudo. Inflorescências paucifloras, geralmente com uma inflorescência. Sépalas amarelas a esverdeadas; a dorsal oblonga a lanceolada, ápice agudo; as laterais semelhantes a dorsal. Pétalas amarelas a esverdeadas, oblongas, ápice agudo. Possui [[labelo]] branco; levemente trilobado, lobo mediano oblongo, disco com 3-5 calos longitudinais; lobos laterais arredondados. Coluna branca, arqueada. <ref name=":ref_0"/>   
+<p style="font-variant-numeric: normal; font-variant-east-asian: normal;"> Plantas epífitas; folhas com limbos curtos (20,9–38,0 centímetros de comprimento); inflorescência mais curta que de comprimento dos [[pseudobulbo]]s mais folhas; [[labelo]] estreito (lobo mediano 2,5–3,3 centímetros de largura); [[sépala]]s e [[pétala]]s convexas. <ref name=":ref_0"/>   
 {| class="wikitable" 
-|+
-! colspan="2" |'''Raiz'''<ref name=":ref_0" />
-|-
-|'''fasciculada'''
-|presente
 |+
 ! colspan="2" |'''Caule'''<ref name=":ref_0" />
 |-
-|'''[[pseudobulbo]]'''
-|presente
+|'''bainha'''
+|não folhosa
+|-
+|'''crescimento'''
+|simpodial
 |+
 ! colspan="2" |'''Folha'''<ref name=":ref_0" />
 |-
-|'''folha'''
-|1/2
+|'''pseudopecíolo'''
+|presente
 |+
 ! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
 |-
-|'''tipo'''
-|pauciflora
+|'''posição'''
+|arqueada
 |+
 ! colspan="2" |'''Flor'''<ref name=":ref_0" />
 |-
-|'''[[labelo]]'''
-|trilobado
-|+
-! colspan="2" |'''Fruto'''<ref name=":ref_0" />
+|'''[[pétala]] e [[sépala]]'''
+|amba maculada
 |-
-|'''tipo'''
-|[[Cápsula (fruto)|cápsula]]
-|+
-! colspan="2" |'''Semente'''<ref name=":ref_0" />
+|'''[[labelo]] lobo lateral'''
+|inconspícuo
 |-
-|'''muitas'''
-|presente
+|'''posição'''
+|perpendicular
+|-
+|'''adnato ao calo'''
+|não adnato
 |}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]] e [[Mato Grosso]].<ref name=":ref_0"/> 
-Em termos ecológicos, é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de [[Cerrado]] e [[Mata Atlântica]], em regiões com vegetação de [[Vegetação ripária|mata ciliar]] e [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
+A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]], [[Paraná]], [[Rio de Janeiro]], [[Rio Grande do Sul]], [[Santa Catarina]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
+Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Vegetação ripária|mata ciliar]], [[floresta estacional semidecidual]], [[Floresta húmida|floresta ombrófila pluvial]], [[floresta ombrófila mista|mata de araucária]] e vegetação sobre afloramentos rochosos.<ref name=":ref_0"/> 
 == Notas ==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Santos, T.F.; Smidt, E.C. ''Xylobium''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Meneguzzo, T.E.C.; Hall, C.F. ''Zygopetalum''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB582235 ''Xylobium pallidiflorum'' no projeto Flora e Funga do Brasil]
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB12381 ''Zygopetalum crinitum'' no projeto Flora e Funga do Brasil]
 
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Orchidaceae]][[Categoria:Xylobium]][[Categoria:Plantas descritas em 1887]][[Categoria:Plantas]][[Categoria:Flora do Brasil]][[Categoria:Flora do Espírito Santo]][[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
+[[Categoria:Orchidaceae]][[Categoria:Zygopetalum]][[Categoria:Plantas descritas em 1831]][[Categoria:Plantas]]
+[[Categoria:Flora do Brasil]]
+[[Categoria:Flora do Espírito Santo]]
+[[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]

@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
-from cgi import test
-from .qid2taxobox import *
-from .cleanup import *
-from pathlib import Path
-from .process_reflora import *
-from urllib3.exceptions import InsecureRequestWarning
-from urllib3 import disable_warnings
-import requests
-from urllib.parse import quote
-from .process_reflora import *
-from wdcuration import search_wikidata, render_qs_url
-from jinja2 import Template
 import os
 import webbrowser
-import pywikibot
+from cgi import test
+from pathlib import Path
+from urllib.parse import quote
 
+import pywikibot
+import requests
+from jinja2 import Template
+from urllib3 import disable_warnings
+from urllib3.exceptions import InsecureRequestWarning
+from wdcuration import render_qs_url, search_wikidata
+
+from .cleanup import *
+from .process_reflora import *
+from .qid2taxobox import *
 
 disable_warnings(InsecureRequestWarning)
 

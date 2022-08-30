@@ -1,9 +1,11 @@
-import requests
+import json
+import re
 import sys
 from pathlib import Path
-import json
+
+import requests
 from bs4 import BeautifulSoup
-import re
+
 from .cleanup import fix_description
 
 HERE = Path(__file__).parent.resolve()
