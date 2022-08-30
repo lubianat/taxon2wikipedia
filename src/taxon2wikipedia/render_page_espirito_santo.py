@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 
-import os
 import webbrowser
-
 import pywikibot
-from jinja2 import Template
-from wdcuration import render_qs_url, search_wikidata
-
+from wdcuration import render_qs_url
 from .helper import *
 from .process_reflora import *
 
@@ -57,11 +53,8 @@ def main(scope_name: str, qid: str, taxon: str, taxon_name: str, reflora_id: str
     try:
         reflora_data = get_reflora_data(reflora_id)
         HERE.joinpath("reflora.json").write_text(json.dumps(reflora_data, indent=4))
-
-        reflora_ok = True
     except:
-        reflora_ok = False
-
+        pass
     if len(reflora_data["nomesVernaculos"]) > 0:
         qs = print_qs_for_names(reflora_data, qid)
         webbrowser.open(render_qs_url(qs))
@@ -131,7 +124,7 @@ def get_wiki_page(
             pass
         else:
             print("Page already exists. Quitting.")
-            quit()
+            sys.exit()
 
     else:
         common_name_text = render_common_name(results_df, reflora_data)
