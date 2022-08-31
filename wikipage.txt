@@ -2,94 +2,113 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| família                = [[Orchidaceae]]    
-| ordem                  = [[Asparagales]]    
+| ordem                  = [[Myrtales]]    
 | divisão                = [[Tracheophyta]]    
-| subfamília             = [[Epidendroideae]]    
 | infrarreino            = [[Streptophyta]]    
-| género                 = [[Zygopetalum]]    
 | superdivisão           = [[Embryophyta]]    
 | subfilo                = [[Euphyllophyta]]    
-| tribo                  = [[Cymbidieae]]    
+| família                = [[Melastomataceae]]    
 | superdomínio           = [[Biota]]    
+| género                 = [[Bertolonia]]    
 | subdomínio             = [[Diaphoretickes]]    
-| espécie                = [[Zygopetalum crinitum]]    
 | subreino               = [[Viridiplantae]]    
+| espécie                = [[Bertolonia foveolata]]    
 }}
-'''''Zygopetalum crinitum''''' é uma espécie de [[planta]] do gênero ''[[Zygopetalum]]'' e da família [[Orchidaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB12381|titulo=Zygopetalum crinitum Lodd.|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+'''''Bertolonia foveolata''''' é uma espécie de [[planta]] do gênero ''[[Bertolonia]]'' e da família [[Melastomataceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB9418|titulo=Bertolonia foveolata Brade|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
 
 == Taxonomia ==
-A espécie foi descrita em [[1831]] por [[George Loddiges]]. <ref>{{Citar web|url=https://www.gbif.org/species/2837020|titulo=Zygopetalum crinitum|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
-Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/> 
-* ''Zygopetalum crepeauxii''  Carrière 
-* ''Zygopetalum crinitum coeruleum''  B.S.Williams 
-* ''Zygopetalum crinitum rubellum''  Regel 
-* ''Zygopetalum ghillanyi''  Pabst 
-* ''Zygopetalum mackaii coeruleum''  (B.S.Williams) Rollisson 
-* ''Zygopetalum mackaii nanum''  J.Harrison 
-* ''Zygopetalum mackaii roseum''  Rollisson ex Stein 
-* ''Zygopetalum mackaii velutinum''  (Hoffmanns.) Rollisson 
-* ''Zygopetalum pubescens''  Hoffmanns. 
-* ''Zygopetalum reginae''  Pabst 
-* ''Zygopetalum stenochilum''  Lodd. ex Drapiez 
-* ''Zygopetalum stenochilum''  Lodd. 
-* ''Zygopetalum velutinum''  Hoffmanns. 
-* ''Zygopetalum mackaii convexum''  Mutel 
-* ''Zygopetalum mackaii crinitum''  (Lodd.) Lindl. 
-* ''Zygopetalum microtus''  Hoffmanns. 
+A espécie foi descrita em [[1956]] por [[Alexander Curt Brade]]. <ref>{{Citar web|url=https://www.gbif.org/species/5600704|titulo=Bertolonia foveolata|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+
 == Forma de vida ==
-É uma espécie [[epífita]], [[rupícola]], [[terrícola]] e [[herbácea]]. <ref name=":ref_0"/>  
+É uma espécie [[terrícola]] e [[herbácea]]. <ref name=":ref_0"/>  
 == Descrição ==
-<p style="font-variant-numeric: normal; font-variant-east-asian: normal;"> Plantas epífitas; folhas com limbos curtos (20,9–38,0 centímetros de comprimento); inflorescência mais curta que de comprimento dos [[pseudobulbo]]s mais folhas; [[labelo]] estreito (lobo mediano 2,5–3,3 centímetros de largura); [[sépala]]s e [[pétala]]s convexas. <ref name=":ref_0"/>   
+Ervas 15-50 centímetros de altura, terrícolas, epífitas ou hemiepífitas; indumento do caule, folhas, inflorescências e face abaxial das [[bráctea]]s e [[bractéola]]s glanduloso-pontuado e viloso, e também no [[hipanto]] e [[Cálice (botânica)|cálice]] glanduloso-pontuado e setuloso no ápice. Ela tem [[folhas]] opostas, buladas na face adaxial, foveoladas na face abaxial; lâmina membranácea, elíptica, às vezes ovada, base cordada ou cordado-lobada, ápice agudo ou obtuso, às vezes arredondada, margem serrada, ciliolada; 3-5 nervuras acródromas basais; [[domácia]]s em tufos de pêlos presentes ou não na face abaxial. Inflorescências em tirsoides de [[ Cimeira (botânica)| cimeira]]s escorpioides ou de [[dicásio]]s ou de tríades de cimeiras escorpioides. Ela tem [[flores]] com hipanto tubuloso; cálice membranáceo, [[lacínia]]s unilobadas, estreito-ovadas ou oblongas, ápice atenuado-acuminado, margem inteira, face abaxial também esparsamente pilosa na costela; [[pétala]]s planas, subpatentes, elípticas ou obovadas, base curtamente unguiculada, ápice agudo, margem inteira, papilosas, glabras; estames subiguais em tamanho, exsertos, filetes papilosos no ápice, [[antera]]s oblongas a oblongo-subuladas, retas ou curvas, tecas onduladas, conectivo prolongado, apêndice agudo; ovário 3-locular, glabro, estilete glabroPossui [[Cápsula (fruto)|cápsula]]s com eixos placentários esparso-fimbriados; sementes rostradas. <ref name=":ref_0"/>   
 {| class="wikitable" 
 |+
 ! colspan="2" |'''Caule'''<ref name=":ref_0" />
 |-
-|'''bainha'''
-|não folhosa
+|'''aéreo'''
+|ereto
 |-
-|'''crescimento'''
-|simpodial
+|'''indumento'''
+|denso/glanduloso/viloso
 |+
 ! colspan="2" |'''Folha'''<ref name=":ref_0" />
 |-
-|'''pseudopecíolo'''
-|presente
+|'''[[filotaxia]]'''
+|oposta
+|-
+|'''lâmina face adaxial'''
+|bulada
+|-
+|'''indumento'''
+|esparso/glanduloso/viloso
+|-
+|'''base'''
+|cordada/cordado lobada
+|-
+|'''margem'''
+|serreada/ciliada
+|-
+|'''[[nervação]]'''
+|basal
 |+
 ! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
 |-
-|'''posição'''
-|arqueada
+|'''ramo'''
+|escorpioide/[[dicásio]]/tríade
+|-
+|'''tipo'''
+|tirsóide de [[ Cimeira (botânica)| cimeira]] escorpioide
 |+
 ! colspan="2" |'''Flor'''<ref name=":ref_0" />
 |-
-|'''[[pétala]] e [[sépala]]'''
-|amba maculada
+|'''[[hipanto]]'''
+|tubuloso/glanduloso/setuloso
 |-
-|'''[[labelo]] lobo lateral'''
-|inconspícuo
+|'''[[Cálice (botânica)|cálice]]'''
+|membranáceo
 |-
-|'''posição'''
-|perpendicular
+|'''[[sépala]]'''
+|unilobado/setulosa/inteira
 |-
-|'''adnato ao calo'''
-|não adnato
+|'''[[pétala]]'''
+|patente/branca
+|-
+|'''ovário'''
+|trilocular
+|-
+|'''estilete'''
+|glabro
+|+
+! colspan="2" |'''Fruto'''<ref name=":ref_0" />
+|-
+|'''placenta'''
+|fimbriada
+|-
+|'''tipo'''
+|obtriquetra
+|+
+! colspan="2" |'''Semente'''<ref name=":ref_0" />
+|-
+|'''rostro'''
+|presente
 |}
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
 
 == Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]], [[Paraná]], [[Rio de Janeiro]], [[Rio Grande do Sul]], [[Santa Catarina]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
-Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Vegetação ripária|mata ciliar]], [[floresta estacional semidecidual]], [[Floresta húmida|floresta ombrófila pluvial]], [[floresta ombrófila mista|mata de araucária]] e vegetação sobre afloramentos rochosos.<ref name=":ref_0"/> 
+A espécie é encontrada no estado brasileiro de [[Espírito Santo (estado)|Espírito Santo]].<ref name=":ref_0"/> 
+Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
 == Notas ==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Meneguzzo, T.E.C.; Hall, C.F. ''Zygopetalum''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Baumgratz, J.F.A. ''Bertolonia''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB12381 ''Zygopetalum crinitum'' no projeto Flora e Funga do Brasil]
-
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB9418 ''Bertolonia foveolata'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Bertolonia%20foveolata ''Bertolonia foveolata'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Orchidaceae]][[Categoria:Zygopetalum]][[Categoria:Plantas descritas em 1831]][[Categoria:Plantas]]
+[[Categoria:Melastomataceae]][[Categoria:Bertolonia]][[Categoria:Plantas descritas em 1956]][[Categoria:Plantas]]
 [[Categoria:Flora do Brasil]]
 [[Categoria:Flora do Espírito Santo]]
 [[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]
