@@ -16,6 +16,7 @@ ECOLOGY_WIKI = json.loads(HERE.parent.joinpath("dicts/ecology_wiki_pt.json").rea
 
 
 def render_comment(data):
+
     try:
         if data["mostrarComentarioPublicoPT"] == True:
             text = f"""{data["comentarioPublicoPT"]} {get_ref_reflora(data)}"""
@@ -230,6 +231,9 @@ def get_reflora_data(fb_id):
 
 
 def get_synonyms_from_reflora(data):
+    if data is None:
+        return ""
+
     name = data["nomeStr"]
     if "temComoSinonimo" not in data:
         return ""
@@ -267,6 +271,8 @@ def get_synonyms_from_reflora(data):
 
 
 def get_subspecies_from_reflora(data):
+    if data is None:
+        return ""
     name = data["nomeStr"]
     if "filhosSubspVar" not in data:
         return ""
