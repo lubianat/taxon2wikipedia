@@ -21,6 +21,14 @@ disable_warnings(InsecureRequestWarning)
 HERE = Path(__file__).parent.resolve()
 
 
+def render_reflora_link(taxon_name, reflora_id):
+    print(reflora_id)
+    if reflora_id == "" or reflora_id is None:
+        return ""
+
+    return f"* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id} ''{taxon_name}'' no projeto Flora e Funga do Brasil]"
+
+
 def render_page_for_synonym(reflora_data):
     synonym_name = reflora_data["ehSinonimo"]
     synonym_name = re.sub(
