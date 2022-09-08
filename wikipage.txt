@@ -1,1 +1,117 @@
-#REDIRECIONAMENTO[[Carolus chlorocarpus]]
+
+{{Info/Taxonomia
+| imagem                = 
+| reino                  = [[Plantae]]    
+| divisão                = [[Tracheophyta]]    
+| ordem                  = [[Poales]]    
+| infrarreino            = [[Streptophyta]]    
+| família                = [[Cyperaceae]]    
+| género                 = [[Cyperus]]    
+| superdivisão           = [[Embryophyta]]    
+| subfilo                = [[Euphyllophyta]]    
+| superdomínio           = [[Biota]]    
+| subfamília             = [[Cyperoideae]]    
+| subdomínio             = [[Diaphoretickes]]    
+| subreino               = [[Viridiplantae]]    
+| espécie                = [[Cyperus appendiculatus]]    
+| tribo                  = [[Cypereae]]    
+}}
+'''''Cyperus appendiculatus''''' é uma espécie de [[planta]] do gênero ''[[Cyperus]]'' e da família [[Cyperaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB34957|titulo=Cyperus appendiculatus (Brongn.) Kunth|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+
+== Taxonomia ==
+A espécie foi descrita em [[1837]] por [[Carl Sigismund Kunth]]. <ref>{{Citar web|url=https://www.gbif.org/species/2715058|titulo=Cyperus appendiculatus|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+São conhecidas as seguintes subspécies de Cyperus appendiculatus (Brongn.) Kunth:  <ref name=":ref_0"/> 
+ * ''Cyperus appendiculatus (Brongn.) Kunth'' var. ''atlanticus'' 
+Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/> 
+* ''Mariscus appendiculatus''  Brongn. 
+* ''Cyperus appendiculatus gordonii''  Kük. 
+* ''Cyperus appendiculatus noronhae''  (Ridl.) Kük. 
+* ''Cyperus noronhae''  Ridl. 
+== Forma de vida ==
+É uma espécie [[terrícola]] e [[herbácea]]. <ref name=":ref_0"/>  
+== Descrição ==
+Planta perene; antelódio laxo ou subdenso com raios conspicuos, simples, terminal;  espigas subdensas, ovais ou oblongas; ráquila articulada acima do profilo e da [[bráctea]] da [[espigueta]]; [[espigueta]]s de 5–8 milímetros  de comprimento,  4-8-floras; [[gluma]]s elípticas, densamente imbricadas, de 9–11 nervuras, geralmente com pontuações vináceas entre as nervuras laterais; [[aquênio]] trígono, elipsoide. <ref name=":ref_0"/>   
+{| class="wikitable" 
+|+
+! colspan="2" |'''Caule'''<ref name=":ref_0" />
+|-
+|'''planta herbácea'''
+|perene/[[cespitosa]]/com rizoma curto
+|-
+|'''[[bráctea]]-involucral'''
+|foliácea/5/8/reflexa/ascendente/parcialmente escabra
+|-
+|'''escapo'''
+|trígono/liso/parcialmente escabro
+|+
+! colspan="2" |'''Folha'''<ref name=":ref_0" />
+|-
+|'''folha'''
+|mais longa que bráctea-involucral/alterna basilar
+|-
+|'''[[lâmina foliar]]'''
+|desenvolvida/esverdeada/margem escabra
+|+
+! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
+|-
+|'''sinflorescência'''
+|terminal/laxa/densa/simples/espiga/com ramo ascendente
+|-
+|'''inflorescência parcial dos ramo terminal'''
+|densa/laxa/subdensa/pedunculada/subséssil
+|-
+|'''[[espigueta]]'''
+|com ráquila caduca/alterna espiralada/patente/ascendente/lanceolada
+|-
+|'''[[gluma]] fértil'''
+|persistente/4/8/dística/oblonga/densamente imbricada/oval/navicular/pálea/castanha/com linha avermelhada
+|-
+|'''ápice'''
+|agudo/mucronado
+|-
+|'''nervura da quilha'''
+|3/lisa
+|-
+|'''nervura lateral'''
+|3
+|+
+! colspan="2" |'''Flor'''<ref name=":ref_0" />
+|-
+|'''carpelo e estigma'''
+|3/bissexual/cerda perigonial ausente
+|-
+|'''estame'''
+|3
+|+
+! colspan="2" |'''Fruto'''<ref name=":ref_0" />
+|-
+|'''[[aquênio]]'''
+|trígono/elipsoide/castanho claro
+|-
+|'''superfície'''
+|papilosa
+|-
+|'''ápice'''
+|apiculado/obtuso
+|-
+|'''base'''
+|aguda/não - estipitada
+|}
+== Conservação ==
+A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
+
+== Distribuição ==
+A espécie é encontrada nos estados brasileiros de [[Espírito Santo (estado)|Espírito Santo]] e [[Pernambuco]].<ref name=":ref_0"/> 
+Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Mata Atlântica]], em regiões com vegetação de [[áreas antrópicas]] e vegetação aquática.<ref name=":ref_0"/> 
+== Notas ==
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Matzenauer, W.; Pereira-Silva, L.; Hefler, S.M. ''Cyperus''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+{{Referencias}}
+== Ligações externas ==
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB34957 ''Cyperus appendiculatus'' no projeto Flora e Funga do Brasil]
+
+{{Controle de autoridade}}
+{{esboço-planta}}
+[[Categoria:Cyperaceae]][[Categoria:Cyperus]][[Categoria:Plantas descritas em 1837]][[Categoria:Plantas]]
+[[Categoria:Flora do Brasil]]
+[[Categoria:Flora do Espírito Santo]]
+[[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]

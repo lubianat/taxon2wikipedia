@@ -36,6 +36,11 @@ def render_page_for_synonym(reflora_data):
         "\\1",
         synonym_name,
     )
+    synonym_name = re.sub(
+        "<.*?>",
+        "",
+        synonym_name,
+    )
     synonym_name = synonym_name.replace("<span> <i>", "")
     synonym_name = synonym_name.replace("</i>", "")
 
