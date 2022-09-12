@@ -105,5 +105,11 @@
   "comprimento corola": "comprimento da corola",
   "cálice deiscência": "deiscência do cálice",
   "ovário lóculo": "lóculos do ovário",
-  "comprimento hipanto com ovário": "comprimento do hipanto com ovário"
+  "comprimento hipanto com ovário": "comprimento do hipanto com ovário",
+  "folha disposição": "disposição da folha",
+  "ápice lâmina": "ápice da lâmina",
+  "base lâmina": "base da lâmina",
+  "margem lâmina": "margem da lâmina",
+  "cor face externa": "cor da face externa",
+  "cor face interna": "cor da face interna"
 }
