@@ -2,29 +2,28 @@
     "mostrarHierarquia": true,
     "distribuicaoGeograficaDuvidaNorte": "",
     "estadosCerteza": [
-        "BA",
         "ES"
     ],
     "filhosSubspVar": "",
-    "possuiImagemVoucherHV": true,
+    "possuiImagemVoucherHV": false,
     "mostrarDistribuicaoHidrografica": true,
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
-    "exibirMensagemCamposControladosIgual": true,
-    "idTaxon": 14144,
+    "exibirMensagemCamposControladosIgual": false,
+    "idTaxon": 582395,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
     "distribuicaoGeograficaCertezaSul": "",
     "substrato": [
-        "Terr\u00edcola"
+        "Ep\u00edfita"
     ],
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
-    "mostrarDescricaoCamposControlados": false,
-    "id": "FB14144",
+    "mostrarDescricaoCamposControlados": true,
+    "id": "FB582369",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiospermas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(210)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Rubiaceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(14133)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Palicourea</i></div><div class=\"nomeAutorInfraGenerico\"> Aubl.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(14144)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de herb\u00e1rio \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Palicourea veterinariorum</i></div><div class=\"nomeAutorInfraGenerico\"> J.H.Kirkbr.</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiospermas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(179)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Orchidaceae</div><div class=\"nomeAutorSupraGenerico\"> A.Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(12328)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Trichocentrum</i></div><div class=\"nomeAutorInfraGenerico\"> Poepp. & Endl.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(582369)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Trichocentrum schwambachiae</i></div><div class=\"nomeAutorInfraGenerico\"> (V.P.Casto & Toscano) Meneguzzo</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
     "possuiImagemVoucherINCT": false,
@@ -33,16 +32,17 @@
         "Nome correto"
     ],
     "mostrarImagensCampos": false,
+    "mostrarDescricaoLivreEN": true,
     "distribuicaoGeograficaDuvidaCentroOeste": "",
     "mostrarTipoVegetacao": true,
     "distribuicaoGeograficaCertezaSudeste": "<b>Sudeste</b> (Esp\u00edrito Santo)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "Taylor, C. 2015. Palicourea in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB14144>http://floradobrasil2015.jbrj.gov.br/FB14144</a>)<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
-    "nome": "<span><div class=\"taxon\"> <i>Palicourea veterinariorum</i></div><div class=\"nomeAutorInfraGenerico\"> J.H.Kirkbr.</div></span>",
-    "distribuicaoGeograficaCertezaNordeste": "<b>Nordeste</b> (Bahia)<br/>",
+    "bibliografiaFixa": "Barros, F. de,Vinhos, F.,Rodrigues, V.T.,Barberena, F.F.V.A.,Fraga, C.N.,Pessoa, E.M.,Forster, W.,Menini Neto, L.,Furtado, S.G.,Nardy, C.,Azevedo, C.O.,Guimar\u00e3es, L.R.S. 2015. Orchidaceae in Lista de Esp\u00e9cies da Flora do Brasil. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=http://floradobrasil2015.jbrj.gov.br/FB582369>http://floradobrasil2015.jbrj.gov.br/FB582369</a>)<br><br>Meneguzzo, T.E.C. 2020. Trichocentrum in Flora do Brasil 2020. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB582369\">https://floradobrasil2020.jbrj.gov.br/FB582369</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+    "nome": "<span><div class=\"taxon\"> <i>Trichocentrum schwambachiae</i></div><div class=\"nomeAutorInfraGenerico\"> (V.P.Casto & Toscano) Meneguzzo</div></span>",
+    "distribuicaoGeograficaCertezaNordeste": "",
     "distribuicaoHidrograficaCerteza": "",
-    "nomeDataplamt": "Palicourea veterinariorum",
+    "nomeDataplamt": "Trichocentrum schwambachiae",
     "distribuicaoIlhasPossiveis": "",
     "mostrarCitacao": true,
     "endemismo": "\u00e9 end\u00eamica do Brasil",
@@ -51,18 +51,17 @@
     "distribuicaoGeograficaCertezaNorte": "",
     "estadosDuvida": [],
     "formaVida": [
-        "Arbusto"
+        "Erva"
     ],
     "tipoVegetacao": [
-        "Floresta Ciliar ou Galeria",
         "Floresta Ombr\u00f3fila (Floresta Pluvial)"
     ],
     "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB14144&action=print",
+    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB582369&action=print",
     "mostrarSinopsesBrasil": false,
     "origem": "Nativa",
-    "titulo": "Flora e Funga do Brasil - Palicourea veterinariorum J.H.Kirkbr.",
-    "referencias": "<td>Acta Amazonica, 10: 105, 1980.<br></td>",
+    "titulo": "Flora e Funga do Brasil - Trichocentrum schwambachiae (V.P.Casto & Toscano) Meneguzzo",
+    "referencias": "<td>Harvard Pap. Bot., 19: 74, 2014.<font color='red'><b> Obra Original</font color></b><br></td>",
     "verificarCitesStatus": true,
     "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
@@ -74,9 +73,9 @@
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
     "distribuicaoGeograficaCertezaCentroOeste": "",
-    "citacao": "<i>Palicourea</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB14144 target='_blank'>https://floradobrasil.jbrj.gov.br/FB14144</a>>. Acesso em:  12 set. 2022",
+    "citacao": "Meneguzzo, T.E.C. <i>Trichocentrum</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB582369 target='_blank'>https://floradobrasil.jbrj.gov.br/FB582369</a>>. Acesso em:  14 set. 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Palicourea_veterinariorum' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Palicourea_veterinariorum</a>",
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Trichocentrum_schwambachiae' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Trichocentrum_schwambachiae</a>",
     "sinopsesBrasil": [
         {
             "rank": "Subesp\u00e9cies",
@@ -91,10 +90,12 @@
             "sinonimo": 0
         }
     ],
+    "temComoSinonimo": "<span><a onclick=\"carregaTaxonGrupo(37999)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> basi\u00f4nimo</div><div class=\"sinonimo\"> <i>Oncidium schwambachiae</i></div><div class=\"nomeAutorSinonimo\"> V.P.Castro & Toscano</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(11806)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> homot\u00edpico</div><div class=\"sinonimo\"> <i>Lophiaris schwambachiae</i></div><div class=\"nomeAutorSinonimo\"> (V.P.Castro & Toscano) Senghas</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(582477)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> homot\u00edpico</div><div class=\"sinonimo\"> <i>Lophiaris schwambachii</i></div><div class=\"nomeAutorSinonimo\"> (V.P.Castro & Toscano) Senghas</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(582602)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> homot\u00edpico</div><div class=\"sinonimo\"> <i>Oncidium schwambachii</i></div><div class=\"nomeAutorSinonimo\"> V.P.Castro & Toscano</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(582478)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> homot\u00edpico</div><div class=\"sinonimo\"> <i>Trichocentrum schwambachii</i></div><div class=\"nomeAutorSinonimo\"> (V.P.Casto & Toscano) Meneguzzo</div></a></span><br>",
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Palicourea veterinariorum J.H.Kirkbr.",
+    "nomeStr": "Trichocentrum schwambachiae (V.P.Casto & Toscano) Meneguzzo",
     "mostrarDominioFitogeografico": true,
+    "descricaoLivreEN": "\n<p style=\"margin-bottom: 0cm; font-weight: normal; line-height: 100%; text-decoration: none\" lang=\"en-GB\" align=\"justify\"><br></p>\n",
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
     "distribuicaoGeograficaDuvidaNordeste": "",
@@ -105,14 +106,31 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
-    "vouchers": "<td>Dobereiner, 1374, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 276253 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284405562' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <font color='red'><b>Typus</b></font><br>Dobereiner, 343, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=124982\" target=\"_blank\">RB</a> 276254 <a href='/reflora/listaBrasil/ForwardAction.do?applicationName=reflora&modulo=geral&path=/ExibeFiguraFSIUC/ExibeFiguraFSIUC.do?idFigura=284436246' title='' target='_blank'><img src='/reflora/layout/default/imagens/listaBrasil/icon_imagem_voucher.gif' ></img></a>, <font color='red'><b>Typus</b></font></td>",
     "mostrarTemComoSinonimo": true,
+    "descricaoCamposControlados": "<strong>Folha: </strong><strong>face(s)</strong> bifacial(ais); <strong>forma</strong> estreito(s) el\u00edptica(s) oblonga(s) ou linear(es). <strong>Infloresc\u00eancia: </strong><strong>alt. rela\u00e7\u00e3o planta(s)</strong> subigual/menor que. <strong>Flor: </strong><strong>s\u00e9pala(s) e p\u00e9tala(s) cor predominantemente</strong> bege; <strong>s\u00e9pala(s) e p\u00e9tala(s) ornamenta\u00e7\u00e3o</strong> maculada(s); <strong>labelo cor predominantemente</strong> bege; <strong>labelo calo</strong> carenado(s); <strong>labelo base</strong> n\u00e3o calcarada; <strong>polin\u00e1rio com viscidio</strong> el\u00edptico(s). ",
     "bibliografiaReferencia": "",
+    "abaDefaultDescLivre": "EN",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
     "mostrarChaveIdentificacao": false,
     "mostrarHospedeiroIndeterminado": false,
     "mostrarLinkParaTaxon": true,
-    "nomesVernaculos": [],
-    "possuiImagemVoucher": true
+    "nomesVernaculos": [
+        {
+            "lingua": "Portugu\u00eas",
+            "nome": "orelha-de-burro",
+            "regiao": "Brazil"
+        },
+        {
+            "lingua": "Ingl\u00eas",
+            "nome": "mule-ear orchid",
+            "regiao": "anglophone countries / pa\u00edses angl\u00f3fonos"
+        },
+        {
+            "lingua": "Portugu\u00eas",
+            "nome": "chita-mi\u00fada",
+            "regiao": "Brazil"
+        }
+    ],
+    "possuiImagemVoucher": false
 }
