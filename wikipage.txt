@@ -1,1 +1,90 @@
-#REDIRECIONAMENTO[[ Trichocentrum schwambachiae]]
+
+{{Info/Taxonomia
+| imagem                = 
+| reino                  = [[Plantae]]    
+| ordem                  = [[Lamiales]]    
+| divisão                = [[Tracheophyta]]    
+| família                = [[Lamiaceae]]    
+| infrarreino            = [[Streptophyta]]    
+| subfamília             = [[Nepetoideae]]    
+| superdivisão           = [[Embryophyta]]    
+| subfilo                = [[Euphyllophyta]]    
+| superdomínio           = [[Biota]]    
+| tribo                  = [[Ocimeae]]    
+| género                 = [[Hyptidendron]]    
+| subdomínio             = [[Diaphoretickes]]    
+| subreino               = [[Viridiplantae]]    
+| espécie                = [[Hyptidendron asperrimum]]    
+}}
+'''''Hyptidendron asperrimum''''', também conhecido como '''catinga-de-bode''', é uma espécie de [[planta]] do gênero ''[[Hyptidendron]]'' e da família [[Lamiaceae]]. <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB8175|titulo=Hyptidendron asperrimum (Spreng.) Harley|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
+
+== Taxonomia ==
+A espécie foi descrita em [[1988]] por [[Raymond Mervyn Harley]]. <ref>{{Citar web|url=https://www.gbif.org/species/3883609|titulo=Hyptidendron asperrimum|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+Os seguintes sinônimos já foram catalogados:  <ref name=":ref_0"/> 
+* ''Hyptis membranacea''  Benth. 
+* ''Mesosphaerum membranaceum''  (Benth.) Kuntze 
+* ''Hyptis asperrima''  (Spreng.) Epling 
+== Forma de vida ==
+É uma espécie [[terrícola]], [[arbustiva]] e [[arbórea]]. <ref name=":ref_0"/>  
+== Descrição ==
+
+{| class="wikitable" 
+|+
+! colspan="2" |'''Caule'''<ref name=":ref_0" />
+|-
+|'''comprimento do internó em relação ao comprimento da folha'''
+|menor
+|-
+|'''[[tricoma]]'''
+|dendritico
+|+
+! colspan="2" |'''Folha'''<ref name=":ref_0" />
+|-
+|'''[[Pecíolo (botânica)|pecíolo]]'''
+|maior que 1 centímetros
+|+
+! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
+|-
+|'''agrupamento das flor'''
+|laxo
+|-
+|'''inflorescência'''
+|dicotômica
+|-
+|'''posição'''
+|terminal
+|+
+! colspan="2" |'''Flor'''<ref name=":ref_0" />
+|-
+|'''[[bractéola]]'''
+|presente
+|-
+|'''comprimento do tubo do [[Cálice (botânica)|cálice]] em [[antese]]'''
+|3 até 7 milímetros
+|-
+|'''comprimento dos dente do cálice'''
+|até 1 milímetros
+|+
+! colspan="2" |'''Semente'''<ref name=":ref_0" />
+|-
+|'''[[núcula]]'''
+|alada
+|}
+== Conservação ==
+A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
+
+== Distribuição ==
+A espécie é encontrada nos estados brasileiros de [[Bahia]], [[Espírito Santo (estado)|Espírito Santo]], [[Minas Gerais]], [[Rio de Janeiro]] e [[São Paulo (estado)|São Paulo]].<ref name=":ref_0"/> 
+Em termos ecológicos, é encontrada nos [[Domínio morfoclimático e fitogeográfico | domínios fitogeográficos]] de [[Cerrado]] e [[Mata Atlântica]], em regiões com vegetação de [[cerrado]], [[Vegetação ripária|mata ciliar]], [[floresta estacional semidecidual]] e [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
+== Notas ==
+Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Antar, G.M. ''Hyptidendron''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+{{Referencias}}
+== Ligações externas ==
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB8175 ''Hyptidendron asperrimum'' no projeto Flora e Funga do Brasil]
+* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/Hyptidendron%20asperrimum ''Hyptidendron asperrimum'' no portal do Centro Nacional de Conservação da Flora (Brasil)]
+{{Controle de autoridade}}
+{{esboço-planta}}
+[[Categoria:Lamiaceae]][[Categoria:Hyptidendron]][[Categoria:Plantas descritas em 1988]][[Categoria:Plantas]]
+[[Categoria:Flora do Brasil]]
+[[Categoria:Flora do Espírito Santo]]
+[[Categoria:!Wikiconcurso Wiki Loves Espírito Santo (artigos)]]

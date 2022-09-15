@@ -13,7 +13,7 @@ from .process_reflora import *
 @click.option("--taxon_name", help="O nome do taxon entre aspas.")
 @click.option("--scope-name", default="planta", help="O escopo do táxon alvo.")
 @click.option("--reflora-id", default="search", help="O número do taxon na base Reflora.")
-@click.option("--open_url", default=False, help="Abrir ou não as páginas auxiliares")
+@click.option("--open_url", is_flag=True, default=False, help="Abrir ou não as páginas auxiliares")
 def main(scope_name: str, qid: str, taxon: str, taxon_name: str, reflora_id: str, open_url: bool):
 
     if taxon or taxon_name:
