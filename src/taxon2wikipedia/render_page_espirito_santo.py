@@ -235,6 +235,17 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
         wiki_page = merge_equal_refs(wiki_page)
         wiki_page = wiki_page.replace("\n\n", "\n")
         wiki_page = re.sub("^ ", "", wiki_page, flags=re.M)
+        wiki_page = italicize_taxon_name(taxon_name, wiki_page)
+
+    return wiki_page
+
+
+def italicize_taxon_name(taxon_name, wiki_page):
+    """Turns taxon names into italic"""
+    wiki_page = re.sub(
+        f"([^a-zA-ZÀ-ÿ']+){taxon_name}([^a-zA-ZÀ-ÿ']+)", f"\\1''{taxon_name}''\\2", wiki_page
+    )
+
     return wiki_page
 
 
