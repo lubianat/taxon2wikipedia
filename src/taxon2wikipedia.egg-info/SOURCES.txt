@@ -2,6 +2,15 @@ LICENSE
 README.md
 pyproject.toml
 setup.cfg
+src/taxon2wikipedia/__init__.py
+src/taxon2wikipedia/cleanup.py
+src/taxon2wikipedia/cli.py
+src/taxon2wikipedia/create_taxon.py
+src/taxon2wikipedia/helper.py
+src/taxon2wikipedia/process_reflora.py
+src/taxon2wikipedia/qid2taxobox.py
+src/taxon2wikipedia/render_page.py
+src/taxon2wikipedia/test.py
 src/taxon2wikipedia.egg-info/PKG-INFO
 src/taxon2wikipedia.egg-info/SOURCES.txt
 src/taxon2wikipedia.egg-info/dependency_links.txt

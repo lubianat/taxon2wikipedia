@@ -15,10 +15,21 @@ from wdcuration import render_qs_url, search_wikidata
 from .cleanup import *
 from .process_reflora import *
 from .qid2taxobox import *
+from wikidata2df import wikidata2df
 
 disable_warnings(InsecureRequestWarning)
 
 HERE = Path(__file__).parent.resolve()
+
+
+def test_invasive_species(taxon_id):
+    query = "SELECT ?item WHERE {" f"wd:{taxon_id} wdt:P5626 ?item" "}"
+    df = wikidata2df(query)
+
+    if (len(df)) == 0:
+        return False
+    else:
+        return df["item"][0]
 
 
 def render_reflora_link(taxon_name, reflora_id):
