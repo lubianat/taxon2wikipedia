@@ -2,14 +2,7 @@
     "mostrarHierarquia": true,
     "distribuicaoGeograficaDuvidaNorte": "",
     "estadosCerteza": [
-        "DF",
-        "ES",
-        "GO",
         "MG",
-        "PR",
-        "RJ",
-        "RS",
-        "SC",
         "SP"
     ],
     "filhosSubspVar": "",
@@ -17,75 +10,71 @@
     "mostrarDistribuicaoHidrografica": true,
     "mostrarFilhosSubspVar": true,
     "mostrarDistribuicaoGeografica": true,
-    "exibirMensagemCamposControladosIgual": false,
-    "idTaxon": 607153,
+    "exibirMensagemCamposControladosIgual": true,
+    "idTaxon": 615414,
     "mostrarNome": true,
     "mostrarStatusQualificador": true,
     "possuiImagemReferencia": false,
-    "distribuicaoGeograficaCertezaSul": "<b>Sul</b> (Paran\u00e1, Rio Grande do Sul, Santa Catarina)<br/>",
+    "distribuicaoGeograficaCertezaSul": "",
     "substrato": [
         "Terr\u00edcola"
     ],
     "mostrarTextoIntrodutorio": true,
     "mostrarUltimaAtualizacao": true,
-    "mostrarDescricaoCamposControlados": true,
-    "id": "FB606945",
+    "mostrarDescricaoCamposControlados": false,
+    "id": "FB614979",
     "mostrarFilhosGenero": true,
-    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiospermas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(52)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Araliaceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(26542)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Didymopanax</i></div><div class=\"nomeAutorInfraGenerico\"> Decne. & Planch.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(606945)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de campo \" src=\"/reflora/layout/default/imagens/listaBrasil/org_img.png\" style=\" vertical-align:middle; padding-bottom: 5px; height: 14px; \" /><div class=\"taxon\"> <i>Didymopanax calvus</i></div><div class=\"nomeAutorInfraGenerico\"> (Cham.) Decne. & Planch.</div></a></span>",
+    "hierarquia": "<span><a onclick=\"carregaTaxonGrupo(128461)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Flora e Funga</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(128482)\" href=\"javascript:void(0);\"><div class=\"grupo\"> Angiospermas</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(171)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> Myrtaceae</div><div class=\"nomeAutorSupraGenerico\"> Juss.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(593343)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><div class=\"taxon\"> <i>Melaleuca</i></div><div class=\"nomeAutorInfraGenerico\"> L.</div></a></span><span class=\"arrow\">&rarr;</span><span><a onclick=\"carregaTaxonGrupo(614979)\" href=\"javascript:void(0);\"><img title=\" A descri\u00e7\u00e3o do Taxon est\u00e1 completa \" src=\"/reflora/layout/default/imagens/listaBrasil/icon_leaf.png\" style=\" visibility:hidden;  vertical-align:middle; padding-bottom: 2px; height: 14px; \" /><img title=\" Cont\u00e9m imagens de herb\u00e1rio \" src=\"/reflora/layout/default/imagens/listaBrasil/herb_icon.gif\" style=\"  \" /><div class=\"taxon\"> <i>Melaleuca quinquenervia</i></div><div class=\"nomeAutorInfraGenerico\"> (Cav.) S.T.Blake</div></a></span>",
     "mostrarNomesVernaculos": true,
     "mostrarNaoOcorreBrasil": false,
-    "possuiImagemVoucherINCT": false,
+    "possuiImagemVoucherINCT": true,
     "statusQualificador": [
-        "Nome aceito",
-        "Nome correto"
+        "Nome aceito"
     ],
-    "mostrarImagensCampos": true,
-    "mostrarDescricaoLivreEN": true,
+    "mostrarImagensCampos": false,
     "distribuicaoGeograficaDuvidaCentroOeste": "",
     "mostrarTipoVegetacao": true,
-    "distribuicaoGeograficaCertezaSudeste": "<b>Sudeste</b> (Esp\u00edrito Santo, Minas Gerais, Rio de Janeiro, S\u00e3o Paulo)<br/>",
+    "distribuicaoGeograficaCertezaSudeste": "<b>Sudeste</b> (Minas Gerais, S\u00e3o Paulo)<br/>",
     "mostrarFilhosEspecie": true,
     "baciasDuvida": [],
-    "bibliografiaFixa": "Fiaschi, P., Nery, E.K. Araliaceae in Flora do Brasil 2020. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB606945\">https://floradobrasil2020.jbrj.gov.br/FB606945</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
-    "nome": "<span><div class=\"taxon\"> <i>Didymopanax calvus</i></div><div class=\"nomeAutorInfraGenerico\"> (Cham.) Decne. & Planch.</div></span>",
+    "bibliografiaFixa": "Proen\u00e7a, C.E.B., Amorim, B.S., Antonicelli, M.C. , B\u00fcnger, M., Burton, G.P., Caldas, D.K.D., Costa, I.R., Faria, J.E.Q., Fernandes, T., Gaem, P.H., Giaretta, A., Lima, D.F., Louren\u00e7o, A.R.L., Lucas, E.J., Mazine, F.F., Meireles, L.D., Oliveira, M.I.U., Pizzardo, R.C., Rosa, P.O., Santana, K.C., Santos, L.L.D., Santos, M.F., Souza, M.C., Souza, M.A.D., Stadnik, A., Staggemeier, V.G.,  Tuler, A.C, Valdemarin, K.S., Vasconcelos, T.N.C., Vieira, F.C.S., Walter, B.M.T., Sobral, M. Myrtaceae in Flora do Brasil 2020. Jardim Bot\u00e2nico do Rio de Janeiro. (<a href=\"https://floradobrasil2020.jbrj.gov.br/FB614979\">https://floradobrasil2020.jbrj.gov.br/FB614979</a>).<br><br>BFG. Growing knowledge: an overview of Seed Plant diversity in Brazil. Rodrigu\u00e9sia, v.66, n.4, p.1085-1113. 2015. (<a href=https://doi.org/10.1590/2175-7860201566411>https://doi.org/10.1590/2175-7860201566411</a>).<br><br>BFG. Brazilian Flora 2020: Innovation and collaboration to meet Target 1 of the Global Strategy for Plant Conservation (GSPC). Rodrigu\u00e9sia, v.69, n.4, p.1513-1527. 2018. (<a href=https://doi.org/10.1590/2175-7860201869402>https://doi.org/10.1590/2175-7860201869402</a>).<br><br>BFG. Brazilian Flora 2020: Leveraging the power of a collaborative scientific network. Taxon. 2021. (<a href=https://doi.org/10.1002/tax.12640>https://doi.org/10.1002/tax.12640</a>).",
+    "nome": "<span><div class=\"taxon\"> <i>Melaleuca quinquenervia</i></div><div class=\"nomeAutorInfraGenerico\"> (Cav.) S.T.Blake</div></span>",
     "distribuicaoGeograficaCertezaNordeste": "",
     "distribuicaoHidrograficaCerteza": "",
-    "nomeDataplamt": "Didymopanax calvus",
+    "nomeDataplamt": "Melaleuca quinquenervia",
     "distribuicaoIlhasPossiveis": "",
     "mostrarCitacao": true,
     "endemismo": "n\u00e3o \u00e9 end\u00eamica do Brasil",
     "distribuicaoHidrograficaDuvida": "",
     "mostrarVouchers": true,
     "distribuicaoGeograficaCertezaNorte": "",
-    "estadosDuvida": [],
+    "estadosDuvida": [
+        "RS"
+    ],
     "formaVida": [
-        "Arbusto"
+        "Arbusto",
+        "\u00c1rvore"
     ],
     "tipoVegetacao": [
-        "Floresta Ciliar ou Galeria",
-        "Floresta Estacional Semidecidual",
-        "Floresta Ombr\u00f3fila (Floresta Pluvial)"
+        "\u00c1rea Antr\u00f3pica"
     ],
-    "distribuicaoGeograficaDuvidaSul": "",
-    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB606945&action=print",
+    "distribuicaoGeograficaDuvidaSul": "<b>Sul</b> (Rio Grande do Sul)<br/>",
+    "linkImpressora": "https://floradobrasil.jbrj.gov.br/FB614979&action=print",
     "mostrarSinopsesBrasil": false,
-    "origem": "Nativa",
-    "titulo": "Flora e Funga do Brasil - Didymopanax calvus (Cham.) Decne. & Planch.",
+    "origem": "Cultivada",
+    "titulo": "Flora e Funga do Brasil - Melaleuca quinquenervia (Cav.) S.T.Blake",
     "verificarCitesStatus": true,
     "distribuicaoGeograficaDuvidaSudeste": "",
     "mostrarEndemismo": true,
     "mostrarReferencias": true,
     "mostrarFilhosSubFam": true,
-    "dominioFitogeografico": [
-        "Cerrado",
-        "Mata Atl\u00e2ntica"
-    ],
+    "dominioFitogeografico": [],
     "mostrarHospedeiroVegetal": false,
     "mostrarFilhosTribo": true,
-    "distribuicaoGeograficaCertezaCentroOeste": "<b>Centro-Oeste</b> (Distrito Federal, Goi\u00e1s)<br/>",
-    "citacao": "Fiaschi, P.; Nery, E.K. <i>Araliaceae</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB606945 target='_blank'>https://floradobrasil.jbrj.gov.br/FB606945</a>>. Acesso em:  26 set. 2022",
+    "distribuicaoGeograficaCertezaCentroOeste": "",
+    "citacao": "Proen\u00e7a, C.E.B.; Amorim, B.S.; Antonicelli, M.C. ; B\u00fcnger, M.; Burton, G.P.; Caldas, D.K.D.; Costa, I.R.; Faria, J.E.Q.; Fernandes, T.; Gaem, P.H.; Giaretta, A.; Lima, D.F.; Louren\u00e7o, A.R.L.; Lucas, E.J.; Mazine, F.F.; Meireles, L.D.; Oliveira, M.I.U.; Pizzardo, R.C.; Rosa, P.O.; Santana, K.C.; Santos, L.L.D.; Santos, M.F.; Souza, M.C.; Souza, M.A.D.; Stadnik, A.; Staggemeier, V.G.;  Tuler, A.C; Valdemarin, K.S.; Vasconcelos, T.N.C.; Vieira, F.C.S.; Walter, B.M.T.; Sobral, M. <i>Myrtaceae</i>  <i>in</i> <b>Flora e Funga do Brasil.</b> Jardim Bot\u00e2nico do Rio de Janeiro.Dispon\u00edvel em:  <<a href=https://floradobrasil.jbrj.gov.br/FB614979 target='_blank'>https://floradobrasil.jbrj.gov.br/FB614979</a>>. Acesso em:  06 out. 2022",
     "mostrarFormaVida": true,
-    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Didymopanax_calvus' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Didymopanax_calvus</a>",
+    "linkParaTaxon": "<a href='http://servicos.jbrj.gov.br/flora/search/Melaleuca_quinquenervia' target=\"_blank\">http://servicos.jbrj.gov.br/flora/search/Melaleuca_quinquenervia</a>",
     "sinopsesBrasil": [
         {
             "rank": "Subesp\u00e9cies",
@@ -100,12 +89,11 @@
             "sinonimo": 0
         }
     ],
-    "temComoSinonimo": "<span><a onclick=\"carregaTaxonGrupo(43353)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> basi\u00f4nimo</div><div class=\"sinonimo\"> <i>Panax calvum</i></div><div class=\"nomeAutorSinonimo\"> Cham.</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(43250)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterot\u00edpico</div><div class=\"sinonimo\"> <i>Didymopanax claussenianus</i></div><div class=\"nomeAutorSinonimo\"> Decne. & Planch. ex Marchal</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(43265)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterot\u00edpico</div><div class=\"sinonimo\"> <i>Didymopanax micranthus</i></div><div class=\"nomeAutorSinonimo\"> Marchal</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(43270)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterot\u00edpico</div><div class=\"sinonimo\"> <i>Didymopanax pachycarpus</i></div><div class=\"nomeAutorSinonimo\"> Marchal</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(5138)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterot\u00edpico</div><div class=\"sinonimo\"> <i>Schefflera clausseniana</i></div><div class=\"nomeAutorSinonimo\"> (Decne. & Planch. ex Marchal) Frodin</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(26558)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterot\u00edpico</div><div class=\"sinonimo\"> <i>Schefflera pachycarpa</i></div><div class=\"nomeAutorSinonimo\"> (Marchal) Frodin</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(43380)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterot\u00edpico</div><div class=\"sinonimo\"> <i>Schefflera regnelliana</i></div><div class=\"nomeAutorSinonimo\"> Frodin</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(5136)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> homot\u00edpico</div><div class=\"sinonimo\"> <i>Schefflera calva</i></div><div class=\"nomeAutorSinonimo\"> (Cham.) Frodin & Fiaschi</div></a></span><br>",
+    "temComoSinonimo": "<span><a onclick=\"carregaTaxonGrupo(614981)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> basi\u00f4nimo</div><div class=\"sinonimo\"> <i>Metrosideros quinquenervia</i></div><div class=\"nomeAutorSinonimo\"> Cav.</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(614985)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterot\u00edpico</div><div class=\"sinonimo\"> <i>Melaleuca</i></div><div class=\"sinonimo\"> <i>leucadendra</i></div><div class=\"nomeRank\"> var.</div><div class=\"sinonimo\"> <i>albida</i></div><div class=\"nomeAutorSinonimo\"> Cheel</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(614980)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterot\u00edpico</div><div class=\"sinonimo\"> <i>Metrosideros albida</i></div><div class=\"nomeAutorSinonimo\"> Sieber ex DC.</div></a></span><br><span><a onclick=\"carregaTaxonGrupo(614982)\" href=\"javascript:void(0);\"><div class=\"tipoSinonimo\"> heterot\u00edpico</div><div class=\"sinonimo\"> <i>Metrosideros coriacea</i></div><div class=\"nomeAutorSinonimo\"> Poir.</div></a></span><br>",
     "mostrarIdentificador": true,
     "mostrarBibliografiaReferencia": true,
-    "nomeStr": "Didymopanax calvus (Cham.) Decne. & Planch.",
+    "nomeStr": "Melaleuca quinquenervia (Cav.) S.T.Blake",
     "mostrarDominioFitogeografico": true,
-    "descricaoLivreEN": "<p><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e; text-decoration-line: underline;\">Description from:</span></p><p><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">Fiaschi, P. &amp; Plunkett, G.M. 2018. Revision of the Didymopanax group of Neotropical&nbsp;<span style=\"font-style: italic;\">Schefflera</span>&nbsp;(Araliaceae).&nbsp;<span style=\"font-style: italic;\">Annals of the Missouri Botanical Garden</span>&nbsp;103: 24-105.</span></p><div>\n\t\t\n\t\n\t\n\t\t<div class=\"page\" title=\"Page 23\">\n\t\t\t<div class=\"layoutArea\">\n\t\t\t\t<div class=\"column\">\n\t\t\t\t\t<p><span style=\"font-size: 9.000000pt; font-family: 'AdvOTb6869a8e'\">Treelets or trees 5</span><span style=\"font-size: 9.000000pt; font-family: 'AdvOTb6869a8e+20'\">\u2013</span><span style=\"font-size: 9.000000pt; font-family: 'AdvOTb6869a8e'\">30 m tall; branchlets 4</span><span style=\"font-size: 9.000000pt; font-family: 'AdvOTb6869a8e+20'\">\u2013</span><span style=\"font-size: 9.000000pt; font-family: 'AdvOTb6869a8e'\">15 mm\ndiam., longitudinally striate, ochre yellow to whitish\nsericeous, glabrescent. Leaves palmately compound,\nclustered at branchlet apices, internodes to ca. 1 cm;\nstipules 8</span><span style=\"font-size: 9.000000pt; font-family: 'AdvOTb6869a8e+20'\">\u2013</span><span style=\"font-size: 9.000000pt; font-family: 'AdvOTb6869a8e'\">12 mm, adaxial surface glabrous, abaxial\nsurface white to grayish sericeous or glabrescent, apex\nslightly bifid, lobes 0.5</span><span style=\"font-size: 9.000000pt; font-family: 'AdvOTb6869a8e+20'\">\u2013</span><span style=\"font-size: 9.000000pt; font-family: 'AdvOTb6869a8e'\">3 mm; petiole 12</span><span style=\"font-size: 9.000000pt; font-family: 'AdvOTb6869a8e+20'\">\u2013</span><span style=\"font-size: 9.000000pt; font-family: 'AdvOTb6869a8e'\">48 cm,\n3</span><span style=\"font-size: 9.000000pt; font-family: 'AdvOTb6869a8e+20'\">\u2013</span><span style=\"font-size: 9.000000pt; font-family: 'AdvOTb6869a8e'\">5.5 mm diam., cylindrical, longitudinally striate,\nglabrescent or with persistent trichomes at petiolule\ninsertion, lacking lenticels; leaflets simple, 7 to 12,\narranged in 1 whorl, held horizontally; blade plane to\nslightly conduplicate at base, subchartaceous to chartaceous, adaxial surface glabrous, abaxial surface glabrescent or white to grayish, rarely ochre-yellowish\nsericeous, primary and secondary veins sometimes\nglabrescent; median leaflet with petiolule 1.6</span><span style=\"font-size: 9.000000pt; font-family: 'AdvOTb6869a8e+20'\">\u2013</span><span style=\"font-size: 9.000000pt; font-family: 'AdvOTb6869a8e'\">8.6 cm,\nunarticulated, cylindrical to compressed laterally,&nbsp;</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">slightly to strongly canaliculate adaxially, glabrescent;\nblade 8.6</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">27 </span><span style=\"font-size: 9pt; font-family: AdvPS586B;\">3 </span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">2</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">9.8 cm, narrowly oblong or elliptic to\nobovate, base acute to rounded or truncate, rarely subcordate, symmetrical, margin entire, plane to slightly\nrevolute, without marginal cilia, apex acute to acuminate, sometimes caudate, tip sometimes mucronate;\nbasal leaflets with petiolules 0.7</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">4 cm, unarticulated;\nblade 5.5</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">19 </span><span style=\"font-size: 9pt; font-family: AdvPS586B;\">3 </span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">1.4</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">8.1 cm, base symmetrical or\nslightly asymmetrical, otherwise similar to the median\nleaflet; venation brochidodromous; main vein prominent\nabaxially or on both surfaces, more conspicuously so\nabaxially; secondary veins 8 to 17, prominent abaxially,\nimpressed adaxially; intersecondary veins sometimes\npresent; higher orders of venation inconspicuous or </span><span style=\"font-size: 9pt; font-family: AdvPS586B;\">6\n</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">conspicuous abaxially. Inflorescence pseudolateral or\nrarely terminal, initially erect, becoming patent or\npendent when fruiting, surface white or ochre sericeous;\nthe peduncle to ca. 2.5 cm, rachis to ca. 18 cm; primary\nbranches (2)3 to 7(15), (3</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">)8.5</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">45 cm, with bracts\n4</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">6 mm, each primary branch bearing 8 to 36 secondary\nbranches, terminating in 3 to 11 branches, 1</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">12 cm,\nwith bracts 2</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">4 mm; tertiary branches lacking or, if\npresent, 2 to 16, 2</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">18 mm; ultimate inflorescence units\numbellules, with 10 to 37 flowers, mostly perfect, or the\nperipheral ones staminate, the central ones perfect;\nsometimes with 1 to 4 subterminal flowers borne below\nthe umbellule; floral bracts up to ca. 1.5 mm. Perfect\nflowers with pedicels 2</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">7 mm; hypanthium white or\nochre sericeous, calyx rim with 5 acuminate teeth;\npetals 5, greenish yellow, 2.4</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">2.8 </span><span style=\"font-size: 9pt; font-family: AdvPS586B;\">3 </span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">1.1</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">1.3 mm,\nelliptic or triangular to ovate, sericeous abaxially, apex\nacute; filaments 0.3</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">1.2 mm; anthers 1</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">1.8 </span><span style=\"font-size: 9pt; font-family: AdvPS586B;\">3\n</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">0.7</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">1 mm, oblong, apex rounded to slightly apiculate,\nthecae connate above insertion of the connective; ovary\n1</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">2 mm long, 2(to 4)-locular; disk glabrous; styles 2(to\n4), free or connate in the base, 1.2</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">1.6 mm, glabrous,\nrecurved in fruit; staminate flowers with pedicels\n2</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">4 mm, styles well developed, otherwise similar to\nperfect flowers. Drupes 6</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">8.5 </span><span style=\"font-size: 9pt; font-family: AdvPS586B;\">3 </span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">9.5</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">16.2 mm, trans-\nversely ellipsoid, flattened laterally or rarely 3- or\n4-costate when dry, glabrescent; pedicel 3</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">9 mm;\npyrenes 2(to 4), 5</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">6 </span><span style=\"font-size: 9pt; font-family: AdvPS586B;\">3 </span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">3.5</span><span style=\"font-size: 9pt; font-family: &quot;AdvOTb6869a8e+20&quot;;\">\u2013</span><span style=\"font-size: 9pt; font-family: AdvOTb6869a8e;\">4 mm, compressed, semi-\ntransversely elliptic or semi-oblate in outline, transversely narrowly oblong, indurate, surface smooth.<br></span></p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div></div>",
     "mostrarVarianteOrtografica": false,
     "linkInstitutoHorus": null,
     "distribuicaoGeograficaDuvidaNordeste": "",
@@ -116,15 +104,20 @@
     "mostrarEhSinonimo": true,
     "mostrarHospedeiroAnimal": false,
     "mostrarDescricaoLivre": false,
+    "vouchers": "<td>A.Macedo, 5796, <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=125976\" target=\"_blank\">US</a> 3402051, NYBG 00907857, (MG)<br>J.M.Souza, s.n., <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126361\" target=\"_blank\">VIC</a> 31796, (MG)<br>s.c., s.n., <a title='Herbarium' href=\"http://sweetgum.nybg.org/science/ih/herbarium_details.php?irn=126330\" target=\"_blank\">CRI</a> 3764, (SP)</td>",
     "mostrarTemComoSinonimo": true,
-    "descricaoCamposControlados": "<strong>Folha: </strong><strong>folha(s)</strong> composta(s) digitada(s) em 1 verticilo(s) apical(ais); <strong>n\u00famero de fol\u00edolo(s)</strong> 7/8/9/10/11/12; <strong>forma das l\u00e2mina(s)</strong> estreita(s) el\u00edptica(s)/estreita(s) oblonga(s)/obovada(s); <strong>base das l\u00e2mina(s)</strong> arredondada(s)/obtusa(s)/cuneada(s); <strong>margem(ns) das l\u00e2mina(s)</strong> inteira; <strong>\u00e1pice(s) das l\u00e2mina(s)</strong> acuminado(s)/agudo(s); <strong>face(s) abaxial</strong> glabrescente(s)/ser\u00edcea(s). <strong>Infloresc\u00eancia: </strong><strong>posi\u00e7\u00e3o</strong> pseudolateral(ais); <strong>n\u00famero de ramo(s) prim\u00e1rio(s)</strong> 2/3/4/5/6/7/8/9/10 ou mais; <strong>infloresc\u00eancia(s) parcial(ais)</strong> umbela(s). <strong>Flor: </strong><strong>cor das p\u00e9tala(s)</strong> amarelada/esverdeada; <strong>face(s) abaxial das p\u00e9tala(s)</strong> glabrescente(s)/ser\u00edcea(s); <strong>filete(s)</strong> menor que antera(s); <strong>disco</strong> glabro(s); <strong>ov\u00e1rio(s)</strong> bilocular(es)/trilocular(es)/tetralocular(es). <strong>Fruto: </strong><strong>quando seco(s)</strong> achatado(s) lateralmente/3 - lobado(s)/4 - lobado(s). ",
     "bibliografiaReferencia": "",
-    "abaDefaultDescLivre": "EN",
     "mostrarComentarioPublico": false,
     "distribuicaoIlhasConfirmadas": "",
     "mostrarChaveIdentificacao": false,
     "mostrarHospedeiroIndeterminado": false,
     "mostrarLinkParaTaxon": true,
-    "nomesVernaculos": [],
-    "possuiImagemVoucher": false
+    "nomesVernaculos": [
+        {
+            "lingua": "Portugu\u00eas",
+            "nome": "melaleuca",
+            "regiao": ""
+        }
+    ],
+    "possuiImagemVoucher": true
 }

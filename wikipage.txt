@@ -1,22 +1,36 @@
 
 {{Info/Taxonomia
 | imagem                = 
-| reino                  = [[Plantae]]    
-| ordem                  = [[Lamiales]]    
-| divisão                = [[Tracheophyta]]    
-| infrarreino            = [[Streptophyta]]    
-| família                = [[Oleaceae]]    
-| superdivisão           = [[Embryophyta]]    
-| subfilo                = [[Euphyllophyta]]    
-| género                 = [[Ligustrum]]    
+| reino                  = [[Animalia]]    
+| filo                   = [[Arthropoda]]    
+| classe                 = [[Insecta]]    
+| infrarreino            = [[Protostomia]]    
+| subreino               = [[Bilateria]]    
+| superfilo              = [[Ecdysozoa]]    
+| ordem                  = [[Coleoptera]]    
+| subclasse              = [[Pterygota]]    
+| infraclasse            = [[Neoptera]]    
+| subfilo                = [[Hexapoda]]    
+| Subordem               = [[Polyphaga]]    
+| família                = [[Cerambycidae]]    
+| Superordem             = [[Endopterygota]]    
+| espécie                = [[Anoplophora glabripennis]]    
+| subfilo                = [[Pancrustacea]]    
+| Q21061732              = [[Cucujiformia]]    
+| superfamília           = [[Chrysomeloidea]]    
+| subclasse              = [[Dicondylia]]    
+| subfilo                = [[Mandibulata]]    
 | superdomínio           = [[Biota]]    
-| subdomínio             = [[Diaphoretickes]]    
-| subreino               = [[Viridiplantae]]    
-| espécie                = [[Ligustrum robustum]]    
+| subfamília             = [[Lamiinae]]    
+| género                 = [[Anoplophora]]    
+| Superordem             = [[Coleopteroidea]]    
+| tribo                  = [[Monochamini]]    
+| Superordem             = [[Coleopterida]]    
+| Superordem             = [[Holometabola]]    
 }}
-'''''Ligustrum robustum''''' é uma espécie de planta  do gênero ''[[Ligustrum]]'' e da família [[Oleaceae]].  <ref name=":ref_0"> {{Citar web|url=https://www.gbif.org/species/6432960|titulo=Ligustrum robustum|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+'''''Anoplophora glabripennis''''' é uma espécie de planta  do gênero ''[[Anoplophora]]'' e da família [[Cerambycidae]].  <ref name=":ref_0"> {{Citar web|url=https://www.gbif.org/species/4999853|titulo=Anoplophora glabripennis|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 == Taxonomia ==
-A espécie foi descrita em [[1851]] por [[Carl Ludwig Blume]]. <ref name=":ref_0"/>
+A espécie foi descrita em [[1853]] por [[Victor Motschulsky]]. <ref name=":ref_0"/>
 
 == Conservação ==
 A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}</ref>
@@ -25,7 +39,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 
 {{Controle de autoridade}}
 {{esboço-planta}}
-[[Categoria:Oleaceae]][[Categoria:Ligustrum]][[Categoria:Plantas descritas em 1851]][[Categoria:Plantas]]
+[[Categoria:Cerambycidae]][[Categoria:Anoplophora]][[Categoria:Plantas descritas em 1853]][[Categoria:Plantas]]
 [[Categoria:Flora do Brasil]]
 [[Categoria:Flora do Espírito Santo]]
 [[Categoria:!Wikiconcurso Wiki Loves Espírito Santo]]
