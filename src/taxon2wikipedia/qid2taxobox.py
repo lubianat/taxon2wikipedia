@@ -1,6 +1,7 @@
 import click
 import pandas as pd
 from SPARQLWrapper import JSON, SPARQLWrapper
+from .helper import get_qid_from_name
 
 
 def get_parent_taxon_df(qid):
@@ -84,6 +85,11 @@ def get_taxobox(qid):
 
 @click.command(name="taxobox")
 @click.option("--qid")
-def print_taxobox(qid):
+@click.option("--taxon", is_flag=True, help="Ask for a taxon name.")
+@click.option("--taxon_name", help="Provide a taxon name directly (and quoted)")
+def print_taxobox(qid: str, taxon: str, taxon_name: str):
+
+    if taxon or taxon_name:
+        qid = get_qid_from_name(taxon_name)
     taxobox = get_taxobox(qid)
     print(taxobox)
