@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from urllib.parse import quote
-
+import click
 from jinja2 import Template
 from wdcuration import render_qs_url, search_wikidata
 

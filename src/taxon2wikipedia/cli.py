@@ -1,8 +1,6 @@
 import click
 
-from taxon2wikipedia import qid2taxobox
-
-from . import create_taxon, qid2taxobox, render_page
+from . import create_taxon, render_page, helper
 
 
 @click.group()
@@ -12,7 +10,7 @@ def cli():
 
 cli.add_command(render_page.main)
 cli.add_command(create_taxon.main)
-cli.add_command(qid2taxobox.print_taxobox)
+cli.add_command(helper.print_taxobox)
 
 if __name__ == "__main__":
     cli()
