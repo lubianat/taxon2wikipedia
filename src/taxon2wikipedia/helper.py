@@ -12,8 +12,8 @@ from urllib3 import disable_warnings
 from urllib3.exceptions import InsecureRequestWarning
 from wdcuration import render_qs_url, search_wikidata
 
-from .cleanup import *
-from .process_reflora import *
+from taxon2wikipedia.cleanup import *
+from taxon2wikipedia.process_reflora import *
 from wikidata2df import wikidata2df
 
 disable_warnings(InsecureRequestWarning)

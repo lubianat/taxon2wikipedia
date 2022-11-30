@@ -6,7 +6,7 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-from .cleanup import fix_description
+from taxon2wikipedia.cleanup import fix_description
 
 HERE = Path(__file__).parent.resolve()
 STATES_WIKI = json.loads(HERE.parent.joinpath("dicts/states_dict_pt.json").read_text())

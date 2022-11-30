@@ -5,8 +5,8 @@ import webbrowser
 import pywikibot
 from wdcuration import render_qs_url
 
-from .helper import *
-from .process_reflora import *
+from taxon2wikipedia.helper import *
+from taxon2wikipedia.process_reflora import *
 
 
 @click.command(name="render")
@@ -29,9 +29,12 @@ def main(qid: str, taxon: str, taxon_name: str, reflora_id: str, open_url: bool,
 
     parent_taxon_df = get_parent_taxon_df(qid)
 
-    family = parent_taxon_df["taxonName.value"][
-        parent_taxon_df["taxonRankLabel.value"] == "família"
-    ].item()
+    if "família" in parent_taxon_df["taxonRankLabel.value"]:
+        family = parent_taxon_df["taxonName.value"][
+            parent_taxon_df["taxonRankLabel.value"] == "família"
+        ].item()
+    else:
+        family = None
     genus = parent_taxon_df["taxonName.value"][
         parent_taxon_df["taxonRankLabel.value"] == "género"
     ].item()
@@ -41,7 +44,7 @@ def main(qid: str, taxon: str, taxon_name: str, reflora_id: str, open_url: bool,
         year_cat = ""
     else:
         description_year = results_df["description_year.value"][0]
-        year_cat = f"[[Categoria:Plantas descritas em {description_year}]]"
+        year_cat = f"[[Categoria:Espécies descritas em {description_year}]]"
 
     reflora_url = f"""http://servicos.jbrj.gov.br/flora/search/{taxon_name.replace(" ", "_")}"""
 
@@ -131,27 +134,24 @@ def get_wiki_page(qid, taxon_name, reflora_id, results_df, family, genus, year_c
     if reflora_data is None:
         taxobox = get_taxobox(qid)
 
+        if family is None:
+            family_sentence = ""
+        else:
+            family_sentence = f" e da família [[{family}]]"
         wiki_page = f"""
 {taxobox}
-'''''{taxon_name}''''' é uma espécie de planta  do gênero ''[[{genus}]]'' e da família [[{family}]].  {get_gbif_ref(qid)}
+'''''{taxon_name}''''' é uma espécie do gênero ''[[{genus}]]''{family_sentence}.  {get_gbif_ref(qid)}
 {render_taxonomy(reflora_data, results_df, qid)}
-== Conservação ==
-A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
 {{{{Referencias}}}}
 == Ligações externas ==
 {render_reflora_link(taxon_name, reflora_id)}
 {render_cnc_flora(taxon_name)}
 {render_additional_reading(qid)}
 {{{{Controle de autoridade}}}}
-{{{{esboço-planta}}}}
+{{{{esboço-táxon}}}}
 [[Categoria:{family}]][[Categoria:{genus}]]{year_cat}"""
 
-        categories = [
-            "Plantas",
-            "Flora do Brasil",
-            "Flora do Espírito Santo",
-            "!Wikiconcurso Wiki Loves Espírito Santo",
-        ]
+        categories = []
 
         for cat in categories:
             wiki_page += f"""[[Categoria:{cat}]]
@@ -192,8 +192,8 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
         wiki_page = (
             f"""
 {taxobox}
-'''''{taxon_name}'''''{common_name_text} é uma espécie de """
-            f"""[[planta]] do gênero ''[[{genus}]]'' e da família [[{family}]]. {get_ref_reflora(reflora_data)}
+'''''{taxon_name}'''''{common_name_text} é uma espécie """
+            f"""do gênero ''[[{genus}]]'' . {get_ref_reflora(reflora_data)}
 {comment}"""
             f"""
 {render_taxonomy(reflora_data, results_df, qid)}
@@ -201,8 +201,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 {description_title}
 {render_free_description(reflora_data)}
 {render_description_table(reflora_data)}
-== Conservação ==
-A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies ameaçadas do estado do [[Espírito Santo (estado)|Espírito Santo]], no sudeste do [[Brasil]]. A lista foi publicada em 13 de junho de 2005 por intermédio do decreto estadual nº 1.499-R. <ref>{{{{Citar web|url=https://iema.es.gov.br/especies-ameacadas/fauna_ameacada|titulo=IEMA - Espécies Ameaçadas|acessodata=2022-04-12|website=iema.es.gov.br}}}}</ref>
+
 {render_distribution_from_reflora(reflora_data)}
 {render_domains(reflora_data)}
 {notes}
@@ -212,7 +211,7 @@ A espécie faz parte da [[Lista Vermelha da IUCN|Lista Vermelha]] das espécies 
 {render_cnc_flora(taxon_name)}
 {render_additional_reading(qid)}
 {{{{Controle de autoridade}}}}
-{{{{esboço-planta}}}}
+{{{{esboço-táxon}}}}
 [[Categoria:{family}]][[Categoria:{genus}]]{year_cat}"""
         )
 
@@ -248,3 +247,7 @@ def italicize_taxon_name(taxon_name, wiki_page):
     )
 
     return wiki_page
+
+
+if __name__ == "__main__":
+    main()
