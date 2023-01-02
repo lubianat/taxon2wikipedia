@@ -2,21 +2,23 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Animalia]]    
+| ordem                  = [[Araneae]]    
+| classe                 = [[Arachnida]]    
+| subfilo                = [[Chelicerata]]    
+| filo                   = [[Arthropoda]]    
+| infrarreino            = [[Protostomia]]    
 | subreino               = [[Bilateria]]    
-| filo                   = [[Chordata]]    
-| subfilo                = [[Vertebrata]]    
-| infrafilo              = [[Gnathostomata]]    
-| superclasse            = [[Gnathostomata]]    
-| Q60922428              = [[Osteichthyes]]    
-| superclasse            = [[Actinopterygii]]    
-| ordem                  = [[Cyprinodontiformes]]    
-| infrarreino            = [[Deuterostomia]]    
-| classe                 = [[Actinopteri]]    
-| género                 = [[Cynolebias]]    
+| superfilo              = [[Ecdysozoa]]    
+| família                = [[Salticidae]]    
+| Subordem               = [[Opisthothelae]]    
+| Infraordem             = [[Araneomorphae]]    
+| Infraordem             = [[Entelegynae]]    
+| género                 = [[Encolpius]]    
 | superdomínio           = [[Biota]]    
-| espécie                = [[Cynolebias akroa]]    
+| espécie                = [[Encolpius guaraniticus]]    
+| classe                 = [[Euchelicerata]]    
 }}
-'''''Cynolebias akroa''''' é uma espécie do gênero ''[[Cynolebias]]'.  
+'''''Encolpius guaraniticus''''' é uma espécie do gênero ''[[Encolpius]]''.  <ref>{{Citar web|url=https://www.gbif.org/species/2173584|titulo=Encolpius guaraniticus|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 == Taxonomia ==
 
 {{Referencias}}
@@ -24,4 +26,4 @@
 
 {{Controle de autoridade}}
 {{esboço-táxon}}
-[[Categoria:None]][[Categoria:Cynolebias]]
+[[Categoria:None]][[Categoria:Encolpius]]

@@ -8,7 +8,6 @@ src/taxon2wikipedia/cli.py
 src/taxon2wikipedia/create_taxon.py
 src/taxon2wikipedia/helper.py
 src/taxon2wikipedia/process_reflora.py
-src/taxon2wikipedia/qid2taxobox.py
 src/taxon2wikipedia/render_page.py
 src/taxon2wikipedia/test.py
 src/taxon2wikipedia.egg-info/PKG-INFO

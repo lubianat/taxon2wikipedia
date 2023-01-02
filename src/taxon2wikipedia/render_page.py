@@ -21,38 +21,16 @@ def main(qid: str, taxon: str, taxon_name: str, reflora_id: str, open_url: bool,
     if taxon or taxon_name:
         qid = get_qid_from_name(taxon_name)
 
-    invasive_number = test_invasive_species(qid)
-
-    if invasive_number:
-        print(invasive_number)
     results_df = get_results_dataframe_from_wikidata(qid)
-
-    parent_taxon_df = get_parent_taxon_df(qid)
-
-    if "família" in parent_taxon_df["taxonRankLabel.value"]:
-        family = parent_taxon_df["taxonName.value"][
-            parent_taxon_df["taxonRankLabel.value"] == "família"
-        ].item()
-    else:
-        family = None
-    genus = parent_taxon_df["taxonName.value"][
-        parent_taxon_df["taxonRankLabel.value"] == "género"
-    ].item()
     taxon_name = results_df["taxon_name.value"][0]
-
-    if "description_year.value" not in results_df:
-        year_cat = ""
-    else:
-        description_year = results_df["description_year.value"][0]
-        year_cat = f"[[Categoria:Espécies descritas em {description_year}]]"
-
-    reflora_url = f"""http://servicos.jbrj.gov.br/flora/search/{taxon_name.replace(" ", "_")}"""
 
     if open_url:
         webbrowser.open(
             f"""https://scholar.google.com/scholar?q=%22{taxon_name.replace(" ", "+")}%22+scielo"""
         )
         webbrowser.open(f"""https://google.com/search?q=%22{taxon_name.replace(" ", "+")}%22""")
+
+    reflora_url = f"""http://servicos.jbrj.gov.br/flora/search/{taxon_name.replace(" ", "_")}"""
 
     if reflora_id == "search":
         r = requests.get(reflora_url, verify=False)
@@ -71,9 +49,7 @@ def main(qid: str, taxon: str, taxon_name: str, reflora_id: str, open_url: bool,
         reflora_data = None
         reflora_id = None
 
-    wiki_page = get_wiki_page(
-        qid, taxon_name, reflora_id, results_df, family, genus, year_cat, reflora_data
-    )
+    wiki_page = get_pt_wikipage_from_qid(qid, reflora_id, reflora_data)
     if show:
         print(wiki_page)
         quit()
@@ -130,6 +106,39 @@ def main(qid: str, taxon: str, taxon_name: str, reflora_id: str, open_url: bool,
         claim.addSources([ref], summary="Adding sources.")
 
 
+def get_pt_wikipage_from_qid(qid, reflora_id=None, reflora_data=None):
+    invasive_number = test_invasive_species(qid)
+
+    if invasive_number:
+        print(invasive_number)
+    results_df = get_results_dataframe_from_wikidata(qid)
+
+    parent_taxon_df = get_parent_taxon_df(qid)
+
+    if "família" in parent_taxon_df["taxonRankLabel.value"]:
+        family = parent_taxon_df["taxonName.value"][
+            parent_taxon_df["taxonRankLabel.value"] == "família"
+        ].item()
+    else:
+        family = None
+    genus = parent_taxon_df["taxonName.value"][
+        parent_taxon_df["taxonRankLabel.value"] == "género"
+    ].item()
+    taxon_name = results_df["taxon_name.value"][0]
+
+    if "description_year.value" not in results_df:
+        year_cat = ""
+    else:
+        description_year = results_df["description_year.value"][0]
+        year_cat = f"[[Categoria:Espécies descritas em {description_year}]]"
+
+    wiki_page = get_wiki_page(
+        qid, taxon_name, reflora_id, results_df, family, genus, year_cat, reflora_data
+    )
+
+    return wiki_page
+
+
 def get_wiki_page(qid, taxon_name, reflora_id, results_df, family, genus, year_cat, reflora_data):
     if reflora_data is None:
         taxobox = get_taxobox(qid)
@@ -139,6 +148,7 @@ def get_wiki_page(qid, taxon_name, reflora_id, results_df, family, genus, year_c
         else:
             family_sentence = f" e da família [[{family}]]"
         wiki_page = f"""
+{{{{Título em itálico}}}}
 {taxobox}
 '''''{taxon_name}''''' é uma espécie do gênero ''[[{genus}]]''{family_sentence}.  {get_gbif_ref(qid)}
 {render_taxonomy(reflora_data, results_df, qid)}
@@ -148,8 +158,8 @@ def get_wiki_page(qid, taxon_name, reflora_id, results_df, family, genus, year_c
 {render_cnc_flora(taxon_name)}
 {render_additional_reading(qid)}
 {{{{Controle de autoridade}}}}
-{{{{esboço-táxon}}}}
-[[Categoria:{family}]][[Categoria:{genus}]]{year_cat}"""
+{{{{esboço-biologia}}}}
+[[Categoria:{genus}]]{year_cat}"""
 
         categories = []
 
