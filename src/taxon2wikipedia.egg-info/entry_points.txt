@@ -1,2 +1,3 @@
 [console_scripts]
 taxon2wikipedia = taxon2wikipedia.cli:cli
+

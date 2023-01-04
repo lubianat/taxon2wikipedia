@@ -2,6 +2,7 @@ LICENSE
 README.md
 pyproject.toml
 setup.cfg
+setup.py
 src/taxon2wikipedia/__init__.py
 src/taxon2wikipedia/cleanup.py
 src/taxon2wikipedia/cli.py

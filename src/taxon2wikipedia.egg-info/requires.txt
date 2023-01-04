@@ -1,9 +1,9 @@
-wdcuration
+SPARQLWrapper
+beautifulsoup4
+click
 clipboard
 requests
-SPARQLWrapper
-click
-beautifulsoup4
+wdcuration
 
 [tests]
 pytest
