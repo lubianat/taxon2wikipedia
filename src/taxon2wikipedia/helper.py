@@ -159,7 +159,7 @@ def render_page_for_synonym(reflora_data):
 
 
 def get_results_dataframe_from_wikidata(qid):
-    template_path = Path(f"{HERE}/../data/full_query_taxon.rq.jinja")
+    template_path = Path(f"{HERE}/data/full_query_taxon.rq.jinja")
     t = Template(template_path.read_text())
     query = t.render(taxon=qid)
     results_df = get_rough_df_from_wikidata(query)
@@ -250,12 +250,18 @@ def render_taxonomy(reflora_data, results_df, qid):
         description = f"A espécie foi descrita em [[{description_year}]] por {render_list_without_dict(taxon_author_labels)}. {get_gbif_ref(qid)}"
 
     text = f"""
-== Taxonomia ==
 {description}
 {get_subspecies_from_reflora(reflora_data)}
 {get_synonyms_from_reflora(reflora_data)}"""
 
-    return text
+    if text.isspace():
+        return ""
+    else:
+        text = f"""
+== Taxonomia ==
+{text}
+"""
+        return text
 
 
 # Mixed Wikida and Reflora

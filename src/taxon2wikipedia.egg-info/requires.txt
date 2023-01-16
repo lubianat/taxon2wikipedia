@@ -1,9 +1,12 @@
-SPARQLWrapper
-beautifulsoup4
-click
+wdcuration
 clipboard
 requests
-wdcuration
+SPARQLWrapper
+click
+beautifulsoup4
+pywikibot
+mwparserfromhell
+wikidata2df
 
 [tests]
 pytest

@@ -9,10 +9,10 @@ from bs4 import BeautifulSoup
 from taxon2wikipedia.cleanup import fix_description
 
 HERE = Path(__file__).parent.resolve()
-STATES_WIKI = json.loads(HERE.parent.joinpath("dicts/states_dict_pt.json").read_text())
-VEGETATION_WIKI = json.loads(HERE.parent.joinpath("dicts/vegetation_wiki_pt.json").read_text())
-DOMAINS_WIKI = json.loads(HERE.parent.joinpath("dicts/domain_wiki_pt.json").read_text())
-ECOLOGY_WIKI = json.loads(HERE.parent.joinpath("dicts/ecology_wiki_pt.json").read_text())
+STATES_WIKI = json.loads(HERE.joinpath("dicts/states_dict_pt.json").read_text())
+VEGETATION_WIKI = json.loads(HERE.joinpath("dicts/vegetation_wiki_pt.json").read_text())
+DOMAINS_WIKI = json.loads(HERE.joinpath("dicts/domain_wiki_pt.json").read_text())
+ECOLOGY_WIKI = json.loads(HERE.joinpath("dicts/ecology_wiki_pt.json").read_text())
 
 
 def render_comment(data):

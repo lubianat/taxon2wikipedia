@@ -1,29 +1,36 @@
 
+{{Título em itálico}}
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Animalia]]    
-| ordem                  = [[Araneae]]    
-| classe                 = [[Arachnida]]    
-| subfilo                = [[Chelicerata]]    
 | filo                   = [[Arthropoda]]    
+| classe                 = [[Insecta]]    
 | infrarreino            = [[Protostomia]]    
 | subreino               = [[Bilateria]]    
 | superfilo              = [[Ecdysozoa]]    
-| família                = [[Salticidae]]    
-| Subordem               = [[Opisthothelae]]    
-| Infraordem             = [[Araneomorphae]]    
-| Infraordem             = [[Entelegynae]]    
-| género                 = [[Encolpius]]    
+| subclasse              = [[Pterygota]]    
+| infraclasse            = [[Neoptera]]    
+| género                 = [[Adeloneivaia]]    
+| ordem                  = [[Lepidoptera]]    
+| subfilo                = [[Hexapoda]]    
+| Infraordem             = [[Heteroneura]]    
+| Subordem               = [[Glossata]]    
+| superfamília           = [[Bombycoidea]]    
+| subfamília             = [[Ceratocampinae]]    
+| Superordem             = [[Endopterygota]]    
+| Superordem             = [[Amphiesmenoptera]]    
+| subfilo                = [[Pancrustacea]]    
+| família                = [[Saturniidae]]    
+| subclasse              = [[Dicondylia]]    
+| subfilo                = [[Mandibulata]]    
+| espécie                = [[Adeloneivaia catharina]]    
 | superdomínio           = [[Biota]]    
-| espécie                = [[Encolpius guaraniticus]]    
-| classe                 = [[Euchelicerata]]    
+| Superordem             = [[Holometabola]]    
 }}
-'''''Encolpius guaraniticus''''' é uma espécie do gênero ''[[Encolpius]]''.  <ref>{{Citar web|url=https://www.gbif.org/species/2173584|titulo=Encolpius guaraniticus|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+'''''Adeloneivaia catharina''''' é uma espécie do gênero ''[[Adeloneivaia]]''.  <ref>{{Citar web|url=https://www.gbif.org/species/1865760|titulo=Adeloneivaia catharina|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 == Taxonomia ==
 
 {{Referencias}}
-== Ligações externas ==
-
 {{Controle de autoridade}}
-{{esboço-táxon}}
-[[Categoria:None]][[Categoria:Encolpius]]
+{{esboço-biologia}}
+[[Categoria:Adeloneivaia]]

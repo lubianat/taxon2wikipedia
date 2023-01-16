@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import OrderedDict
 
 HERE = Path(__file__).parent.resolve()
-DICTS = HERE.parent.joinpath("dicts")
+DICTS = HERE.joinpath("dicts")
 
 
 def main():

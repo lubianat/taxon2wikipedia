@@ -139,6 +139,15 @@ def get_pt_wikipage_from_qid(qid, reflora_id=None, reflora_data=None):
     return wiki_page
 
 
+def render_external_links(reflora_id, taxon_name):
+    text = f"""
+== Ligações externas ==
+* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id} ''{taxon_name}'' no projeto Flora e Funga do Brasil]
+{render_cnc_flora(taxon_name)}
+  """
+    return text
+
+
 def get_wiki_page(qid, taxon_name, reflora_id, results_df, family, genus, year_cat, reflora_data):
     if reflora_data is None:
         taxobox = get_taxobox(qid)
@@ -147,15 +156,13 @@ def get_wiki_page(qid, taxon_name, reflora_id, results_df, family, genus, year_c
             family_sentence = ""
         else:
             family_sentence = f" e da família [[{family}]]"
+
         wiki_page = f"""
 {{{{Título em itálico}}}}
 {taxobox}
 '''''{taxon_name}''''' é uma espécie do gênero ''[[{genus}]]''{family_sentence}.  {get_gbif_ref(qid)}
 {render_taxonomy(reflora_data, results_df, qid)}
 {{{{Referencias}}}}
-== Ligações externas ==
-{render_reflora_link(taxon_name, reflora_id)}
-{render_cnc_flora(taxon_name)}
 {render_additional_reading(qid)}
 {{{{Controle de autoridade}}}}
 {{{{esboço-biologia}}}}
@@ -216,13 +223,11 @@ def get_wiki_page(qid, taxon_name, reflora_id, results_df, family, genus, year_c
 {render_domains(reflora_data)}
 {notes}
 {{{{Referencias}}}}
-== Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id} ''{taxon_name}'' no projeto Flora e Funga do Brasil]
-{render_cnc_flora(taxon_name)}
+{render_external_links(taxon_name,reflora_id)}
 {render_additional_reading(qid)}
 {{{{Controle de autoridade}}}}
-{{{{esboço-táxon}}}}
-[[Categoria:{family}]][[Categoria:{genus}]]{year_cat}"""
+{{{{esboço-biologia}}}}
+[[Categoria:{genus}]]{year_cat}"""
         )
 
         categories = [
