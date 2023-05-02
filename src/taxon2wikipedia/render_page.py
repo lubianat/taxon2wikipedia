@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 import click
 import webbrowser
+import json
+import re
+import requests
+import sys
 
 import pywikibot
 from wdcuration import render_qs_url
@@ -9,131 +13,57 @@ from taxon2wikipedia.helper import *
 from taxon2wikipedia.process_reflora import *
 
 
-@click.command(name="render")
-@click.option("--qid")
-@click.option("--taxon", is_flag=True, help="Ask for a taxon name.")
-@click.option("--taxon_name", help="Provide a taxon name directly (and quoted)")
-@click.option("--reflora-id", default="search", help="O número do taxon na base Reflora.")
-@click.option("--open_url", is_flag=True, default=False, help="Abrir ou não as páginas auxiliares")
-@click.option("--show", is_flag=True, default=False, help="Print to screen only")
-def main(qid: str, taxon: str, taxon_name: str, reflora_id: str, open_url: bool, show: bool):
-
-    if taxon or taxon_name:
-        qid = get_qid_from_name(taxon_name)
-
-    results_df = get_results_dataframe_from_wikidata(qid)
-    taxon_name = results_df["taxon_name.value"][0]
-
-    if open_url:
-        webbrowser.open(
-            f"""https://scholar.google.com/scholar?q=%22{taxon_name.replace(" ", "+")}%22+scielo"""
-        )
-        webbrowser.open(f"""https://google.com/search?q=%22{taxon_name.replace(" ", "+")}%22""")
-
-    reflora_url = f"""http://servicos.jbrj.gov.br/flora/search/{taxon_name.replace(" ", "_")}"""
-
-    if reflora_id == "search":
-        r = requests.get(reflora_url, verify=False)
-        webbrowser.open(reflora_url)
-        reflora_id = r.url.split("FB")[-1]
-
-    try:
-        reflora_data = get_reflora_data(reflora_id)
-        HERE.joinpath("reflora.json").write_text(json.dumps(reflora_data, indent=4))
-
-        if len(reflora_data["nomesVernaculos"]) > 0:
-            qs = print_qs_for_names(reflora_data, qid)
-            webbrowser.open(render_qs_url(qs))
-    except:
-        pass
-        reflora_data = None
-        reflora_id = None
-
-    wiki_page = get_pt_wikipage_from_qid(qid, reflora_id, reflora_data)
-    if show:
-        print(wiki_page)
-        quit()
-    filepath = "wikipage.txt"
-
-    with open(filepath, "w+") as f:
-        f.write(wiki_page)
-
-    print(f"The length of the current page will be {len(wiki_page.encode('utf-8'))}")
-    create = input("Create page with pywikibot? (y/n)")
-    if create == "y":
-        print("===== Creating Wikipedia page =====")
-        site = pywikibot.Site("pt", "wikipedia")
-        newPage = pywikibot.Page(site, taxon_name)
-        newPage.text = wiki_page
-        newPage.save("Esboço criado com código de https://github.com/lubianat/taxon2wikipedia")
-    else:
-        print("quitting...")
-        quit()
-    if reflora_data is None:
-        webbrowser.open(
-            f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?veaction=edit"""
-        )
-        quit()
-    print("===== Setting sitelinks on Wikidata ===== ")
-    site = pywikibot.Site("wikidata", "wikidata")
-    repo = site.data_repository()
-    item = pywikibot.ItemPage(repo, qid)
-    if not "ehSinonimo" in reflora_data or "Nome correto" in set(
-        reflora_data["statusQualificador"]
-    ):
-        data = [{"site": "ptwiki", "title": taxon_name.replace(" ", "_")}]
-        item.setSitelinks(data)
-
-    webbrowser.open(
-        f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?veaction=edit"""
-    )
-
-    print("===== Adding reflora ID to Wikidata ===== ")
-    stringclaim = pywikibot.Claim(repo, "P10701")
-    stringclaim.setTarget(f"FB{str(reflora_id)}")
-    item.addClaim(stringclaim, summary="Adding a Reflora ID")
-
-    if reflora_data["endemismo"] == "\u00e9 end\u00eamica do Brasil":
-        print("===== Adding endemic status to Wikidata =====")
-        claim = pywikibot.Claim(repo, "P183")
-        target = pywikibot.ItemPage(repo, "Q155")
-        claim.setTarget(target)
-        item.addClaim(claim, summary="Adding endemic status")
-        ref = pywikibot.Claim(repo, "P854")
-        ref.setTarget(
-            f"http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id}"
-        )
-        claim.addSources([ref], summary="Adding sources.")
-
-
-def get_pt_wikipage_from_qid(qid, reflora_id=None, reflora_data=None):
-    invasive_number = test_invasive_species(qid)
-
-    if invasive_number:
-        print(invasive_number)
-    results_df = get_results_dataframe_from_wikidata(qid)
-
-    parent_taxon_df = get_parent_taxon_df(qid)
-
+# Functions
+def get_family_name(parent_taxon_df):
     if "família" in parent_taxon_df["taxonRankLabel.value"]:
-        family = parent_taxon_df["taxonName.value"][
+        family_name = parent_taxon_df["taxonName.value"][
             parent_taxon_df["taxonRankLabel.value"] == "família"
         ].item()
     else:
-        family = None
-    genus = parent_taxon_df["taxonName.value"][
+        family_name = None
+    return family_name
+
+
+def get_genus_name(parent_taxon_df):
+    genus_name = parent_taxon_df["taxonName.value"][
         parent_taxon_df["taxonRankLabel.value"] == "género"
     ].item()
-    taxon_name = results_df["taxon_name.value"][0]
+    return genus_name
 
+
+def get_year_category(results_df):
     if "description_year.value" not in results_df:
         year_cat = ""
     else:
         description_year = results_df["description_year.value"][0]
         year_cat = f"[[Categoria:Espécies descritas em {description_year}]]"
+    return year_cat
+
+
+def get_pt_wikipage_from_qid(qid, reflora_id=None, reflora_data=None):
+    invasive_count = test_invasive_species(qid)
+
+    if invasive_count:
+        print(invasive_count)
+    results_df = get_results_dataframe_from_wikidata(qid)
+
+    parent_taxon_df = get_parent_taxon_df(qid)
+
+    family_name = get_family_name(parent_taxon_df)
+    genus_name = get_genus_name(parent_taxon_df)
+    taxon_name = results_df["taxon_name.value"][0]
+
+    year_category = get_year_category(results_df)
 
     wiki_page = get_wiki_page(
-        qid, taxon_name, reflora_id, results_df, family, genus, year_cat, reflora_data
+        qid,
+        taxon_name,
+        reflora_id,
+        results_df,
+        family_name,
+        genus_name,
+        year_category,
+        reflora_data,
     )
 
     return wiki_page
@@ -142,7 +72,7 @@ def get_pt_wikipage_from_qid(qid, reflora_id=None, reflora_data=None):
 def render_external_links(reflora_id, taxon_name):
     text = f"""
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id} ''{taxon_name}'' no projeto Flora e Funga do Brasil]
+{render_reflora_link(taxon_name, reflora_id)}
 {render_cnc_flora(taxon_name)}
   """
     return text
@@ -223,7 +153,7 @@ def get_wiki_page(qid, taxon_name, reflora_id, results_df, family, genus, year_c
 {render_domains(reflora_data)}
 {notes}
 {{{{Referencias}}}}
-{render_external_links(taxon_name,reflora_id)}
+{render_external_links(reflora_id, taxon_name)}
 {render_additional_reading(qid)}
 {{{{Controle de autoridade}}}}
 {{{{esboço-biologia}}}}
@@ -262,6 +192,133 @@ def italicize_taxon_name(taxon_name, wiki_page):
     )
 
     return wiki_page
+
+
+def open_related_urls(taxon_name):
+    webbrowser.open(
+        f"""https://scholar.google.com/scholar?q=%22{taxon_name.replace(" ", "+")}%22+scielo"""
+    )
+    webbrowser.open(f"""https://google.com/search?q=%22{taxon_name.replace(" ", "+")}%22""")
+
+
+def get_and_save_reflora_data(reflora_id):
+    try:
+        reflora_data = get_reflora_data(reflora_id)
+        HERE.joinpath("reflora.json").write_text(json.dumps(reflora_data, indent=4))
+        return reflora_data
+    except:
+        return None
+
+
+def add_vernacular_names_to_wikidata(reflora_data, qid):
+    if len(reflora_data["nomesVernaculos"]) > 0:
+        qs = print_qs_for_names(reflora_data, qid)
+        webbrowser.open(render_qs_url(qs))
+
+
+def create_wikipedia_page(taxon_name, wiki_page):
+    print("===== Creating Wikipedia page =====")
+    site = pywikibot.Site("pt", "wikipedia")
+    newPage = pywikibot.Page(site, taxon_name)
+    newPage.text = wiki_page
+    newPage.save("Esboço criado com código de https://github.com/lubianat/taxon2wikipedia")
+
+
+def set_sitelinks_on_wikidata(qid, taxon_name, reflora_data):
+    print("===== Setting sitelinks on Wikidata =====")
+    site = pywikibot.Site("wikidata", "wikidata")
+    repo = site.data_repository()
+    item = pywikibot.ItemPage(repo, qid)
+    data = [{"site": "ptwiki", "title": taxon_name.replace(" ", "_")}]
+
+    if reflora_data is None:
+        item.setSitelinks(data)
+        return 0
+
+    if not "ehSinonimo" in reflora_data or "Nome correto" in set(
+        reflora_data["statusQualificador"]
+    ):
+        item.setSitelinks(data)
+        return 0
+
+
+def add_reflora_id_to_wikidata(qid, reflora_id):
+    print("===== Adding reflora ID to Wikidata =====")
+    site = pywikibot.Site("wikidata", "wikidata")
+    repo = site.data_repository()
+    item = pywikibot.ItemPage(repo, qid)
+    stringclaim = pywikibot.Claim(repo, "P10701")
+    stringclaim.setTarget(f"FB{str(reflora_id)}")
+    item.addClaim(stringclaim, summary="Adding a Reflora ID")
+
+
+def add_endemic_status_to_wikidata(qid, reflora_id, reflora_data):
+    if reflora_data["endemismo"] == "\u00e9 end\u00eamica do Brasil":
+        print("===== Adding endemic status to Wikidata =====")
+        site = pywikibot.Site("wikidata", "wikidata")
+        repo = site.data_repository()
+        item = pywikibot.ItemPage(repo, qid)
+        claim = pywikibot.Claim(repo, "P183")
+        target = pywikibot.ItemPage(repo, "Q155")
+        claim.setTarget(target)
+        item.addClaim(claim, summary="Adding endemic status")
+        ref = pywikibot.Claim(repo, "P854")
+        ref.setTarget(
+            f"http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id}"
+        )
+        claim.addSources([ref], summary="Adding sources.")
+
+
+@click.command(name="render")
+@click.option("--qid")
+@click.option("--taxon", is_flag=True, help="Ask for a taxon name.")
+@click.option("--taxon_name", help="Provide a taxon name directly (and quoted)")
+@click.option("--reflora-id", default="search", help="O número do taxon na base Reflora.")
+@click.option("--open_url", is_flag=True, default=False, help="Abrir ou não as páginas auxiliares")
+@click.option("--show", is_flag=True, default=False, help="Print to screen only")
+def main(qid: str, taxon: str, taxon_name: str, reflora_id: str, open_url: bool, show: bool):
+    if taxon or taxon_name:
+        qid = get_qid_from_name(taxon_name)
+    results_df = get_results_dataframe_from_wikidata(qid)
+    taxon_name = results_df["taxon_name.value"][0]
+
+    if open_url:
+        open_related_urls(taxon_name)
+
+    reflora_url = f"""http://servicos.jbrj.gov.br/flora/search/{taxon_name.replace(" ", "_")}"""
+
+    if reflora_id == "search":
+        r = requests.get(reflora_url, verify=False)
+        webbrowser.open(reflora_url)
+        reflora_id = r.url.split("FB")[-1]
+
+    reflora_data = get_and_save_reflora_data(reflora_id)
+    if reflora_data is not None:
+        add_reflora_id_to_wikidata(qid, reflora_id)
+        add_endemic_status_to_wikidata(qid, reflora_id, reflora_data)
+        add_vernacular_names_to_wikidata(reflora_data, qid)
+
+    wiki_page = get_pt_wikipage_from_qid(qid, reflora_id, reflora_data)
+    if show:
+        print(wiki_page)
+        quit()
+    filepath = "wikipage.txt"
+
+    with open(filepath, "w+") as f:
+        f.write(wiki_page)
+
+    print(f"The length of the current page will be {len(wiki_page.encode('utf-8'))}")
+    create = input("Create page with pywikibot? (y/n)")
+    if create == "y":
+        create_wikipedia_page(taxon_name, wiki_page)
+    else:
+        print("quitting...")
+        quit()
+    set_sitelinks_on_wikidata(qid, taxon_name, reflora_data)
+
+    webbrowser.open(
+        f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?veaction=edit"""
+    )
 
 
 if __name__ == "__main__":

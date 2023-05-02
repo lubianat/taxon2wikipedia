@@ -1,111 +1,33 @@
 
+{{Título em itálico}}
 {{Info/Taxonomia
 | imagem                = 
-| reino                  = [[Plantae]]    
-| ordem                  = [[Lamiales]]    
-| divisão                = [[Tracheophyta]]    
-| infrarreino            = [[Streptophyta]]    
-| superdivisão           = [[Embryophyta]]    
-| família                = [[Bignoniaceae]]    
-| género                 = [[Jacaranda]]    
-| subfilo                = [[Euphyllophyta]]    
+| reino                  = [[Animalia]]    
+| subreino               = [[Bilateria]]    
+| filo                   = [[Chordata]]    
+| subfilo                = [[Vertebrata]]    
+| infrafilo              = [[Gnathostomata]]    
+| Q60922428              = [[Osteichthyes]]    
+| superclasse            = [[Actinopterygii]]    
+| Q6541077               = [[Ostariophysi]]    
+| infrarreino            = [[Deuterostomia]]    
+| infraclasse            = [[Teleostei]]    
+| ordem                  = [[Characiformes]]    
+| classe                 = [[Actinopteri]]    
+| espécie                = [[Mylesinus paucisquamatus]]    
+| subclasse              = [[Neopterygii]]    
+| Q6054425               = [[Clupeocephala]]    
 | superdomínio           = [[Biota]]    
-| subdomínio             = [[Diaphoretickes]]    
-| subreino               = [[Viridiplantae]]    
-| espécie                = [[Jacaranda egleri]]    
+| género                 = [[Mylesinus]]    
+| subfamília             = [[Serrasalminae]]    
+| Subordem               = [[Characoidei]]    
+| família                = [[Serrasalmidae]]    
+| Superordem             = [[Characiphysae]]    
+| Q60445775              = [[Osteoglossocephalai]]    
+| Q2981883               = [[Otomorpha]]    
 }}
-'''''Jacaranda egleri''''' é uma espécie do gênero ''[[Jacaranda]]'' . <ref name=":ref_0"> {{Citar web|url=https://floradobrasil2020.jbrj.gov.br/FB114133|titulo=Jacaranda egleri Sandwith|acessodata=2022-04-18|website=floradobrasil2020.jbrj.gov.br}}</ref> 
-
-== Taxonomia ==
-A espécie foi descrita em [[1962]] por [[Noel Yvri Sandwith]]. <ref>{{Citar web|url=https://www.gbif.org/species/4094210|titulo=Jacaranda egleri|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
-
-
-== Forma de vida ==
-É uma espécie [[terrícola]] e [[arbórea]]. <ref name=":ref_0"/>  
-== Descrição ==
-
-{| class="wikitable" 
-|+
-! colspan="2" |'''Caule'''<ref name=":ref_0" />
-|-
-|'''ramo'''
-|subcilíndrico/tetragonal ou quase tetragonal
-|-
-|'''lenticela'''
-|ausente
-|+
-! colspan="2" |'''Folha'''<ref name=":ref_0" />
-|-
-|'''composta'''
-|pinada
-|-
-|'''inserção na raque ou ráquila'''
-|peciolada
-|-
-|'''margem'''
-|inteira
-|-
-|'''[[tricoma]]'''
-|pubérula
-|+
-! colspan="2" |'''Inflorescência'''<ref name=":ref_0" />
-|-
-|'''posição'''
-|terminal
-|-
-|'''tirso'''
-|ramiflora
-|+
-! colspan="2" |'''Flor'''<ref name=":ref_0" />
-|-
-|'''[[Cálice (botânica)|cálice]]'''
-|campanulado/5 denticulado
-|-
-|'''[[corola]] tubular'''
-|campanulada
-|-
-|'''cor'''
-|lilás
-|-
-|'''[[antera]] glabra'''
-|diteca
-|-
-|'''[[estaminódio]]'''
-|alongado excedendo em tamanho a antera/glandular no terço superior
-|-
-|'''ovário'''
-|ovado/achatado
-|-
-|'''disco nectarífero'''
-|pulviniforme
-|+
-! colspan="2" |'''Fruto'''<ref name=":ref_0" />
-|-
-|'''[[Cápsula (fruto)|cápsula]] loculicida'''
-|sublenhoso
-|-
-|'''valva na deiscência'''
-|não ondulada
-|+
-! colspan="2" |'''Semente'''<ref name=":ref_0" />
-|-
-|'''achatada'''
-|fina/membranácea
-|-
-|'''ala'''
-|hialina
-|}
-
-== Distribuição ==
-A espécie é encontrada nos estados brasileiros de [[Amazonas]], [[Mato Grosso]] e [[Pará]].<ref name=":ref_0"/> 
-Em termos ecológicos, é encontrada no [[Domínio morfoclimático e fitogeográfico|domínio fitogeográfico]] de [[Floresta Amazônica]], em regiões com vegetação de [[floresta de terra firme]] e [[Floresta húmida|floresta ombrófila pluvial]].<ref name=":ref_0"/> 
-== Notas ==
-Contém texto em [[Licenças Creative Commons|CC-BY-SA 4.0]] de Farias-Singer, R. ''Jacaranda''  ''in'' <b>Flora e Funga do Brasil.</b> <ref name=":ref_0"/> 
+'''''Mylesinus paucisquamatus''''' é uma espécie do gênero ''[[Mylesinus]]''.  <ref>{{Citar web|url=https://www.gbif.org/species/2353287|titulo=Mylesinus paucisquamatus|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 {{Referencias}}
-== Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FBJacaranda egleri ''114133'' no projeto Flora e Funga do Brasil]
- 
 {{Controle de autoridade}}
 {{esboço-biologia}}
-[[Categoria:Jacaranda]][[Categoria:Espécies descritas em 1962]][[Categoria:Plantas]]
-[[Categoria:Flora do Brasil]]
+[[Categoria:Mylesinus]]
