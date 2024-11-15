@@ -127,12 +127,12 @@ def test_invasive_species(taxon_id):
         return df["item"][0]
 
 
-def render_reflora_link(taxon_name, reflora_id):
-    print(reflora_id)
+def render_reflora_link(taxon_name, qid):
+    reflora_id = get_reflora_id(qid)
     if reflora_id == "" or reflora_id is None:
         return ""
 
-    return f"* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB{reflora_id} ''{taxon_name}'' no projeto Flora e Funga do Brasil]"
+    return f"* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id={reflora_id} ''{taxon_name}'' no projeto Flora e Funga do Brasil]"
 
 
 def render_page_for_synonym(reflora_data):
@@ -192,7 +192,7 @@ def render_cnc_flora(taxon_name):
     
 def render_bhl(taxon_name):
     if test_bhl(taxon_name):
-        return f"* Documentos sobre [https://www.biodiversitylibrary.org/name/{quote(taxon_name)} ''{taxon_name}'' na Biodiversity Heritage Library]"
+        return f"* [https://www.biodiversitylibrary.org/name/{quote(taxon_name)} Documentos sobre ''{taxon_name}'' na Biodiversity Heritage Library]"
     else:
         return ""
 
@@ -201,9 +201,22 @@ def render_inaturalist(taxon_name, qid):
     inat_id = get_inaturalist_id(qid)
 
     if get_inaturalist_id(qid):
-        return f"* Observações de [https://www.inaturalist.org/taxa/{inat_id} ''{taxon_name}'' no iNaturalist]"
+        return f"* [https://www.inaturalist.org/taxa/{inat_id} Observações de''{taxon_name}'' no iNaturalist]"
     else:
         return ""
+
+def get_reflora_id(qid):
+    query = f"""
+    SELECT * WHERE {{ 
+        wd:{qid} wdt:P10701 ?reflora_id .
+    }}
+    """
+    df = get_rough_df_from_wikidata(query)
+    if "reflora_id.value" not in df:
+        return ""
+    reflora_id = list(df["reflora_id.value"])[0]
+    return reflora_id
+
 
 def get_inaturalist_id(qid):
     query = f"""

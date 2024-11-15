@@ -78,7 +78,7 @@ def get_pt_wikipage_from_qid(qid, reflora_id=None, reflora_data=None):
 def render_external_links(reflora_id, taxon_name, qid):
     text = f"""
 == Ligações externas ==
-{render_reflora_link(taxon_name, reflora_id)}
+{render_reflora_link(taxon_name, qid)}
 {render_cnc_flora(taxon_name)}
 {render_bhl(taxon_name)}
 {render_inaturalist(taxon_name, qid)}
@@ -106,6 +106,7 @@ def get_wiki_page(qid, taxon_name, reflora_id, results_df,kingdom, family, genus
 '''''{taxon_name}''''' é uma espécie {kingdom_text} do gênero ''[[{genus}]]''{family_sentence}.  {get_gbif_ref(qid)}
 {render_taxonomy(reflora_data, results_df, qid)}
 {{{{Referencias}}}}
+{render_external_links(reflora_id, taxon_name,qid)}
 {render_additional_reading(qid)}
 {{{{Controle de autoridade}}}}
 {{{{esboço-biologia}}}}
@@ -144,6 +145,7 @@ def get_wiki_page(qid, taxon_name, reflora_id, results_df,kingdom, family, genus
             notes = f"{get_cc_by_comment(reflora_data)}{get_ref_reflora(reflora_data)}"
             description_title = """
 == Descrição =="""
+
         else:
             description_title = ""
             notes = ""
