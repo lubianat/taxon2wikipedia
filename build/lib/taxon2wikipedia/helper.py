@@ -219,12 +219,29 @@ def render_bhl(taxon_name):
     else:
         return ""
 
+def render_gbif(taxon_name, qid):
+    gbif_id = get_gbif_id(qid)
+    if get_gbif_id(qid):
+        return f"* [https://www.gbif.org/species/{gbif_id} ''{taxon_name}'' no GBIF]"
+    else:
+        return ""
+
+def get_gbif_id(qid):
+    query = f"""
+    SELECT * WHERE {{ 
+        wd:{qid} wdt:P846 ?gbif_id .
+    }}
+    """
+    df = get_rough_df_from_wikidata(query)
+    if "gbif_id.value" not in df:
+        return ""
+    gbif_id = list(df["gbif_id.value"])[0]
+    return gbif_id
+
 def render_inaturalist(taxon_name, qid):
-
     inat_id = get_inaturalist_id(qid)
-
     if get_inaturalist_id(qid):
-        return f"* [https://www.inaturalist.org/taxa/{inat_id} Observações de''{taxon_name}'' no iNaturalist]"
+        return f"* [https://www.inaturalist.org/taxa/{inat_id} Observações de ''{taxon_name}'' no iNaturalist]"
     else:
         return ""
 

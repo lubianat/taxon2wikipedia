@@ -79,6 +79,7 @@ def render_external_links(taxon_name, qid):
 {render_cnc_flora(taxon_name)}
 {render_bhl(taxon_name)}
 {render_inaturalist(taxon_name, qid)}
+{render_gbif(taxon_name, qid)}
   """
     return text
 
