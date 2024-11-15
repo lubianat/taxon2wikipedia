@@ -4,6 +4,8 @@ import webbrowser
 from cgi import test
 from pathlib import Path
 from urllib.parse import quote
+import re
+import collections
 
 import pywikibot
 import requests
@@ -20,6 +22,28 @@ import click
 import pandas as pd
 from SPARQLWrapper import JSON, SPARQLWrapper
 
+
+def merge_equal_refs(wikipage):
+    results = re.findall(f"(<ref>.*?</ref>)", wikipage)
+    repeated_refs = [item for item, count in collections.Counter(results).items() if count > 1]
+
+    for i, repeated_ref in enumerate(repeated_refs):
+        parts = wikipage.partition(repeated_ref)  # returns a tuple
+        print("========")
+        wikipage = (
+            parts[0]
+            + re.sub(
+                re.escape(repeated_ref),
+                f'<ref name=":ref_{str(i)}"> {repeated_ref.replace("<ref>", "")}',
+                parts[1],
+            )
+            + re.sub(
+                re.escape(repeated_ref),
+                f'<ref name=":ref_{str(i)}"/>',
+                parts[2],
+            )
+        )
+    return wikipage
 
 def render_list_without_dict(list_of_names):
     text = ""

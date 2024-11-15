@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: taxon2wikipedia
-Version: 0.0.12
+Version: 0.0.13
 Summary: Add taxons to pt Wikipedia
 License: MIT
 Description-Content-Type: text/markdown
@@ -20,6 +20,10 @@ Requires-Dist: pytest; extra == "tests"
 # taxon2wikipedia
 
 An automatic page builder for taxa on ptwiki. 
+
+## Updates
+ 
+ * 2024-11-15 --> Parsing of Reflora was discontinued for simplicity and maintenability. 
 
 ## Set up
 

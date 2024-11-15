@@ -224,7 +224,7 @@ def render_inaturalist(taxon_name, qid):
     inat_id = get_inaturalist_id(qid)
 
     if get_inaturalist_id(qid):
-        return f"* [https://www.inaturalist.org/taxa/{inat_id} Observações de''{taxon_name}'' no iNaturalist]"
+        return f"* [https://www.inaturalist.org/taxa/{inat_id} Observações de ''{taxon_name}'' no iNaturalist]"
     else:
         return ""
 
