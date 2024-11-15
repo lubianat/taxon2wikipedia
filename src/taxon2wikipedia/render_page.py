@@ -13,6 +13,12 @@ from taxon2wikipedia.helper import *
 from taxon2wikipedia.process_reflora import *
 
 
+def get_kingdom_name(parent_taxon_df):
+    genus_name = parent_taxon_df["taxonName.value"][
+        parent_taxon_df["taxonRankLabel.value"] == "reino"
+    ].item()
+    return genus_name
+
 # Functions
 def get_family_name(parent_taxon_df):
     if "família" in parent_taxon_df["taxonRankLabel.value"]:
@@ -48,7 +54,7 @@ def get_pt_wikipage_from_qid(qid, reflora_id=None, reflora_data=None):
     results_df = get_results_dataframe_from_wikidata(qid)
 
     parent_taxon_df = get_parent_taxon_df(qid)
-
+    kingdom_name   = get_kingdom_name(parent_taxon_df)
     family_name = get_family_name(parent_taxon_df)
     genus_name = get_genus_name(parent_taxon_df)
     taxon_name = results_df["taxon_name.value"][0]
@@ -60,6 +66,7 @@ def get_pt_wikipage_from_qid(qid, reflora_id=None, reflora_data=None):
         taxon_name,
         reflora_id,
         results_df,
+        kingdom_name,
         family_name,
         genus_name,
         year_category,
@@ -78,7 +85,7 @@ def render_external_links(reflora_id, taxon_name):
     return text
 
 
-def get_wiki_page(qid, taxon_name, reflora_id, results_df, family, genus, year_cat, reflora_data):
+def get_wiki_page(qid, taxon_name, reflora_id, results_df,kingdom, family, genus, year_cat, reflora_data):
     if reflora_data is None:
         taxobox = get_taxobox(qid)
 
@@ -87,10 +94,15 @@ def get_wiki_page(qid, taxon_name, reflora_id, results_df, family, genus, year_c
         else:
             family_sentence = f" e da família [[{family}]]"
 
+        if kingdom == "Plantae":
+            kingdom_text = "de planta"
+        else:
+            kingdom_text = ""
+
         wiki_page = f"""
 {{{{Título em itálico}}}}
 {taxobox}
-'''''{taxon_name}''''' é uma espécie do gênero ''[[{genus}]]''{family_sentence}.  {get_gbif_ref(qid)}
+'''''{taxon_name}''''' é uma espécie {kingdom_text} do gênero ''[[{genus}]]''{family_sentence}.  {get_gbif_ref(qid)}
 {render_taxonomy(reflora_data, results_df, qid)}
 {{{{Referencias}}}}
 {render_additional_reading(qid)}
