@@ -161,7 +161,6 @@ def get_wiki_page(qid, taxon_name, reflora_id, results_df,kingdom, family, genus
 {description_title}
 {render_free_description(reflora_data)}
 {render_description_table(reflora_data)}
-
 {render_distribution_from_reflora(reflora_data)}
 {render_domains(reflora_data)}
 {notes}
@@ -298,20 +297,7 @@ def main(qid: str, taxon: str, taxon_name: str, reflora_id: str, open_url: bool,
     if open_url:
         open_related_urls(taxon_name)
 
-    reflora_url = f"""http://servicos.jbrj.gov.br/flora/search/{taxon_name.replace(" ", "_")}"""
-
-    if reflora_id == "search":
-        r = requests.get(reflora_url, verify=False)
-        webbrowser.open(reflora_url)
-        reflora_id = r.url.split("FB")[-1]
-
-    reflora_data = get_and_save_reflora_data(reflora_id)
-    if reflora_data is not None:
-        add_reflora_id_to_wikidata(qid, reflora_id)
-        add_endemic_status_to_wikidata(qid, reflora_id, reflora_data)
-        add_vernacular_names_to_wikidata(reflora_data, qid)
-
-    wiki_page = get_pt_wikipage_from_qid(qid, reflora_id, reflora_data)
+    wiki_page = get_pt_wikipage_from_qid(qid, None, None)
     if show:
         print(wiki_page)
         quit()
@@ -327,7 +313,7 @@ def main(qid: str, taxon: str, taxon_name: str, reflora_id: str, open_url: bool,
     else:
         print("quitting...")
         quit()
-    set_sitelinks_on_wikidata(qid, taxon_name, reflora_data)
+    set_sitelinks_on_wikidata(qid, taxon_name, None)
 
     webbrowser.open(
         f"""https://pt.wikipedia.org/wiki/{taxon_name.replace(" ", "_")}?veaction=edit"""
