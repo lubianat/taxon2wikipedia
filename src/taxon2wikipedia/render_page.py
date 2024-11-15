@@ -8,7 +8,6 @@ import sys
 
 import pywikibot
 from wdcuration import render_qs_url
-
 from taxon2wikipedia.helper import *
 from taxon2wikipedia.process_reflora import *
 
@@ -76,11 +75,13 @@ def get_pt_wikipage_from_qid(qid, reflora_id=None, reflora_data=None):
     return wiki_page
 
 
-def render_external_links(reflora_id, taxon_name):
+def render_external_links(reflora_id, taxon_name, qid):
     text = f"""
 == Ligações externas ==
 {render_reflora_link(taxon_name, reflora_id)}
 {render_cnc_flora(taxon_name)}
+{render_bhl(taxon_name)}
+{render_inaturalist(taxon_name, qid)}
   """
     return text
 
@@ -165,7 +166,7 @@ def get_wiki_page(qid, taxon_name, reflora_id, results_df,kingdom, family, genus
 {render_domains(reflora_data)}
 {notes}
 {{{{Referencias}}}}
-{render_external_links(reflora_id, taxon_name)}
+{render_external_links(reflora_id, taxon_name,qid)}
 {render_additional_reading(qid)}
 {{{{Controle de autoridade}}}}
 {{{{esboço-biologia}}}}

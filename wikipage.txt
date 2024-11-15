@@ -2,32 +2,25 @@
 {{Título em itálico}}
 {{Info/Taxonomia
 | imagem                = 
-| reino                  = [[Animalia]]    
-| subreino               = [[Bilateria]]    
-| filo                   = [[Chordata]]    
-| subfilo                = [[Vertebrata]]    
-| infrafilo              = [[Gnathostomata]]    
-| Q60922428              = [[Osteichthyes]]    
-| superclasse            = [[Actinopterygii]]    
-| Q6541077               = [[Ostariophysi]]    
-| infrarreino            = [[Deuterostomia]]    
-| infraclasse            = [[Teleostei]]    
-| ordem                  = [[Characiformes]]    
-| classe                 = [[Actinopteri]]    
-| espécie                = [[Mylesinus paucisquamatus]]    
-| subclasse              = [[Neopterygii]]    
-| Q6054425               = [[Clupeocephala]]    
+| reino                  = [[Plantae]]    
+| ordem                  = [[Solanales]]    
+| divisão                = [[Tracheophytes]]    
+| infrarreino            = [[Streptophyta]]    
+| família                = [[Convolvulaceae]]    
+| género                 = [[Ipomoea]]    
+| superdivisão           = [[Embryophytes]]    
+| tribo                  = [[Ipomoeeae]]    
+| subfilo                = [[Euphyllophyta]]    
 | superdomínio           = [[Biota]]    
-| género                 = [[Mylesinus]]    
-| subfamília             = [[Serrasalminae]]    
-| Subordem               = [[Characoidei]]    
-| família                = [[Serrasalmidae]]    
-| Superordem             = [[Characiphysae]]    
-| Q60445775              = [[Osteoglossocephalai]]    
-| Q2981883               = [[Otomorpha]]    
+| subdomínio             = [[Diaphoretickes]]    
+| subreino               = [[Viridiplantae]]    
+| espécie                = [[Ipomoea marabensis]]    
 }}
-'''''Mylesinus paucisquamatus''''' é uma espécie do gênero ''[[Mylesinus]]''.  <ref>{{Citar web|url=https://www.gbif.org/species/2353287|titulo=Mylesinus paucisquamatus|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+'''''Ipomoea marabensis''''' é uma espécie de planta do gênero ''[[Ipomoea]]''.  <ref name=":ref_0"> {{Citar web|url=https://www.gbif.org/species/7354027|titulo=Ipomoea marabensis|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+== Taxonomia ==
+A espécie foi descrita em [[1988]] por [[Ricardo de Sousa Secco]] e [[Daniel Frank Austin]]. <ref name=":ref_0"/>
+
 {{Referencias}}
 {{Controle de autoridade}}
 {{esboço-biologia}}
-[[Categoria:Mylesinus]]
+[[Categoria:Ipomoea]][[Categoria:Espécies descritas em 1988]]

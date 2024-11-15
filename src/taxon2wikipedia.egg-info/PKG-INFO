@@ -4,8 +4,18 @@ Version: 0.0.11
 Summary: Add taxons to pt Wikipedia
 License: MIT
 Description-Content-Type: text/markdown
-Provides-Extra: tests
 License-File: LICENSE
+Requires-Dist: wdcuration
+Requires-Dist: clipboard
+Requires-Dist: requests
+Requires-Dist: SPARQLWrapper
+Requires-Dist: click
+Requires-Dist: beautifulsoup4
+Requires-Dist: pywikibot
+Requires-Dist: mwparserfromhell
+Requires-Dist: wikidata2df
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
 
 # taxon2wikipedia
 

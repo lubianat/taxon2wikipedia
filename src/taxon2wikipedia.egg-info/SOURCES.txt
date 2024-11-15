@@ -8,6 +8,7 @@ src/taxon2wikipedia/__init__.py
 src/taxon2wikipedia/cleanup.py
 src/taxon2wikipedia/cli.py
 src/taxon2wikipedia/create_taxon.py
+src/taxon2wikipedia/external_links.py
 src/taxon2wikipedia/helper.py
 src/taxon2wikipedia/process_reflora.py
 src/taxon2wikipedia/reflora.json

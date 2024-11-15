@@ -189,7 +189,38 @@ def render_cnc_flora(taxon_name):
         return f"* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/{quote(taxon_name)} ''{taxon_name}'' no portal do Centro Nacional de Conservação da Flora (Brasil)]"
     else:
         return ""
+    
+def render_bhl(taxon_name):
+    if test_bhl(taxon_name):
+        return f"* Documentos sobre [https://www.biodiversitylibrary.org/name/{quote(taxon_name)} ''{taxon_name}'' na Biodiversity Heritage Library]"
+    else:
+        return ""
 
+def render_inaturalist(taxon_name, qid):
+
+    inat_id = get_inaturalist_id(qid)
+
+    if get_inaturalist_id(qid):
+        return f"* Observações de [https://www.inaturalist.org/taxa/{inat_id} ''{taxon_name}'' no iNaturalist]"
+    else:
+        return ""
+
+def get_inaturalist_id(qid):
+    query = f"""
+    SELECT * WHERE {{ 
+        wd:{qid} wdt:P3151 ?inaturalist_id .
+    }}
+    """
+    df = get_rough_df_from_wikidata(query)
+    if "inaturalist_id.value" not in df:
+        return ""
+    inaturalist_id = list(df["inaturalist_id.value"])[0]
+    return inaturalist_id
+
+
+
+def test_bhl(name):
+    return True #PLACEHOLDER FOR A TEST FOR PRESENCE OF TAXON IN BHL 
 
 def test_cnc_flora(name):
     url = f"http://cncflora.jbrj.gov.br/portal/pt-br/profile/{name}"
