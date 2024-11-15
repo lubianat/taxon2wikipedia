@@ -1,13 +1,10 @@
 # taxon2wikipedia
 
-An automatic page builder for ptwiki. 
+An automatic page builder for taxa on ptwiki. 
 
-
-Reflora JSON hidden API:
-
-In English: https://floradobrasil2020.jbrj.gov.br/reflora/listaBrasil/ConsultaPublicaUC/ResultadoDaConsultaCarregaTaxonGrupo.do?&idDadosListaBrasil={fb_id}"
-
-In Portuguese: "http://reflora.jbrj.gov.br/reflora/listaBrasil/ConsultaPublicaUC/ResultadoDaConsultaCarregaTaxonGrupo.do?&idDadosListaBrasil={fb_id}"
+## Updates
+ 
+ * 2024-11-15 --> Parsing of Reflora was discontinued for simplicity and maintenability. 
 
 ## Set up
 

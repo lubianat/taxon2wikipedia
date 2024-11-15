@@ -4,6 +4,8 @@ import webbrowser
 from cgi import test
 from pathlib import Path
 from urllib.parse import quote
+import re
+import collections
 
 import pywikibot
 import requests
@@ -12,8 +14,6 @@ from urllib3 import disable_warnings
 from urllib3.exceptions import InsecureRequestWarning
 from wdcuration import render_qs_url, search_wikidata
 
-from taxon2wikipedia.cleanup import *
-from taxon2wikipedia.process_reflora import *
 from wikidata2df import wikidata2df
 
 disable_warnings(InsecureRequestWarning)
@@ -21,6 +21,52 @@ disable_warnings(InsecureRequestWarning)
 import click
 import pandas as pd
 from SPARQLWrapper import JSON, SPARQLWrapper
+
+
+def merge_equal_refs(wikipage):
+    results = re.findall(f"(<ref>.*?</ref>)", wikipage)
+    repeated_refs = [item for item, count in collections.Counter(results).items() if count > 1]
+
+    for i, repeated_ref in enumerate(repeated_refs):
+        parts = wikipage.partition(repeated_ref)  # returns a tuple
+        print("========")
+        wikipage = (
+            parts[0]
+            + re.sub(
+                re.escape(repeated_ref),
+                f'<ref name=":ref_{str(i)}"> {repeated_ref.replace("<ref>", "")}',
+                parts[1],
+            )
+            + re.sub(
+                re.escape(repeated_ref),
+                f'<ref name=":ref_{str(i)}"/>',
+                parts[2],
+            )
+        )
+    return wikipage
+
+def render_list_without_dict(list_of_names):
+    text = ""
+    for i, name in enumerate(list_of_names):
+        if i == 0:
+            text = text + name
+        elif i == len(list_of_names) - 1:
+            text = text + " e " + name
+        else:
+            text = text + ", " + name
+    return text
+
+
+def render_list(list_of_ids, dict_of_wikitexts):
+    text = ""
+    for i, entry in enumerate(list_of_ids):
+        if i == 0:
+            text = text + dict_of_wikitexts[entry]
+        elif i == len(list_of_ids) - 1:
+            text = text + " e " + dict_of_wikitexts[entry]
+        else:
+            text = text + ", " + dict_of_wikitexts[entry]
+    return text
 
 
 def get_parent_taxon_df(qid):
@@ -135,29 +181,6 @@ def render_reflora_link(taxon_name, qid):
     return f"* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id={reflora_id} ''{taxon_name}'' no projeto Flora e Funga do Brasil]"
 
 
-def render_page_for_synonym(reflora_data):
-    synonym_name = reflora_data["ehSinonimo"]
-    synonym_name = re.sub(
-        '<a onclick=.*?taxon">(.*?)<\/div><div class="nomeAutorSinonimo">.*',
-        "\\1",
-        synonym_name,
-    )
-    synonym_name = re.sub(
-        "<.*?>",
-        "",
-        synonym_name,
-    )
-    synonym_name = synonym_name.replace("<span> <i>", "")
-    synonym_name = synonym_name.replace("</i>", "")
-
-    wiki_page = f"#REDIRECIONAMENTO[[{synonym_name}]]"
-
-    site = pywikibot.Site("pt", "wikipedia")
-    print(synonym_name)
-    os.system(f'taxon2wikipedia render --taxon_name="{synonym_name}"')
-    return site, wiki_page
-
-
 def get_results_dataframe_from_wikidata(qid):
     template_path = Path(f"{HERE}/data/full_query_taxon.rq.jinja")
     t = Template(template_path.read_text())
@@ -230,8 +253,6 @@ def get_inaturalist_id(qid):
     inaturalist_id = list(df["inaturalist_id.value"])[0]
     return inaturalist_id
 
-
-
 def test_bhl(name):
     return True #PLACEHOLDER FOR A TEST FOR PRESENCE OF TAXON IN BHL 
 
@@ -279,7 +300,7 @@ def get_gbif_ref(qid):
     return ref
 
 
-def render_taxonomy(reflora_data, results_df, qid):
+def render_taxonomy(results_df, qid):
     """
     Renders the taxonomy session  for the taxon.
     """
@@ -295,8 +316,7 @@ def render_taxonomy(reflora_data, results_df, qid):
 
     text = f"""
 {description}
-{get_subspecies_from_reflora(reflora_data)}
-{get_synonyms_from_reflora(reflora_data)}"""
+"""
 
     if text.isspace():
         return ""
@@ -309,19 +329,15 @@ def render_taxonomy(reflora_data, results_df, qid):
 
 
 # Mixed Wikida and Reflora
-def render_common_name(results_df, reflora_data):
+def render_common_name(results_df):
     """
-    Renders the common name for the taxon using either Wikidata (if available)
-    or data from Reflora
+    Renders the common name for the taxon using Wikidata
     """
 
     try:
         common_names = results_df["taxon_common_name_pt.value"]
     except:
-        try:
-            common_names = get_common_names(reflora_data)
-        except:
-            return ""
+        return ""
 
     common_names = [f"'''{a}'''" for a in common_names]
 

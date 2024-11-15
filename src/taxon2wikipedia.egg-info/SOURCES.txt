@@ -4,12 +4,10 @@ pyproject.toml
 setup.cfg
 setup.py
 src/taxon2wikipedia/__init__.py
-src/taxon2wikipedia/cleanup.py
 src/taxon2wikipedia/cli.py
-src/taxon2wikipedia/create_taxon.py
-src/taxon2wikipedia/external_links.py
+src/taxon2wikipedia/create_taxon_on_wikidata.py
+src/taxon2wikipedia/get_external_bird_links.py
 src/taxon2wikipedia/helper.py
-src/taxon2wikipedia/process_reflora.py
 src/taxon2wikipedia/render_page.py
 src/taxon2wikipedia/test.py
 src/taxon2wikipedia.egg-info/PKG-INFO
@@ -19,5 +17,4 @@ src/taxon2wikipedia.egg-info/entry_points.txt
 src/taxon2wikipedia.egg-info/not-zip-safe
 src/taxon2wikipedia.egg-info/requires.txt
 src/taxon2wikipedia.egg-info/top_level.txt
-src/taxon2wikipedia/dicts/__init__.py
-src/taxon2wikipedia/dicts/reorder_dicts.py
+src/taxon2wikipedia/data/full_query_taxon.rq.jinja

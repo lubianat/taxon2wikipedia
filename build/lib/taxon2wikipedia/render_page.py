@@ -9,7 +9,6 @@ import sys
 import pywikibot
 from wdcuration import render_qs_url
 from taxon2wikipedia.helper import *
-from taxon2wikipedia.process_reflora import *
 
 
 def get_kingdom_name(parent_taxon_df):
@@ -136,7 +135,7 @@ def get_wiki_page(qid, taxon_name, reflora_id, results_df,kingdom, family, genus
             sys.exit()
 
     else:
-        common_name_text = render_common_name(results_df, reflora_data)
+        common_name_text = render_common_name(results_df)
         taxobox = get_taxobox(qid)
 
         free_description = render_free_description(reflora_data)

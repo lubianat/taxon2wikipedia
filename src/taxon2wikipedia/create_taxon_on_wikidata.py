@@ -6,7 +6,6 @@ from jinja2 import Template
 from wdcuration import render_qs_url, search_wikidata
 
 from .helper import *
-from .process_reflora import *
 
 
 @click.command(name="create")
@@ -29,7 +28,6 @@ def main(taxon_name: str):
     LAST|Lpt|"{taxon_name}"
     LAST|Den|"species"
     LAST|Den|"espécie"
-    LAST|P31|Q16521|S854|"https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Wikiconcurso_Wiki_Loves_Esp%C3%ADrito_Santo/Artigos"
     LAST|P225|"{taxon_name}"
     LAST|P105|Q7432
     LAST|P171|{genus_qid}   
