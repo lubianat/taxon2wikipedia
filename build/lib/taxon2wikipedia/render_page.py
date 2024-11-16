@@ -19,6 +19,7 @@ def get_kingdom_name(parent_taxon_df):
 
 # Functions
 def get_family_name(parent_taxon_df):
+    print(parent_taxon_df)
     if "família" in parent_taxon_df["taxonRankLabel.value"]:
         family_name = parent_taxon_df["taxonName.value"][
             parent_taxon_df["taxonRankLabel.value"] == "família"

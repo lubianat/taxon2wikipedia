@@ -19,12 +19,9 @@ def get_kingdom_name(parent_taxon_df):
 
 # Functions
 def get_family_name(parent_taxon_df):
-    if "família" in parent_taxon_df["taxonRankLabel.value"]:
-        family_name = parent_taxon_df["taxonName.value"][
-            parent_taxon_df["taxonRankLabel.value"] == "família"
-        ].item()
-    else:
-        family_name = None
+    family_name = parent_taxon_df["taxonName.value"][
+        parent_taxon_df["taxonRankLabel.value"] == "família"
+    ].item()
     return family_name
 
 
@@ -90,7 +87,7 @@ def get_wiki_page(qid, taxon_name, results_df,kingdom, family, genus, year_cat):
         if family is None:
             family_sentence = ""
         else:
-            family_sentence = f" e da família [[{family}]]"
+            family_sentence = f" , da família [[{family}]]"
 
         if kingdom == "Plantae":
             kingdom_text = "de planta"
