@@ -3,28 +3,31 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
+| ordem                  = [[Gentianales]]    
 | divisão                = [[Tracheophytes]]    
 | infrarreino            = [[Streptophyta]]    
+| família                = [[Apocynaceae]]    
 | superdivisão           = [[Embryophytes]]    
-| ordem                  = [[Zingiberales]]    
-| género                 = [[Heliconia]]    
 | subfilo                = [[Euphyllophyta]]    
+| subfamília             = [[Rauvolfioideae]]    
 | superdomínio           = [[Biota]]    
-| família                = [[Heliconiaceae]]    
 | subdomínio             = [[Diaphoretickes]]    
+| tribo                  = [[Willughbeieae]]    
+| género                 = [[Pacouria]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Heliconia luciae]]    
+| espécie                = [[Pacouria paraensis]]    
+| Q3965313               = [[Landolphiinae]]    
 }}
-'''''Heliconia luciae''''' é uma espécie de planta do gênero ''[[Heliconia]]'' , da família [[Heliconiaceae]].  <ref name=":ref_0"> {{Citar web|url=https://www.gbif.org/species/2760591|titulo=Heliconia luciae|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+'''''Pacouria paraensis''''' é uma espécie de planta do gênero ''[[Pacouria]]'' , da família [[Apocynaceae]].  <ref name=":ref_0"> {{Citar web|url=https://www.gbif.org/species/3614578|titulo=Pacouria paraensis|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 == Taxonomia ==
-A espécie foi descrita em [[1993]] por [[Humberto de Souza Barreiros]]. <ref name=":ref_0"/>
+A espécie foi descrita em [[1948]] por [[Marcel Pichon]]. <ref name=":ref_0"/>
 
 {{Referencias}}
 == Ligações externas ==
 
-* [https://www.biodiversitylibrary.org/name/Heliconia%20luciae Documentos sobre ''Heliconia luciae'' na Biodiversity Heritage Library]
-* [https://www.gbif.org/species/2760591 ''Heliconia luciae'' no GBIF]
+* [https://www.biodiversitylibrary.org/name/Pacouria%20paraensis Documentos sobre ''Pacouria paraensis'' na Biodiversity Heritage Library]
+* [https://www.gbif.org/species/3614578 ''Pacouria paraensis'' no GBIF]
  
 {{Controle de autoridade}}
 {{esboço-biologia}}
-[[Categoria:Heliconia]][[Categoria:Espécies descritas em 1993]]
+[[Categoria:Pacouria]][[Categoria:Espécies descritas em 1948]]

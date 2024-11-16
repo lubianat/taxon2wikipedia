@@ -168,6 +168,23 @@ def set_sitelinks_on_wikidata(qid, taxon_name):
 def main(qid: str, taxon: str, taxon_name: str, open_url: bool, show: bool):
     if taxon or taxon_name:
         qid = get_qid_from_name(taxon_name)
+
+
+    new_qid = check_if_is_basionym(qid)
+
+    if new_qid:
+        print("This is a basionym. Do you want to proceed with the accepted name or your input?")
+        print("Old QID: ", qid, "(https://www.wikidata.org/wiki/" + qid + ")")
+        print("New QID: ", new_qid, "(https://www.wikidata.org/wiki/" + new_qid + ")")
+        selection = input("Accepted name (a) or Basionym (b)?")
+        if selection == "a":
+            qid = new_qid
+
+
+        input("Press Enter to continue...")
+    
+    print(qid)
+
     results_df = get_results_dataframe_from_wikidata(qid)
     taxon_name = results_df["taxon_name.value"][0]
 

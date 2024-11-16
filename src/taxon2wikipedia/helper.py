@@ -22,6 +22,18 @@ import click
 import pandas as pd
 from SPARQLWrapper import JSON, SPARQLWrapper
 
+def check_if_is_basionym(qid):
+    # P12766 
+    query = f"""
+    SELECT * WHERE {{
+        wd:{qid} wdt:P12766 ?basionym .
+    }}  
+    """
+    df = get_rough_df_from_wikidata(query)
+    if "basionym.value" not in df:
+        return False
+    #return current name qid
+    return df["basionym.value"][0].split("/")[-1]
 
 def merge_equal_refs(wikipage):
     results = re.findall(f"(<ref>.*?</ref>)", wikipage)
