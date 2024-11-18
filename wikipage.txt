@@ -2,39 +2,53 @@
 {{Título em itálico}}
 {{Info/Taxonomia
 | imagem                = 
-| reino                  = [[Plantae]]    
-| ordem                  = [[Caryophyllales]]    
-| família                = [[Caryophyllaceae]]    
-| divisão                = [[Tracheophytes]]    
-| género                 = [[Silene]]    
-| infrarreino            = [[Streptophyta]]    
-| superdivisão           = [[Embryophytes]]    
-| subfilo                = [[Euphyllophyta]]    
+| Superordem             = [[Dinosauria]]    
+| reino                  = [[Animalia]]    
+| classe                 = [[Aves]]    
+| subreino               = [[Bilateria]]    
+| subreino               = [[Eumetazoa]]    
+| classe                 = [[Reptilia]]    
+| filo                   = [[Chordata]]    
+| superclasse            = [[Tetrapoda]]    
+| subclasse              = [[Neornithes]]    
+| infraclasse            = [[Neognathae]]    
+| subclasse              = [[Neognathae]]    
+| subfilo                = [[Vertebrata]]    
+| ordem                  = [[Passeriformes]]    
+| infrafilo              = [[Gnathostomata]]    
+| Q60922428              = [[Osteichthyes]]    
+| clado                  = [[Coelurosauria]]    
+| Infraordem             = [[Tetanurae]]    
+| clado                  = [[Maniraptora]]    
+| clado                  = [[Maniraptoriformes]]    
+| infraclasse            = [[Elpistostegalia]]    
+| superfilo              = [[Deuterostomia]]    
+| infrarreino            = [[Deuterostomia]]    
+| superclasse            = [[Sarcopterygii]]    
+| ordem                  = [[Saurischia]]    
+| subordem               = [[Theropoda]]    
+| família                = [[Thraupidae]]    
+| subdomínio             = [[Unikonta]]    
+| género                 = [[Tangara]]    
+| subclasse              = [[Tetrapodomorpha]]    
+| espécie                = [[Tangara callophrys]]    
+| Superordem             = [[Neoaves]]    
+| Q26197587              = [[Neoaves]]    
 | superdomínio           = [[Biota]]    
-| subdomínio             = [[Diaphoretickes]]    
-| subfamília             = [[Caryophylloideae]]    
-| tribo                  = [[Sileneae]]    
-| subreino               = [[Viridiplantae]]    
-| espécie                = [[Silene flos-cuculi]]    
+| clado                  = [[Neocoelurosauria]]    
+| mapa = Tangara callophrys map.svg
 }}
-'''''Silene flos-cuculi''''' é uma espécie de planta da família [[Caryophyllaceae]] do gênero ''[[Silene]]''.  <ref name=":ref_0"> {{Citar web|url=https://www.gbif.org/species/5384738|titulo=Silene flos-cuculi|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+'''''Tangara callophrys''''' é uma espécie  da família [[Thraupidae]] e  do gênero ''[[Tangara]]''.  <ref name=":ref_0"> {{Citar web|url=https://www.gbif.org/species/2488113|titulo=Tangara callophrys|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 == Taxonomia ==
-O táxon foi descrito oficialmente em [[1811]] por [[Joseph Philippe de Clairville]]. <ref name=":ref_0"/>
-       
-A espécie havia sido descrita anteriormente sob o [[basiônimo]] '''''Lychnis flos-cuculi''''' (gênero ''[[Lychnis]]'') em 1753 por [[Carl Linnaeus]]. <ref>{{Citar web|url=https://www.gbif.org/species/3085873|titulo=Lychnis flos-cuculi|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+O táxon foi descrito oficialmente em [[1849]] por [[Jean Cabanis]] e [[Jean Cabanis]]. <ref name=":ref_0"/>
 
 {{Referencias}}
 == Ligações externas ==
 
-* [https://www.biodiversitylibrary.org/name/Silene%20flos-cuculi Documentos sobre ''Silene flos-cuculi'' na Biodiversity Heritage Library]
-* [https://www.inaturalist.org/taxa/740984 Observações de ''Silene flos-cuculi'' no iNaturalist]
-* [https://www.gbif.org/species/5384738 ''Silene flos-cuculi'' no GBIF]
+* [https://www.biodiversitylibrary.org/name/Tangara%20callophrys Documentos sobre ''Tangara callophrys'' na Biodiversity Heritage Library]
+* [https://www.inaturalist.org/taxa/9563 Observações de ''Tangara callophrys'' no iNaturalist]
+* [https://www.gbif.org/species/2488113 ''Tangara callophrys'' no GBIF]
  
-=== Ligações externas para sinônimos ===
-* [https://www.biodiversitylibrary.org/name/Lychnis%20flos-cuculi Documentos sobre ''Lychnis flos-cuculi'' na Biodiversity Heritage Library]
-* [https://www.inaturalist.org/taxa/740984 Observações de ''Lychnis flos-cuculi'' no iNaturalist]
-* [https://www.gbif.org/species/5384738 ''Lychnis flos-cuculi'' no GBIF]
-
 {{Controle de autoridade}}
 {{esboço-biologia}}
-[[Categoria:Silene]][[Categoria:Espécies descritas em 1811]]
+[[Categoria:Tangara]][[Categoria:Espécies descritas em 1849]]

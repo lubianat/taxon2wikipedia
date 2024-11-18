@@ -97,7 +97,7 @@ def get_wiki_page(qid, taxon_name, results_df,kingdom, family, genus, year_cat):
         if family is None:
             family_sentence = ""
         else:
-            family_sentence = f" da família [[{family}]] e "
+            family_sentence = f" da família [[{family}]] e  "
 
         if kingdom == "Plantae":
             kingdom_text = "de planta"
@@ -112,6 +112,7 @@ def get_wiki_page(qid, taxon_name, results_df,kingdom, family, genus, year_cat):
 {{{{Referencias}}}}
 {render_external_links(taxon_name,qid)}
 {render_additional_reading(qid)}
+{{{{commonscat}}}}
 {{{{Controle de autoridade}}}}
 {{{{esboço-biologia}}}}
 [[Categoria:{genus}]]{year_cat}"""
