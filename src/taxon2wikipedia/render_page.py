@@ -78,6 +78,16 @@ def render_external_links(taxon_name, qid):
 {render_inaturalist(taxon_name, qid)}
 {render_gbif(taxon_name, qid)}
   """
+    basionym_qid = check_if_has_basionym(qid)
+    if basionym_qid:
+        basionym_name = get_results_dataframe_from_wikidata(basionym_qid)["taxon_name.value"][0]
+        text += f"""
+=== Ligações externas para sinônimos ===
+{render_reflora_link(basionym_name, qid)}
+{render_bhl(basionym_name)}
+{render_inaturalist(basionym_name, qid)}
+{render_gbif(basionym_name, qid)}
+"""
     return text
 
 
@@ -87,7 +97,7 @@ def get_wiki_page(qid, taxon_name, results_df,kingdom, family, genus, year_cat):
         if family is None:
             family_sentence = ""
         else:
-            family_sentence = f" , da família [[{family}]]"
+            family_sentence = f" da família [[{family}]] e "
 
         if kingdom == "Plantae":
             kingdom_text = "de planta"
@@ -97,7 +107,7 @@ def get_wiki_page(qid, taxon_name, results_df,kingdom, family, genus, year_cat):
         wiki_page = f"""
 {{{{Título em itálico}}}}
 {taxobox}
-'''''{taxon_name}''''' é uma espécie {kingdom_text} do gênero ''[[{genus}]]''{family_sentence}.  {get_gbif_ref(qid)}
+'''''{taxon_name}''''' é uma espécie {kingdom_text}{family_sentence} do gênero ''[[{genus}]]''.  {get_gbif_ref(qid)}
 {render_taxonomy(results_df, qid)}
 {{{{Referencias}}}}
 {render_external_links(taxon_name,qid)}
@@ -118,8 +128,6 @@ def get_wiki_page(qid, taxon_name, results_df,kingdom, family, genus, year_cat):
         return wiki_page
 
     
-    
-
 
 def italicize_taxon_name(taxon_name, wiki_page):
     """ Turns taxon names into italic
@@ -179,9 +187,6 @@ def main(qid: str, taxon: str, taxon_name: str, open_url: bool, show: bool):
         selection = input("Accepted name (a) or Basionym (b)?")
         if selection == "a":
             qid = new_qid
-
-
-        input("Press Enter to continue...")
     
     print(qid)
 

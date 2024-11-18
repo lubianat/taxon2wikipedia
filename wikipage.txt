@@ -3,31 +3,38 @@
 {{Info/Taxonomia
 | imagem                = 
 | reino                  = [[Plantae]]    
-| ordem                  = [[Gentianales]]    
+| ordem                  = [[Caryophyllales]]    
+| família                = [[Caryophyllaceae]]    
 | divisão                = [[Tracheophytes]]    
+| género                 = [[Silene]]    
 | infrarreino            = [[Streptophyta]]    
-| família                = [[Apocynaceae]]    
 | superdivisão           = [[Embryophytes]]    
 | subfilo                = [[Euphyllophyta]]    
-| subfamília             = [[Rauvolfioideae]]    
 | superdomínio           = [[Biota]]    
 | subdomínio             = [[Diaphoretickes]]    
-| tribo                  = [[Willughbeieae]]    
-| género                 = [[Pacouria]]    
+| subfamília             = [[Caryophylloideae]]    
+| tribo                  = [[Sileneae]]    
 | subreino               = [[Viridiplantae]]    
-| espécie                = [[Pacouria paraensis]]    
-| Q3965313               = [[Landolphiinae]]    
+| espécie                = [[Silene flos-cuculi]]    
 }}
-'''''Pacouria paraensis''''' é uma espécie de planta do gênero ''[[Pacouria]]'' , da família [[Apocynaceae]].  <ref name=":ref_0"> {{Citar web|url=https://www.gbif.org/species/3614578|titulo=Pacouria paraensis|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+'''''Silene flos-cuculi''''' é uma espécie de planta da família [[Caryophyllaceae]] do gênero ''[[Silene]]''.  <ref name=":ref_0"> {{Citar web|url=https://www.gbif.org/species/5384738|titulo=Silene flos-cuculi|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 == Taxonomia ==
-A espécie foi descrita em [[1948]] por [[Marcel Pichon]]. <ref name=":ref_0"/>
+O táxon foi descrito oficialmente em [[1811]] por [[Joseph Philippe de Clairville]]. <ref name=":ref_0"/>
+       
+A espécie havia sido descrita anteriormente sob o [[basiônimo]] '''''Lychnis flos-cuculi''''' (gênero ''[[Lychnis]]'') em 1753 por [[Carl Linnaeus]]. <ref>{{Citar web|url=https://www.gbif.org/species/3085873|titulo=Lychnis flos-cuculi|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 
 {{Referencias}}
 == Ligações externas ==
 
-* [https://www.biodiversitylibrary.org/name/Pacouria%20paraensis Documentos sobre ''Pacouria paraensis'' na Biodiversity Heritage Library]
-* [https://www.gbif.org/species/3614578 ''Pacouria paraensis'' no GBIF]
+* [https://www.biodiversitylibrary.org/name/Silene%20flos-cuculi Documentos sobre ''Silene flos-cuculi'' na Biodiversity Heritage Library]
+* [https://www.inaturalist.org/taxa/740984 Observações de ''Silene flos-cuculi'' no iNaturalist]
+* [https://www.gbif.org/species/5384738 ''Silene flos-cuculi'' no GBIF]
  
+=== Ligações externas para sinônimos ===
+* [https://www.biodiversitylibrary.org/name/Lychnis%20flos-cuculi Documentos sobre ''Lychnis flos-cuculi'' na Biodiversity Heritage Library]
+* [https://www.inaturalist.org/taxa/740984 Observações de ''Lychnis flos-cuculi'' no iNaturalist]
+* [https://www.gbif.org/species/5384738 ''Lychnis flos-cuculi'' no GBIF]
+
 {{Controle de autoridade}}
 {{esboço-biologia}}
-[[Categoria:Pacouria]][[Categoria:Espécies descritas em 1948]]
+[[Categoria:Silene]][[Categoria:Espécies descritas em 1811]]

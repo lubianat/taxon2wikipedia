@@ -26,7 +26,20 @@ def check_if_is_basionym(qid):
     # P12766 
     query = f"""
     SELECT * WHERE {{
-        wd:{qid} wdt:P12766 ?basionym .
+        wd:{qid} wdt:P12766 ?current_name .
+    }}  
+    """
+    df = get_rough_df_from_wikidata(query)
+    if "current_name.value" not in df:
+        return False
+    #return current name qid
+    return df["current_name.value"][0].split("/")[-1]
+
+def check_if_has_basionym(qid):
+    # P566 
+    query = f"""
+    SELECT * WHERE {{
+        wd:{qid} wdt:P566 ?basionym .
     }}  
     """
     df = get_rough_df_from_wikidata(query)
@@ -34,6 +47,7 @@ def check_if_is_basionym(qid):
         return False
     #return current name qid
     return df["basionym.value"][0].split("/")[-1]
+
 
 def merge_equal_refs(wikipage):
     results = re.findall(f"(<ref>.*?</ref>)", wikipage)
@@ -333,7 +347,6 @@ def render_taxonomy(results_df, qid):
     """
     Renders the taxonomy session  for the taxon.
     """
-
     if "taxon_authorLabel.value" not in results_df:
         description = ""
     else:
@@ -341,10 +354,21 @@ def render_taxonomy(results_df, qid):
         description_year = results_df["description_year.value"][0]
 
         taxon_author_labels = [f"[[{name}]]" for name in taxon_author_labels]
-        description = f"A espécie foi descrita em [[{description_year}]] por {render_list_without_dict(taxon_author_labels)}. {get_gbif_ref(qid)}"
+        description = f"O táxon foi descrito oficialmente em [[{description_year}]] por {render_list_without_dict(taxon_author_labels)}. {get_gbif_ref(qid)}"
 
     text = f"""
 {description}
+"""
+    qid_for_basionym = check_if_has_basionym(qid)
+    print(qid_for_basionym) 
+    if qid_for_basionym:
+        basionym_results_df = get_results_dataframe_from_wikidata(qid_for_basionym)
+        basionym_author_labels = basionym_results_df["taxon_authorLabel.value"].values
+        basionym_year = basionym_results_df["description_year.value"][0]
+        basionym_author_labels = [f"[[{name}]]" for name in basionym_author_labels]
+        text += f"""
+        
+A espécie havia sido descrita anteriormente sob o [[basiônimo]] '''''{basionym_results_df["taxon_name.value"][0]}''''' (gênero ''[[{basionym_results_df["parent_taxonLabel.value"][0]}]]'') em {basionym_year} por {render_list_without_dict(basionym_author_labels)}. {get_gbif_ref(qid_for_basionym)}
 """
 
     if text.isspace():
