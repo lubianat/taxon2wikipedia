@@ -10,6 +10,18 @@ import pywikibot
 from wdcuration import render_qs_url
 from taxon2wikipedia.helper import *
 
+def get_class_name(parent_taxon_df):
+    try:
+        class_name = parent_taxon_df["taxonName.value"][
+            parent_taxon_df["taxonRankLabel.value"] == "classe"
+        ].item()
+    except ValueError as e:
+        print(e)
+        if "Aves" in parent_taxon_df["taxonName.value"].values:
+            class_name = "Aves"
+        else:
+            class_name=""
+    return class_name
 
 def get_kingdom_name(parent_taxon_df):
     genus_name = parent_taxon_df["taxonName.value"][
@@ -51,6 +63,7 @@ def get_pt_wikipage_from_qid(qid):
     parent_taxon_df = get_parent_taxon_df(qid)
     kingdom_name   = get_kingdom_name(parent_taxon_df)
     family_name = get_family_name(parent_taxon_df)
+    class_name = get_class_name(parent_taxon_df)
     genus_name = get_genus_name(parent_taxon_df)
     taxon_name = results_df["taxon_name.value"][0]
 
@@ -61,6 +74,7 @@ def get_pt_wikipage_from_qid(qid):
         taxon_name,
         results_df,
         kingdom_name,
+        class_name,
         family_name,
         genus_name,
         year_category,
@@ -69,7 +83,7 @@ def get_pt_wikipage_from_qid(qid):
     return wiki_page
 
 
-def render_external_links(taxon_name, qid):
+def render_external_links(taxon_name, qid, bird_links):
     text = f"""
 == Ligações externas ==
 {render_reflora_link(taxon_name, qid)}
@@ -77,6 +91,7 @@ def render_external_links(taxon_name, qid):
 {render_bhl(taxon_name)}
 {render_inaturalist(taxon_name, qid)}
 {render_gbif(taxon_name, qid)}
+{bird_links}
   """
     basionym_qid = check_if_has_basionym(qid)
     if basionym_qid:
@@ -88,16 +103,74 @@ def render_external_links(taxon_name, qid):
 {render_inaturalist(basionym_name, qid)}
 {render_gbif(basionym_name, qid)}
 """
+        
+
     return text
 
+from SPARQLWrapper import SPARQLWrapper, JSON
 
-def get_wiki_page(qid, taxon_name, results_df,kingdom, family, genus, year_cat):
+
+def get_identifiers(qid):
+    sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
+
+    query = """
+    SELECT ?wiki_aves_bird_id ?ebird_taxon_id ?xeno_canto_species_id ?bird_label WHERE {
+      wd:%s wdt:P4664 ?wiki_aves_bird_id.
+      wd:%s wdt:P3444 ?ebird_taxon_id.
+      wd:%s wdt:P2426 ?xeno_canto_species_id.
+      OPTIONAL {
+        wd:%s rdfs:label ?bird_label.
+        FILTER (lang(?bird_label) = "pt").
+      }
+    }
+    """ % (
+        qid,
+        qid,
+        qid,
+        qid,
+    )
+
+    sparql.setQuery(query)
+
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+
+    return results["results"]["bindings"]
+
+
+def get_bird_links(qid):
+    results = get_identifiers(qid)
+
+    if len(results) > 0:
+        res = results[0]
+        wiki_aves_bird_id = res.get("wiki_aves_bird_id", {}).get("value")
+        ebird_taxon_id = res.get("ebird_taxon_id", {}).get("value")
+        xeno_canto_species_id = res.get("xeno_canto_species_id", {}).get("value")
+        bird_label = res.get("bird_label", {}).get("value", "essa ave")
+        bird_label = bird_label.lower()
+        wikipedia_bird_links = f"""
+* [https://www.wikiaves.com.br/wiki/{wiki_aves_bird_id} Página do Wikiaves sobre a  {bird_label}]
+* [https://ebird.org/species/{ebird_taxon_id} Informações do eBird sobre a {bird_label}]
+* [https://www.xeno-canto.org/species/{xeno_canto_species_id} Vocalizações de {bird_label} no Xeno-canto]"""
+
+        return wikipedia_bird_links
+    else:
+        return ""
+
+
+
+def get_wiki_page(qid, taxon_name, results_df,kingdom,class_name, family, genus, year_cat):
         taxobox = get_taxobox(qid)
 
         if family is None:
             family_sentence = ""
         else:
             family_sentence = f" da família [[{family}]] e  "
+
+        if class_name == "Aves":
+            bird_links = get_bird_links(qid)
+        else:
+            bird_links = ""
 
         if kingdom == "Plantae":
             kingdom_text = "de planta"
@@ -110,7 +183,7 @@ def get_wiki_page(qid, taxon_name, results_df,kingdom, family, genus, year_cat):
 '''''{taxon_name}''''' é uma espécie {kingdom_text}{family_sentence} do gênero ''[[{genus}]]''.  {get_gbif_ref(qid)}
 {render_taxonomy(results_df, qid)}
 {{{{Referencias}}}}
-{render_external_links(taxon_name,qid)}
+{render_external_links(taxon_name,qid,bird_links)}
 {render_additional_reading(qid)}
 {{{{commonscat}}}}
 {{{{Controle de autoridade}}}}
