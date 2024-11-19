@@ -98,10 +98,10 @@ def render_external_links(taxon_name, qid, bird_links):
         basionym_name = get_results_dataframe_from_wikidata(basionym_qid)["taxon_name.value"][0]
         text += f"""
 === Ligações externas para sinônimos ===
-{render_reflora_link(basionym_name, qid)}
+{render_reflora_link(basionym_name, basionym_qid)}
 {render_bhl(basionym_name)}
-{render_inaturalist(basionym_name, qid)}
-{render_gbif(basionym_name, qid)}
+{render_inaturalist(basionym_name, basionym_qid)}
+{render_gbif(basionym_name, basionym_qid)}
 """
         
 
@@ -165,7 +165,7 @@ def get_wiki_page(qid, taxon_name, results_df,kingdom,class_name, family, genus,
         if family is None:
             family_sentence = ""
         else:
-            family_sentence = f" da família [[{family}]] e  "
+            family_sentence = f" da família [[{family}]] e"
 
         if class_name == "Aves":
             bird_links = get_bird_links(qid)
@@ -185,7 +185,6 @@ def get_wiki_page(qid, taxon_name, results_df,kingdom,class_name, family, genus,
 {{{{Referencias}}}}
 {render_external_links(taxon_name,qid,bird_links)}
 {render_additional_reading(qid)}
-{{{{commonscat}}}}
 {{{{Controle de autoridade}}}}
 {{{{esboço-biologia}}}}
 [[Categoria:{genus}]]{year_cat}"""
