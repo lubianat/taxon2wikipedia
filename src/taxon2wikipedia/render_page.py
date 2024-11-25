@@ -110,7 +110,7 @@ def render_external_links(taxon_name, qid, bird_links):
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 
-def get_identifiers(qid):
+def get_bird_identifiers(qid):
     sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 
     query = """
@@ -128,10 +128,9 @@ def get_identifiers(qid):
         qid,
         qid,
         qid,
-    )
+    )   
 
     sparql.setQuery(query)
-
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
 
@@ -139,7 +138,7 @@ def get_identifiers(qid):
 
 
 def get_bird_links(qid):
-    results = get_identifiers(qid)
+    results = get_bird_identifiers(qid)
 
     if len(results) > 0:
         res = results[0]

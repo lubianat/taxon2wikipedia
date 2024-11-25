@@ -3,7 +3,6 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 
 def get_identifiers(qid):
     sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
-
     query = """
     SELECT ?wiki_aves_bird_id ?ebird_taxon_id ?xeno_canto_species_id ?bird_label WHERE {
       wd:%s wdt:P4664 ?wiki_aves_bird_id.
@@ -14,12 +13,7 @@ def get_identifiers(qid):
         FILTER (lang(?bird_label) = "pt").
       }
     }
-    """ % (
-        qid,
-        qid,
-        qid,
-        qid,
-    )
+    """ % (qid, qid, qid, qid)
 
     sparql.setQuery(query)
 

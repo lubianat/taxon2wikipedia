@@ -134,36 +134,46 @@ def get_rough_df_from_wikidata(query):
 
 
 def get_taxobox_from_df(parent_taxon_df):
+    # Define problematic taxa that conflict with "Aves"
+    excluded_taxa_for_aves = {
+        "Dinosauria", "Reptilia", "Saurischia", "Theropoda", 
+        "Maniraptora", "Maniraptoriformes", "Tetanurae", 
+        "Coelurosauria", "Neocoelurosauria", "Osteichthyes", "Elpistostegalia"
+    }
 
     result = "{{Info/Taxonomia\n"
-    to_append = "| imagem                = \n"
-
-    result = result + to_append
+    result += "| imagem                = \n"
 
     for i, row in parent_taxon_df.iterrows():
         rank = row["taxonRankLabel.value"]
         name = row["taxonName.value"]
 
-        # super-reino and subdivisão leads to issues in pt-wiki
-        if rank == "super-reino" or rank == "subdivisão":
+        # Exclude problematic taxa when "Aves" is present in the lineage
+        if "Aves" in parent_taxon_df["taxonName.value"].values and name in excluded_taxa_for_aves:
             continue
 
+        # Skip problematic ranks
+        if rank in ["super-reino", "subdivisão"]:
+            continue
+
+        # Align field formatting
         n_space = 22 - len(rank)
-        multiple_spaces = " " * n_space
+        multiple_spaces = " " * max(n_space, 1)  # Ensure at least 1 space
 
-        to_append = f"| {rank} {multiple_spaces}= [[{name}]]    \n"
+        to_append = f"| {rank}{multiple_spaces}= [[{name}]]    \n"
+        result += to_append
 
-        result = result + to_append
-
+    # Add map image if available
     try:
-        map = parent_taxon_df["taxon_range_map_image.value"][0].split("/")[-1].replace("%20", " ")
-        to_append = f"| mapa = { map}\n"
-        result = result + to_append
-    except:
+        map_image = parent_taxon_df["taxon_range_map_image.value"].iloc[0]
+        map_file = map_image.split("/")[-1].replace("%20", " ")
+        result += f"| mapa = {map_file}\n"
+    except (KeyError, IndexError):
+        # Map field not available
         pass
 
-    to_append = "}}"
-    result = result + to_append
+    # Finalize the template
+    result += "}}"
 
     return result
 

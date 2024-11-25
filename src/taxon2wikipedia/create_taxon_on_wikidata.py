@@ -4,9 +4,7 @@ from urllib.parse import quote
 import click
 from jinja2 import Template
 from wdcuration import render_qs_url, search_wikidata
-
 from .helper import *
-
 
 @click.command(name="create")
 @click.option("--taxon_name", help="O nome do taxon entre aspas.")
@@ -32,7 +30,6 @@ def main(taxon_name: str):
     LAST|P105|Q7432
     LAST|P171|{genus_qid}   
     """
-
     print(render_qs_url(qs))
 
 
