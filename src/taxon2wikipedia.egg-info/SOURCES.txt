@@ -6,10 +6,8 @@ setup.py
 src/taxon2wikipedia/__init__.py
 src/taxon2wikipedia/cli.py
 src/taxon2wikipedia/create_taxon_on_wikidata.py
-src/taxon2wikipedia/get_external_bird_links.py
 src/taxon2wikipedia/helper.py
 src/taxon2wikipedia/render_page.py
-src/taxon2wikipedia/test.py
 src/taxon2wikipedia.egg-info/PKG-INFO
 src/taxon2wikipedia.egg-info/SOURCES.txt
 src/taxon2wikipedia.egg-info/dependency_links.txt

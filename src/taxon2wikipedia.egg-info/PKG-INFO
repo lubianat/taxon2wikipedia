@@ -1,4 +1,4 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: taxon2wikipedia
 Version: 0.0.14
 Summary: Add taxons to pt Wikipedia
@@ -16,6 +16,7 @@ Requires-Dist: mwparserfromhell
 Requires-Dist: wikidata2df
 Provides-Extra: tests
 Requires-Dist: pytest; extra == "tests"
+Dynamic: license-file
 
 # taxon2wikipedia
 
