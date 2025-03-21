@@ -229,7 +229,7 @@ def get_wiki_page(qid, taxon_name, results_df, kingdom, class_name, family, genu
             "category_prefix": "[[Categoria:",
             "family_prefix": "da família",
             "genus_prefix": "do gênero",
-            "kingdom_text": "de planta",
+            "kingdom_text": "de planta ",
         },
         "en": {
             "title_format": "{{Italic title}}",
@@ -277,7 +277,7 @@ def get_wiki_page(qid, taxon_name, results_df, kingdom, class_name, family, genu
     if family is None:
         family_sentence = ""
     else:
-        family_sentence = f" {settings['family_prefix']} [[{family}]] e"
+        family_sentence = f" {settings['family_prefix']} [[{family}]]{LANG_STRINGS[lang]['e_join']}"
 
     if class_name == "Aves":
         bird_links = get_bird_links(qid, lang)
@@ -296,7 +296,7 @@ def get_wiki_page(qid, taxon_name, results_df, kingdom, class_name, family, genu
     wiki_page = f"""
 {settings['title_format']}
 {taxobox}
-'''''{taxon_name}''''' {settings['description']} {kingdom_text}{family_sentence} {settings['genus_prefix']} ''[[{genus}]]''.  {get_gbif_ref(qid, lang)}
+'''''{taxon_name}''''' {settings['description']} {kingdom_text}{family_sentence}{settings['genus_prefix']} ''[[{genus}]]''.  {get_gbif_ref(qid, lang)}
 {render_taxonomy(results_df, qid, lang)}
 {settings['references']}
 {external_links}
