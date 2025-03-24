@@ -1,2 +1,3 @@
 SPARQLWrapper
 jinja2
+pytest

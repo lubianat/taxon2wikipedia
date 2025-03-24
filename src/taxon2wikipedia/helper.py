@@ -272,7 +272,7 @@ def print_taxobox(qid: str, taxon: str, taxon_name: str, lang: str):
 HERE = Path(__file__).parent.resolve()
 
 
-def test_invasive_species(taxon_id):
+def check_invasive_species(taxon_id):
     query = f"SELECT ?item WHERE {{ wd:{taxon_id} wdt:P5626 ?item }}"
     df = wikidata2df(query)
     if len(df) == 0:
@@ -324,7 +324,7 @@ def get_qid_from_name(taxon_name):
 
 
 def render_cnc_flora(taxon_name, lang="pt"):
-    if test_cnc_flora(taxon_name):
+    if check_cnc_flora(taxon_name):
         phrase = LANG_STRINGS.get(lang, LANG_STRINGS["pt"])["cnc_flora_link"]
         return f"* [http://cncflora.jbrj.gov.br/portal/pt-br/profile/{quote(taxon_name)} ''{taxon_name}'' {phrase}]"
     else:
@@ -347,7 +347,7 @@ BHL_SUFFIX = {
 
 
 def render_bhl(taxon_name, lang="pt"):
-    if test_bhl(taxon_name):
+    if check_bhl(taxon_name):
         prefix = BHL_LINK.get(lang, BHL_LINK["pt"])
         suffix = BHL_SUFFIX.get(lang, BHL_SUFFIX["pt"])
         return f"* [https://www.biodiversitylibrary.org/name/{quote(taxon_name)} {prefix} ''{taxon_name}'' {suffix}]"
@@ -441,11 +441,11 @@ def get_ipni_id(qid):
     return list(df["ipni_id.value"])[0]
 
 
-def test_bhl(name):
+def check_bhl(name):
     return True  # Placeholder
 
 
-def test_cnc_flora(name):
+def check_cnc_flora(name):
     url = f"http://cncflora.jbrj.gov.br/portal/pt-br/profile/{name}"
     response = requests.get(url)
     return "Avaliador" in response.text

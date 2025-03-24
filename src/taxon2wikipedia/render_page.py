@@ -80,7 +80,7 @@ BHL_SUFFIX = {
 
 
 def render_bhl(taxon_name, lang="pt"):
-    if test_bhl(taxon_name):
+    if check_bhl(taxon_name):
         prefix = BHL_LINK.get(lang, BHL_LINK["pt"])
         suffix = BHL_SUFFIX.get(lang, BHL_SUFFIX["pt"])
         return f"* [https://www.biodiversitylibrary.org/name/{quote(taxon_name)} {prefix} ''{taxon_name}'' {suffix}]"
@@ -352,22 +352,7 @@ def set_sitelinks_on_wikidata(qid, taxon_name, lang):
     return 0
 
 
-# -----------------------------------------------------------
-# Main command-line interface
-# -----------------------------------------------------------
-@click.command(name="render")
-@click.option("--qid")
-@click.option("--taxon", is_flag=True, help="Ask for a taxon name.")
-@click.option("--taxon_name", help="Provide a taxon name directly (and quoted)")
-@click.option("--open_url", is_flag=True, default=False, help="Open auxiliary pages")
-@click.option("--show", is_flag=True, default=False, help="Print to screen only")
-@click.option(
-    "--language", default="pt", help="Language code for the generation (e.g., pt, en, es, fr)"
-)
-def main(qid: str, taxon: str, taxon_name: str, open_url: bool, show: bool, language: str):
-    if taxon or taxon_name:
-        qid = get_qid_from_name(taxon_name)
-
+def run_pipeline_for_wikipage(qid, language):
     new_qid = check_if_is_basionym(qid)
     if new_qid:
         print("This is a basionym. Do you want to proceed with the accepted name or your input?")
@@ -377,13 +362,8 @@ def main(qid: str, taxon: str, taxon_name: str, open_url: bool, show: bool, lang
         if selection.lower() == "a":
             qid = new_qid
 
-    print(qid)
-
     results_df = get_results_dataframe_from_wikidata(qid)
     taxon_name = results_df["taxon_name.value"][0]
-
-    if open_url:
-        open_related_urls(taxon_name)
 
     parent_taxon_df = get_parent_taxon_df(qid, language)
     kingdom_name = get_kingdom_name(parent_taxon_df)
@@ -403,6 +383,31 @@ def main(qid: str, taxon: str, taxon_name: str, open_url: bool, show: bool, lang
         year_category,
         language,
     )
+    return wiki_page
+
+
+# -----------------------------------------------------------
+# Main command-line interface
+# -----------------------------------------------------------
+@click.command(name="render")
+@click.option("--qid")
+@click.option("--taxon", is_flag=True, help="Ask for a taxon name.")
+@click.option("--taxon_name", help="Provide a taxon name directly (and quoted)")
+@click.option("--open_url", is_flag=True, default=False, help="Open auxiliary pages")
+@click.option("--show", is_flag=True, default=False, help="Print to screen only")
+@click.option(
+    "--language", default="pt", help="Language code for the generation (e.g., pt, en, es, fr)"
+)
+def main(qid: str, taxon: str, taxon_name: str, open_url: bool, show: bool, language: str):
+    if taxon or taxon_name:
+        qid = get_qid_from_name(taxon_name)
+    results_df = get_results_dataframe_from_wikidata(qid)
+    taxon_name = results_df["taxon_name.value"][0]
+
+    if open_url:
+        open_related_urls(taxon_name)
+
+    wiki_page = run_pipeline_for_wikipage(qid, language)
     if show:
         print(f"--- {language} stub ---")
         print(wiki_page)
