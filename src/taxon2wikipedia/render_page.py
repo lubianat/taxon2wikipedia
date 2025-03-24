@@ -12,6 +12,12 @@ from taxon2wikipedia.helper import *
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 
+# Ensure backward compatibility with taxon2wikipedia <=0.0.14
+def get_pt_wikipage_from_qid(qid):
+    wiki_page = run_pipeline_for_wikipage(qid, "pt")
+    return wiki_page
+
+
 # -----------------------------------------------------------
 # Basic helper functions for taxon names (as before)
 # -----------------------------------------------------------

@@ -2,29 +2,48 @@
 {{Título em itálico}}
 {{Info/Taxonomia
 | imagem                = 
-| reino                  = [[Plantae]]    
-| ordem                  = [[Malpighiales]]    
-| divisão                = [[Tracheophytes]]    
-| infrarreino            = [[Streptophyta]]    
-| família                = [[Erythroxylaceae]]    
-| género                 = [[Erythroxylum]]    
-| superdivisão           = [[Embryophytes]]    
-| subfilo                = [[Euphyllophyta]]    
-| superdomínio           = [[Biota]]    
-| subdomínio             = [[Diaphoretickes]]    
-| subreino               = [[Viridiplantae]]    
-| espécie                = [[Erythroxylum duckei]]    
+| reino                 = [[Animalia]]    
+| classe                = [[Aves]]    
+| subreino              = [[Bilateria]]    
+| subreino              = [[Eumetazoa]]    
+| filo                  = [[Chordata]]    
+| superclasse           = [[Tetrapoda]]    
+| subclasse             = [[Neornithes]]    
+| infraclasse           = [[Neognathae]]    
+| subclasse             = [[Neognathae]]    
+| subfilo               = [[Vertebrata]]    
+| ordem                 = [[Passeriformes]]    
+| família               = [[Turdidae]]    
+| infrafilo             = [[Gnathostomata]]    
+| género                = [[Turdus]]    
+| superfilo             = [[Deuterostomia]]    
+| infrarreino           = [[Deuterostomia]]    
+| superclasse           = [[Sarcopterygii]]    
+| subordem              = [[Passeri]]    
+| Parvordem             = [[Passerida]]    
+| subdomínio            = [[Unikonta]]    
+| superfamília          = [[Muscicapoidea]]    
+| subclasse             = [[Tetrapodomorpha]]    
+| Superordem            = [[Neoaves]]    
+| Q26197587             = [[Neoaves]]    
+| superdomínio          = [[Biota]]    
+| espécie               = [[Turdus hauxwelli]]    
+| mapa = Turdus hauxwelli map.svg
 }}
-'''''Erythroxylum duckei''''' é uma espécie de planta da família [[Erythroxylaceae]] e do gênero ''[[Erythroxylum]]''.  <ref name=":ref_0"> {{Citar web|url=https://www.gbif.org/species/3694012|titulo=Erythroxylum duckei|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+'''''Turdus hauxwelli''''' é uma espécie  da família [[Turdidae]] e do gênero ''[[Turdus]]''.  <ref name=":ref_0"> {{Citar web|url=https://www.gbif.org/species/2490743|titulo=Turdus hauxwelli|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
 == Taxonomia ==
-O táxon foi descrito oficialmente em [[1909]] por [[Jacques Huber]]. <ref name=":ref_0"/>
+O táxon foi descrito oficialmente em [[1869]] por [[George Newbold Lawrence]] e [[George Newbold Lawrence]]. <ref name=":ref_0"/>
 
 {{Referencias}}
 == Ligações externas ==
-* [http://reflora.jbrj.gov.br/reflora/listaBrasil/FichaPublicaTaxonUC/FichaPublicaTaxonUC.do?id=FB78266 ''Erythroxylum duckei'' no projeto Flora e Funga do Brasil]
-* [https://www.biodiversitylibrary.org/name/Erythroxylum%20duckei Documentos sobre ''Erythroxylum duckei'' na Biodiversity Heritage Library]
-* [https://www.gbif.org/species/3694012 ''Erythroxylum duckei'' no GBIF]
+
+* [https://www.biodiversitylibrary.org/name/Turdus%20hauxwelli Documentos sobre ''Turdus hauxwelli'' na Biodiversity Heritage Library]
+* [https://www.inaturalist.org/taxa/203817 Observações de ''Turdus hauxwelli'' no iNaturalist]
+* [https://www.gbif.org/species/2490743 ''Turdus hauxwelli'' no GBIF]
+* [https://www.wikiaves.com.br/wiki/sabia-bicolor Página do Wikiaves sobre a  sabiá-bicolor]
+* [https://ebird.org/species/hauthr1 Informações do eBird sobre a sabiá-bicolor]
+* [https://www.xeno-canto.org/species/Turdus-hauxwelli Vocalizações de sabiá-bicolor no Xeno-canto]
  
 {{Controle de autoridade}}
 {{esboço-biologia}}
-[[Categoria:Erythroxylum]][[Categoria:Espécies descritas em 1909]]
+[[Categoria:Turdus]][[Categoria:Espécies descritas em 1869]]
