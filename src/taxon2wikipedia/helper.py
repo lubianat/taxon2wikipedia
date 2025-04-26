@@ -252,6 +252,81 @@ def get_taxobox_from_df(parent_taxon_df, lang="pt"):
     return result
 
 
+def get_taxobox_from_gbif(qid, lang="pt"):
+    """
+    Gets a taxobox based on the taxonomic hierarchy available in GBIF.
+    """
+    gbif_id = get_gbif_id(qid)
+
+    if not gbif_id:
+        return ""
+
+
+# English → Portuguese rank label mapping (used in GBIF-powered pt‑wiki taxoboxes)
+RANK_PT_MAP = {
+    "KINGDOM": "reino",
+    "SUBKINGDOM": "subreino",
+    "PHYLUM": "filo",
+    "DIVISION": "divisão",
+    "SUBPHYLUM": "subfilo",
+    "CLASS": "classe",
+    "SUBCLASS": "subclasse",
+    "ORDER": "ordem",
+    "SUBORDER": "subordem",
+    "FAMILY": "família",
+    "SUBFAMILY": "subfamília",
+    "GENUS": "género",
+    "SPECIES": "espécie",
+}
+
+# ---------------------------------------------------------------------------
+# GBIF helpers
+# ---------------------------------------------------------------------------
+
+
+def _get_gbif_lineage_df(gbif_id: int, lang: str = "pt") -> pd.DataFrame:
+    """Fetch the complete lineage for a gbif_id from GBIF and return as DataFrame."""
+    url = f"https://api.gbif.org/v1/species/{gbif_id}/parents"
+    r = requests.get(url, timeout=20)
+    r.raise_for_status()
+    lineage = r.json()
+
+    # The list comes from root → taxon itself; reverse for our purposes
+    df = pd.DataFrame(lineage[::-1])
+    print(df)
+    # Harmonise column names expected by existing downstream code
+    df["taxonRankLabel.value"] = df["rank"].map(lambda x: RANK_PT_MAP.get(x.upper(), x.lower()))
+    df["taxonName.value"] = df["canonicalName"].fillna(df["scientificName"])
+    print(df)
+    return df[["taxonRankLabel.value", "taxonName.value"]]
+
+
+def get_taxobox_from_gbif_df(parent_taxon_df: pd.DataFrame, lang: str = "pt") -> str:
+    header = LANG_STRINGS.get(lang, LANG_STRINGS["pt"])["info_taxonomia"]
+    result = header + "\n"
+    result += "| imagem                = \n"
+
+    # iterate in display order
+    for _, row in parent_taxon_df.iterrows():
+        rank = row["taxonRankLabel.value"]
+        name = row["taxonName.value"]
+        n_space = max(22 - len(rank), 1)
+        result += f"| {rank}{' ' * n_space}= [[{name}]]\n"
+
+    result += "}}"  # close template
+    return result
+
+
+def get_taxobox_from_gbif(qid: str, lang: str = "pt") -> str:
+    """Public entry‑point: build a pt‑wiki taxobox for *qid* using GBIF."""
+    gbif_id = get_gbif_id(qid)
+    if not gbif_id:
+        raise ValueError(f"{qid} não possui o identificador GBIF (P846) no Wikidata.")
+
+    lineage_df = _get_gbif_lineage_df(gbif_id, lang)
+    return get_taxobox_from_gbif_df(lineage_df, lang)
+
+
 def get_taxobox(qid, lang="pt"):
     df = get_parent_taxon_df(qid, lang)
     return get_taxobox_from_df(df, lang)

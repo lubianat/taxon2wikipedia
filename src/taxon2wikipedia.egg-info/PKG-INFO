@@ -1,7 +1,7 @@
 Metadata-Version: 2.4
 Name: taxon2wikipedia
-Version: 0.0.14
-Summary: Add taxons to pt Wikipedia
+Version: 0.1.0
+Summary: Add taxa stubs to Wikipedia
 License: MIT
 Description-Content-Type: text/markdown
 License-File: LICENSE

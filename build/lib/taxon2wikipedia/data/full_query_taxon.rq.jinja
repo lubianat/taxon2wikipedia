@@ -1,0 +1,85 @@
+SELECT
+
+?taxon_rankLabel
+?parent_taxon
+?parent_taxonLabel
+?taxon_name
+?taxon_author
+?taxon_authorLabel
+(YEAR(?description_date) as ?description_year)
+?taxon_range_map_image
+?taxon_common_name_pt
+WHERE {
+    VALUES ?taxon { wd:{{taxon}} } .
+
+    OPTIONAL { ?taxon wdt:P105 ?taxon_rank .
+        ?taxon_rank rdfs:label ?taxon_rankLabel .
+    FILTER(LANG(?taxon_rankLabel) = "en")} . 
+    
+    OPTIONAL { ?taxon wdt:P171 ?parent_taxon .
+        ?parent_taxon rdfs:label ?parent_taxonLabel .
+    FILTER(LANG(?parent_taxonLabel) = "en")} . 
+    
+    OPTIONAL { ?taxon wdt:P181 ?taxon_range_map_image } . 
+    
+    OPTIONAL { ?taxon wdt:P183 ?endemic_to .
+        ?endemic_to rdfs:label ?endemic_toLabel .
+    FILTER(LANG(?endemic_toLabel) = "en")} . 
+    
+    OPTIONAL { ?taxon wdt:P21 ?sex_or_gender .
+        ?sex_or_gender rdfs:label ?sex_or_genderLabel .
+    FILTER(LANG(?sex_or_genderLabel) = "en")} . 
+    
+    OPTIONAL { ?taxon p:P225 ?statement .
+                ?statement ps:P225 ?taxon_name .
+                OPTIONAL {?statement pq:P405 ?taxon_author . 
+                ?statement pq:P574 ?description_date . 
+                      ?taxon_author rdfs:label ?taxon_authorLabel .
+    FILTER(LANG(?taxon_authorLabel) = "en")   }
+    } . 
+    
+    OPTIONAL { ?taxon wdt:P10176 ?type_host .
+        ?type_host rdfs:label ?type_hostLabel .
+    FILTER(LANG(?type_hostLabel) = "en")} . 
+    
+    OPTIONAL { ?taxon wdt:P1034 ?main_food_source .
+        ?main_food_source rdfs:label ?main_food_sourceLabel .
+    FILTER(LANG(?main_food_sourceLabel) = "en")} . 
+    
+    OPTIONAL { ?taxon wdt:P1082 ?population .
+        ?population rdfs:label ?populationLabel .
+    FILTER(LANG(?populationLabel) = "en")} . 
+    
+    OPTIONAL { ?taxon wdt:P1606 ?natural_reservoir_of .
+        ?natural_reservoir_of rdfs:label ?natural_reservoir_ofLabel .
+    FILTER(LANG(?natural_reservoir_ofLabel) = "en")} . 
+    
+    OPTIONAL { ?taxon wdt:P1672 ?this_taxon_is_source_of .
+        ?this_taxon_is_source_of rdfs:label ?this_taxon_is_source_ofLabel .
+    FILTER(LANG(?this_taxon_is_source_ofLabel) = "en")} . 
+    
+    OPTIONAL { ?taxon wdt:P1843 ?taxon_common_name_pt .
+    FILTER(LANG(?taxon_common_name_pt) = "pt")} . 
+    
+    OPTIONAL { ?taxon wdt:P2974 ?habitat .
+        ?habitat rdfs:label ?habitatLabel .
+    FILTER(LANG(?habitatLabel) = "en")} . 
+    
+    OPTIONAL { ?taxon wdt:P2975 ?host .
+        ?host rdfs:label ?hostLabel .
+    FILTER(LANG(?hostLabel) = "en")} . 
+    
+    OPTIONAL { ?taxon wdt:P3063 ?gestation_period .
+        ?gestation_period rdfs:label ?gestation_periodLabel .
+    FILTER(LANG(?gestation_periodLabel) = "en")} . 
+    
+    OPTIONAL { ?taxon wdt:P3492 ?basic_reproduction_number .
+        ?basic_reproduction_number rdfs:label ?basic_reproduction_numberLabel .
+    FILTER(LANG(?basic_reproduction_numberLabel) = "en")} . 
+    
+    OPTIONAL { ?taxon wdt:P427 ?taxonomic_type .
+        ?taxonomic_type rdfs:label ?taxonomic_typeLabel .
+    FILTER(LANG(?taxonomic_typeLabel) = "en")} . 
+    
+
+}

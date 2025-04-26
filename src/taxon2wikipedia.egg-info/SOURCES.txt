@@ -16,3 +16,5 @@ src/taxon2wikipedia.egg-info/not-zip-safe
 src/taxon2wikipedia.egg-info/requires.txt
 src/taxon2wikipedia.egg-info/top_level.txt
 src/taxon2wikipedia/data/full_query_taxon.rq.jinja
+src/tests/test_helper.py
+src/tests/test_render_page.py
