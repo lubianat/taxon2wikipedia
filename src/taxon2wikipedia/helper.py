@@ -327,9 +327,15 @@ def get_taxobox_from_gbif(qid: str, lang: str = "pt") -> str:
     return get_taxobox_from_gbif_df(lineage_df, lang)
 
 
-def get_taxobox(qid, lang="pt"):
-    df = get_parent_taxon_df(qid, lang)
-    return get_taxobox_from_df(df, lang)
+def get_taxobox(qid, lang="pt", taxobox_source="gbif"):
+
+    if taxobox_source == "wikidata":
+        df = get_parent_taxon_df(qid, lang)
+        return get_taxobox_from_df(df, lang)
+    elif taxobox_source == "gbif":
+        return get_taxobox_from_gbif(qid, lang)
+    else:
+        raise Exception("taxobox_source must be either 'gbif' or 'wikidata'.")
 
 
 @click.command(name="taxobox")
@@ -337,10 +343,16 @@ def get_taxobox(qid, lang="pt"):
 @click.option("--taxon", is_flag=True, help="Ask for a taxon name.")
 @click.option("--taxon_name", help="Provide a taxon name directly (and quoted)")
 @click.option("--lang", default="pt", help="Language code for labels (e.g., pt, en, es, fr)")
-def print_taxobox(qid: str, taxon: str, taxon_name: str, lang: str):
+@click.option(
+    "--taxobox_source",
+    default="gbif",
+    help="Source for the taxobox, either `gbif` or `wikidata`. Defaults to gbif.",
+)
+def print_taxobox(qid: str, taxon: str, taxon_name: str, lang: str, taxobox_source: str):
     if taxon or taxon_name:
         qid = get_qid_from_name(taxon_name)
-    taxobox = get_taxobox(qid, lang)
+    taxobox = get_taxobox(qid, lang, taxobox_source)
+
     print(taxobox)
 
 

@@ -222,7 +222,18 @@ def get_bird_links(qid, lang="pt"):
         return ""
 
 
-def get_wiki_page(qid, taxon_name, results_df, kingdom, class_name, family, genus, year_cat, lang):
+def get_wiki_page(
+    qid,
+    taxon_name,
+    results_df,
+    kingdom,
+    class_name,
+    family,
+    genus,
+    year_cat,
+    lang,
+    gbif_taxobox=False,
+):
     # Define language-specific settings (including extra keys for family, genus, and kingdom text)
     lang_settings = {
         "pt": {
@@ -278,7 +289,12 @@ def get_wiki_page(qid, taxon_name, results_df, kingdom, class_name, family, genu
     settings = lang_settings.get(lang, lang_settings["pt"])
 
     # get_taxobox is assumed to accept a language parameter.
-    taxobox = get_taxobox(qid, lang)
+
+    if gbif_taxobox:
+        taxobox = get_taxobox_from_gbif(qid, lang)
+
+    else:
+        taxobox = get_taxobox(qid, lang)
 
     if family is None:
         family_sentence = ""
@@ -358,7 +374,7 @@ def set_sitelinks_on_wikidata(qid, taxon_name, lang):
     return 0
 
 
-def run_pipeline_for_wikipage(qid, language):
+def run_pipeline_for_wikipage(qid, language, gbif_taxobox=False):
     new_qid = check_if_is_basionym(qid)
     if new_qid:
         print("This is a basionym. Do you want to proceed with the accepted name or your input?")
@@ -388,6 +404,7 @@ def run_pipeline_for_wikipage(qid, language):
         genus_name,
         year_category,
         language,
+        gbif_taxobox=gbif_taxobox,
     )
     return wiki_page
 
@@ -404,7 +421,21 @@ def run_pipeline_for_wikipage(qid, language):
 @click.option(
     "--language", default="pt", help="Language code for the generation (e.g., pt, en, es, fr)"
 )
-def main(qid: str, taxon: str, taxon_name: str, open_url: bool, show: bool, language: str):
+@click.option(
+    "--gbif_taxobox",
+    is_flag=True,
+    default=False,
+    help="Use GBIF for building the taxobox instead of Wikidata",
+)
+def main(
+    qid: str,
+    taxon: str,
+    taxon_name: str,
+    open_url: bool,
+    show: bool,
+    language: str,
+    gbif_taxobox: bool,
+):
     if taxon or taxon_name:
         qid = get_qid_from_name(taxon_name)
     results_df = get_results_dataframe_from_wikidata(qid)
@@ -413,7 +444,7 @@ def main(qid: str, taxon: str, taxon_name: str, open_url: bool, show: bool, lang
     if open_url:
         open_related_urls(taxon_name)
 
-    wiki_page = run_pipeline_for_wikipage(qid, language)
+    wiki_page = run_pipeline_for_wikipage(qid, language, gbif_taxobox)
     if show:
         print(f"--- {language} stub ---")
         print(wiki_page)

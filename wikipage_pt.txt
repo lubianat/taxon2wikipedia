@@ -1,0 +1,22 @@
+
+{{Título em itálico}}
+{{Info/Taxonomia
+| imagem                = 
+| género                = [[Zanthoxylum]]
+| família               = [[Rutaceae]]
+| ordem                 = [[Sapindales]]
+| classe                = [[Magnoliopsida]]
+| filo                  = [[Tracheophyta]]
+| reino                 = [[Plantae]]
+}}
+'''''Zanthoxylum rhoifolium''''' é uma espécie de planta  da família [[Rutaceae]] e do gênero ''[[Zanthoxylum]]''.  <ref>{{Citar web|url=https://www.gbif.org/species/7269222|titulo=Zanthoxylum rhoifolium|acessodata=2022-04-18|website=www.gbif.org|lingua=en}}</ref>
+{{Referencias}}
+== Ligações externas ==
+* [https://www.ipni.org/n/775991-1 ''Zanthoxylum rhoifolium'' no Índice Internacional de Nomes de Plantas.]
+* [https://www.biodiversitylibrary.org/name/Zanthoxylum%20rhoifolium Documentos sobre ''Zanthoxylum rhoifolium'' na Biodiversity Heritage Library]
+* [https://www.inaturalist.org/taxa/281420 Observações de ''Zanthoxylum rhoifolium'' no iNaturalist]
+* [https://www.gbif.org/species/7269222 ''Zanthoxylum rhoifolium'' no GBIF]
+   
+{{Controle de autoridade}}
+{{esboço-biologia}}
+[[Categoria:Zanthoxylum]]
