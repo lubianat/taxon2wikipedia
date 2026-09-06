@@ -1,10 +1,11 @@
 # taxon2wikipedia
 
-An automatic page builder for taxa on ptwiki. 
+An automatic page builder for taxa on ptwiki.
 
 ## Updates
- 
- * 2024-11-15 --> Parsing of Reflora was discontinued for simplicity and maintenability. 
+
+ * 2026-09-06 --> Changed taxobox to cover only the main taxonomic ranks.
+ * 2024-11-15 --> Parsing of Reflora was discontinued for simplicity and maintenability.
 
 ## Set up
 

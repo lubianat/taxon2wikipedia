@@ -86,7 +86,7 @@ def check_if_is_basionym(qid):
     query = f"""
     SELECT * WHERE {{
         wd:{qid} wdt:P12766 ?current_name .
-    }}  
+    }}
     """
     df = get_rough_df_from_wikidata(query)
     if "current_name.value" not in df:
@@ -98,7 +98,7 @@ def check_if_has_basionym(qid):
     query = f"""
     SELECT * WHERE {{
         wd:{qid} wdt:P566 ?basionym .
-    }}  
+    }}
     """
     df = get_rough_df_from_wikidata(query)
     if "basionym.value" not in df:
@@ -156,7 +156,7 @@ def render_list(list_of_ids, dict_of_wikitexts):
 def get_parent_taxon_df(qid, lang="pt"):
     query = (
         """
-    SELECT 
+    SELECT
       ?taxonRank
       ?taxonRankLabel
       ?taxonName
@@ -190,66 +190,65 @@ def get_rough_df_from_wikidata(query):
     return results_df
 
 
-def get_taxobox_from_df(parent_taxon_df, lang="pt"):
-    field_mappings = {
-        "es": {
-            "reino": "regnum",
-            "subdivisión": "unranked_divisio",
-            "división": "divisio",
-            "orden": "ordo",
-            "familia": "familia",
-            "infrarreino": "subregnum",
-            "superdivisión": "superdivisio",
-            "subfilo": "subphylum",
-            "superdominio": "superregnum",
-            "género": "genus",
-            "subdominio": "subregnum",
-            "subreino": "subregnum",
-            "especie": "species",
-        }
+MAIN_RANKS = {
+    "pt": ["reino", "filo", "classe", "ordem", "família", "género", "espécie"],
+    "es": ["reino", "filo", "clase", "orden", "familia", "género", "especie"],
+}
+
+FIELD_MAPPINGS = {
+    "es": {
+        "reino": "regnum",
+        "filo": "phylum",
+        "clase": "classis",
+        "orden": "ordo",
+        "familia": "familia",
+        "género": "genus",
+        "especie": "species",
     }
-    # Use the language-specific template for taxobox header.
+}
+
+EXCLUDED_IF_AVES = {
+    "Dinosauria",
+    "Reptilia",
+    "Saurischia",
+    "Theropoda",
+    "Maniraptora",
+    "Maniraptoriformes",
+    "Tetanurae",
+    "Coelurosauria",
+    "Neocoelurosauria",
+    "Osteichthyes",
+    "Elpistostegalia",
+}
+
+
+def get_taxobox_from_df(parent_taxon_df, lang="pt"):
+    allowed = MAIN_RANKS.get(lang, MAIN_RANKS["pt"])
+    has_aves = "Aves" in parent_taxon_df["taxonName.value"].values
+
     header = LANG_STRINGS.get(lang, LANG_STRINGS["pt"])["info_taxonomia"]
-    result = header + "\n"
-    result += "| imagem                = \n"
-    for i, row in parent_taxon_df.iterrows():
+    result = header + "\n| imagem                = \n"
+
+    for _, row in parent_taxon_df.iterrows():
         rank = row["taxonRankLabel.value"]
         name = row["taxonName.value"]
-        # Exclude problematic taxa when "Aves" is present.
-        if "Aves" in parent_taxon_df["taxonName.value"].values and name in {
-            "Dinosauria",
-            "Reptilia",
-            "Saurischia",
-            "Theropoda",
-            "Maniraptora",
-            "Maniraptoriformes",
-            "Tetanurae",
-            "Coelurosauria",
-            "Neocoelurosauria",
-            "Osteichthyes",
-            "Elpistostegalia",
-        }:
-            continue
-        if rank in ["super-reino", "subdivisão"]:
-            continue
-        n_space = 22 - len(rank)
-        multiple_spaces = " " * max(n_space, 1)
 
-        if lang == "es":
-            mapped_rank = field_mappings.get(lang).get(rank, rank)
-            to_append = f"| {mapped_rank}{multiple_spaces}= [[{name}]]\n"
-        else:
-            to_append = f"| {rank}{multiple_spaces}= [[{name}]]\n"
-        result += to_append
+        if rank not in allowed:
+            continue
+        if has_aves and name in EXCLUDED_IF_AVES:
+            continue
+
+        field = FIELD_MAPPINGS.get(lang, {}).get(rank, rank)
+        spaces = " " * max(22 - len(field), 1)
+        result += f"| {field}{spaces}= [[{name}]]\n"
 
     try:
         map_image = parent_taxon_df["taxon_range_map_image.value"].iloc[0]
-        map_file = map_image.split("/")[-1].replace("%20", " ")
-        result += f"| mapa = {map_file}\n"
+        result += f"| mapa = {map_image.split('/')[-1].replace('%20', ' ')}\n"
     except (KeyError, IndexError):
         pass
-    result += "}}"
-    return result
+
+    return result + "}}"
 
 
 def get_taxobox(qid, lang="pt"):
@@ -370,7 +369,7 @@ def render_gbif(taxon_name, qid, lang="pt"):
 
 def get_gbif_id(qid):
     query = f"""
-    SELECT * WHERE {{ 
+    SELECT * WHERE {{
         wd:{qid} wdt:P846 ?gbif_id .
     }}
     """
@@ -407,7 +406,7 @@ def render_inaturalist(taxon_name, qid, lang="pt"):
 
 def get_reflora_id(qid):
     query = f"""
-    SELECT * WHERE {{ 
+    SELECT * WHERE {{
         wd:{qid} wdt:P10701 ?reflora_id .
     }}
     """
@@ -419,7 +418,7 @@ def get_reflora_id(qid):
 
 def get_inaturalist_id(qid):
     query = f"""
-    SELECT * WHERE {{ 
+    SELECT * WHERE {{
         wd:{qid} wdt:P3151 ?inaturalist_id .
     }}
     """
@@ -431,7 +430,7 @@ def get_inaturalist_id(qid):
 
 def get_ipni_id(qid):
     query = f"""
-    SELECT * WHERE {{ 
+    SELECT * WHERE {{
         wd:{qid} wdt:P961 ?ipni_id .
     }}
     """
@@ -453,7 +452,7 @@ def check_cnc_flora(name):
 
 def render_additional_reading(qid, lang="pt"):
     query = f"""
-    SELECT * WHERE {{ 
+    SELECT * WHERE {{
         ?article wdt:P921 wd:{qid} .
     }}
     """
@@ -470,7 +469,7 @@ def render_additional_reading(qid, lang="pt"):
 
 def get_gbif_ref(qid, lang="pt"):
     query = f"""
-    SELECT * WHERE {{ 
+    SELECT * WHERE {{
         wd:{qid} wdt:P846 ?gbif_id .
         wd:{qid} wdt:P225 ?taxon_name .
     }}
